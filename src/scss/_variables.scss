@@ -1,7 +1,41 @@
-$dark: #161616;
-$light: #F0F5F1;
+$dark: #000;
+$light: #f1f2f6;
 $red: #C91414;
+$blue: #000;
 
 .color-red {
     color: $red;
+}
+
+.btn {
+    border: none;
+}
+
+.dark-btn {
+    color: $light;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-transition: opacity .3s ease,
+    background-color .3s ease,
+    color .3s ease;
+    transition: opacity .3s ease,
+    background-color .3s ease,
+    color .3s ease;
+    padding: 10px 60px;
+    -webkit-border-radius: 64px;
+    border-radius: 64px;
+    height: 64px;
+     background-color: $red;
+
+     transition: box-shadow 0.3s;
+     box-shadow: 0 4px 4px -2px #000000;
+     outline: transparent;
+     &:hover {
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     }
 }
