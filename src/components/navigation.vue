@@ -34,11 +34,12 @@
     z-index: 99;
     position: fixed;
     width: 100%;
-    height: 85px;
+    height: 105px;
     top: 0;
     left: 0;
     right: 0;
     background: transparent;
+    border-bottom: 1px solid #e6e6e6;
 
     &__container {
       display: flex;
@@ -49,14 +50,27 @@
   }
 
   .logo {
+    position: relative;
     background-size: cover;
     background-position: 50%;
-    width: 100px;
-    height: 70px;
+    width: 240px;
+    height: 60px;
+    z-index: 2;
+    overflow: hidden;
+    &::after {
+      z-index: 0;
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 46%;
+      height: 300%;
+
+    }
   }
 
   .nav-links {
-    width: 48%;
+    width: 60%;
 
     ul {
       display: flex;
