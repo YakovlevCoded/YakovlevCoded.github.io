@@ -34,7 +34,7 @@
     z-index: 99;
     position: fixed;
     width: 100%;
-    height: 105px;
+    height: 85px;
     top: 0;
     left: 0;
     right: 0;

@@ -4,7 +4,7 @@
 
       <navigation />
       <firstScreen />
-
+      <about />
     </div>
   </transition>
 </template>
@@ -12,12 +12,14 @@
 <script>
   import navigation from './components/navigation.vue'
   import firstScreen from './components/firstScreen.vue'
+  import about from './components/about.vue'
 
   export default {
     name: 'app',
     components: {
       firstScreen,
       navigation,
+      about
     }
   }
 
