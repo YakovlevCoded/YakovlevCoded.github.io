@@ -5,6 +5,8 @@
       <navigation />
       <firstScreen />
       <about />
+      <gallery />
+      <calculator />
     </div>
   </transition>
 </template>
@@ -13,13 +15,17 @@
   import navigation from './components/navigation.vue'
   import firstScreen from './components/firstScreen.vue'
   import about from './components/about.vue'
+  import gallery from './components/gallery.vue'
+  import calculator from './components/calculator.vue'
 
   export default {
     name: 'app',
     components: {
       firstScreen,
       navigation,
-      about
+      about,
+      gallery,
+      calculator
     }
   }
 
