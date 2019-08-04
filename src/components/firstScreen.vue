@@ -71,7 +71,7 @@
   }
 
   .circle {
-    width: 100vh;
+    width: 100vw;
     height: calc(100vh - 120px);
     position: absolute;
     top: 120px;

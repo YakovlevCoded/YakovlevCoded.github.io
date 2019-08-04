@@ -7,19 +7,19 @@
       <h3>Оставьте заявку и мы с вами свяжемся</h3>
       <div class="form-group">
         <label>Email</label>
-        <input type="text" class="form-control" v-model="email">
+        <input type="text" class="form-control">
       </div>
       <div class="form-group">
         <label>Имя</label>
-        <input type="text" class="form-control" v-model="firstName">
+        <input type="text" class="form-control">
       </div>
       <div class="form-group">
         <label>Фамилия</label>
-        <input type="text" class="form-control" v-model="lastName">
+        <input type="text" class="form-control">
       </div>
       <div class="form-group">
         <label>Телефон</label>
-        <input type="text" class="form-control" v-model="phone">
+        <input type="text" class="form-control">
       </div>
       <hr>
       <button type="submit" class="btn outline-grad-btn">Отправить заявку</button></form>
