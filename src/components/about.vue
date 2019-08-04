@@ -1,5 +1,5 @@
 <template>
-    <section class="about">
+    <section id="about" class="about">
         <div class="container">
             <h2 class="h2">Преимущества УФ печати</h2>
             <!--<p class="description">Тут может быть какое то описание, а может и не быть lorem ipsum dolor sit amet,-->

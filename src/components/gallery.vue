@@ -1,5 +1,5 @@
 <template>
-    <section class="gallery">
+    <section id="gallery" class="gallery">
         <div class="container">
 
             <h2 class="h2">Наша продукция</h2>

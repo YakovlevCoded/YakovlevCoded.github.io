@@ -7,6 +7,11 @@
       <about />
       <gallery />
       <calculator />
+      <partners />
+      <contacts />
+      <footar />
+      <modal />
+
     </div>
   </transition>
 </template>
@@ -17,6 +22,10 @@
   import about from './components/about.vue'
   import gallery from './components/gallery.vue'
   import calculator from './components/calculator.vue'
+  import partners from './components/partners.vue'
+  import contacts from './components/contacts.vue'
+  import footar from './components/footar.vue'
+  import modal from './components/modal.vue'
 
   export default {
     name: 'app',
@@ -25,7 +34,13 @@
       navigation,
       about,
       gallery,
-      calculator
+      calculator,
+      partners,
+      contacts,
+      footar,
+      modal
+    },
+    methods: {
     }
   }
 
@@ -45,7 +60,7 @@
 
   .fade-enter-active,
   .fade-leave-active {
-    transition: opacity .5s;
+    transition: opacity 1.5s;
   }
 
   .fade-enter,

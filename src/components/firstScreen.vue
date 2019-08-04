@@ -8,8 +8,7 @@
     <div class="container">
       <!--<h1 class="h1">Время <br>-->
       <!--Печати</h1>-->
-      <button class="btn grad-btn">Заказать</button>
-
+      <button class="btn grad-btn" @click="showModal">Заказать</button>
     </div>
 
   </section>
@@ -29,10 +28,6 @@
       }
     },
     methods: {
-      // showSingle() {
-      //   this.imgs = 'http://via.placeholder.com/350x150'
-      //   this.show()
-      // },
       showMultiple() {
         this.imgs = ['https://s.fotorama.io/1.jpg', 'https://s.fotorama.io/2.jpg']
         this.index = 1 // index of imgList
@@ -43,6 +38,12 @@
       },
       handleHide() {
         this.visible = false
+      },
+      showModal () {
+        this.$modal.show('modal');
+      },
+      hideModal () {
+        this.$modal.hide('modal');
       }
     },
     props: {

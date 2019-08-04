@@ -1,5 +1,5 @@
 <template>
-    <section class="calc">
+    <section id="calculator" class="calc">
         <div class="container">
             <h2 class="h2">Онлайн калькулятор УФ печати</h2>
             <div class="calculator">
@@ -23,7 +23,7 @@
             <div class="result">
                 <p>Ваша площадь: {{ area.toFixed( 1 ) }} {{units}}<sup>2</sup></p>
                 <p>Итоговая цена: <span>{{ price.toFixed( 1 ) }}</span> руб</p>
-                <button class="btn small-grad-btn">Заказать</button>
+                <button class="btn small-grad-btn" @click="showModal">Заказать</button>
             </div>
         </div>
 
@@ -44,6 +44,14 @@
                 units: 'мм',
                 width : '',
                 height : ''
+            }
+        },
+        methods: {
+            showModal () {
+                this.$modal.show('modal');
+            },
+            hideModal () {
+                this.$modal.hide('modal');
             }
         },
         computed: {
