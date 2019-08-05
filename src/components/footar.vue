@@ -24,12 +24,12 @@
                     <path fill="#2b2a29" fill-rule="nonzero" stroke="#2b2a29" stroke-width="25" d="M3591 773l-117-186h-140v186h-61V323h212c51 0 90 11 117 34 28 23 42 54 42 95 0 33-10 62-29 84-20 23-47 38-81 44l128 193h-71zm-9-320c0-27-8-47-26-60-18-14-44-21-77-21h-145v166h148c32 0 57-7 74-22 18-15 26-36 26-63zm164 320V323h341v50h-280v144h261v49h-261v157h294v50h-355zm762 0h-358v-45l274-355h-251v-50h320v44l-274 356h289v50zm81 0V323h61v450h-61zm563-230c0 47-10 87-28 122s-43 62-77 80c-33 19-71 28-115 28h-168V323h149c76 0 135 19 176 57 42 38 63 93 63 163zm-62 0c0-55-15-98-46-127-30-29-75-44-132-44h-87v352h100c33 0 62-7 87-22 25-14 45-35 58-62s20-60 20-97zm147 230V323h341v50h-280v144h261v49h-261v157h293v50h-354zm728 0l-241-383 2 31 1 53v299h-54V323h71l244 386c-3-42-4-72-4-91V323h55v450h-74zm357-400v400h-60V373h-155v-50h370v50h-155zm-2700 707c0 42-14 76-42 101-28 26-66 38-113 38h-133v176h-61V944h190c50 0 89 12 117 36 28 23 42 57 42 100zm-62 0c0-58-35-87-105-87h-121v178h124c68 0 102-30 102-91zm468 315l-117-187h-140v187h-61V944h212c50 0 89 12 117 34 28 23 41 55 41 95 0 34-9 62-29 85-19 23-46 37-81 43l128 194h-70zm-9-321c0-26-9-46-27-60-17-14-43-21-77-21h-144v167h147c32 0 57-8 75-23 17-15 26-36 26-63zm170 321V944h61v451h-61zm467 0l-241-384 2 31 2 54v299h-55V944h71l244 386c-3-41-4-72-4-90V944h55v451h-74zm357-401v401h-60V994h-155v-50h370v50h-155z"/>
                 </svg>
             </div>
-            <div class="socials">
-                <p>Мы в соцсетях:</p>
-                <a href="https://www.instagram.com/rezidentprint/" target="_blank"><div class="insta"></div></a>
-                <a href="https://vk.com/club135755779" target="_blank"><div class="vk"></div></a>
-                <a href="https://www.facebook.com/people/%D0%A0%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82-%D0%9F%D1%80%D0%B8%D0%BD%D1%82/100016215182325" target="_blank"><div class="fb"></div></a>
-            </div>
+            <!--<div class="socials">-->
+                <!--<p>Мы в соцсетях:</p>-->
+                <!--<a href="https://www.instagram.com/rezidentprint/" target="_blank"><div class="insta"></div></a>-->
+                <!--<a href="https://vk.com/club135755779" target="_blank"><div class="vk"></div></a>-->
+                <!--<a href="https://www.facebook.com/people/%D0%A0%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82-%D0%9F%D1%80%D0%B8%D0%BD%D1%82/100016215182325" target="_blank"><div class="fb"></div></a>-->
+            <!--</div>-->
             <div class="yakovlev-coded">
                 <p><span class="yakovlev-coded__description">Сайт сделан</span> <br>
                     <a href="https://vk.com/flash__bomb" target="_blank" class="td-none"><span class="yakovlev-coded__name">Yakovlev.coded</span></a></p>

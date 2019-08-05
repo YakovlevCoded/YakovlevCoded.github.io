@@ -4,6 +4,7 @@
          :height="550"
          :transition="'fade'">
     <form>
+      <a class="close-modal" href="#" @click="hideModal">×</a>
       <h3>Оставьте заявку и мы с вами свяжемся</h3>
       <div class="form-group">
         <label>Email</label>
@@ -59,6 +60,7 @@
     margin-bottom: 20px;
   }
   form {
+    position: relative;
     padding: 25px;
   }
   input {
@@ -74,5 +76,15 @@
   }
   input:focus {
     border: 1px solid #000;
+  }
+  .close-modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    line-height: 14px;
+    color: #000;
+    text-decoration: none;
+    font-size: 28px;
   }
 </style>

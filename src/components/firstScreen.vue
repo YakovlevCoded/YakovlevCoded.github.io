@@ -90,8 +90,8 @@
 
   .btn {
     position: absolute;
-    right: 6vw;
-    top: 30vh;
+    right: -4vw;
+    top: 60vh;
   }
 
   .print {
@@ -103,6 +103,13 @@
     background-size: cover;
   }
 
+  @media screen and (max-width: 767px) {
+    .btn {
+      min-width: 270px;
+      max-width: 270px;
+      right: calc(50% - 135px);
+    }
+  }
 
 
 

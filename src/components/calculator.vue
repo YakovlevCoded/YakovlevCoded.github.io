@@ -7,10 +7,10 @@
                     <p>Выберете материал</p>
                     <v-select v-model="selected" :options="['Металл','Акрилл', 'Пластик', 'Искусственный камин', 'Мой материал', 'Дерево', 'Оракал', 'Пвх', 'ПЭТ', 'Вспененный картон', 'Текстиль']"></v-select>
                 </div>
-                <div class="caclulator__column">
-                    <p>Выберете еденицы измерения</p>
-                    <v-select v-model="units" :options="['мм','см', 'м']"></v-select>
-                </div>
+                <!--<div class="caclulator__column">-->
+                    <!--<p>Выберете еденицы измерения</p>-->
+                    <!--<v-select v-model="units" :options="['мм','см', 'м']"></v-select>-->
+                <!--</div>-->
                 <div class="caclulator__column">
                     <p>Укажите длинну ({{ units }})</p>
                     <input v-model="width" placeholder="Длинна">
@@ -21,8 +21,8 @@
                 </div>
             </div>
             <div class="result">
-                <p>Ваша площадь: {{ area.toFixed( 1 ) }} {{units}}<sup>2</sup></p>
-                <p>Итоговая цена: <span>{{ price.toFixed( 1 ) }}</span> руб</p>
+                <p>Ваша площадь: {{ area.toFixed( 2 ) }} {{units}}<sup>2</sup></p>
+                <p>Итоговая цена: <span>{{ price.toFixed( 0 ) }}</span> руб</p>
                 <button class="btn small-grad-btn" @click="showModal">Заказать</button>
             </div>
         </div>
@@ -41,7 +41,7 @@
         data() {
             return {
                 selected: 'Металл',
-                units: 'мм',
+                units: 'м',
                 width : '',
                 height : ''
             }
@@ -60,14 +60,18 @@
             },
             price: function () {
                 let price = 0;
-                let rate = 0;
+                let rate = 1000;
                 let koef = 0;
-                if (this.units == 'мм') {
-                    rate = 1
-                } else if (this.units == 'см') {
-                    rate = 10
-                } else {
-                    rate = 1000
+                let material = 1;
+                // if (this.units == 'мм') {
+                //     rate = 1
+                // } else if (this.units == 'см') {
+                //     rate = 10
+                // } else {
+                //     rate = 1000
+                // }
+                if (this.selected !== 'Пвх') {
+                    material = 0.3;
                 }
 
                 let currentArea = this.area*rate*rate;
@@ -84,7 +88,7 @@
                         if (currentArea > 5000000 && currentArea > 0) {
                             koef = 5000;
                         }
-                price = koef * currentArea/1000000;
+                price = koef * currentArea/1000000 * material;
                 return price
             }
         }
@@ -130,6 +134,8 @@
         }
     }
     .result {
+        margin-top: 20px;
+        margin-left: 50px;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
@@ -138,6 +144,12 @@
             padding-right: 20px;
             margin-bottom: 0;
             font-size: 22px;}
+    }
+
+    @media screen and (max-width: 767px) {
+        .result {
+            margin-left: 0;
+        }
     }
 
 

@@ -105,4 +105,11 @@
       height: 450px;
     }
   }
+
+  .v--modal-box.v--modal {
+    width: 320px !important;
+    max-width: 320px;
+    min-width: 320px;
+    left: 0 !important;
+  }
 }

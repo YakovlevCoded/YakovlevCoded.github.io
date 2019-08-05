@@ -69,6 +69,7 @@
     right: 0;
     background: #FFFFFF;
     border-bottom: 1px solid #e6e6e6;
+    font-family: Helvetica, sans-serif;
 
     &__container {
       display: flex;
