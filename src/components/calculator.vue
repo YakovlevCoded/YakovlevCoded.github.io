@@ -49,6 +49,10 @@
         methods: {
             showModal () {
                 this.$modal.show('modal');
+                // window.console.log(this.price);
+                // window.console.log(this.selected);
+                // window.console.log(this.width);
+                // window.console.log(this.height);
             },
             hideModal () {
                 this.$modal.hide('modal');
