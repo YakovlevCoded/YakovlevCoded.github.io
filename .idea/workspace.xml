@@ -3,72 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="40a28234-f064-4540-8932-38ac78e61d3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.ec3a7399.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/chunk-vendors.23d90689.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/1.8d9ad046.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/1.c6513118.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/10.0bdc33e2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/10.f3bdb106.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/11.3323f759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/11.6a47b7a4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/12.5f8195bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/12.d1f84df2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/13.c0fbea08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/13.cc6811c6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/14.6fb5aecb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/14.8a6d0ce3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/15.8b1ee91a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/15.d7ca6265.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/16.27d7155c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/16.a177c770.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/17.2669029c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/17.a7189601.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/18.165498a7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/19.628dd2db.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/2.0053a48a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/2.95392533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/20.36880d07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/21.7b737abb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/22.449bffc4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/23.6efb625e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/24.61724175.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/25.ffe58266.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/26.4c79e694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/27.e2e19a2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/28.c5035064.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/29.6fede5ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/3.20d3273f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/3.de58b448.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/30.a9e0dd4f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/31.a4d206ed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/4.3adce481.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/4.6da81f78.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/5.8bbc8092.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/5.c5649dbe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/6.123f6cd3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/6.5d239e6c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/7.3fb4ad0a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/7.63d7cd11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/8.9487bd4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/8.b27fef1e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/9.3182ccce.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/9.be04c5dc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.6b904da4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.6b904da4.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b38231a8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b38231a8.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.phpmailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.phpmaileroauth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.phpmaileroauthgoogle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.pop3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.smtp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/get_oauth_token.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/travis.phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/firstScreen.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstScreen.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gallery.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gallery.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_adaptives.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_adaptives.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -85,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/_adaptives.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+            <state relative-caret-position="576">
+              <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -94,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="322">
               <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
@@ -103,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-502">
+            <state relative-caret-position="506">
               <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
@@ -112,19 +49,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/firstScreen.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="507">
+              <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding>
-                <marker date="1565015106709" expanded="true" signature="3365:3503" ph="..." />
+                <marker date="1565032514648" expanded="true" signature="3365:3503" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/gallery.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1671">
+              <caret line="173" column="29" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
+              <folding>
+                <element signature="n#script#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/modal.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="159">
               <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
             </state>
           </provider>
@@ -141,13 +90,17 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/mail.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/calculator.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="1242">
               <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
             </state>
           </provider>
@@ -156,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="483">
               <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
               <folding>
                 <element signature="e#130#2162#0" />
@@ -197,25 +150,26 @@
         <option value="$PROJECT_DIR$/src/components/partners.vue" />
         <option value="$PROJECT_DIR$/src/components/footer.vue" />
         <option value="$PROJECT_DIR$/src/components/about.vue" />
-        <option value="$PROJECT_DIR$/src/components/gallery.vue" />
         <option value="$USER_HOME$/Downloads/instagram (1).svg" />
         <option value="$PROJECT_DIR$/src/components/contacts.vue" />
         <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/vue.config.js" />
         <option value="$PROJECT_DIR$/src/components/navigation.vue" />
         <option value="$PROJECT_DIR$/src/components/footar.vue" />
-        <option value="$PROJECT_DIR$/src/scss/_adaptives.scss" />
         <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/components/firstScreen.vue" />
         <option value="$PROJECT_DIR$/public/th.html" />
         <option value="$PROJECT_DIR$/src/th.vue" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/components/calculator.vue" />
         <option value="$PROJECT_DIR$/src/components/modal.vue" />
+        <option value="$PROJECT_DIR$/public/mail.php" />
+        <option value="$PROJECT_DIR$/src/scss/_adaptives.scss" />
+        <option value="$PROJECT_DIR$/src/components/firstScreen.vue" />
+        <option value="$PROJECT_DIR$/src/components/gallery.vue" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -226,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,11 +188,21 @@
               <item name="print" type="b2602c69:ProjectViewProjectNode" />
               <item name="print" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,17 +255,19 @@
       <workItem from="1564669462388" duration="5449000" />
       <workItem from="1564758219971" duration="33394000" />
       <workItem from="1565011298002" duration="262000" />
-      <workItem from="1565013540588" duration="3002000" />
+      <workItem from="1565013540588" duration="3048000" />
+      <workItem from="1565032391739" duration="241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44918000" />
+    <option name="totallyTimeSpent" value="45205000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34263232" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3469242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -314,7 +281,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.50843376" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.50843376" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -381,16 +348,6 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/gallery.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="24" />
-          <folding>
-            <element signature="n#script#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -462,67 +419,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_adaptives.scss">
+    <entry file="file://$PROJECT_DIR$/public/th.html" />
+    <entry file="file://$PROJECT_DIR$/src/th.vue" />
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+        <state relative-caret-position="322">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-502">
+        <state relative-caret-position="506">
           <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-          <folding>
-            <element signature="e#130#2162#0" />
-            <element signature="e#2180#4269#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/firstScreen.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1565015106709" expanded="true" signature="3365:3503" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/th.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/th.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <element signature="e#286#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/mail.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -533,15 +444,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/calculator.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="1242">
           <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modal.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="159">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+          <folding>
+            <element signature="e#130#2162#0" />
+            <element signature="e#2180#4269#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_adaptives.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/firstScreen.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+          <folding>
+            <marker date="1565032514648" expanded="true" signature="3365:3503" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/gallery.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1671">
+          <caret line="173" column="29" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
+          <folding>
+            <element signature="n#script#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -108,6 +108,7 @@
       min-width: 270px;
       max-width: 270px;
       right: calc(50% - 135px);
+      top: 40vh;
     }
   }
 

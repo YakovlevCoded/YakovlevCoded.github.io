@@ -108,8 +108,9 @@
 
   .v--modal-box.v--modal {
     width: 320px !important;
+    left: calc(50% - 160px) !important;
+    right: calc(50% - 160px) !important;
     max-width: 320px;
     min-width: 320px;
-    left: 0 !important;
   }
 }

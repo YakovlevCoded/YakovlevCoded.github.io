@@ -169,6 +169,12 @@
         }
     }
 
+    @media screen and (max-width:767px) {
+        h2.h2 {
+            margin-bottom: 0;
+        }
+    }
+
 
 
 </style>
