@@ -1,6 +1,8 @@
 <template>
     <section id="about" class="about">
         <div class="container">
+            <h2 class="h2 h2--top">УФ-печать в Чебоксарах
+                Ультрафиолетовая печать(UV-print) – одна из самых современных технологий в области рекламной и интерьерной печати, позволяющая нанести изображения любой сложности, высокого качества абсолютно на любой поверхности в короткие сроки</h2>
             <h2 class="h2">Преимущества УФ печати</h2>
             <!--<p class="description">Тут может быть какое то описание, а может и не быть lorem ipsum dolor sit amet,-->
                 <!--consectetur adipisicing elit. Aperiam doloremque iste natus nemo quam sunt. tempora ut voluptates.-->
@@ -78,6 +80,10 @@
         display: flex;
         justify-content: center;
     }
+    .h2--top {
+        font-size: 32px;
+        margin-bottom: 80px;
+    }
 
     .description {
 
@@ -109,6 +115,14 @@
                 margin-top: 0;
                 margin-bottom: 0;
                 min-height: 60px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 767px){
+        #app {
+            .h2--top {
+                font-size: 20px;
             }
         }
     }

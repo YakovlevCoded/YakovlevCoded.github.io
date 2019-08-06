@@ -3,73 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="40a28234-f064-4540-8932-38ac78e61d3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.f5f42ae1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/chunk-vendors.23d90689.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/1.8d9ad046.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/1.c6513118.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/10.0bdc33e2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/10.f3bdb106.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/11.3323f759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/11.6a47b7a4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/12.5f8195bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/12.d1f84df2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/13.c0fbea08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/13.cc6811c6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/14.6fb5aecb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/14.8a6d0ce3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/15.8b1ee91a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/15.d7ca6265.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/16.27d7155c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/16.a177c770.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/17.2669029c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/17.a7189601.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/18.165498a7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/19.628dd2db.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/2.0053a48a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/2.95392533.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/20.36880d07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/21.7b737abb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/22.449bffc4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/23.6efb625e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/24.61724175.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/25.ffe58266.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/26.4c79e694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/27.e2e19a2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/28.c5035064.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/29.6fede5ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/3.20d3273f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/3.de58b448.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/30.a9e0dd4f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/31.a4d206ed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/4.3adce481.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/4.6da81f78.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/5.8bbc8092.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/5.c5649dbe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/6.123f6cd3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/6.5d239e6c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/7.3fb4ad0a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/7.63d7cd11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/8.9487bd4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/8.b27fef1e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/9.3182ccce.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/9.be04c5dc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.01356c4f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.01356c4f.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b38231a8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b38231a8.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.phpmailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.phpmaileroauth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.phpmaileroauthgoogle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.pop3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.smtp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/get_oauth_token.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/phpmailer/travis.phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/firstScreen.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstScreen.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/calculator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/calculator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -96,16 +33,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="12" />
+            <state>
+              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/firstScreen.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="460">
               <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
               <folding>
                 <marker date="1565037336264" expanded="true" signature="4293:4431" ph="..." />
@@ -115,14 +52,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/calculator.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="414">
+              <caret line="186" column="13" lean-forward="true" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
               <folding>
-                <element signature="e#130#2162#0" />
-                <element signature="e#2180#4269#0" />
-                <element signature="e#4289#6558#0" />
+                <element signature="e#6606#8913#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/contacts.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/navigation.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/about.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -160,21 +146,21 @@
         <option value="$PROJECT_DIR$/src/components/footer.vue" />
         <option value="$PROJECT_DIR$/src/components/about.vue" />
         <option value="$USER_HOME$/Downloads/instagram (1).svg" />
-        <option value="$PROJECT_DIR$/src/components/contacts.vue" />
         <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/vue.config.js" />
-        <option value="$PROJECT_DIR$/src/components/navigation.vue" />
         <option value="$PROJECT_DIR$/src/components/footar.vue" />
         <option value="$PROJECT_DIR$/public/th.html" />
         <option value="$PROJECT_DIR$/src/th.vue" />
         <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/src/components/calculator.vue" />
         <option value="$PROJECT_DIR$/src/components/modal.vue" />
-        <option value="$PROJECT_DIR$/public/mail.php" />
         <option value="$PROJECT_DIR$/src/scss/_adaptives.scss" />
         <option value="$PROJECT_DIR$/src/components/gallery.vue" />
-        <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/src/components/firstScreen.vue" />
+        <option value="$PROJECT_DIR$/src/components/calculator.vue" />
+        <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/components/contacts.vue" />
+        <option value="$PROJECT_DIR$/public/mail.php" />
+        <option value="$PROJECT_DIR$/src/components/navigation.vue" />
       </list>
     </option>
   </component>
@@ -267,16 +253,19 @@
       <workItem from="1565013540588" duration="3048000" />
       <workItem from="1565032391739" duration="285000" />
       <workItem from="1565035577470" duration="1801000" />
+      <workItem from="1565072965934" duration="143000" />
+      <workItem from="1565073749747" duration="992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47050000" />
+    <option name="totallyTimeSpent" value="48185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3469242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34664536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -290,7 +279,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.50843376" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42772278" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -347,41 +336,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/about.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/instagram (1).svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contacts.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding>
-            <element signature="e#4101#5380#0" />
-            <element signature="e#5479#5722#0" />
-            <element signature="e#5734#7873#0" />
-            <element signature="e#5762#6254#2" expanded="true" />
-            <element signature="e#6304#7856#2" expanded="true" />
-            <element signature="e#7882#9272#0" />
-            <element signature="e#7910#8546#2" expanded="true" />
-            <element signature="e#8596#9255#2" expanded="true" />
-            <element signature="e#9281#10079#0" />
-            <element signature="e#9309#9600#2" expanded="true" />
-            <element signature="e#9650#10062#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Vue.js/Урок 2/vue-lesson2-src/1_hw_done.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -407,16 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigation.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#a#0;n#div#0;n#nav#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/footar.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -436,38 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/calculator.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -491,24 +409,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#130#2162#0" />
-            <element signature="e#2180#4269#0" />
-            <element signature="e#4289#6558#0" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/firstScreen.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="460">
           <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
           <folding>
             <marker date="1565037336264" expanded="true" signature="4293:4431" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/calculator.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="186" column="13" lean-forward="true" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
+          <folding>
+            <element signature="e#6606#8913#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contacts.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/about.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#template#0;n#!!top" />
           </folding>
         </state>
       </provider>

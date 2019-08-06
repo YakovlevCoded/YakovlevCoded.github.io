@@ -11,8 +11,8 @@
                 <a class="link" href="tel:89623213049" data-rel="external">8 (962) 321-30-49</a>
             </div>
             <div class="mail">
-                <a class="link" href="mailto:info@chebprint.ru">info@chebprint.ru</a>
-                <br>
+                <!--<a class="link" href="mailto:info@chebprint.ru">info@chebprint.ru</a>-->
+                <!--<br>-->
                 <a class="link" href="mailto:chebprint@yandex.ru">chebprint@yandex.ru</a>
             </div>
             <div class="socials">

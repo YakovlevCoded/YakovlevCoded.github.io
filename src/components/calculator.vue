@@ -23,7 +23,7 @@
             <div class="result">
                 <p>Ваша площадь: {{ area.toFixed( 2 ) }} {{units}}<sup>2</sup></p>
                 <p>Итоговая цена: <span>{{ price.toFixed( 0 ) }}</span> руб</p>
-                <button class="btn small-grad-btn" @click="showModal">Заказать</button>
+                <button class="btn black-grad-btn--calc" @click="showModal">Заказать</button>
             </div>
         </div>
 

@@ -12,11 +12,11 @@
 
               <linearGradient id="b" x1="856" x2="2097" y1="1649" y2="-3" gradientUnits="userSpaceOnUse">
                 <stop offset="0%" stop-color="#4a8bc9">
-                  <animate attributeName="stop-color" values="#e6117b; #4a8bc9; #d91c82" dur="4s" repeatCount="indefinite"></animate>
+                  <animate attributeName="stop-color" values="#ff007f; #369dff; #ff008a" dur="4s" repeatCount="indefinite"></animate>
                 </stop>
 
                 <stop offset="100%" stop-color="#e6117b">
-                  <animate attributeName="stop-color" values="#4a8bc9; #b13b96; #5f7abe" dur="4s" repeatCount="indefinite"></animate>
+                  <animate attributeName="stop-color" values="#45a4ff; #eb3fc3; #628efc" dur="4s" repeatCount="indefinite"></animate>
                 </stop>
               </linearGradient>
             </defs>
