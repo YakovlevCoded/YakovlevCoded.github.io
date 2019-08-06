@@ -3,6 +3,72 @@
   <component name="ChangeListManager">
     <list default="true" id="40a28234-f064-4540-8932-38ac78e61d3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.f5f42ae1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/chunk-vendors.23d90689.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/1.8d9ad046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/1.c6513118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/10.0bdc33e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/10.f3bdb106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/11.3323f759.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/11.6a47b7a4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/12.5f8195bd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/12.d1f84df2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/13.c0fbea08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/13.cc6811c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/14.6fb5aecb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/14.8a6d0ce3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/15.8b1ee91a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/15.d7ca6265.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/16.27d7155c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/16.a177c770.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/17.2669029c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/17.a7189601.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/18.165498a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/19.628dd2db.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/2.0053a48a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/2.95392533.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/20.36880d07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/21.7b737abb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/22.449bffc4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/23.6efb625e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/24.61724175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/25.ffe58266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/26.4c79e694.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/27.e2e19a2a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/28.c5035064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/29.6fede5ef.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/3.20d3273f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/3.de58b448.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/30.a9e0dd4f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/31.a4d206ed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/4.3adce481.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/4.6da81f78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/5.8bbc8092.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/5.c5649dbe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/6.123f6cd3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/6.5d239e6c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/7.3fb4ad0a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/7.63d7cd11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/8.9487bd4a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/8.b27fef1e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/9.3182ccce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/9.be04c5dc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.01356c4f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.01356c4f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b38231a8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.b38231a8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/phpmailer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.phpmailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.phpmaileroauth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.phpmaileroauthgoogle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.pop3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/phpmailer/class.smtp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/phpmailer/get_oauth_token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/phpmailer/travis.phpunit.xml.dist" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/firstScreen.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/firstScreen.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
     </list>
@@ -39,10 +105,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/firstScreen.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="117" column="19" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
+            <state relative-caret-position="257">
+              <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
               <folding>
-                <marker date="1565037245998" expanded="true" signature="4293:4431" ph="..." />
+                <marker date="1565037336264" expanded="true" signature="4293:4431" ph="..." />
               </folding>
             </state>
           </provider>
@@ -200,16 +266,15 @@
       <workItem from="1565011298002" duration="262000" />
       <workItem from="1565013540588" duration="3048000" />
       <workItem from="1565032391739" duration="285000" />
-      <workItem from="1565035577470" duration="1639000" />
+      <workItem from="1565035577470" duration="1801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46888000" />
+    <option name="totallyTimeSpent" value="47050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3469242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,10 +505,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/firstScreen.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="117" column="19" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
+        <state relative-caret-position="257">
+          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
           <folding>
-            <marker date="1565037245998" expanded="true" signature="4293:4431" ph="..." />
+            <marker date="1565037336264" expanded="true" signature="4293:4431" ph="..." />
           </folding>
         </state>
       </provider>

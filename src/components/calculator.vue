@@ -93,6 +93,9 @@
                             koef = 5000;
                         }
                 price = koef * currentArea/1000000 * material;
+                if (price > 0 && price < 350) {
+                    price = 350;
+                }
                 return price
             }
         }
