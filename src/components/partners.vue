@@ -74,6 +74,8 @@
             padding-top: 20px;
             img {
                 max-width: 16.67%;
+                width: 16.67%;
+                height: 16.67%;
                 padding: 15px;
                 filter: grayscale(100%);
                 transition: 0.2s;

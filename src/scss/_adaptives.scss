@@ -87,13 +87,14 @@
 
     // ================= Секция партнеры
     .partners {
-      padding-top: 30;
+      padding-top: 30px;
       padding-bottom: 30px;
     }
     .partners-gallery__row {
       img {
         padding: 0;
         filter: grayscale(0);
+        height: 16.67%;
       }
     }
     // ================= Секция контакты
