@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40a28234-f064-4540-8932-38ac78e61d3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/partners.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/partners.vue" afterDir="false" />
-    </list>
+    <list default="true" id="40a28234-f064-4540-8932-38ac78e61d3d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/_grid.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/firstScreen.vue">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/partners.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
               <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/_adaptives.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -157,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/th.vue" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/components/modal.vue" />
-        <option value="$PROJECT_DIR$/src/scss/_adaptives.scss" />
         <option value="$PROJECT_DIR$/src/components/firstScreen.vue" />
         <option value="$PROJECT_DIR$/src/components/calculator.vue" />
         <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
@@ -167,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/components/gallery.vue" />
         <option value="$PROJECT_DIR$/src/components/navigation.vue" />
         <option value="$PROJECT_DIR$/src/components/partners.vue" />
+        <option value="$PROJECT_DIR$/src/scss/_adaptives.scss" />
       </list>
     </option>
   </component>
@@ -199,6 +195,12 @@
               <item name="print" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="print" type="b2602c69:ProjectViewProjectNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,12 +265,12 @@
       <workItem from="1565073749747" duration="1231000" />
       <workItem from="1565076403385" duration="128000" />
       <workItem from="1565078188134" duration="148000" />
-      <workItem from="1565423551428" duration="470000" />
+      <workItem from="1565423551428" duration="674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49170000" />
+    <option name="totallyTimeSpent" value="49374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -376,13 +378,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/th.html" />
     <entry file="file://$PROJECT_DIR$/src/th.vue" />
-    <entry file="file://$PROJECT_DIR$/src/scss/_adaptives.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2553">
-          <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -486,6 +481,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_adaptives.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
         </state>
       </provider>
     </entry>
