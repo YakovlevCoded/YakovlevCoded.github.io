@@ -59,7 +59,14 @@
                 <div class="header__grid layout">
                     <div class="l-left">
                         <div class="header__main">
-                            <h1 class="logo"><a href="/" title="Чистая вода - ClearWater">ClearWater</a></h1>
+                            <h1 class="logo" style="background: none;"><a href="/" title="Доставка воды в Чувашии - чистовъ">
+                                <picture style="width: 130px;">
+                                    <source style="width: 130px;" srcset="./img/logo.webp" type="image/webp">
+                                    <img style="width: 130px;" src="./img/logo.png" alt="logo">
+                                </picture>
+                                чистовъ
+                            </a>
+                            </h1>
                         </div>
                         <div class="header__menu">
                             <nav class="nav" role="navigation">
@@ -80,7 +87,7 @@
                     <div class="header__info l-right">
                         <address class="header__contacts visibility js-visibility4">
                             <span class="header__tel" style="margin-bottom: 10px">
-                                <a href="tel:+380443913030">044 391 3030</a>
+                                <a href="tel:540204">54-02-04</a>
                             </span>
                             <ul class="header__active-days">
                                 <li>рабочие дни <span>08:00 - 21:00</span></li>
@@ -90,17 +97,17 @@
                                 звонок
                             </button>
                         </address>
-                        <div class="header__account visibility js-visibility3">
+                        <!-- <div class="header__account visibility js-visibility3">
                             <div class="online-order js-popup-online-external">
                                 <h3>Заказать онлайн</h3>
                                 <p>круглосуточно</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="header__slogan visibility js-visibility1">
                     <span>Европейское качество. Безупречный сервис</span>
-                    <h2 class="h2 h-slim h-drop">Чистовъ<br>Лучшая доставка воды <br>в Чувашии
+                    <h2 class="h2 h-slim h-drop">Лучшая доставка воды <br>в Чувашии
 
                     </h2>
                 </div>
@@ -109,12 +116,23 @@
                 <div class="container">
                     <span class="scroll-btn js-scroll visibility js-visibility2"><i></i>Узнать больше</span>
                     <ul class="header__social social">
-                        <li class="facebook"><a href="https://www.facebook.com/clearwaterua"
-                                                target="_blank"><span></span>Facebook</a></li>
-                        <li class="vk"><a href="http://vk.com/clearwaterua" target="_blank"><span></span>VK</a></li>
+                        <li class="facebook">
+                            <a href="https://vk.com/ol_moto"target="_blank">
+                                <span></span>Facebook
+                            </a>
+                        </li>
+                        <li class="vk">
+                            <a href="https://vk.com/ol_moto" target="_blank">
+                                <span></span>VK
+                            </a>
+                        </li>
                     </ul>
                     <div class="header__bottle">
-                        <img src="./themes/clear/img/bottle_v2_03s.gif" class="header__bottle-gif" alt="bottle">
+                        <picture>
+                            <source srcset="./img/bottle.webp" type="image/webp">
+                            <img src="./img/bottle.png" class="header__bottle-gif" alt="bottle">
+                        </picture>
+
                     </div>
                 </div>
             </div>
@@ -142,9 +160,9 @@
                 <button type="button" class="btn btn-block btn-fill js-popup-online-external">Заказать онлайн</button>
             </div>
             <ul class="sidebar__social social">
-                <li class="facebook"><a href="https://www.facebook.com/clearwaterua" target="_blank"><span></span>Facebook</a>
+                <li class="facebook"><a href="https://vk.com/ol_moto" target="_blank"><span></span>Facebook</a>
                 </li>
-                <li class="vk"><a href="http://vk.com/clearwaterua" target="_blank"><span></span>VK</a></li>
+                <li class="vk"><a href="https://vk.com/ol_moto" target="_blank"><span></span>VK</a></li>
             </ul>
         </aside>
         <!-- /.sidebar -->
@@ -493,8 +511,8 @@
 <!-- BEGIN popup -->
 <div class="popup popup_callback">
     <form class="ajax-form" id="call-widget-form" action="/call/post" method="post">
-        <div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d"
-                                         name="YII_CSRF_TOKEN"/></div>
+        <!-- <div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d"
+                                         name="YII_CSRF_TOKEN"/></div> -->
         <div class="popup__title h-sub">Обратный звонок</div>
         <input class="input input-dark" placeholder="Ваш номер" name="form_models_CallForm[telephone]"
                id="form_models_CallForm_telephone" type="tel"/>
