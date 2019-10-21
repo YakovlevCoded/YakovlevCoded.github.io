@@ -1,0 +1,370 @@
+﻿ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Лучшая доставка воды в Киеве - Бутилированная питьевая вода - Компания Чистая Вода</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script src="js/plugin/jquery-2.1.4.min.js"></script>
+		<script src="js/plugin/jquery.cookie.js"></script>
+		
+		<script src="js/plugin/jquery-ui.js"></script>
+		<script src="js/plugin/plugin.js"></script>
+		<script src="js/plugin/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/plugin/owl.carousel.js"></script>
+		<script type="text/javascript" src="js/script/script.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-26237277-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		
+		
+	</head>
+	<body>
+		
+		<!--Хедер с иконками меню-->
+		<div class="phone-header">
+<table id="phone-header1">
+  <tr>
+    <td><div class="menu-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_1.png" alt=""></div></td>
+    <td><div class="call-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_2.png" alt=""></div></td>
+    <td><a href="order"><img src="img/new_ICON_3.png" alt=""></a></td>
+    <td><div class="ask-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_4.png" alt=""></div></td>
+  </tr>
+  </table>
+<table id="phone-header2">
+  <tr>
+    <td>Меню</td>
+    <td>Позвонить</td>
+    <td>Заказать</td>
+    <td>Спросить</td>
+  </tr>
+</table>
+</div> 
+
+<!--Хедер сайта с фиксированным меню portrait-->
+<div class="landscape-header inv">
+  <table class="landscape-nav inv">
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="menu-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_1.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Меню</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="call-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_2.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Позвонить</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div>
+          <a href="order.php"><img src="img/new_ICON_3.png" alt=""></a>
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Заказать</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="ask-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_4.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Спросить</td>
+    </tr>
+  </table>
+</div>
+
+
+		<!--Контент главной страницы-->
+		<div class="ask-content content-block">
+  <div id="title" class="ask">
+    <h1 class="ask">Вопросы о воде</h1>
+  </div>
+  <div class="scroll-box">
+  <div id="accordion">
+    <h3>Какая у вас вода?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>«Чистая Вода» - это высококачественная вода, полученная путем глубокой очистки артезианской воды с использованием современных мембранных технологий, минерализованная солями высшей очистки. При таком методе, вода полностью очищается от любых загрязняющих ее веществ, которыми поражены практически все источники питьевой воды, в том числе и артезианские. Это результат все возрастающего ухудшения «экологической» обстановки, большого количества скважин, через которые и проникает в глубинные слои все, что находится на поверхности. Минерализация необходима, потому что, вместе с ненужными веществами, уходит и часть полезных минералов, которые и восстанавливаются. Используется для питья в сыром виде, для приготовления чая, кофе, пищи и других напитков. При этом, учитывая чистоту и малое содержание солей, максимально сохраняется вкус чая, кофе и любых составляющих пищи.</p>      </div>
+    </div>
+    <h3>Расскажите о системе очистки воды? Какие фильтры используются при очистке?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Вода из скважины вначале обрабатывается ультрафиолетом для ее обеззараживания. Затем проходит ряд отдельных фильтров, где из воды удаляются железо, марганец, сероводород, соли, дающие накипь. В конечном итоге, вода подается на мембранный фильтр, где происходит окончательная глубокая очистка на молекулярном уровне – задерживаются всевозможные загрязнения - органические, токсические вещества, тяжелые металлы, остатки бактерий, вирусов. В результате обеспечивается гарантированная очистка воды от любых загрязнений.</p>      </div>
+    </div>
+    <h3>Чем отличается обычная, йодированная или фторированная вода?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+         <p>Обычная вода содержит физиологически необходимые макроэлементы – кальций, магний, калий, натрий, хлориды, бикарбонаты в минимальных количествах в соответствии с санитарно-гигиеническими требованиями. Минимальные количества выбраны потому, что люди больше страдают от отложения солей, чем от их избытка. Йодированная вода имеет тот же состав, только добавлена соль йода. Фторированная вода такая же, как и обычная, только добавлена соль фтора.</p>      </div>
+      
+    </div>
+    <h3>Есть ли у вас дистиллированная вода?</h3>
+    <div>
+      <p>Дистиллированная вода у нас есть. Дистиллированная вода получена путем двойной фильтрации через мембранный фильтр (обратный осмос) и соответствует ГОСТ 6709-72 на дистиллированную воду.</p>      
+    </div>
+
+    <h3>Для чего полезна йодированная и фторированная вода?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+      <p>Количество йода в окружающей среде обусловлено удаленностью местности от морей. Украина в Центральной и Северной части относится к местности с некоторым дефицитом йода в естественных источниках (продукты питания, вода). Кроме того, в условиях повышенных рисков попадания в организм человека радиоактивного йода, употребление обычного йода приводит к вытеснению и замене радиоактивного йода на обычный. В основном, это касается щитовидной железы. Употребление йодированной воды является эффективной профилактикой йодного дефицита и очищением от радиоактивного йода . Дефицит йода вызывает заболевания щитовидной железы у взрослых и отставание в развитии у детей. По данным медицинских источников, биологическая роль фтора связана, главным образом, с его участием в костеобразовании, формировании самого зуба (дентина) и зубной эмали. Достаточное потребление фтора необходимо для предотвращения кариеса зубов. Фтор  - единственный минерал, который поставляется в организм, в основном, 90% с питьевой водой. В пище его практически нет, кроме чая, морепродуктов.</p>      </div>
+    </div>
+
+    <h3>Какие противопоказания для йодированной и фторированной воды?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Если Вы принимаете таблетки с йодом (при болезнях щитовидной железы) или фтором (в целях профилактики кариеса), то дополнительно пить йодированную и фторированную воду не стоит, в связи с опасностью передозировки. В остальных случаях - противопоказаний нет. Наоборот, йодированная вода - полезна для щитовидной железы, а фторированная вода - помогает противостоять кариесу.</p>      </div>
+    </div>
+
+    <h3>Чем ваша вода отличается от … ?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+      <p>Вода высокой степени очистки не содержит бактерий, вредных химических и органических элементов. Мы применяем самые современные технологии очистки и обеззараживания. Наша вода имеет высокие вкусовые качества. Наша лаборатория производит постоянный контроль качества на всех этапах очистки, минерализации и разлива воды. Состав воды стабилен и не зависит от сезонности.</p>      </div>
+    </div>
+
+    <h3>Где находится ваше производство?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+      <p>Производственные мощности и скважина находятся по адресу Киевская область, Киево-Святошинский район, с. Мила, ул. Комарова,23-б. Это на Западе от Киева. Местность характерна тем, что выше по направлению движения подземных вод на сотни километров нет никаких загрязняющих почву производств. Поэтому загрязненность отходами деятельности человека минимальна.</p>      </div>
+    </div>
+
+    <h3>Какой срок хранения воды?</h3>
+    <div>
+      <p>Срок хранения 3 месяца.</p>    </div>
+
+    <h3>Какая глубина скважины?</h3>
+    <div>
+      <p>Забор воды осуществляется с глубины 130 метров из сеноманского горизонта.</p>    </div>
+
+    <h3>Что такое обратный осмос?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+      <p>Фильтр, работающий по принципу обратного осмоса, устроен достаточно просто: основной элемент, позволяющий получать воду высокой степени очистки – это тонкопленочная мембрана. Если объяснять весьма упрощенно, то она представляет собой некое подобие сетки, размер ячеек которой сравним с размером молекулы воды. Ячейки получаются путем лазерной обработки. Разумеется, сквозь такую "сетку" могут пройти либо сами молекулы воды, либо вещества, размер молекул которых еще меньше - растворенный в воде кислород, водород и т.п. В результате чего из воды удаляются практически все растворенные компоненты, а также соли тяжелых металлов, органические примеси и бактерии. Обратный осмос используется в различных технологиях очистки воды от примесей, в том числе для опреснения воды и очищения питьевой воды для различных целей с начала 1970-х годов.</p>      </div>
+    </div>
+
+    <!--<h3></h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+              </div>
+    </div>-->
+
+    <h3>Чем вы консервируете воду?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Воду мы не консервируем. Долгое хранение нашей воды обеспечивается высокой степенью очистки от бактерий, микроорганизмов и органических соединений. Кроме того, при разливе воды в бутыли производится обеззараживание -  как воды, так и бутылей, пробок - озоном. Озон, по истечении 6-10 часов, в зависимости от температуры, превращается в обычный кислород. Это приводит еще и к дополнительному насыщению воды кислородом.</p>      </div>
+    </div>
+
+    <h3>Какой состав воды? Минерализация?</h3>
+    <div>
+      <p>Минерализация нашей воды около 100мг/литр (общее солесодержание). В ионный состав воды входят кальций, магний, натрий, калий, бикарбонаты, хлориды, фтор, йод.</p>      
+    </div>
+
+    <h3>Где вы берёте минералы? В каком виде?</h3>
+    <div>
+        <p>Минералы нам поставляют из Европы, в основном из Германии. Используются минеральные соли наивысшей степени очистки, где основное вещество составляет от 99,8 до 100%. По виду это кристаллы, напоминающие обычную поваренную соль.</p>    </div>
+
+    <h3>Можно ли пить воду: детям, беременным женщинам, людям с различными заболеваниями?</h3>
+    <div>
+        <p>Благодаря сбалансированному минеральному составу, CLEARWATER можно пить без ограничений, в любом возрасте, в том числе беременным женщинам. Людям с заболеваниями врачи, как правило, рекомендуют употреблять меньше солей, поэтому наш продукт может быть рекомендован им, так как в нем мало солей.</p>  
+    </div>
+
+    <h3>Может ли ваш водитель набрать воду в  бювете?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Все бутыли закрыты фирменной пробкой с нанесенной датой и временем разлива, которую нельзя снять, не повредив. Нанесение даты производится принтером, подделать который вручную невозможно. Сверху пробка закрыта фирменной термоусадочной пленкой, что так же является защитой от вскрытия бутыли с фирменной водой. По этой причине, при сохранении целостности заводской упаковки, наличии надписей, налить в бутыль не фирменную воду невозможно! При наличии указанных степеней защиты, можно быть уверенными, что это оригинальная «CLEARWATER». Кроме того, водителям строго запрещено даже приближаться к бюветам - во избежание недоразумений. Для этого мы контролируем передвижение наших водителей с помощью GPS.</p>      </div>
+    </div>
+
+    <!--<h3></h3>
+    <div>
+            </div>-->
+
+    <h3>Какие организации проверяют качество вашей воды?</h3>
+    <div>
+        <p>Киево-Святошинская районная СЭС, областная СЭС, институт экологии и токсикологии имени Л.И.Медведя, Укрметртестстандарт, институт коллоидной химии и химии воды им. Думанского.</p>    </div>
+
+      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Задайте свой вопрос"  />   
+    
+  </div>
+  </div>
+</div>
+
+		
+
+
+		<!--Всплывающие окна из иконок меню-->
+		
+<div class="modal fade" id="modal-menu"> 
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="row">
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_about_water.php?lang=ua">
+              UA
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_about_water.php?lang=ru" class="ru active-lang">
+              RU
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_about_water.php?lang=en">
+              EN
+            </a>
+          </div>
+          <div class="col-xs-2 language inv">
+            <a href="index?lang=en">
+              EN
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="menu-punkts inv" data-class="menu-punkts">
+          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">Главная</a></div>
+
+          <!--<div class="row"><a href="#"><img src="img/water.png" alt="">О воде</a></div>
+          <div class="row"><a href="#"><img src="img/delivery.png" alt="">Доставка</a></div>
+          <div class="row"><a href="#"><img src="img/price.png" alt="">Цена</a></div>-->
+          <div class="row"><a href="promo"><img src="img/promo.png" alt="">Акции</a></div>
+          <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">Оборудование</a></div>
+          
+          <div class="row"><a href="#"><img src="img/other.png" alt="">Другие товары</a></div>
+          <div class="row"><a href="#"><img src="img/about.png" alt="">О компании</a></div>-->
+          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">Полная версия</a></div>
+          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карточкой</a></div>
+        </div>
+        <div class="modal-numbers inv" data-class="modal-numbers">
+          <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>Заказать звонок</span></a></div>
+          <div class="row"><a href="tel:0443913030"><img src="img/city_phone.png" alt=""><span>044 391 30 30</span></a></div>
+          <div class="row"><a href="tel:0935183030"><img src="img/lifecell.jpg" alt=""><span>093 518 30 30</span></a></div>
+          <div class="row"><a href="tel:0503153030"><img src="img/mts.png" alt=""><span>050 315 30 30</span></a></div>
+          <div class="row"><a href="tel:0672433040"><img src="img/kyivstar.png" alt=""><span>067 243 30 40</span></a></div>
+          <div class="row"><a href="skype:cw3913030?chat"><img src="img/skype.png" alt=""><span>cw3913030</span></a></div>
+          <div class="row"><a href="viber://add?number=0935183030"><img src="img/viber.png" alt=""><span>093 518 30 30</span></a></div>
+        </div>
+        <div class="modal-questions inv" data-class="modal-questions">
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_water"><span>Вопросы о воде</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_bottles"><span>Вопросы о бутылях</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Вопросы по оборудованию</span></a></div>
+          <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Вопросы о документах</span></a></div>-->
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Задайте свой вопрос</span></a></div>
+        </div>  
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Всплывающее окно обратного звонка -->
+
+
+<div class="modal fade" id="modal-recall">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="recall-title">Заказать звонок</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="form" method="post" action="">
+          <div class="row">
+            <input class='recall-number' type="text" name="name" required="required" placeholder="Ваше имя:"/>
+            
+          </div>
+          <div class="row">
+            <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+            
+          </div>
+          <div class="recall-buttons">
+            
+            <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Отмена"/>
+            <input id='recall-button' class='btn recall-submit' type="submit" value="Заказать звонок"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-ask">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="ask-title">Задайте свой вопрос</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="ask-form" method="post" action="">
+          <div class="row">
+            <input class='ask-number' type="text" name="name" required="required" placeholder="Ваше имя:"/>
+          </div>
+          <div class="row">
+            <input id="phone-ask" class='number ask-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+          </div>
+          <div class="row">
+            <textarea id='askedQuestion' class='ask-number' name="question" required="required" placeholder="Ваш вопрос:" rows="3"></textarea>
+          </div>
+          <div class="ask-buttons">
+            <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Отмена"/>
+            <input id='ask-button' class='btn ask-submit' type="submit" value="Задать вопрос"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>		
+
+		
+	</body>
+</html>
+
+
+

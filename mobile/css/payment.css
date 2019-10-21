@@ -1,0 +1,28 @@
+.payment-secure {
+  margin-top: 80px;
+  position: relative;
+  bottom: inherit;
+}
+h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 26px;
+}
+label{
+	color: #676769;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+.form-group{
+	margin-bottom: 5px;
+}
+.payment-submit{
+	width: 200px;
+	margin-top: 25px!important;
+	text-transform: uppercase;
+}
+.paument-box input{
+	margin-top: 0!important;
+}

@@ -1,0 +1,582 @@
+<!doctype html>
+<!--[if lte IE 8]><html xmlns:fb="http://ogp.me/ns/fb#" class="lteie8"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns:fb="http://ogp.me/ns/fb#"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" http-equiv="description" content="The source is located in ecologically clean area. We produce 3 types of water - regular, with iodine, with fluoride. Have our own government certified laboratory. Product quality control every 2 hours. Stable mineral composition, no contraindications." />
+<link rel="stylesheet" type="text/css" href="/themes/clear/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+<link rel="stylesheet" type="text/css" href="/themes/clear/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/application.css" media="screen, projection" />
+<script type="text/javascript" src="/assets/f5a7fac8/jquery.min.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/modernizr-2.7.1.min.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/plax.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/jquery.cycle2.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/jquery.placeholder.js"></script>
+<script type="text/javascript" src="/themes/clear/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="/themes/clear/js/common.js"></script>
+<script type="text/javascript" src="/js/application.js"></script>
+<title>The source is located in ecologically clean area. We produce 3 types of water</title>
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="icon" type="image/png" href="/images/favicon.png">
+	<!--[if IE]>
+	<script src="/themes/clearjs/vendor/html5shiv.js"></script>
+	<![endif]-->
+
+	<!--Edited by Serdiukov Ivan-->
+    <script src="/themes/clear/js/mobile-detect.min.js"></script>
+    <script>
+        // возвращает cookie с именем name, если есть, если нет, то undefined
+        function getCookie(name) {
+            var matches = document.cookie.match(new RegExp(
+                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+            ));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
+        var md = new MobileDetect(window.navigator.userAgent);
+        if (md.mobile()) {
+            var desc = getCookie('setdesc');
+
+            if (desc == undefined) {
+                location.replace(location.origin + '/mobile/');
+            }
+        }
+    </script>
+	<link rel="alternate" href="https://www.clearwater.ua/mobile/">
+	<!--End of edition-->
+
+	<!-- ukr
+	<script type="text/javascript">
+		window.vkAsyncInit = function() {
+			VK.init({
+				apiId: 4151778
+			});
+			VK.Widgets.Like("vk_like_footer", {type: "mini", height: 20, pageUrl: 'https://vk.com/clearwaterua'});
+		};
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "http://vk.com/js/api/openapi.js";
+			js.async = true;
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'vk-jssdk'));
+	</script>
+	-->
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '523807974373271',
+				status: true,
+				xfbml: true
+			});
+		};
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script>
+		(function(){
+			var widget_id = 674936;
+			_shcp =[{widget_id : widget_id}];
+			var lang =(navigator.language || navigator.systemLanguage
+				|| navigator.userLanguage ||"en")
+				.substr(0,2).toLowerCase();
+			var url ="widget.siteheart.com/widget/sh/"+ widget_id +"/"+ lang +"/widget.js";
+			var hcc = document.createElement("script");
+			hcc.type ="text/javascript";
+			hcc.async =true;
+			hcc.src =("https:"== document.location.protocol ?"https":"http")
+				+"://"+ url;
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hcc, s.nextSibling);
+		})();
+	</script>
+	<script type="text/javascript">
+/*
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26237277-1']);
+		_gaq.push(['_setDomainName', 'clearwater.ua']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+*/
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-26237277-1', 'auto');
+		  ga('send', 'pageview');
+
+	</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 965991704;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/965991704/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+</head>
+	<body>	<!--[if lt IE 8]>
+		<p class="browseupdate">Вы используете <strong>старую</strong> версию браузера. Пожалуйста, <a href="http://browsehappy.com/">обновите браузер</a>.</p>
+	<![endif]-->
+	<div id="vk_api_transport"></div>
+	<div id="fb-root"></div>
+		<div class="out">
+		﻿<header class="header header_water visibility" role="banner">
+	<i class="chevron js-scroll"></i>
+	<div class="container">
+		<div class="header__grid layout">
+			<div class="l-left">
+				<div class="header__main">
+					<h1 class="logo"><a href="/en" title="Clean water - Clear Water">ClearWater</a></h1>
+					<ul class="language" id="yw0">
+<li><a href="/water">рус</a></li>
+<li><a href="/ua/water">укр</a></li>
+<li class="is-active"><a href="/en/water">en</a></li>
+</ul>				</div>
+				<div class="header__menu">
+					<nav class="nav" role="navigation">
+						<ul id="yw1">
+<li class="is-active"><a href="/en/water">Our water</a></li>
+<li><a href="/en/equipment">Equipment</a></li>
+<li><a href="/en/delivery">Delivery and price</a></li>
+</ul>						<ul id="yw2">
+<li><a href="/en/production">Production </a></li>
+<li><a href="/en/about">Company</a></li>
+<li><a href="/en/promo">Special offers</a></li>
+</ul>					</nav>
+					<a href="/en/corporate" class="btn btn-block">Office Delivery </a>
+				</div>
+			</div>
+			<div class="header__info l-right">
+				<address class="header__contacts">
+					<span class="header__tel"><a href="tel:+380443913030">044 391 3030</a><br><a href="tel:+380503153030">050 315 3030</a><br><a href="tel:+380935183030">093 518 3030</a><br><a href="tel:+380672433040">067 243 3040</a></span>
+					<ul class="header__active-days">
+						<li>workdays <span>08:00 - 21:00</span></li>
+						<li>saturday <span>09:00 - 17:00</span></li>
+					</ul>
+					<button type="button" class="btn btn-block btn-sm btn-dark js-popup-callback">Call Back </button>
+				</address>
+				<div class="header__account">
+					<div class="online-order js-popup-online-external">
+						<h3>Order on-line</h3>
+						<p>24 x 7</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__slogan">
+			<span>You can order the delivery of 3 types <br>of delicious high-quality water</span>
+			<h2 class="h2 h-slim h-drop">Classic, with Iodine or with Fluoride </h2>
+		</div>
+	</div>
+</header>
+<!-- /.header -->
+
+		<div class="main">
+			<span class="sidebar-trigger js-trigger">Menu</span>
+<!-- /.sidebar-trigger -->
+<aside class="sidebar">
+	<div class="sidebar__menu nav">
+		<ul id="yw3">
+<li><a href="/en">Home</a></li>
+<li class="is-active"><a href="/en/water">Our water</a></li>
+<li><a href="/en/equipment">Equipment</a></li>
+<li><a href="/en/delivery">Delivery and price</a></li>
+<li><a href="/en/production">Production </a></li>
+<li><a href="/en/about">Company</a></li>
+<li><a href="/en/promo">Special offers</a></li>
+<li class="sidebar__menu-corp"><a href="/en/corporate">Office Delivery </a></li>
+</ul>	</div>
+	<div class="sidebar__buttons">
+		<button type="button" class="btn btn-block btn-fill js-popup-online-external">Order on-line</button>
+	</div>
+	<ul class="sidebar__social social">
+		<li class="facebook"><a href="https://www.facebook.com/clearwaterua" target="_blank"><span></span>Facebook</a></li>
+		<li class="vk"><a href="http://vk.com/clearwaterua" target="_blank"><span></span>VK</a></li>
+	</ul>
+</aside>
+<!-- /.sidebar -->
+			<section class="show visibility js-visibility2">
+	<div class="container">
+		<h2 class="title_cw h-logo h-logo_grey">Our water</h2>
+
+		<div class="show__content">
+			<div class="slider">
+				<ul class="slider__menu">
+					<li class="visibility js-circles__item3">
+						<div class="slider__menu-holder">
+							<div class="slider__thumb">
+								<img src="/uploads/files/slider-1.png" alt="img">
+							</div>
+							<div class="slider__text">Guaranteed quality</div>
+						</div>
+					</li>
+					<li class="visibility js-circles__info2">
+						<div class="slider__menu-holder">
+							<div class="slider__thumb">
+								<img src="/themes/clear/img/slider-2.png" alt="img">
+							</div>
+							<div class="slider__text">water storage</div>
+						</div>
+					</li>
+					<li class="visibility js-circles__info1">
+						<div class="slider__menu-holder">
+							<div class="slider__thumb">
+								<img src="/uploads/files/slider-3.png" alt="img">
+							</div>
+							<div class="slider__text">Where do we get our water?</div>
+						</div>
+					</li>
+					<li class="visibility js-circles__info2">
+						<div class="slider__menu-holder">
+							<div class="slider__thumb">
+								<img src="/themes/clear/img/slider-4.png" alt="img">
+							</div>
+							<div class="slider__text">Water purification</div>
+						</div>
+					</li>
+					<li class="visibility js-circles__item3">
+						<div class="slider__menu-holder">
+							<div class="slider__thumb">
+								<img src="/uploads/files/slider-5.png" alt="img">
+							</div>
+							<div class="slider__text">Benefits of Water</div>
+						</div>
+					</li>
+				</ul>
+				<!-- /.slider__menu -->
+				<div class="slider__content cycle-slideshow visibility js-circles__item3"
+					 data-cycle-fx="scrollHorz"
+					 data-cycle-timeout="0"
+					 data-cycle-pager=".slider__menu"
+					 data-slide-class="slider__item"
+					 data-cycle-slides=".slider__item"
+					 data-slide-active-class="is-visible"
+					 data-cycle-next=".slider__next"
+					 data-cycle-prev=".slider__prev"
+					 data-cycle-pager-template=".slider__menu > li"
+					 data-pager-active-class="is-active"
+					 data-starting-slide="2"
+					 data-cycle-auto-height="container"
+					 data-disabled-class="is-disabled"
+					>
+					<div class="slider__item">
+						<h2 class="h5 h-dash">Guaranteed quality</h2>
+
+						<p>ClearWater has its own certified laboratory. In it we test our water every 2 hours at different stages of the production process. We also check the final product from each batch. ClearWater is also regularly checked by the independent external organizations, as required by law. </p>
+					</div>
+					<div class="slider__item">
+						<h2 class="h5 h-dash">water storage</h2>
+
+						<p>The shelf life of a closed bottle is 3 months. We recommend to consume the water within 3 weeks after opening. ClearWater does not contain any preservatives. Long-term storage of our water is assured by the high level of purification from bacteria, microorganisms and organic compounds. Besides, the water is additionally disinfected by ozone, which turns into oxygen within 6-10 hours, depending on the storage conditions. This leads to an additional saturation of water with oxygen. After production we store bottles in our warehouse for no longer than 3 days for the ozone to dissipate, so you always receive fresh water. </p>
+					</div>
+					<div class="slider__item">
+						<h2 class="h5 h-dash">Where do we get our water?</h2>
+
+						<p>Our 126 m deep well is located in the ecologically clean area in the Mila town of Kiev-Svyatoshin region. For hundreds kilometers up the source there are no soil contaminating plants or factories. In compliance with the international standards, the well is surrounded by a closed up sanitary zone, which can be entered only by the authorized staff. </p>
+					</div>
+					<div class="slider__item">
+						<h2 class="h5 h-dash">Water purification</h2>
+
+						<p>First, we treat the artesian well water with the UV lamp for disinfection. Then the water passes through a range of different filters to remove iron, manganese, hydrogen sulfide and salts that cause scaling. The heart of the process is the reverse osmosis filter which ensures purification at the molecular level. It completely removes all possible contaminations, organic, and toxic substances, heavy metals, radioactive substances, bacteria and viruses. This is how we guarantee that our water is safe from any polluting agents. Finally ClearWater is mineralized by an automatic machine of high accuracy. Thus we guarantee that ClearWater bottle contains useful minerals listed on its label, and nothing else. </p>
+					</div>
+					<div class="slider__item">
+						<h2 class="h5 h-dash">Benefits of Water</h2>
+
+						<p>The Central and Northern parts of Ukraine are known to have the deficit of the natural supply of iodine (food and water in particular). The consumption of water with iodine helps the normal intellectual growth and development of children and prevents thyroid gland problems among adults. 
+
+Fluoride is needed for bone formation, dentine and enamel. It is especially important for children during the growth period. The right amount of fluoride helps prevent caries. Fluoride is the only element predominantly supplied to our bodies with the drinking water – it almost does not exist in food, except for tea and seafood.   
+</p>
+					</div>
+					<ul class="slider__nav">
+						<li class="slider__prev prev"></li>
+						<li class="slider__next next"></li>
+					</ul>
+					<!-- /.slider__nav -->
+				</div>
+			</div>
+			<!-- /.slider -->
+		</div>
+		<!-- /.show__content -->
+	</div>
+</section>
+<!-- /.show -->
+
+<section class="composition visibility">
+	<div class="container">
+		<h2 class="title">What is the mineral content of ClearWater?</h2>
+
+		<div class="composition__content">
+			<figure class="composition__image"><img src="/themes/clear/img/glass.png" alt="glass">
+			</figure>
+			<div class="composition__left">
+				<div class="composition__element natrium visibility js-circles__info2">
+					<div class="composition__symbol">pH</div>
+					<div class="composition__description">
+						<!-- <span class="composition__name">Натрий</span> -->
+						6,9 – 7,5					</div>
+				</div>
+				<div class="composition__element calcium visibility js-circles__info2">
+					<div class="composition__symbol">Ca</div>
+					<div class="composition__description">
+						<span class="composition__name">Calcium</span>
+						6,0 – 14,0 mg/dm³					</div>
+				</div>
+				<div class="composition__element middle visibility js-circles__info2">
+					<div class="composition__symbol">Na</div>
+					<div class="composition__description">
+						<span class="composition__name">Sodium</span>
+						19,0 – 27,0 mg/dm³					</div>
+				</div>
+
+				<div class="composition__element composition__element_mod iodium visibility js-circles__item4">
+					<div class="composition__symbol">I						<span>only for iodinated water</span>
+					</div>
+					<div class="composition__description">
+						<span class="composition__name">Iodine</span>
+						0,02 – 0,05 mg/dm³					</div>
+				</div>
+
+			</div>
+			<div class="composition__right">
+				<div class="composition__element bicarbonate visibility js-circles__info2">
+					<div class="composition__symbol">
+						<small>The overall level of mineralization</small>
+					</div>
+					<div class="composition__description">
+						<!-- <span class="composition__name">Бикарбонаты</span> -->
+						100,0 – 124,0 mg/dm³					</div>
+				</div>
+				<div class="composition__element kalium visibility js-circles__info2">
+					<div class="composition__symbol">K</div>
+					<div class="composition__description">
+						<span class="composition__name">Potassium</span>
+						8,0 – 12,0 mg/dm³					</div>
+				</div>
+				<div class="composition__element magnesium visibility js-circles__info2">
+					<div class="composition__symbol">Mg</div>
+					<div class="composition__description">
+						<span class="composition__name">Magnesium</span>
+						 2,0 – 6,0 mg/dm³					</div>
+				</div>
+
+				<div class="composition__element composition__element_mod fluorum visibility js-circles__item4">
+					<div class="composition__symbol">F						<span>only for fluoridated water</span>
+					</div>
+					<div class="composition__description">
+						<span class="composition__name">Fluorine</span>
+						0,5 – 1,5 mg/dm³					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /.composition -->
+
+<section class="awards visibility">
+	<div class="container">
+		<h2 class="title">Our certificates and awards</h2>
+		<ul class="awards__list">
+			<li class="certificate"><img src="/themes/clear/img/cert-1.jpg" alt="cert"></li>
+			<li><img src="/themes/clear/img/award.png" alt="award"></li>
+			<li class="certificate"><img src="/themes/clear/img/cert-2.jpg" alt="cert"></li>
+		</ul>
+	</div>
+</section>
+<!-- /.awards -->
+<section class="price visibility">
+	<div class="container">
+		<h2 class="h5 h-dash">How much does ClearWater cost?</h2>
+
+		<p>We offer the best price for the European quality water and impeccable service. </p>
+
+		<p>We offer various discounts depending on the number of bottles per order and consumption per month. 
+You can find out more about our prices and package offers by clicking on 			<a href="/en/delivery" class="link">"Delivery and price"</a>
+		</p>
+	</div>
+</section>
+<!-- /.price -->
+
+<div class="testing-alt zig zig_blue visibility">
+	<div class="container narrow narrow_slim">
+		<h2 class="h-sub">Check ClearWater benefits and make a deliberate choice. </h2>
+
+		<h2 class="h3 h-wave">Order ClearWater free trial, without contracts and obligations. </h2>
+
+		<p>We’ll show up on time and bring you high quality water and a great mood. Try our European service!</p>
+		<button type="button"
+				class="btn btn-fill btn-fill_light btn-lg js-popup-trial">Order now</button>
+	</div>
+	<a href="/en/corporate"
+	   class="testing-alt__corporate-btn btn btn-white btn-sm">Office Delivery </a>
+</div>
+<!-- /.testing -->
+			﻿<footer class="footer visibility">
+	<div class="footer__info footer__row">
+		<div class="container">
+			<div class="footer__contacts">
+				<p>For any questions about our product or service quality, please</p>
+				<p>Call us at:</p>
+				<p class="footer__contacts-tel"><a href="tel:+380443913030">044 391 3030</a><br><a href="tel:+380503153030">050 315 3030</a><br><a href="tel:+380935183030">093 518 3030</a><br><a href="tel:+380672433040">067 243 3040</a></p>
+				<button class="footer__feedback btn js-popup-control">Send inquiry to quality control department</button>
+			</div>
+			<!-- /.footer__contacts -->
+			<div class="footer__quality-control">
+				<p> Quality control</p>
+				<ul>
+					<li class="iso"><span>International Organization for Standardization</span></li>
+					<li class="we"><span>Watercoolers Europe</span></li>
+					<li class="uabw"><span>Bottle Water Association of Ukraine</span></li>
+				</ul>
+			</div>
+			<!-- /.footer__quality-control -->
+		</div>
+	</div>
+	<!-- end .footer__info -->
+	<div class="footer__main footer__row">
+		<div class="container">
+			<div class="footer__copyright">
+				<p>© ClearWater LLC. All rights reserved.</p>
+				<p>If you are not fully satisfied with the ClearWater product or service, our General Manager would like to hear from you! </p>
+				<p><a href="mailto:director@cw.com.ua">director@cw.com.ua</a></p>
+			</div>
+			<!-- /.footer__copyright -->
+			<div class="footer__other">
+				<ul class="footer__menu" id="yw4">
+<li class="is-active"><a href="/en/water">Our water</a></li>
+<li><a href="/en/equipment">Equipment</a></li>
+<li><a href="/en/delivery">Delivery and price</a></li>
+<li><a href="/en/production">Production </a></li>
+<li><a href="/en/about">Company</a></li>
+<li><a href="/en/promo">Special offers</a></li>
+</ul>				<!-- /.footer__menu -->
+				<ul class="footer__social social social_mod">
+					<li class="facebook"><a href="https://www.facebook.com/clearwaterua" target="_blank"><span></span>Facebook</a></li>
+					<li class="vk"><a href="http://vk.com/clearwaterua" target="_blank"><span></span>VK</a></li>
+				</ul>
+				<!-- /.footer__social -->
+				<div class="clr"></div>
+				<ul class="footer__like">
+					<li>
+						<div id="vk_like_footer"></div>
+					</li>
+					<li>
+						<fb:like href="https://www.facebook.com/clearwaterua" layout="button_count" action="like" show_faces="false" share="false"></fb:like>
+					</li>
+				</ul>
+				<!-- /.footer__like -->
+				<div class="vintage">
+					website is developed by											<a href="http://vintage.agency/" target="_blank" class="vintage__ico"><span></span>Vintage</a>
+									</div>
+				<!-- /.vintage -->
+			</div>
+			<!-- /.footer__other -->
+		</div>
+	</div>
+</footer>
+<!-- /.footer -->
+		</div>
+		<!-- /.main -->
+	</div>
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_callback">
+		<form class="ajax-form" id="call-widget-form" action="/en/call/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Call back</div>
+<input class="input input-dark" placeholder="Phone Number" name="form_models_CallForm[telephone]" id="form_models_CallForm_telephone" type="tel" /><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_online">
+		<form class="ajax-form" id="order-widget-form" action="/en/order-form/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Order on-line</div>
+<div class="popup__title h-sub"><a href="/order">Complete form of order</a></div>
+<input class="input input-dark" placeholder="Name" name="form_models_Order[name]" id="form_models_Order_name" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_Order[telephone]" id="form_models_Order_telephone" type="tel" /><input class="input input-dark" placeholder="Number of bottles" name="form_models_Order[bottle]" id="form_models_Order_bottle" type="text" /><textarea class="textarea" placeholder="Comment" name="form_models_Order[comment]" id="form_models_Order_comment"></textarea><div class="form-row">
+	<label class="checkbox"><input id="ytform_models_Order_new" type="hidden" value="0" name="form_models_Order[new]" /><input name="form_models_Order[new]" id="form_models_Order_new" value="1" type="checkbox" /><i></i>I am a new customer</label>
+	</div>
+<button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_trial">
+		<form class="ajax-form" id="trial-widget-form" action="/en/trial/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Order free trial</div>
+<input class="input input-dark" placeholder="Name" name="form_models_TrialForm[name]" id="form_models_TrialForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_TrialForm[telephone]" id="form_models_TrialForm_telephone" type="tel" /><textarea class="textarea" placeholder="Address" name="form_models_TrialForm[address]" id="form_models_TrialForm_address"></textarea><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_control">
+		<form class="ajax-form" id="control-widget-form" action="/en/control/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Letter quality control department</div>
+<input class="input input-dark" placeholder="Name" name="form_models_ControlForm[name]" id="form_models_ControlForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="E-mail" name="form_models_ControlForm[email]" id="form_models_ControlForm_email" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_ControlForm[telephone]" id="form_models_ControlForm_telephone" type="tel" /><textarea class="textarea" placeholder="Message" name="form_models_ControlForm[message]" id="form_models_ControlForm_message"></textarea><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_price">
+		<form class="ajax-form" id="price-widget-form" action="/en/price/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Send the inquiry</div>
+<input class="input input-dark" placeholder="Name" name="form_models_PriceForm[name]" id="form_models_PriceForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_PriceForm[telephone]" id="form_models_PriceForm_telephone" type="tel" /><input class="input input-dark" placeholder="E-mail" name="form_models_PriceForm[email]" id="form_models_PriceForm_email" type="text" /><input class="input input-dark" placeholder="Date of the event" name="form_models_PriceForm[party_date]" id="form_models_PriceForm_party_date" type="text" /><textarea class="textarea" placeholder="Message" name="form_models_PriceForm[comment]" id="form_models_PriceForm_comment"></textarea><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_feedback">
+		<form class="ajax-form" id="feedback-widget-form" action="/en/feedback/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Leave your review</div>
+<input class="input input-dark" placeholder="Name" name="form_models_FeedbackForm[name]" id="form_models_FeedbackForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="E-mail" name="form_models_FeedbackForm[email]" id="form_models_FeedbackForm_email" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_FeedbackForm[telephone]" id="form_models_FeedbackForm_telephone" type="tel" /><textarea class="textarea" placeholder="Comment" name="form_models_FeedbackForm[comment]" id="form_models_FeedbackForm_comment"></textarea><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_excursion">
+		<form class="ajax-form" id="excursion-widget-form" action="/en/excursion/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Application for tour</div>
+<input class="input input-dark" placeholder="Name" name="form_models_ExcursionForm[name]" id="form_models_ExcursionForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_ExcursionForm[telephone]" id="form_models_ExcursionForm_telephone" type="tel" /><input class="input input-dark" placeholder="Date" name="form_models_ExcursionForm[excursion_date]" id="form_models_ExcursionForm_excursion_date" type="text" maxlength="20" /><input class="input input-dark" placeholder="Own transport?" name="form_models_ExcursionForm[on_car]" id="form_models_ExcursionForm_on_car" type="text" maxlength="30" /><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_big">
+		<form class="ajax-form" id="big-widget-form" action="/en/big/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">send request</div>
+<input class="input input-dark" placeholder="Name" name="form_models_BigOrderForm[name]" id="form_models_BigOrderForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="E-mail" name="form_models_BigOrderForm[email]" id="form_models_BigOrderForm_email" type="text" /><input class="input input-dark" placeholder=" Telephone" name="form_models_BigOrderForm[telephone]" id="form_models_BigOrderForm_telephone" type="tel" /><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- /.out -->
+	<div class="overlay"></div>
+	<!-- /.overlay -->
+	<div class="loader"></div>
+
+	<!-- BEGIN v-player -->
+	<div id="player" class="v-player">
+		<script></script>
+	</div>
+	<!-- END v-player -->
+</body>
+</html>

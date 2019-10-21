@@ -1,0 +1,356 @@
+﻿ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Лучшая доставка воды в Киеве - Бутилированная питьевая вода - Компания Чистая Вода</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script src="js/plugin/jquery-2.1.4.min.js"></script>
+		<script src="js/plugin/jquery.cookie.js"></script>
+		
+		<script src="js/plugin/jquery-ui.js"></script>
+		<script src="js/plugin/plugin.js"></script>
+		<script src="js/plugin/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/plugin/owl.carousel.js"></script>
+		<script type="text/javascript" src="js/script/script.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-26237277-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		
+	</head>
+	<body>
+		
+		<!--Хедер с иконками меню-->
+		<div class="phone-header">
+<table id="phone-header1">
+  <tr>
+    <td><div class="menu-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_1.png" alt=""></div></td>
+    <td><div class="call-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_2.png" alt=""></div></td>
+    <td><a href="order"><img src="img/new_ICON_3.png" alt=""></a></td>
+    <td><div class="ask-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_4.png" alt=""></div></td>
+  </tr>
+  </table>
+<table id="phone-header2">
+  <tr>
+    <td>Меню</td>
+    <td>Позвонить</td>
+    <td>Заказать</td>
+    <td>Спросить</td>
+  </tr>
+</table>
+</div> 
+
+<!--Хедер сайта с фиксированным меню portrait-->
+<div class="landscape-header inv">
+  <table class="landscape-nav inv">
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="menu-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_1.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Меню</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="call-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_2.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Позвонить</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div>
+          <a href="order.php"><img src="img/new_ICON_3.png" alt=""></a>
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Заказать</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="ask-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_4.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Спросить</td>
+    </tr>
+  </table>
+</div>
+
+
+		<!--Контент страницы с вопросами-->
+		<div class="ask-content content-block">
+<div id="title" class="ask">
+  <h1 class="ask">Вопросы по оборудованию</h1>
+</div>
+<div class="scroll-box">
+<div id="accordion">
+  <h3>Чем отличается газирующий кулер от негазирующего?</h3>
+  <div>
+    <p>В газирующем кулере, в отличие от обычного, дополнительно устанавливается баллон с пищевой углекислотой, а также имеется дополнительная функция газирования воды (двух видов – сильногазированная и слабогазированная).</p>  </div>
+  <h3>Что такое помпа?</h3>
+  <div>
+        <p>Это ручной механический насос. Надевается на горлышко бутыли после полного снятия пробки с бутыли, фиксируется на горлышке специальным кольцом (или без него – в зависимости от модели). Вода накачивается в емкость нажатием на верхнюю часть помпы. Используемая вода - комнатной температуры.</p>  </div>
+  <h3>Что такое диспенсер?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Это керамический сосуд, на который сверху устанавливается перевернутая бутыль с предварительно снятой пробкой. В нижней части корпуса, на боковой стенке оборудован краном, обеспечивающим разные режимы разлива воды. Удерживая рычаг крана в нажатом положении вниз, удобно наливать воду в небольшие емкости, например, в стакан. В положении "свободные руки" рычаг крана нажимается вверх и фиксируется. При этом не надо постоянно нажимать на рычаг и можно налить воду в кастрюлю или чайник. Устанавливается на стол, тумбочку или на специальную деревянную подставку. Используемая вода комнатной температуры.</p>      </div>
+  </div>
+  <!--<h3></h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+              </div>
+  </div>-->
+  <h3>Чем отличается помпа от диспенсера (преимущества и недостатки каждого вида)?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Помпа и диспенсер – это два самых простых вида оборудования, дешевые и экономичные в использовании. У каждого из них есть некоторые преимущества и недостатки, которые могут иметь значение в глазах клиента. Главное преимущество помпы в том, что клиенту не нужно переворачивать бутыль (тем более, со снятой крышкой). Кроме того, помпа не нуждается в такой частой санобработке, как диспенсер. Недостаток ее в том, что для накачивания воды нужно прилагать некоторые усилия, и, если в доме есть маленькие дети, для них это может представлять затруднение. Кроме того, по мере уменьшения уровня воды в бутыли, накачивать ее становится сложнее. Что касается диспенсера, то воду из него набирать проще – достаточно открыть кран, но для установки полной 19-килограммовой бутыли со снятой крышкой нужна сила и ловкость, поэтому для женщин диспенсер будет не очень удобен. Кроме того, при использовании диспенсера контакт воды с воздухом более вероятен, и, как следствие, возможно образование микробов и биопленки (помните: в чистой воде микробы размножаются гораздо быстрее, чем в грязной!). Поэтому клиенты, которые пользуются диспенсером, должны выливать из него всю воду и промывать внутренние стенки диспенсера один раз в 2 недели.</p>      </div>
+  </div>
+  <h3>Чем отличается мини-кулер от обычного?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Мини-кулер иногда называют настольным кулером, он устанавливается на подставку (стол,тумба). Чаще всего в мини-кулерах для охлаждения воды используется электронное охлаждение, работают они практически бесшумно (в них нет компрессора). Недостатки этого охлаждения в том, что охлаждение происходит медленнее компрессорного и поэтому рекомендованное количество пользователей 3-5 человек. Кулер для воды с электронным охлаждением имеет производительность: 1 литр в час (5-6 стаканов). Мини кулер с компрессорным охлаждением отличается от обычного только размерами.</p>      </div>
+  </div>
+  <h3>Сколько потребляет энергии кулер?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Кулер работает в прерывистом режиме. Основной расход электроэнергии происходит тогда, когда он нагревает/охлаждает воду. Если расход воды небольшой, то кулер просто поддерживает необходимую температуру в обоих баках с помощью специальных датчиков, которые включают и выключают функции нагрева/охлаждения автоматически. В этом случае расход энергии минимален. Если же воды потребляется много и, следовательно, нужно чаще ее нагревать/охлаждать, то расход энергии больше. Среднее потребление электроэнергии около 1- 1.5 КВт в сутки.</p>      </div>
+  </div>
+  <h3>Какая температура нагрева и охлаждения кулера?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Температура нагрева воды 85-92ºС. Температура охлаждения воды 5-15ºС </p><p>Компрессорные кулеры охлаждают воду до 5º - 10С, кулеры с электронным охлаждением до 8º - 15ºС </p><p>Нужно учитывать тот факт, что кулер имеет такой параметр, как производительность охлаждения и производительность нагрева, которая также зависит от температуры окружающей среды. Этот параметр говорит о том, сколько холодной или горячей воды можно получить от кулера за 1 час.</p><p>Производительность охлаждения (ниже 12ºС) </p><p>~ при температуре окружающей среды - +21ºС  -  4,8 л/ч </p><p>~ при температуре окружающей среды - +27ºС  -  3,5 л/ч </p><p>~ при температуре окружающей среды - +32ºС  -  1,8 л/ч</p><p>~ при температуре окружающей среды - +38ºС  -  1 л/ч </p><p>Производительность нагрева выше 85 ºС не больше 5-6 литров горячей воды в час.</p>      </div>
+  </div>
+  <h3>Сколько воды в баках горячей и холодной воды?</h3>
+  <div>
+      <p>В напольных кулерах емкости горячего и холодного баков 1,5 литра каждый. </p><p>В мини-кулерах емкость холодного бака от 0.5 до 1 литра, горячего бака 0.5 литра.</p>  </div>
+  <h3>Нужно ли отключать кулер на ночь, на выходные, на время отпуска?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+    <p>Отключение кулера на ночь или на выходные имеет смысл только для снижения затрат на электроэнергию. Для этого мы можем предложить клиентам специальный таймер PowerDown, который легко программируется на автоматическое выключение/включение в то время, когда кулером не пользуются. С точки зрения безопасности, оставленный на ночь или на выходные кулер представляет не больше риска, чем, например, холодильник. </p><p>Что касается отключения кулера на более длительный период (одна неделя и более), то мы не рекомендуем этого делать, так как в воде комнатной температуры быстро размножаются бактерии и может возникнуть неприятный запах/вкус. (В очень холодной и очень горячей воде такая угроза значительно ниже). В подобном случае возможны такие варианты решения: </p><p>- оставить кулер включенным; </p><p>- приобрести PowerDown и установить его на минимальное количество рабочих часов в день; </p><p>- слить из баков кулера воду, предварительно отключив его от сети. </p><p>Холодная вода сливается через кран холодной воды, а горячая – через сливное отверстие, которое находится на задней стенке кулера; </p><p>- после возвращения из отпуска отдать нам кулер, если он был все время выключен, на санобработку.</p>    </div>
+  </div>
+  <h3>Как делается санитарная обработка?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Санитарная обработка наружных частей кулера (не контактирующих с водой) производится бытовыми моющими средствами, не содержащими хлора (Zoom). Те узлы кулера которые контактируют с водой, обрабатываются химическими средствами, созданными на основе природных минералов (Lok). По окончании санитарной обработки каждый кулер дезинфицируется раствором оксония и проливается очищенной водой.</p>      </div>
+  </div>
+  <h3>Какими моющими средствами вы моете оборудование?</h3>
+  <div>
+    <p>Бытовыми моющими средствами, бытовой химией, не содержащей хлора типа (Zoom) и химическими средствами, созданными на основе природных минералов типа (Lok).</p>  </div>
+  <h3>Очищает ли кулер воду?</h3>
+  <div>
+    <p>Нет, не очищает. Эксплуатировать кулер с водопроводной, бюветной водой не рекомендуется.</p>  </div>
+  <h3>Кипятит ли кулер воду?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Нет, не кипятит, он только подогревает ее до температуры, необходимой для заваривания чая, кофе, приготовления быстрых супов и т.п. (85-92 ºС ). Кипячение необходимо для удаления из воды болезнетворных бактерий, а так же при этом удаляется временная жесткость, переходящая в накипь. Для нашей воды это не требуется, потому что в ней нет бактерий из-за эффективного обеззараживания с микробиологическим контролем каждой партии. Так же вода имеет малую жесткость, поэтому процесс кипячения не влияет на жесткость, с ответственно не дает накипи. </p><p>Также нужно учитывать, что отсутствие кипячения – одна из причин, по которым из кулера нельзя пить водопроводную воду, воду из бювета, родника и т.д.</p>      </div>
+  </div>
+  <h3>Нас не устраивает температура нагрева воды в кулере, что делать?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Кулер нагревает воду до 85-92ºС. Эта температура достаточна для заваривания пакетированного чая, растворимого кофе, быстрых супов и т.д. Может быть несколько вариантов возникновения проблемы. </p><p>Если воду набирают подряд более 5 человек, то температура воды последнего стакана будет отличатся от первого и может оказаться недостаточной. В этом случае стоит подождать несколько минут, чтобы кулер успел подогреть воду до нужной температуры. Или заказать еще один кулер. </p><p>При необходимости каких-то особых технологий приготовления кофе, чая, пакетиков, где необходимо, например, довести до кипения и тому подобное придется использовать дополнительное оборудование, чайники, кастрюли, турки. </p><p>Если вода явно не горячая, а только теплая, тогда необходимо обратится к оператору для решения проблемы силами сервисной мастерской компании.</p>      </div>
+  </div>
+  <h3>На сколько хватает баллона с газом?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>На кулер СО-2 устанавливается баллон с 3 кг углекислоты. </p><p>Содержание углекислоты в порции примерно 2 г. С одного баллона углекислоты получается от 1000 до 1500 порций. </p><p>С одного баллона углекислоты можно получить более 200 (двести) литров газированной воды, т.е. порядка 10 бутылей только газированной воды. Отсюда можно рассчитать. </p><p>Например в офисе 5 человек. Предположим, за день каждый выпьет 2 стакана газировки. Это примерно 0,4 литра. </p><p>Итого 0,4 умножить на 5 человек равно 2 литра в день. </p><p>200 литров возможности кулера делим на 2 литра потребления в день, получаем 100 дней. </p><p>При 22 рабочих днях в месяц получится (100 дней разделить на 22 дня) минимум 4,5 месяца.</p>      </div>
+  </div>
+  
+  <h3>Сколько человек одновременно могут пить чай-кофе?</h3>
+  <div>
+    <p>Исходные данные: </p><p>Чай- порция 200 гр. </p><p>Кофе- порция 100 гр. </p><p>Напольный кулер. Чай 3-5 человек. Кофе 6-8 человек. </p><p>Мини кулер. Чай 2 человека. Кофе 3-4 человека.</p>  </div>
+  <h3>Сколько нужно кулеров, чтобы одновременно обеспечить горячей водой группу из … человек?</h3>
+  <div>
+    <p>Группа из 5 человек 1 кулер. </p><p>Группа из 10 человек 2 кулера. </p><p>Группа из 15 человек 3 кулера. И т.д.</p>  </div>
+  <h3>Какие размеры кулера?</h3>
+  <div>
+    <p>Кулеры разных производителей имеют разные габариты, но можно отталкиваться от следующих размеров: ширина и глубина максимум 40 см., высота максимум 1метр.</p>  </div>
+  <h3>Можно ли самостоятельно транспортировать кулер?</h3>
+  <div>
+    <p>Можно, но только в вертикальном положении.</p>  </div>
+  <h3>Как определить, что закончился газ?</h3>
+  <div>
+    <p>Если при выдаче порции газированной воды в стакане отсутствуют пузырьки и постоянно высвечивается индикация СО2 на передней панели.</p>  </div>
+  
+      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Задайте свой вопрос"  />   
+    
+
+</div>
+</div>
+</div>		
+
+
+		<!--Всплывающие окна из иконок меню-->
+		
+<div class="modal fade" id="modal-menu"> 
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="row">
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_on_equipment.php?lang=ua">
+              UA
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_on_equipment.php?lang=ru" class="ru active-lang">
+              RU
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_on_equipment.php?lang=en">
+              EN
+            </a>
+          </div>
+          <div class="col-xs-2 language inv">
+            <a href="index?lang=en">
+              EN
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="menu-punkts inv" data-class="menu-punkts">
+          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">Главная</a></div>
+
+          <!--<div class="row"><a href="#"><img src="img/water.png" alt="">О воде</a></div>
+          <div class="row"><a href="#"><img src="img/delivery.png" alt="">Доставка</a></div>
+          <div class="row"><a href="#"><img src="img/price.png" alt="">Цена</a></div>-->
+          <div class="row"><a href="promo"><img src="img/promo.png" alt="">Акции</a></div>
+          <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">Оборудование</a></div>
+          
+          <div class="row"><a href="#"><img src="img/other.png" alt="">Другие товары</a></div>
+          <div class="row"><a href="#"><img src="img/about.png" alt="">О компании</a></div>-->
+          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">Полная версия</a></div>
+          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карточкой</a></div>
+        </div>
+        <div class="modal-numbers inv" data-class="modal-numbers">
+          <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>Заказать звонок</span></a></div>
+          <div class="row"><a href="tel:0443913030"><img src="img/city_phone.png" alt=""><span>044 391 30 30</span></a></div>
+          <div class="row"><a href="tel:0935183030"><img src="img/lifecell.jpg" alt=""><span>093 518 30 30</span></a></div>
+          <div class="row"><a href="tel:0503153030"><img src="img/mts.png" alt=""><span>050 315 30 30</span></a></div>
+          <div class="row"><a href="tel:0672433040"><img src="img/kyivstar.png" alt=""><span>067 243 30 40</span></a></div>
+          <div class="row"><a href="skype:cw3913030?chat"><img src="img/skype.png" alt=""><span>cw3913030</span></a></div>
+          <div class="row"><a href="viber://add?number=0935183030"><img src="img/viber.png" alt=""><span>093 518 30 30</span></a></div>
+        </div>
+        <div class="modal-questions inv" data-class="modal-questions">
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_water"><span>Вопросы о воде</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_bottles"><span>Вопросы о бутылях</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Вопросы по оборудованию</span></a></div>
+          <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Вопросы о документах</span></a></div>-->
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Задайте свой вопрос</span></a></div>
+        </div>  
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Всплывающее окно обратного звонка -->
+
+
+<div class="modal fade" id="modal-recall">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="recall-title">Заказать звонок</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="form" method="post" action="">
+          <div class="row">
+            <input class='recall-number' type="text" name="name" required="required" placeholder="Ваше имя:"/>
+            
+          </div>
+          <div class="row">
+            <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+            
+          </div>
+          <div class="recall-buttons">
+            
+            <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Отмена"/>
+            <input id='recall-button' class='btn recall-submit' type="submit" value="Заказать звонок"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-ask">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="ask-title">Задайте свой вопрос</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="ask-form" method="post" action="">
+          <div class="row">
+            <input class='ask-number' type="text" name="name" required="required" placeholder="Ваше имя:"/>
+          </div>
+          <div class="row">
+            <input id="phone-ask" class='number ask-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+          </div>
+          <div class="row">
+            <textarea id='askedQuestion' class='ask-number' name="question" required="required" placeholder="Ваш вопрос:" rows="3"></textarea>
+          </div>
+          <div class="ask-buttons">
+            <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Отмена"/>
+            <input id='ask-button' class='btn ask-submit' type="submit" value="Задать вопрос"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>		
+
+		
+	</body>
+</html>
+
+
+

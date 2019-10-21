@@ -1,0 +1,300 @@
+.header {
+    height: 220px;
+}
+.stock p {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.stock h2.h5 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: -20px;
+	font-size: 14px;
+}
+.stock h2.h6 {
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+.stock div.zig {
+	margin-top: 0px;
+}
+.adapt {
+	height: 790px;
+	border-bottom: 2px solid #3c5a7e;
+	margin-top: -55px;
+}
+.adapt .bg { 
+	position: absolute; 
+	bottom: 0; 
+	left: 50%; 
+	margin-left: -200px;
+	margin-bottom: -1px;
+	overflow: hidden;
+	height: 790px;
+	border: 1px solid #003671;
+}
+.adapt .bg img { 
+	height: 100%;
+	border: none;
+}
+.adapt .testing__main {
+	width: 420px;
+}
+.or-tab-m {
+	max-width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -60px;
+}
+.or-tab-m td {
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Vida31Pro;
+}
+.or-tab-r {
+	max-width: 480px;
+}
+.attension {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #FF0000;
+  }
+.ordertxt {
+	COLOR: #003671;
+	height: 28px;
+	vertical-align: middle;
+}
+.orderin {
+	COLOR: #727272;
+	border: 1px solid #99B3D5;
+	font-weight: bold;
+	height: 16px;
+	padding: 1px 1px 1px 1px;
+	margin: 0 0 0 0;
+	vertical-align: middle;
+}
+.orderinprod {
+	COLOR: #727272;
+	font-weight: bold;
+	height: 16px;
+	padding: 1px 1px 1px 1px;
+	margin: 0 0 0 0;
+	vertical-align: middle;
+	cursor: pointer;
+	text-align: right;
+	border-bottom: 1px dashed #727272;
+}
+.orderlist {
+	COLOR: Black;
+	border: 1px solid #99B3D5;
+	cursor: pointer;
+	height: 16px;
+	vertical-align: bottom;
+	background-color: #EEEEEE;
+	margin: 6px 0 0 2px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	padding-left: 1px;
+	padding-right: 1px;
+	font-size: 9px;
+}
+.ordersel {
+	COLOR: #666666;
+}
+.orderinmini {
+	COLOR: #727272;
+	border: 1px solid #99B3D5;
+	height: 16px;
+	padding: 1px 1px 1px 1px;
+	margin: 0 0 0 0;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.tblprod {
+	border: 1px solid #99B3D5;
+	height: 110px;
+	overflow: auto;
+	margin-top: 4px;
+}
+.ordersend {
+	font-family: Vida33Pro-Bold;
+	FONT-SIZE: 24px;
+	COLOR: #00abe4;
+	border: 1px solid #007599;
+	cursor: pointer;
+	height: 40px;
+	vertical-align: bottom;
+	background-color: transparent;
+	width: 380px;
+	margin-top: 10px;
+	margin-right: 0px;
+}
+.orderautoset {
+	font-family: "Vida31Pro";
+	FONT-SIZE: 16px;
+	COLOR: #00abe4;
+	border: 1px solid #007599;
+	cursor: pointer;
+	height: 30px;
+	vertical-align: bottom;
+	background-color: transparent;
+	margin-top: 2px;
+	margin-right: 5px;
+	text-transform: uppercase;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.orderbig {
+	FONT-SIZE: 14px;
+	COLOR: #878787;
+	border: 1px solid #99B3D5;
+	cursor: pointer;
+	height: 30px;
+	vertical-align: bottom;
+	background-color: #EEEEEE;
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.orderarea {
+	COLOR: #727272;
+	border: 1px solid #99B3D5;
+	font-weight: bold;
+	padding: 1px 1px 1px 1px;
+	margin: 0 0 0 0;
+	height: 34px;
+}
+td.prcomtxt {
+	height: 57px;
+}
+.help {
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Vida31Pro;
+}
+.help p {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 7px;
+}
+.help ul {
+	padding-left: 40px;
+	padding-right: 20px;
+	list-style-type: circle;
+}
+#menutimemax { 
+	position: absolute;
+	display: none;
+	margin-left: -105px;
+	margin-top: -220px;
+}
+#menutimenew {
+	position: absolute;
+	display: none;
+	margin-left: -105px;
+	margin-top: -220px;
+}
+#menutimemin { 
+	position: absolute;
+	display: none;
+	margin-left: -105px;
+	margin-top: -220px;
+}
+#menuprod { 
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+	overflow: scroll;
+	max-height: 500px;
+	padding:20px 0px 0px 0px;
+	margin-top: -150px;
+}
+#idpopimg {
+	display: none;
+	position: absolute;
+	width: 215px;
+	border: 1px solid #99b3d5;
+	margin-top: -150px;
+	margin-left: -220px;
+}
+li.subitem a {
+	font-size: 13px;
+}
+.prodhead {
+	COLOR: #727272;
+	border-bottom: 1px solid #99B3D5;
+	border-right: 1px solid #99B3D5;
+}
+.prodheadlast {
+	COLOR: #727272;
+	border-bottom: 1px solid #99B3D5;
+}
+.prodbody {
+	COLOR: #727272;
+	font-weight: bold;
+	border-right: 1px solid #99B3D5;
+	height: 16px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.prodbodylast {
+	FONT-SIZE: 14px;
+	COLOR: #8b4513;
+	font-weight: bold;
+	height: 18px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.prodbodyend {
+	COLOR: #727272;
+	font-weight: bold;
+	border-right: 1px solid #99B3D5;
+	height: 100%;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.prodbodyendlast {
+	COLOR: #727272;
+	height: 100%;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+#idselprice {
+	COLOR: Black;
+	font-weight: bold;
+}
+.sub {
+	font-size: 16px;
+	font-weight: bold;
+}
+.prodhide {
+	overflow: hidden;
+	display: block;
+	white-space: nowrap;
+	width: 220px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #424242;
+}
+.dialclass h2 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #d4e2ee;
+	padding-left: 10px;
+	color: #2b4f6e;
+}
+.dialclass p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.dialclass ul {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 40px;
+	margin-right: 10px;
+	list-style-type: circle;
+}

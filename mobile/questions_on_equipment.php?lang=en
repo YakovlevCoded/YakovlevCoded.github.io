@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>The best water delivery service in Kyiv - Clear Water Company</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script src="js/plugin/jquery-2.1.4.min.js"></script>
+		<script src="js/plugin/jquery.cookie.js"></script>
+		
+		<script src="js/plugin/jquery-ui.js"></script>
+		<script src="js/plugin/plugin.js"></script>
+		<script src="js/plugin/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/plugin/owl.carousel.js"></script>
+		<script type="text/javascript" src="js/script/script.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-26237277-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		
+	</head>
+	<body>
+		
+		<!--Хедер с иконками меню-->
+		<div class="phone-header">
+<table id="phone-header1">
+  <tr>
+    <td><div class="menu-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_1.png" alt=""></div></td>
+    <td><div class="call-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_2.png" alt=""></div></td>
+    <td><a href="order"><img src="img/new_ICON_3.png" alt=""></a></td>
+    <td><div class="ask-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_4.png" alt=""></div></td>
+  </tr>
+  </table>
+<table id="phone-header2">
+  <tr>
+    <td>menu</td>
+    <td>call</td>
+    <td>order</td>
+    <td>FAQ</td>
+  </tr>
+</table>
+</div> 
+
+<!--Хедер сайта с фиксированным меню portrait-->
+<div class="landscape-header inv">
+  <table class="landscape-nav inv">
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="menu-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_1.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">menu</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="call-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_2.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">call</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div>
+          <a href="order.php"><img src="img/new_ICON_3.png" alt=""></a>
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">order</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="ask-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_4.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">FAQ</td>
+    </tr>
+  </table>
+</div>
+
+
+		<!--Контент страницы с вопросами-->
+		<div class="ask-content content-block">
+<div id="title" class="ask">
+  <h1 class="ask">Questions on equipment</h1>
+</div>
+<div class="scroll-box">
+<div id="accordion">
+  <h3>What is the difference between the carbonated cooler and non-carbonated one?</h3>
+  <div>
+    <p>The carbonated cooler, in comparing with the standard one has additionally installed a balloon with baking carbon dioxide, as well as an optional function of carbonating water (two types – strong carbo and light carbo).</p>  </div>
+  <h3>What is pump?</h3>
+  <div>
+        <p>It’s a manual mechanical pump. Worn on the neck of the bottle after the complete removal of cork from the bottle, fixed on the neck of a special ring (whether or not - depending on the model). The water is pumped into the container by pressing on the top of the pump. The used water is room temperatured.</p>  </div>
+  <h3>What is the dispenser?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>This is ceramic vessel, on top of which is installed an inverted bottle with previously removed plug. In the bottom of the vessel is equipped a sidewall tap, providing different modes of dispensing water. Holding the tap lever pressed down, it is convenient to pour water into small containers, for example, glasses. In the " hands-free " tap the arm is pushed up and fix. You do not need constantly to press the lever and you can pour water into the pan or kettle. Mounted on a table, nightstand or on a special wooden stand. The used water is room temperatured.</p>      </div>
+  </div>
+  <!--<h3></h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+              </div>
+  </div>-->
+  <h3>What is the difference between the pump and dispenser (advantages and disadvantages of each type)?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>The pump and dispenser - two of the most simple types of equipment, cheap and economical to use. Each of them has some advantages and disadvantages that can make a difference in the eyes of the customer. The main advantage of the pump is that the customer does not need to turnover the bottle (the more so, with the removed plug). In addition, the pump does not require frequent sanitation such as a dispenser. The disadvantage is that you need to pump water to make some effort, and, if a family has young children, for them it may be difficult. Also decreasing water level in the bottle, becomes difficult to pump. Concerning the dispenser, it’s easier to pour water from it, just open the tap, but to install the full 19-kg bottle with the cover removed need strength and agility, so for women dispenser is not very convenient. Also, during using water-dispensing contact with the air is more likely, and as a result, formation of biofilm and microbes (note: in clear water microbes multiply much faster than in the dirty water!). Therefore, customers who use the dispenser, should pour out of it all the water and wash the inner walls of the dispenser once in 2 weeks. </p>      </div>
+  </div>
+  <h3>What is the difference between mini-cooler and the standard one?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Mini cooler is sometimes called a table cooler. It’s mounted on the stand (table). Most often in mini-coolers for cooling water used electronic cooling, they operate almost silently (they do not have a compressor). The disadvantages of this cooling is that cooling occurs slowly and, therefore, the recommended users is amount 3-5 people. Water cooler with electronic cooling has a capacity of 1 liter per hour (5-6 glasses). Mini cooler with compressor cooling differs from the usual only by sizes.</p>      </div>
+  </div>
+  <h3>How much energy consumes cooler?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>The cooler works in discontinuous mode. The main energy consumption occurs when it heats / cools  water. If the water flow is small, the cooler simply maintains the neccesary temperature in both tanks with special sensors that turn on and off the heating / cooling function automatically. In this case, power consumption is minimized. If it’s consuming a lot of water, and therefore, it has to beoften heated / cooled, the energy consumption is higher. The average power consumption of about 1 1.5 kW per day. </p>      </div>
+  </div>
+  <h3>What is the temperature of heating and cooling of cooler?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>The hot water temperature is 85-92ºC. Cooling water temperature is 5-15ºC</p><p>Compressor coolers cooled water to 5º - 10C cooler with electronic cooling to 8º - 15ºC</p><p>It is necessary to take into account the fact that the cooler has the option, the cooling performance and heating performance, which also depends on the environmental  temperature. This function indicates how hot or cold water from the cooler can be obtained for 1 hour.</p><p>Cooling Performance (below 12 ° C)</p><p>~ At environment temperature - 21 ° C + - 4.8 l / h</p><p>~ At environment temperature - 27 ° C + - 3.5 l / h</p><p>~ At environment temperature - + 32ºS - 1.8 l / h</p><p>~ Atenvironmenttemperature - 38 ° C + - 1 liter / h</p><p>Performance heating above 85 ° C is not more than 6.5 liters of hot water per hour.</p>      </div>
+  </div>
+  <h3>How much water is in the tanks of hot and cold water?</h3>
+  <div>
+      <p>The floor coolers have hot and cold capacity of 1.5 liters each.</p><p>In the mini-coolers cold tank capacity is of 0.5 to 1 liter, 0.5 liter tank of hot. </p>  </div>
+  <h3>Do I need to turn off the cooler at night, on weekends, on vacation?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+    <p>Disabling the cooler at night or on weekends only makes sense to reduce energy costs. To do this, we can offer customers special timer PowerDown, which can easily be programmed to automatically turn off / on at a time when the cooler is not in use. From a security perspective, left for a night or a weekend cooler is no more risk than, for example, a refrigerator.</p><p>Concerningto the shutdown of the cooler for a longer period (one week or more), we do not recommend to do this, as in water at room temperature bacteria multiply rapidly and can cause an unpleasant smell / taste. (In a very cold and very hot water, the threat is much lower). In this case, such solutions are possible:</p><p>- Keep the cooler switched on;</p><p>- get PowerDown and install it on the minimum number of working hours per day;</p><p>- Drain the water from the cooler tanks after removing it from the network.</p><p>Cold water is discharged through the tap of cold water and hot water - through the drain hole, which is located at the back of the cooler;</p><p>- After returning from vacation to give us cooler if it was off for all the time, to sanitation.</p>    </div>
+  </div>
+  <h3>How we do the sanitation?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Sanitation of the outer parts of the cooler (not in contact with water) produced by household detergents that do not contain chlorine (Zoom). Those cooler components which come into contact withwater, processed by chemical means, created on the basis of natural minerals (Lok). At the end of each cooler is disinfectedby oxoniumand is poured with purified water.</p>      </div>
+  </div>
+  <h3>What detergents do you use to wash equipment?</h3>
+  <div>
+    <p>We wash equipment with household cleaners, household cleaning products chlorine-free type (Zoom) and chemical cleaners that were created on the basis of natural minerals (Lok). </p>  </div>
+  <h3>Does cooler clean  water?</h3>
+  <div>
+    <p>No, it doesn’t. To run cooler with the pump-water is not recommended. </p>  </div>
+  <h3>Does cooler boil the water?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>No, it doesn’t boil, it just warms it up to the temperature required for brewing tea, coffee, cooking quick soups, etc. (85-92 ° C). Boiling is necessary to remove from the water all harmful bacteria, as well as the temporary hardness is removed, turning into scum. It is not required for our water, because it doesn’t contain bacteria due to effective disinfection with the microbiological control of each set. As water has a low hardness, so the boiling process does not affect to the hardness, respectively does not giving a scum. Also it has to keep in mind that the absence of boiling is the one of the reasons why from the cooler can’t drink the tap water, water from the pump-room, spring, etc. </p>      </div>
+  </div>
+  <h3>We are not satisfied with the heating water temperature in the cooler, what to do?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>The cooler heats water till 85-92ºS. This temperature is sufficient for brewing tea in packs, instant coffee, quick soups etc. There can be several variants of the problem.</p><p>If the water gain at once more than 5 people, the temperature of water in the last glass will  differ from the first, and may not be sufficient. In this case it is necessary to wait a few minutes to warm up the water in cooler to the desired temperature. Or to order one more cooler.</p><p>In necessarity of special technologies of making coffee, tea in packs, where necessary, for example,to boil, you will need to use an additional equipment, kettles, pots, cezve.</p><p>If the water is clearly not hot, just warm, then you should contact your operator to solve the problem by the service workshop of the company.</p>      </div>
+  </div>
+  <h3>How long does work the gas-cylinder?</h3>
+  <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>On cooler CO2 cylinder is set  3 kg gas-cylinder.</p><p>The content of carbon dioxide is approximately 2 g. From one cylinder of carbon dioxide is obtained from 1000 to 1500 portions.</p><p>With one gas-cylinder it can be obtained more than 200 (two hundred) liters of carbonated water, it’s about 10 bottles of soda water. It can be calculated.</p><p>For example, there are 5 people in the office. Suppose, that for everybody drink 2 cups of soda per day. It is about 0.4 liters.</p><p>Total 0.4l by 5 people is 2 liters per day.</p><p>200 liters of cooler possibilities divide by 2 liters consumption per day, we get 100 days.</p><p>With 22 working days per month (100 days divided by 22 days) we get at least 4.5 months. </p>      </div>
+  </div>
+  
+  <h3>How many people can drink tea, coffee at the same time?</h3>
+  <div>
+    <p>Initial data:</p><p>Tea- portion 200g.</p><p>Coffee-portion 100 g.</p><p>Floor cooler. Tea 3-5 people. Coffee 6-8 people.</p><p>Mini cooler. Tea for 2 people. Coffee 3-4 people. </p>  </div>
+  <h3>How much cooler must be to provide hot water at the same time a group of people?</h3>
+  <div>
+    <p>A group of 5 people - 1 cooler.</p><p>A group of 10 people - 2 coolers.</p><p>A group of 15 people - 3 coolers. Etc.</p>  </div>
+  <h3>What are the sizes of the cooler?</h3>
+  <div>
+    <p>Coolers of different manufacturers have different sizes, but you can start from the following ones: width and depth are maximum 40 cm, the maximum height of 1 meter. </p>  </div>
+  <h3>Is it possible to transport the cooler by yourself?</h3>
+  <div>
+    <p>It is possible, but only in the vertical position. </p>  </div>
+  <h3>How to know that carbon dioxide is out?</h3>
+  <div>
+    <p>If during the portions of soda in a glass the bubbles are absent and CO2  indicator is constantly displayed on the front panel display.</p>  </div>
+  
+      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Ask your question"  />   
+    
+
+</div>
+</div>
+</div>		
+
+
+		<!--Всплывающие окна из иконок меню-->
+		
+<div class="modal fade" id="modal-menu"> 
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="row">
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_on_equipment.php?lang=ua">
+              UA
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_on_equipment.php?lang=ru">
+              RU
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_on_equipment.php?lang=en" class="en active-lang">
+              EN
+            </a>
+          </div>
+          <div class="col-xs-2 language inv">
+            <a href="index?lang=en">
+              EN
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="menu-punkts inv" data-class="menu-punkts">
+          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
+
+          <!--<div class="row"><a href="#"><img src="img/water.png" alt="">about water</a></div>
+          <div class="row"><a href="#"><img src="img/delivery.png" alt="">delivery</a></div>
+          <div class="row"><a href="#"><img src="img/price.png" alt="">price</a></div>-->
+          <div class="row"><a href="promo"><img src="img/promo.png" alt="">special offers</a></div>
+          <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">equipment</a></div>
+          
+          <div class="row"><a href="#"><img src="img/other.png" alt="">other products</a></div>
+          <div class="row"><a href="#"><img src="img/about.png" alt="">about us</a></div>-->
+          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
+          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
+        </div>
+        <div class="modal-numbers inv" data-class="modal-numbers">
+          <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>call back</span></a></div>
+          <div class="row"><a href="tel:0443913030"><img src="img/city_phone.png" alt=""><span>044 391 30 30</span></a></div>
+          <div class="row"><a href="tel:0935183030"><img src="img/lifecell.jpg" alt=""><span>093 518 30 30</span></a></div>
+          <div class="row"><a href="tel:0503153030"><img src="img/mts.png" alt=""><span>050 315 30 30</span></a></div>
+          <div class="row"><a href="tel:0672433040"><img src="img/kyivstar.png" alt=""><span>067 243 30 40</span></a></div>
+          <div class="row"><a href="skype:cw3913030?chat"><img src="img/skype.png" alt=""><span>cw3913030</span></a></div>
+          <div class="row"><a href="viber://add?number=0935183030"><img src="img/viber.png" alt=""><span>093 518 30 30</span></a></div>
+        </div>
+        <div class="modal-questions inv" data-class="modal-questions">
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_water"><span>Questions about water</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_bottles"><span>Questions about bottles</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Questions on equipment</span></a></div>
+          <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Questions about docs</span></a></div>-->
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Ask your question</span></a></div>
+        </div>  
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Всплывающее окно обратного звонка -->
+
+
+<div class="modal fade" id="modal-recall">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="recall-title">call back</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="form" method="post" action="">
+          <div class="row">
+            <input class='recall-number' type="text" name="name" required="required" placeholder="Your name:"/>
+            
+          </div>
+          <div class="row">
+            <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
+            
+          </div>
+          <div class="recall-buttons">
+            
+            <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Cancel"/>
+            <input id='recall-button' class='btn recall-submit' type="submit" value="Send"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-ask">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="ask-title">Ask your question</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="ask-form" method="post" action="">
+          <div class="row">
+            <input class='ask-number' type="text" name="name" required="required" placeholder="Your name:"/>
+          </div>
+          <div class="row">
+            <input id="phone-ask" class='number ask-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
+          </div>
+          <div class="row">
+            <textarea id='askedQuestion' class='ask-number' name="question" required="required" placeholder="Your question:" rows="3"></textarea>
+          </div>
+          <div class="ask-buttons">
+            <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Cancel"/>
+            <input id='ask-button' class='btn ask-submit' type="submit" value="Send"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>		
+
+		
+	</body>
+</html>
+
+
+

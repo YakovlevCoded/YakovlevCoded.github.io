@@ -1,0 +1,1195 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Water delivery in Kyiv: The first two bottles free!</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+        
+        <link rel="canonical" href="https://www.clearwater.ua/" >
+        <link rel="icon" type="image/png" href="/images/favicon.png">
+        <link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/payment.css">
+        
+        
+        
+        <script src="js/plugin/jquery-2.1.4.min.js"></script>
+        <script src="js/plugin/jquery.cookie.js"></script>
+        <script src="js/plugin/jquery-ui.js"></script>
+        <script src="js/plugin/plugin.js"></script>
+        <script src="js/plugin/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/plugin/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/script/script.js"></script>
+        <script type="text/javascript" src="js/script/payment.js"></script>
+
+        
+    </head>
+    <body>
+        
+        
+        <!--Хедер с иконками меню-->
+        <div class="phone-header">
+<table id="phone-header1">
+  <tr>
+    <td><div class="menu-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_1.png" alt=""></div></td>
+    <td><div class="call-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_2.png" alt=""></div></td>
+    <td><a href="order"><img src="img/new_ICON_3.png" alt=""></a></td>
+    <td><div class="ask-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_4.png" alt=""></div></td>
+  </tr>
+  </table>
+<table id="phone-header2">
+  <tr>
+    <td>menu</td>
+    <td>call</td>
+    <td>order</td>
+    <td>FAQ</td>
+  </tr>
+</table>
+</div> 
+
+<!--Хедер сайта с фиксированным меню portrait-->
+<div class="landscape-header inv">
+  <table class="landscape-nav inv">
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="menu-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_1.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">menu</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="call-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_2.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">call</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div>
+          <a href="order.php"><img src="img/new_ICON_3.png" alt=""></a>
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">order</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="ask-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_4.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">FAQ</td>
+    </tr>
+  </table>
+</div>
+
+
+        <!--Контент главной страницы-->
+        
+<div class="row payment-services">
+	<div class="col-xs-12">
+		<img src="img/cards-t.png" alt="">	
+	</div>
+	
+	
+	
+</div>
+
+
+
+
+<div class="payment-box">
+	<form id="UPC-form" action="https://www.clearwater.ua/mobile/payment_reciever.php" method="POST">
+		<h2>
+			card payment		</h2>
+		<div class="form-group clearfix">
+			<label for="OrderID" style="float:left;width:47.5%;">
+				Number of paid accounts			</label>
+			<input class="pay-input calc-challenge form-control"  style="margin-left:5%;width:47.5%;float:right;" name="OrderID" id="usercode" readonly type="text" data-header="Number of paid accounts"
+				 
+			/>
+            <input type="hidden" name="hidOrderId" id="hidcode" value="">
+		</div>
+
+		<div class="form-group clearfix">
+			<label for="TotalAmount" style="float:left;width:47.5%;">
+				Payment amount			</label>
+			<input class="pay-input calc-challenge form-control" name="TotalAmount" id="usersum" style="margin-left:5%;width:47.5%;float:right;" type="text" readonly data-header="Payment amount"
+							/>	
+		</div>
+		<div class="form-group" style="clear:both;">
+			<input id="UPC-send" type="submit" class="payment-submit green-btn" value="Pay" />
+		</div>
+	</form>
+</div>
+
+
+        <!--Всплывающие окна из иконок меню-->
+        
+<div class="modal fade" id="modal-menu"> 
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="row">
+          <div class="col-xs-2 language">
+            <a href="/mobile/payment.php?lang=ua">
+              UA
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/payment.php?lang=ru">
+              RU
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/payment.php?lang=en" class="en active-lang">
+              EN
+            </a>
+          </div>
+          <div class="col-xs-2 language inv">
+            <a href="index?lang=en">
+              EN
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="menu-punkts inv" data-class="menu-punkts">
+          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
+
+          <!--<div class="row"><a href="#"><img src="img/water.png" alt="">about water</a></div>
+          <div class="row"><a href="#"><img src="img/delivery.png" alt="">delivery</a></div>
+          <div class="row"><a href="#"><img src="img/price.png" alt="">price</a></div>-->
+          <div class="row"><a href="promo"><img src="img/promo.png" alt="">special offers</a></div>
+          <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">equipment</a></div>
+          
+          <div class="row"><a href="#"><img src="img/other.png" alt="">other products</a></div>
+          <div class="row"><a href="#"><img src="img/about.png" alt="">about us</a></div>-->
+          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
+          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
+        </div>
+        <div class="modal-numbers inv" data-class="modal-numbers">
+          <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>call back</span></a></div>
+          <div class="row"><a href="tel:0443913030"><img src="img/city_phone.png" alt=""><span>044 391 30 30</span></a></div>
+          <div class="row"><a href="tel:0935183030"><img src="img/lifecell.jpg" alt=""><span>093 518 30 30</span></a></div>
+          <div class="row"><a href="tel:0503153030"><img src="img/mts.png" alt=""><span>050 315 30 30</span></a></div>
+          <div class="row"><a href="tel:0672433040"><img src="img/kyivstar.png" alt=""><span>067 243 30 40</span></a></div>
+          <div class="row"><a href="skype:cw3913030?chat"><img src="img/skype.png" alt=""><span>cw3913030</span></a></div>
+          <div class="row"><a href="viber://add?number=0935183030"><img src="img/viber.png" alt=""><span>093 518 30 30</span></a></div>
+        </div>
+        <div class="modal-questions inv" data-class="modal-questions">
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_water"><span>Questions about water</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_bottles"><span>Questions about bottles</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Questions on equipment</span></a></div>
+          <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Questions about docs</span></a></div>-->
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Ask your question</span></a></div>
+        </div>  
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Всплывающее окно обратного звонка -->
+
+
+<div class="modal fade" id="modal-recall">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="recall-title">call back</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="form" method="post" action="">
+          <div class="row">
+            <input class='recall-number' type="text" name="name" required="required" placeholder="Your name:"/>
+            
+          </div>
+          <div class="row">
+            <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
+            
+          </div>
+          <div class="recall-buttons">
+            
+            <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Cancel"/>
+            <input id='recall-button' class='btn recall-submit' type="submit" value="Send"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-ask">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="ask-title">Ask your question</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="ask-form" method="post" action="">
+          <div class="row">
+            <input class='ask-number' type="text" name="name" required="required" placeholder="Your name:"/>
+          </div>
+          <div class="row">
+            <input id="phone-ask" class='number ask-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
+          </div>
+          <div class="row">
+            <textarea id='askedQuestion' class='ask-number' name="question" required="required" placeholder="Your question:" rows="3"></textarea>
+          </div>
+          <div class="ask-buttons">
+            <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Cancel"/>
+            <input id='ask-button' class='btn ask-submit' type="submit" value="Send"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="modal fade" id="UPC-modal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content ">
+              <div class="modal-header alert-warning">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title alert-header"></h4>
+              </div>
+              <div class="modal-body alert-warning">
+                <div class="alert-attention"></div>
+              </div>
+              <div class="modal-footer alert-warning alert-buttons">
+                <button id="alert-disagree" type="button" class="btn btn-warning alert-disagree">Yes</button>
+                <button id="alert-agree" type="button" class="btn btn-success alert-agree">No</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="UPC-aware" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content ">
+              <div class="modal-header alert-warning">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title alert-header"></h4>
+              </div>
+              <div class="modal-body alert-warning">
+                <div class="alert-aware"></div>
+              </div>
+              <div class="modal-footer alert-warning alert-buttons">
+                <button type="button" data-dismiss="modal" class="btn btn-success alert-agree">No</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-input">
+          <div class="modal-dialog modal-sm center-block">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="close" data-dismiss="modal">&times;</div>
+                <div class="street-list-header">
+                  
+                </div>
+              </div>
+              <div class="modal-body">
+                <input type="text" class="input-text" id="input-text" autofocus>
+                <input class="btn input-return water-btn" type="Button" value="ok" data-dismiss="modal" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+        <input type="hidden" name="lasterror" id="idlasterror" value="">
+        <div id="dial-send" class="dialclass" title="Обработка данных" run=""></div>
+        <div id="dial-conf" class="dialclass" title="Обработка данных" run=""></div>
+        <div id="dial-wait" class="dialclass" title="Обработка данных" run=""></div>
+        <div class="modal fade" id="time-list-second">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="time-list-header">
+          <h3>Select delivery time</h3>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="clock">
+          <div class="first-window window">
+            <div class="window-cover"></div>
+            <ul class="list-group" id="time-list-items-second">
+                <li class="list-group-item time-list-item">09:00-18:00</li>
+                <li class="list-group-item time-list-item">07:00-13:00</li>
+                <li class="list-group-item time-list-item">13:00-18:00</li>
+                <li class="list-group-item time-list-item sat-new">06:00-07:00</li>
+                <li class="list-group-item time-list-item sat-new">06:30-07:30</li>
+                <li class="list-group-item time-list-item sat-new">07:00-08:00</li>
+                <li class="list-group-item time-list-item sat-new">07:30-08:30</li>
+                <li class="list-group-item time-list-item sat-new">07:00-09:00</li>
+                <li class="list-group-item time-list-item sat-new">07:30-09:30</li>
+                <li class="list-group-item time-list-item">07:00-10:00</li>
+                <li class="list-group-item time-list-item">07:30-10:30</li>
+              <li class="list-group-item time-list-item">08:00-11:00</li>
+              <li class="list-group-item time-list-item">08:30-11:30</li>
+              <li class="list-group-item time-list-item">09:00-12:00</li>
+              <li class="list-group-item time-list-item">09:30-12:30</li>
+              <li class="list-group-item time-list-item">10:00-13:00</li>
+              <li class="list-group-item time-list-item">10:30-13:30</li>
+              <li class="list-group-item time-list-item">11:00-14:00</li>
+              <li class="list-group-item time-list-item">11:30-14:30</li>
+              <li class="list-group-item time-list-item">12:00-15:00</li>
+              <li class="list-group-item time-list-item">12:30-15:30</li>
+              <li class="list-group-item time-list-item">13:00-16:00</li>
+              <li class="list-group-item time-list-item">13:30-16:30</li>
+              <li class="list-group-item time-list-item">14:00-17:00</li>
+              <li class="list-group-item time-list-item">14:30-17:30</li>
+              <li class="list-group-item time-list-item">15:00-18:00</li>
+              <li class="list-group-item time-list-item sat-order">15:30-18:30</li>
+              <li class="list-group-item time-list-item sat-order">16:00-19:00</li>
+              <li class="list-group-item time-list-item sat-order">16:30-19:30</li>
+              <li class="list-group-item time-list-item sat-order">17:00-20:00</li>
+              <li class="list-group-item time-list-item sat-order">17:30-20:30</li>
+              <li class="list-group-item time-list-item sat-order">18:00-21:00</li>
+              <li class="list-group-item time-list-item">Another interval</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="time-list-buttons">
+          <input class="btn btn-success time-cancel" type="button"  data-dismiss="modal" value="Cancel">
+          <input id="time-accept-second" class="btn time-accept" type="button" value="Accept">  
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>  
+<div class="modal fade" id="time-list">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="time-list-header">
+          <h3>Select delivery time</h3>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="clock">
+          <div class="first-window window">
+            <div class="window-cover"></div>
+            <ul class="list-group" id="fromlist"></ul>
+          </div>
+          <div class="from-to">
+            <p>-:-</p>
+          </div>
+          <div class="second-window window">
+            <div class="window-cover"></div>
+            <ul class="list-group" id="tolist"></ul>
+          </div>  
+        </div>
+        <div class="time-list-buttons">
+          <input class="btn btn-success time-cancel" type="button"  data-dismiss="modal" value="Cancel">
+          <input id="time-accept" class="btn time-accept" type="button" value="Accept">  
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="info-modal">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+      </div>
+      <div class="modal-body">
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Калькулятор бутылей-->
+
+<div class="modal fade" id="calculator">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header" style="padding:15px;">
+        
+      </div>
+      <div class="modal-body">
+        <form name="calc">
+          <table class="table">
+            <tr>
+              <td colspan="2">
+                <input id="calculator-field" type="text" readonly>
+              </td>
+              <td>
+                <input class="btn calc-clear water-btn"  type="Button" value="C">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="7" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="8" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="9" >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="4" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="5" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="6" >
+              </td>
+              
+            </tr>
+            <tr>
+             
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="1" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="2" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="3" >
+              </td>
+              
+            </tr>
+            <tr>
+              <td>
+                <input class="btn calc-figure water-btn dot-btn"  type="Button" value="." >
+                <input class="btn calc-figure water-btn slash-btn inv"  type="Button" value="/" >
+              </td>
+              <td >
+                <input  class="btn calc-figure water-btn"  type="Button" value="0" >
+              </td>
+              <td >
+                <input class="btn calc-return water-btn ok-button" type="Button" value="ok" data-dismiss="modal" aria-hidden="true">
+              </td>
+            </tr>
+          </table>
+        </form>     
+
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Подсказка с текстами-->
+<div class="modal fade" id="street-list">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="street-list-header">
+          
+        </div>
+      </div>
+      <div class="modal-body">
+          <input type="text" class="input-text" id="input-text" autofocus>
+          <input class="btn input-return water-btn" type="Button" value="ok" data-dismiss="modal" aria-hidden="true">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!--Модальное окно фритрайла-->
+
+<div class="modal fade" id="modal-trial">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="trial-title">Order free trial</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="trial-form" method="post" action="">
+          <div class="row">
+            <input id='trialName' class='' type="text" name="name" required="required" placeholder="Name:"/> 
+          </div>
+          <div class="row">
+            <input id='trialNum' class='number' type="tel" name="phone" required="required" placeholder="Telephone:"/>
+          </div>
+          <!--<div class="row">
+            <textarea id='trialAdress' class='' type="text" name="address" required="required" placeholder="Адрес"/></textarea>
+          </div>-->
+          <div class="row buttons-row">
+            <input id='trial-button' class='btn btn-success trial-submit' type="submit" value="Send"/>
+            <input type="button" class="btn blue-btn trial-cancel" data-dismiss="modal" value="Close">
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Вводим номер телефона-->
+
+
+<div class="modal fade" id="phone-number">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="modal-title calc-phone-title">Input your phone number</h4>
+      </div>
+      <div class="modal-body">
+        <input id="number-field" type="tel" class='number' >
+        <input class="btn number-return" type="Button" value="ok" data-dismiss="modal" aria-hidden="true">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="prod-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="close" data-dismiss="modal">&times;</div>
+              <h4 id="prod-title" class="prod-title"></h4> 
+            </div>
+            <div class="modal-body">
+                <div class="prod-img">
+                  
+                </div>
+                
+                <div id="prod-id"></div>
+                <div class="prod-count">
+                  <div class="prod-price">
+                    <span>Price: </span><span id="prod-price"></span><span> UAH.</span>
+                  </div>
+                  <div class="prod-plus-minus">
+                    <input id='prod-minus' class='btn ' type="submit" value="-"/>
+                    <input id="prod-quantity" class="calc-challenge" type="text" value="0" readonly>
+                    <input id="prod-plus" type="button" class="btn" value="+">
+                  </div>  
+                </div>
+                <div class="row prod-modal-buttons">
+                  <input id='prod-modal-cancel' class='btn' type="button" value="Cancel"/>
+                  <input id="prod-modal-accept" class="btn" type="button" value="Accept">
+                </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Модальные окна-->
+
+      <div class="modal fade" id="prod-list">
+        <div class="modal-dialog modal-sm center-block">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+              <div class="close" data-dismiss="modal">&times;</div>
+              
+            </div>
+            <div class="modal-body">
+
+              <div id ="prod-accordion" class="prod-accordion">
+                      <div class="accordion-box">              </div>
+                          <h3 class="submenu" data-num="1">Tea bags</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1482___" data-pname='Tea Ascold strawberry with cream, 50 pcs' data-price="67.5" >Tea Ascold strawberry with cream, 50 pcs [67.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1162___" data-pname='Tea "Ahmad" English breakfast tea (40 b)' data-price="48" >Tea "Ahmad" English breakfast tea (40 b) [48грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1163___" data-pname='Tea "Ahmad" Earl Grey ( 40 b)' data-price="47.1" >Tea "Ahmad" Earl Grey ( 40 b) [47.1грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______538___" data-pname='Tea "Ahmad" English breakfast tea (100b)' data-price="126" data-img="../order/_img/price/B_0_0_5725_0_0________538___.jpg" >Tea "Ahmad" English breakfast tea (100b) [126грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______540___" data-pname='Tea "Ahmad" English breakfast tea (25b)' data-price="43.5" data-img="../order/_img/price/B_0_0_5725_0_0________540___.jpg" >Tea "Ahmad" English breakfast tea (25b) [43.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______541___" data-pname='Tea "Ahmad" Earl Grey (100b)' data-price="129" data-img="../order/_img/price/B_0_0_5725_0_0________541___.jpg" >Tea "Ahmad" Earl Grey (100b) [129грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______550___" data-pname='Tea "Ahmad" Earl Grey (25b)' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________550___.jpg" >Tea "Ahmad" Earl Grey (25b) [42грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______936___" data-pname='Tea "Ahmad" Green (25b)' data-price="37.5" data-img="../order/_img/price/B_0_0_5725_0_0________936___.jpg" >Tea "Ahmad" Green (25b) [37.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______547___" data-pname='Tea "Ahmad" Ceylon Orange Pekoe (25b)' data-price="43.5" data-img="../order/_img/price/B_0_0_5725_0_0________547___.jpg" >Tea "Ahmad" Ceylon Orange Pekoe (25b) [43.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1539___" data-pname='Tea "Ahmad" Ceylon Orange Peko 25 bags' data-price="43.5" >Tea "Ahmad" Ceylon Orange Peko 25 bags [43.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1130___" data-pname='Тea "Curtis" Summer Berries, 20 pcs' data-price="39.6" data-img="../order/_img/price/B_0_0_5725_0_0_______1130___.jpg" >Тea "Curtis" Summer Berries, 20 pcs [39.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1131___" data-pname='Tea "Curtis" Tropical Mango, 25 pcs' data-price="39.6" >Tea "Curtis" Tropical Mango, 25 pcs [39.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______852___" data-pname='Tea "Curtis" Black 50g Truffle (25 bags)' data-price="45" >Tea "Curtis" Black 50g Truffle (25 bags) [45грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1132___" data-pname='Tea "Curtis"  French Truffle, 20 pcs' data-price="39.6" >Tea "Curtis"  French Truffle, 20 pcs [39.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1129___" data-pname='Tea "Curtis" Fresh Mohito, 20 pcs' data-price="39.6" >Tea "Curtis" Fresh Mohito, 20 pcs [39.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______552___" data-pname='Tea "Grace" Turquoise milk oolong (25b)' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________552___.jpg" >Tea "Grace" Turquoise milk oolong (25b) [51грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______553___" data-pname='Tea "Grace" Breakfasts time (25b)' data-price="49.5" data-img="../order/_img/price/B_0_0_5725_0_0________553___.jpg" >Tea "Grace" Breakfasts time (25b) [49.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______557___" data-pname='Tea "Grace" Golden Ceylon (25b)' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________557___.jpg" >Tea "Grace" Golden Ceylon (25b) [42грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______558___" data-pname='Tea "Grace" Earl Grey (25b)' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________558___.jpg" >Tea "Grace" Earl Grey (25b) [42грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______556___" data-pname='Tea "Grace" Green tea with melissa leaves(25b)' data-price="49.5" data-img="../order/_img/price/B_0_0_5725_0_0________556___.jpg" >Tea "Grace" Green tea with melissa leaves(25b) [49.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______562___" data-pname='Tea "Grace" Green with bergamot oil (25b)' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________562___.jpg" >Tea "Grace" Green with bergamot oil (25b) [48грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______564___" data-pname='Tea "Grace" Tea Herbal Alpine herbs (25b)' data-price="39" data-img="../order/_img/price/B_0_0_5725_0_0________564___.jpg" >Tea "Grace" Tea Herbal Alpine herbs (25b) [39грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1581___" data-pname='Tea "Greenfiel" Kenyan 25b  + Classic 25b  + Spring Melody 25b + Current and Mint 25b' data-price="177" data-img="../order/_img/price/B_0_0_5725_0_0_______1581___.jpg" >Tea "Greenfiel" Kenyan 25b  + Classic 25b  + Spring Melody 25b + Current and Mint 25b [177грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1353___" data-pname='Tea"Greenfield"  Currant & Mint   25b' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0_______1353___.jpg" >Tea"Greenfield"  Currant & Mint   25b [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1516___" data-pname='Чай "Greenfield"  Spirit Mate (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0_______1516___.jpg" >Чай "Greenfield"  Spirit Mate (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______399___" data-pname='Tea "Greenfield " Barberry Garden" (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________399___.jpg" >Tea "Greenfield " Barberry Garden" (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______830___" data-pname='Tea "Greenfield" Christmas Мystеrу (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________830___.jpg" >Tea "Greenfield" Christmas Мystеrу (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______296___" data-pname='Tea "Greenfield" Clas.Breakfast" (25b)' data-price="45.6" data-img="../order/_img/price/B_0_0_5725_0_0________296___.jpg" >Tea "Greenfield" Clas.Breakfast" (25b) [45.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______847___" data-pname='Tea "Greenfield" Earl Grey Fantasy (25pcs)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________847___.jpg" >Tea "Greenfield" Earl Grey Fantasy (25pcs) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1563___" data-pname='Tea  "Greenfield" Earl Grey Fantasy (2g*100b)' data-price="177" data-img="../order/_img/price/B_0_0_5725_0_0_______1563___.jpg" >Tea  "Greenfield" Earl Grey Fantasy (2g*100b) [177грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______398___" data-pname='Tea "Greenfield " Festive Grape" (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________398___.jpg" >Tea "Greenfield " Festive Grape" (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1378___" data-pname='Tea "Greenfield" Flying Dragon (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0_______1378___.jpg" >Tea "Greenfield" Flying Dragon (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______397___" data-pname='Tea "Greenfield " Green Melissa" (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________397___.jpg" >Tea "Greenfield " Green Melissa" (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______297___" data-pname='Tea "Greenfield " Jasmine Dream" (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________297___.jpg" >Tea "Greenfield " Jasmine Dream" (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______596___" data-pname='Tea "Greenfield " Rich Camomile" (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________596___.jpg" >Tea "Greenfield " Rich Camomile" (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______828___" data-pname='Tea "Greenfield" Spring Melodys (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________828___.jpg" >Tea "Greenfield" Spring Melodys (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______298___" data-pname='Tea "Greenfield " Summer Bouquet" (25b)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________298___.jpg" >Tea "Greenfield " Summer Bouquet" (25b) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______886___" data-pname='Tea "Greenfield" Vanilla Cranberry (25)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________886___.jpg" >Tea "Greenfield" Vanilla Cranberry (25) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______215___" data-pname='Tea "Hyleys" English aristocratic (100b)' data-price="144.6" data-img="../order/_img/price/B_0_0_5725_0_0________215___.jpg" >Tea "Hyleys" English aristocratic (100b) [144.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______965___" data-pname='Tea "Hyleys" English green (100b)' data-price="117" >Tea "Hyleys" English green (100b) [117грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______284___" data-pname='Tea "Hyleys" passion fruit ( 25b)' data-price="41.7" data-img="../order/_img/price/B_0_0_5725_0_0________284___.jpg" >Tea "Hyleys" passion fruit ( 25b) [41.7грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______388___" data-pname='Tea "Hyleys" strawberries with cream (25b)' data-price="41.7" data-img="../order/_img/price/B_0_0_5725_0_0________388___.jpg" >Tea "Hyleys" strawberries with cream (25b) [41.7грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______976___" data-pname='Tea "Hyleys" 7 tastes Nature harmony  (25 пак)' data-price="57" data-img="../order/_img/price/B_0_0_5725_0_0________976___.jpg" >Tea "Hyleys" 7 tastes Nature harmony  (25 пак) [57грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______519___" data-pname='Tea "Lipton" (100b)' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________519___.jpg" >Tea "Lipton" (100b) [99грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1010___" data-pname='Tea Ascold Green Ceylon, 100 pcs' data-price="132" data-img="../order/_img/price/B_0_0_5725_0_0_______1010___.jpg" >Tea Ascold Green Ceylon, 100 pcs [132грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1626___" data-pname='Tea "Greenfield" Clas.Breakfast" (25b)' data-price="96" >Tea "Greenfield" Clas.Breakfast" (25b) [96грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1562___" data-pname='Tea Greenfіeld Gold Ceyl(2*100b)+Strawbery(1.5*25)' data-price="177" data-img="../order/_img/price/B_0_0_5725_0_0_______1562___.jpg" >Tea Greenfіeld Gold Ceyl(2*100b)+Strawbery(1.5*25) [177грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______975___" data-pname='Tea "Greenfield" Gift Set' data-price="168" data-img="../order/_img/price/B_0_0_5725_0_0________975___.jpg" >Tea "Greenfield" Gift Set [168грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="2">Leaf tea</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1015___" data-pname='Tea "Ahmad" Green Chinese, 100g' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0_______1015___.jpg" >Tea "Ahmad" Green Chinese, 100g [48грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1601___" data-pname='Tea "Ahmad" Chinese Green Jasmine Delight 75g' data-price="66" >Tea "Ahmad" Chinese Green Jasmine Delight 75g [66грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______539___" data-pname='Tea "Ahmad" English breakfast tea (100g, leaf)' data-price="60" data-img="../order/_img/price/B_0_0_5725_0_0________539___.jpg" >Tea "Ahmad" English breakfast tea (100g, leaf) [60грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______537___" data-pname='Tea "Ahmad" Earl Grey (100g, leaf)' data-price="63" data-img="../order/_img/price/B_0_0_5725_0_0________537___.jpg" >Tea "Ahmad" Earl Grey (100g, leaf) [63грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______545___" data-pname='Tea "Ahmad" Royal Standard (100g, leaf)' data-price="72" data-img="../order/_img/price/B_0_0_5725_0_0________545___.jpg" >Tea "Ahmad" Royal Standard (100g, leaf) [72грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______548___" data-pname='Tea "Ahmad" Ceylon Orange Pekoe (100g, leaf)' data-price="63" data-img="../order/_img/price/B_0_0_5725_0_0________548___.jpg" >Tea "Ahmad" Ceylon Orange Pekoe (100g, leaf) [63грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______560___" data-pname='Tea "Grace" Golden Ceylon (100g, leaf)' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________560___.jpg" >Tea "Grace" Golden Ceylon (100g, leaf) [48грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______857___" data-pname='Tea "Greenfield "Tropic Marvel 100g' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________857___.jpg" >Tea "Greenfield "Tropic Marvel 100g [48грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1259___" data-pname='Tea "Hyleys" З Новим Роком (золотий подарунок), 50g' data-price="72" data-img="../order/_img/price/B_0_0_5725_0_0_______1259___.jpg" >Tea "Hyleys" З Новим Роком (золотий подарунок), 50g [72грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1260___" data-pname='Tea "Hyleys"  З новорічними святами, 50 g' data-price="72" data-img="../order/_img/price/B_0_0_5725_0_0_______1260___.jpg" >Tea "Hyleys"  З новорічними святами, 50 g [72грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="3">Carpathian tea</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______765___" data-pname='Tea Berries 100g' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________765___.jpg" >Tea Berries 100g [51грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______769___" data-pname='Tea Raspberry 100g' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________769___.jpg" >Tea Raspberry 100g [51грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______767___" data-pname='Tea Multifruit 100g' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________767___.jpg" >Tea Multifruit 100g [48грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______766___" data-pname='Tea Black currant 100g' data-price="50.4" data-img="../order/_img/price/B_0_0_5725_0_0________766___.jpg" >Tea Black currant 100g [50.4грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______768___" data-pname='Tea Blueberry 100g' data-price="50.4" data-img="../order/_img/price/B_0_0_5725_0_0________768___.jpg" >Tea Blueberry 100g [50.4грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______770___" data-pname='Tea Dog rose 100g' data-price="50.4" data-img="../order/_img/price/B_0_0_5725_0_0________770___.jpg" >Tea Dog rose 100g [50.4грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______763___" data-pname='Tea Cherry 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________763___.jpg" >Tea Cherry 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______755___" data-pname='Tea Vitaminic 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________755___.jpg" >Tea Vitaminic 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______752___" data-pname='Tea Echinacea 20b' data-price="18.9" data-img="../order/_img/price/B_0_0_5725_0_0________752___.jpg" >Tea Echinacea 20b [18.9грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______784___" data-pname='Tea Cuanberry 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________784___.jpg" >Tea Cuanberry 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______753___" data-pname='Tea Linden 20b' data-price="33" data-img="../order/_img/price/B_0_0_5725_0_0________753___.jpg" >Tea Linden 20b [33грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______760___" data-pname='Tea Berries 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________760___.jpg" >Tea Berries 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______749___" data-pname='Tea Melissa 20b' data-price="15" data-img="../order/_img/price/B_0_0_5725_0_0________749___.jpg" >Tea Melissa 20b [15грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______759___" data-pname='Tea Multifruit 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________759___.jpg" >Tea Multifruit 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______751___" data-pname='Tea Mint 20b' data-price="15" data-img="../order/_img/price/B_0_0_5725_0_0________751___.jpg" >Tea Mint 20b [15грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______785___" data-pname='Tea Blackberry 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________785___.jpg" >Tea Blackberry 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______764___" data-pname='Tea Strawberry 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________764___.jpg" >Tea Strawberry 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______750___" data-pname='Tea Camomile 25b' data-price="15" data-img="../order/_img/price/B_0_0_5725_0_0________750___.jpg" >Tea Camomile 25b [15грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______762___" data-pname='Tea Strawberry 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________762___.jpg" >Tea Strawberry 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______758___" data-pname='Tea Black currant 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________758___.jpg" >Tea Black currant 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______757___" data-pname='Tea Blueberry 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________757___.jpg" >Tea Blueberry 20b [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______761___" data-pname='Tea Dog rose 20b' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________761___.jpg" >Tea Dog rose 20b [25.5грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="4">Other goods</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______983___" data-pname='Soft soap with batcher "Olis" 500 ml' data-price="22.5" >Soft soap with batcher "Olis" 500 ml [22.5грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______791___" data-pname='Soft soap without batcher "Strawberry" 500 ml' data-price="18" data-img="../order/_img/price/B_0_0_5725_0_0________791___.jpg" >Soft soap without batcher "Strawberry" 500 ml [18грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______790___" data-pname='Soft soap without batcher "Aloe" (500 ml)' data-price="18" data-img="../order/_img/price/B_0_0_5725_0_0________790___.jpg" >Soft soap without batcher "Aloe" (500 ml) [18грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______931___" data-pname='Garbage bags black 50 pcs' data-price="16.2" >Garbage bags black 50 pcs [16.2грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1497___" data-pname='Garbage bags black 50 pcs' data-price="17.4" >Garbage bags black 50 pcs [17.4грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______794___" data-pname='Toilet paper "Snizhna panda Classic" (4 pcs)' data-price="33" data-img="../order/_img/price/B_0_0_5725_0_0________794___.jpg" >Toilet paper "Snizhna panda Classic" (4 pcs) [33грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______795___" data-pname='Paper Towels "Snizhna Panda" (2 pcs)' data-price="34.2" data-img="../order/_img/price/B_0_0_5725_0_0________795___.jpg" >Paper Towels "Snizhna Panda" (2 pcs) [34.2грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______796___" data-pname='Napkins "Snizhna Panda" (100 pcs)' data-price="15.6" data-img="../order/_img/price/B_0_0_5725_0_0________796___.jpg" >Napkins "Snizhna Panda" (100 pcs) [15.6грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1544___" data-pname='Napkins 25*25 white (75 pcs)' data-price="10.5" >Napkins 25*25 white (75 pcs) [10.5грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______970___" data-pname='Сappuccino "La Festa" vanilla (10pcs)' data-price="54" data-img="../order/_img/price/B_0_0_5725_0_0________970___.jpg" >Сappuccino "La Festa" vanilla (10pcs) [54грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______971___" data-pname='Cappuccino  "La Festa" hazelnut (10 pcs)' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________971___.jpg" >Cappuccino  "La Festa" hazelnut (10 pcs) [51грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______972___" data-pname='Cappuccino  "La Festa" hazelnut                 Cappuccino  "La Festa" classic (10 pcs)' data-price="59" data-img="../order/_img/price/B_0_0_5725_0_0________972___.jpg" >Cappuccino  "La Festa" hazelnut                 Cappuccino  "La Festa" classic (10 pcs) [59грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1527___" data-pname='Cream "Coffee mate"dry (200g)' data-price="48" >Cream "Coffee mate"dry (200g) [48грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1135___" data-pname='Sugar, 1kg' data-price="22.5" >Sugar, 1kg [22.5грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1576___" data-pname='Sugar sticks (200pcs)' data-price="37.5" >Sugar sticks (200pcs) [37.5грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______884___" data-pname='Lump sugar (1 kg)' data-price="36" >Lump sugar (1 kg) [36грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1641___" data-pname='Sugar sticks (100pcs)' data-price="75" >Sugar sticks (100pcs) [75грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______986___" data-pname='Hot chocolate in sticks (10 pcs)' data-price="63" data-img="../order/_img/price/B_0_0_5725_0_0________986___.jpg" >Hot chocolate in sticks (10 pcs) [63грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______987___" data-pname='Hot chocolate (150g)' data-price="39" >Hot chocolate (150g) [39грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="5">Disposable tableware</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1615___" data-pname='Transparent plastic glasses(100pcs)' data-price="27" >Transparent plastic glasses(100pcs) [27грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______865___" data-pname='Papper colour cups  175 ml 50 pcs' data-price="24.9" >Papper colour cups  175 ml 50 pcs [24.9грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______866___" data-pname='Papper cups neutral design  175 ml (50 pcs)' data-price="24.9" >Papper cups neutral design  175 ml (50 pcs) [24.9грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______864___" data-pname='Papper cups white 175 ml (50 pcs)' data-price="24.3" >Papper cups white 175 ml (50 pcs) [24.3грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1517___" data-pname='Paper cups white, 340 ml' data-price="42.3" >Paper cups white, 340 ml [42.3грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1001___" data-pname='Paper cups SMILE, 340 ml' data-price="42.3" >Paper cups SMILE, 340 ml [42.3грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1636___" data-pname='Transparent plastic glasses(100pcs)' data-price="27" >Transparent plastic glasses(100pcs) [27грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1590___" data-pname='Forks (100pcs)' data-price="27" >Forks (100pcs) [27грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______440___" data-pname='Little Spoon white (100pcs)' data-price="15.8" data-img="../order/_img/price/B_0_0_5725_0_0________440___.jpg" >Little Spoon white (100pcs) [15.8грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1614___" data-pname='Spoon white (100pcs)' data-price="39" >Spoon white (100pcs) [39грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1546___" data-pname='Swizzle stick (800pcs)' data-price="75" >Swizzle stick (800pcs) [75грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1528___" data-pname='Wooden sticks    800р' data-price="60" >Wooden sticks    800р [60грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______985___" data-pname='Plastic knife (100pcs)' data-price="27" data-img="../order/_img/price/B_0_0_5725_0_0________985___.jpg" >Plastic knife (100pcs) [27грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1540___" data-pname='plastic plate 205 mm' data-price="78" >plastic plate 205 mm [78грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="6">Instant coffee</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#_______503___" data-pname='"Jacobs Monarch" (95g)' data-price="144" data-img="../order/_img/price/B_0_0_5725_0_0________503___.jpg" >"Jacobs Monarch" (95g) [144грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1026___" data-pname='Nescafe Gold (200g)' data-price="255" data-img="../order/_img/price/B_0_0_5725_0_0_______1026___.jpg" >Nescafe Gold (200g) [255грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#_______883___" data-pname='Nescafe Gold (210g)' data-price="240" data-img="../order/_img/price/B_0_0_5725_0_0________883___.jpg" >Nescafe Gold (210g) [240грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1585___" data-pname='Nescafe Gold (190g)' data-price="255" >Nescafe Gold (190g) [255грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1555___" data-pname='"Jacobs Monarch" Millicano Americano  (250g)' data-price="312" >"Jacobs Monarch" Millicano Americano  (250g) [312грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1351___" data-pname='"Jacobs Monarch" (90g)' data-price="106" >"Jacobs Monarch" (90g) [106грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1249___" data-pname='"Jacobs Monarch" (170g)' data-price="198" >"Jacobs Monarch" (170g) [198грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1250___" data-pname='"Jacobs Monarch" (250g)' data-price="231" >"Jacobs Monarch" (250g) [231грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1547___" data-pname='"Jacobs Monarch" (400g)' data-price="354" >"Jacobs Monarch" (400g) [354грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1339___" data-pname='L^OR (120g)' data-price="159" data-img="../order/_img/price/B_0_0_5725_0_0_______1339___.jpg" >L^OR (120g) [159грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1628___" data-pname='"Jacobs Monarch" Millicano Americano  (250g)' data-price="201" >"Jacobs Monarch" Millicano Americano  (250g) [201грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="7">Ground coffee</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______979___" data-pname='JARDIN Americano Crema 250g' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________979___.jpg" >JARDIN Americano Crema 250g [99грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______980___" data-pname='JARDIN Espresso di Milano 250 g' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________980___.jpg" >JARDIN Espresso di Milano 250 g [99грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1118___" data-pname='JARDIN Guatemala Cloud Forest 250g' data-price="108" data-img="../order/_img/price/B_0_0_5725_0_0_______1118___.jpg" >JARDIN Guatemala Cloud Forest 250g [108грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1548___" data-pname='JARDIN pack Espresso di Milano 250g+Americano Crema 250g + cup' data-price="195" data-img="../order/_img/price/B_0_0_5725_0_0_______1548___.jpg" >JARDIN pack Espresso di Milano 250g+Americano Crema 250g + cup [195грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1580___" data-pname='JARDIN Guatemala Cloud Forest 250g' data-price="162" >JARDIN Guatemala Cloud Forest 250g [162грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1637___" data-pname='Ambassador Blue Label, 230 g' data-price="84" >Ambassador Blue Label, 230 g [84грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1338___" data-pname='L^OR Classic (250g)' data-price="111" data-img="../order/_img/price/B_0_0_5725_0_0_______1338___.jpg" >L^OR Classic (250g) [111грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______837___" data-pname='Lavazza Crema&Gusto (250g)' data-price="117" data-img="../order/_img/price/B_0_0_5725_0_0________837___.jpg" >Lavazza Crema&Gusto (250g) [117грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______838___" data-pname='Lavazza Espresso (250g)' data-price="162" data-img="../order/_img/price/B_0_0_5725_0_0________838___.jpg" >Lavazza Espresso (250g) [162грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______839___" data-pname='Lavazza Qualita Oro (250g)' data-price="168" data-img="../order/_img/price/B_0_0_5725_0_0________839___.jpg" >Lavazza Qualita Oro (250g) [168грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1495___" data-pname='Jacobs Monarch (225g)' data-price="93" data-img="../order/_img/price/B_0_0_5725_0_0_______1495___.jpg" >Jacobs Monarch (225g) [93грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="8">Coffee grains</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1012___" data-pname='Ambassador Blue Label, 250 g' data-price="101.7" data-img="../order/_img/price/B_0_0_5725_0_0_______1012___.jpg" >Ambassador Blue Label, 250 g [101.7грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______977___" data-pname='JARDIN Americano Crema (250 g)' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________977___.jpg" >JARDIN Americano Crema (250 g) [99грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______978___" data-pname='JARDIN Espresso di Milano (250g)' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________978___.jpg" >JARDIN Espresso di Milano (250g) [99грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1117___" data-pname='JARDIN Guatemala Cloud Forest 250г' data-price="108" data-img="../order/_img/price/B_0_0_5725_0_0_______1117___.jpg" >JARDIN Guatemala Cloud Forest 250г [108грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1340___" data-pname='L^OR Crema Absolute Classic 500g' data-price="288" data-img="../order/_img/price/B_0_0_5725_0_0_______1340___.jpg" >L^OR Crema Absolute Classic 500g [288грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1341___" data-pname='L^OR Espresso Forza 500g' data-price="288" data-img="../order/_img/price/B_0_0_5725_0_0_______1341___.jpg" >L^OR Espresso Forza 500g [288грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______840___" data-pname='Lavazza Crema Aroma (1kg)' data-price="528" data-img="../order/_img/price/B_0_0_5725_0_0________840___.jpg" >Lavazza Crema Aroma (1kg) [528грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______843___" data-pname='Lavazza Qualita Oro (1kg)' data-price="642" data-img="../order/_img/price/B_0_0_5725_0_0________843___.jpg" >Lavazza Qualita Oro (1kg) [642грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______819___" data-pname='"Jacobs Monarch" (250g)' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________819___.jpg" >"Jacobs Monarch" (250g) [99грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="9">Bottled water</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______459___" data-pname='Water "Bonaqua" carbonated (0.5l)' data-price="8.7" data-img="../order/_img/price/B_0_0_5725_0_0________459___.jpg" >Water "Bonaqua" carbonated (0.5l) [8.7грн]</p>
+              
+                        <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______458___" data-pname='Water "Bonaqua" non-carbonated (0.5l)' data-price="8.7" data-img="../order/_img/price/B_0_0_5725_0_0________458___.jpg" >Water "Bonaqua" non-carbonated (0.5l) [8.7грн]</p>
+              
+                        <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______461___" data-pname='"ClearWater" in a bottle (0.5l)' data-price="9.6" >"ClearWater" in a bottle (0.5l) [9.6грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="10">Equipment sanitation</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______117___" data-pname='Dispenser sanitation' data-price="42" >Dispenser sanitation [42грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______320___" data-pname='Cooler sanitation' data-price="195" data-img="../order/_img/price/B_0_0_5725_0_0________320___.jpg" >Cooler sanitation [195грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______119___" data-pname='Pump sanitation' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________119___.jpg" >Pump sanitation [42грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="11">Water equipment (rent)</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______253___" data-pname='CO2  Cooler' data-price="300" data-img="../order/_img/price/B_0_0_5725_0_0________253___.jpg" >CO2  Cooler [300грн]</p>
+              
+                        <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______254___" data-pname='H&C  Cooler' data-price="210" data-img="../order/_img/price/B_0_0_5725_0_0________254___.jpg" >H&C  Cooler [210грн]</p>
+              
+                        <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______255___" data-pname='H&C  Cooler (mini)' data-price="210" data-img="../order/_img/price/B_0_0_5725_0_0________255___.jpg" >H&C  Cooler (mini) [210грн]</p>
+              
+                        <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______106___" data-pname='Pump' data-price="21" data-img="../order/_img/price/B_0_0_5725_0_0________106___.jpg" >Pump [21грн]</p>
+              
+                        </div>
+                        </div>
+            </div>
+             
+          </div>
+        </div>
+      </div>
+        <script>
+
+            var setError = {
+                "ok":"Successfully", "error":"Error", "notice":"Warning", "wait":"Please wait", "e1":"<h2>Not specified the delivery date!</h2><p>Deliveries run:</p><ul><li>Mon-Fri  6:00-18:30<li>Sat      7:00-18:00</ul>", "e2":"<h2>The wrong date!</h2><p>Deliveries run:</p><ul><li>Mon-Fri  6:00-18:30<li>Sat      7:00-18:00</ul>", "e3":"<h2>Sunday is a day off!</h2><p>Deliveries run:</p><ul><li>Mon-Fri  6:00-18:30<li>Sat      7:00-18:00</ul>", "e4":"<h2>On holiday delivery is not possible!</h2><p>Deliveries run:</p><ul><li>Mon-Fri  6:00-18:30<li>Sat      7:00-18:00</ul>", "e5":"<h2>Unfortunately, accepting orders for the day you chose is completed.</h2><p>You can place an order on another convenient day. Additional information by phone:</p><ul><li><a href=\"tel:+380443913030\">044 391 30 30</a><li><a href=\"tel:+380503153030\">050 315 30 30</a><li><a href=\"tel:+380933183030\">093 518 30 30</a><li><a href=\"tel:+380672433040\">067 243 30 40</a></ul><p>Call center working hours:</p><ul><li>Mon-Fri &nbsp;&nbsp; 8:00-21:00<li>Sat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:00-17:00</ul>", "e6":"<h2>Unfortunately, accepting orders for tomorrow is completed.</h2><p>You can place an order on another convenient day. Additional information by phone:</p><ul><li><a href=\"tel:+380443913030\">044 391 30 30</a><li><a href=\"tel:+380503153030\">050 315 30 30</a><li><a href=\"tel:+380933183030\">093 518 30 30</a><li><a href=\"tel:+380672433040\">067 243 30 40</a></ul><p>Call center working hours:</p><ul><li>Mon-Fri &nbsp;&nbsp; 8:00-21:00<li>Sat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:00-17:00</ul>", "e7":"<h2>Not specified the delivery time!</h2><p>Deliveries run:</p><ul><li>Mon-Fri  6:00-18:30<li>Sat      7:00-18:00</ul><p>The delivery interval has to be not less than 3 hours.</p>", "e8":"<h2>If you order less than 2 bottles, you should pay for the delivery!</h2><p>Additional cost for the delivery is 50 UAH.</p>", "e9":"<h2>Didn't specified the quantity of bottles!</h2><p>If you order 2 or more bottles, then the delivery will be free of charge.</p>", "e10":"<h2>Error of the communication with the server!</h2><p>Probably there are some problems with the Internet or with the connection.</p><p>Try to send the form later.</p>", "e11":"<h2>Your order has been sent!</h2><p>Thank you that you are with us!</p>", "e12":"<h2>Didn't specified the important fields!</h2><p>The fields marked with an asterisk have been fulfilled.</p>", "e13":"<h2>Your order has been sent through the reserve channel!</h2><p>There is a brobability that there are some technical problems, and processing should take more time.</p><p>Thank you for your being with us!</p>", "e14":"<h2>Sending your order!</h2><p>Please, wait for the end of the process.</p><p>Thank you for your being with us!</p>", "e15":"Failed to fill in the form as last time! <br> Maybe you used a different browser or other device last time.", "e16":"Неверно указан номер счета!<br>Правильный номер счета указан на документах, и имеет вид 12345/67", "e17":"Неверно указана сумма оплаты!<br>Сумма оплаты - это число в виде 123 или 123.45", "p1":"<p>Вы уверены что хотите оплатить счет [code] клиента</p> <p><b>[name]</b>? </p>", "p2":"<h2>Продолжить оплату?</h2><p>Вы оформлены в компании \"Чиста Вода\" как юридическое лицо - плательщик НДС.</p><p>В этом случае  налоговая не приветствует оплату услуг банковской картой, и у Вашей бухгалтерии могут возникнуть проблемы с проведением оплаты.</p><p>Продолжить оплату?</p>", "p3":"<h2>Продолжить оплату?</h2><p>Клиент с номером [code] не найден!</p><p>Если Вы делаете заказ впервые - уточните у оператора правильный номер счета для оплаты и повторите оплату.</p><p>Если номер счета указан неправильно Ваш платеж может быть потерян!</p><p>Продолжить оплату?</p>", "p4":"<p>Вы уверены что хотите оплатить счет <b>[code]</b>? </p>"            };
+
+            $("#dial-send").dialog({
+                modal: true,
+                autoOpen: false,
+                buttons: {
+                    "OK": function() {
+                        $( this ).dialog( "close" );
+                        var run = $("#dial-send").attr("run");
+                        if (run != '') {
+                            eval(run);
+                        }
+                    }
+                }
+            });
+            $("#dial-conf").dialog({
+                modal: true,
+                autoOpen: false,
+                buttons: {
+                    "Да": function() {
+                        $( this ).dialog( "close" );
+                        var run = $("#dial-conf").attr("run");
+                        if (run != '') {
+                            eval(run);
+                        }
+                    },
+                    "Нет": function() {
+                        $( this ).dialog( "close" );
+                    }
+                }
+            });
+            $("#dial-wait").dialog({
+                modal: true,
+                autoOpen: false,
+                dialogClass: "no-close",
+            });
+            $(".ui-dialog-buttonset > button").css("padding","6px 30px");
+
+            function showwait(title, mess, run) {
+                if (run === undefined) {
+                    run = '';
+                }
+                $("#idlasterror").val("sw;t=" + title + ";m=" + mess + ";r=" + run);
+                $("#dial-wait").dialog( "option", "title", title);
+                $("#dial-wait").html(mess);
+                $("#dial-wait").attr("run", run);
+                $("#dial-wait").dialog("open");
+            }
+
+            function showmes(title, mess, run) {
+                if (run === undefined) {
+                    run = '';
+                }
+                $("#idlasterror").val("sm;t=" + title + ";m=" + mess + ";r=" + run);
+                $("#dial-send").dialog( "option", "title", title);
+                $("#dial-send").html(mess);
+                $("#dial-send").attr("run", run);
+                $("#dial-send").dialog("open");
+            }
+
+            function showconf(title, mess, run) {
+                if (run === undefined) {
+                    run = '';
+                }
+                $("#idlasterror").val("sc;t=" + title + ";m=" + mess + ";r=" + run);
+                $("#dial-conf").dialog( "option", "title", title);
+                $("#dial-conf").html(mess);
+                $("#dial-conf").attr("run", run);
+                $("#dial-conf").dialog("open");
+            }
+
+            function addzero(str, num) {
+                str = '' + str;
+                while (str.length < num) {
+                    str = '0' + str;
+                }
+                return str;
+            }
+            function sendcodeform() {
+                var sendcode = $("#usercode").val();
+                var newtr = new Date();
+                sendcode += '/' + addzero(newtr.getFullYear(), 4) + addzero(newtr.getMonth() + 1, 2) + addzero(newtr.getDate(), 2) + addzero(newtr.getHours(), 2) + addzero(newtr.getMinutes(), 2) + addzero(newtr.getSeconds(), 2);
+                $("#hidcode").val(sendcode);
+                $("#UPC-form").submit();
+            };
+
+            function notifyform(mess) {
+                showconf(setError['notice'], mess, 'sendcodeform()');
+            }
+
+            $(document).ready(function(){
+
+                $("#UPC-send").click(function(e) {
+                    var totalSum = $("#usersum").val();
+                    totalSum = totalSum.replace(/\,/g, ".");
+                    totalSum = totalSum.replace(/\s|\t|\n|\r/g, "");
+                    $("#usersum").val(totalSum);
+                    var boolSum = isNaN(totalSum);
+                    var fullcode = $("#usercode").val();
+					fullcode = fullcode.replace(/\\/g, "/");
+                    var z = fullcode.indexOf("/");
+                    var usercode = fullcode.split("/");
+                    var boolCode = false;
+                    var i;
+                    for (i = 0; i < usercode.length; i++) {
+                        usercode[i] = $.trim(usercode[i]);
+                        if (isNaN(usercode[i])) {
+                            boolCode = true;
+                        }
+                    }
+                    if((boolSum == true) || (totalSum <= 0) ){
+                        showmes(setError['notice'], setError['e17']);
+                        return false;
+                    } else if ((z == -1) || (boolCode == true)) {
+                        showmes(setError['notice'], setError['e16']);
+                        return false;
+                    }
+
+                    showwait(setError['wait'], setError['e14']);
+
+                    var args = new Object();
+                    args['usercode'] = usercode[0];
+                    args['fullcode'] = fullcode;
+
+                    $.post('https://www.clearwater.ua/order/_system/jsclient.php', args, function(data) {
+                        $("#dial-wait").dialog("close");
+                        var sep = data.indexOf("|");
+                        var rescode = data.split("|");
+                        if ((sep != -1) && (rescode[0] == 'OK')) {
+                            var dialogText = setError['p1'];
+                            dialogText = dialogText.replace("[code]", rescode[1]);
+                            dialogText = dialogText.replace("[name]", rescode[2]);
+
+                            showconf(setError['notice'], dialogText, 'sendcodeform()');
+                        } else if ((sep != -1) && (rescode[0] == 'NOTICE')) {
+                            var dialogText = setError['p1'];
+                            dialogText = dialogText.replace("[code]", rescode[1]);
+                            dialogText = dialogText.replace("[name]", rescode[2]);
+
+                            showconf(setError['notice'], setError['p2'], 'notifyform("' + dialogText + '")');
+                        } else if ((sep != -1) && (rescode[0] == 'NEW')) {
+                            var dialogText = setError['p3'];
+                            dialogText = dialogText.replace("[code]", rescode[1]);
+
+                            var dialogText2 = setError['p4'];
+                            dialogText2 = dialogText2.replace("[code]", rescode[1]);
+
+                            showconf(setError['notice'], dialogText, 'notifyform("' + dialogText2 + '")');
+                        } else if ((sep != -1) && (rescode[0] == 'ERROR')) {
+                            showmes(setError['notice'], setError[rescode[1]]);
+                        } else {
+                            showmes(setError['notice'], setError['e10']);
+                        }
+                    }).fail(function() {
+                        $("#dial-wait").dialog("close");
+                        showmes(setError['notice'], setError['e10']);
+                    });
+                    return false;
+                });
+
+                $(".input-return").click(function() {
+                    var v = $("#input-text").val();
+                    var attribute = $(this).attr("data-input");
+                    $("[data-header='"+attribute+"'] ").val(v);
+                    $("#modal-input").modal();
+                });
+                var id;
+                $(document).on( "click",".calc-challenge", function() {
+                     id = $(this).attr("id");
+                  var title = $(this).attr("data-header");
+                  var header ='<div class="close" data-dismiss="modal">&times;</div>';
+                  header+='<h4 class="modal-title calc-title">';
+                  header+=title;
+                  header+='</h4>';
+                  $("#calculator .modal-header").html(header);
+                  $("#calculator").modal();
+
+
+                });
+                var FlagNewNum = false;
+                $('.calc-figure').click(function(){
+                  var num = $(this).val();
+                  if(FlagNewNum){
+                    $('#calculator-field').val(num);
+                    FlagNewNum = false;
+                  }
+                  else{
+                        var t = $('#calculator-field').val() + num ;
+                        $('#calculator-field').val(t);
+                  }
+                });
+                $(document).on("click",".calc-return",function(){
+
+                  calcvalue = $('#calculator-field').val();
+
+                  var k = $('#calculator-field').val();
+                  $('#'+id).val(calcvalue);
+                  $('#calculator-field').val("");
+                });
+
+                $('.calc-clear').click(function(){
+                  var str = $('#calculator-field').val();
+                  var lastSymbol = str.length-1;
+                  var newStr = str.substring(0,lastSymbol);
+                  $('#calculator-field').val(newStr);
+
+
+                });
+                $('.calc-delete').click(function(event) {
+                    $('#calculator-field').val("");
+                });
+                $('#usercode').click(function() {
+                   $(".dot-btn").addClass('inv');
+                   $(".slash-btn").removeClass('inv');
+
+                });
+                $("#calculator").on("hidden.bs.modal",function(){
+                     $(".dot-btn").removeClass('inv');
+                   $(".slash-btn").addClass('inv');
+                });
+
+
+            });
+        </script>
+    </body>
+</html>

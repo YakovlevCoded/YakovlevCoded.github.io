@@ -1,0 +1,735 @@
+<!doctype html>
+<!--[if lte IE 8]><html xmlns:fb="http://ogp.me/ns/fb#" class="lteie8"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns:fb="http://ogp.me/ns/fb#"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" http-equiv="description" content="Пропонуємо вам обладнання та аксесуари для розливу, нагрівання й охолодження води. Ви можете, як орендувати, так і купити кулери, помпи, диспенсери та підставки. Ми запропонуємо вам найбільш оптимальне рішення необхідного вам обладнання." />
+<link rel="stylesheet" type="text/css" href="/themes/clear/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+<link rel="stylesheet" type="text/css" href="/themes/clear/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/application.css" media="screen, projection" />
+<script type="text/javascript" src="/assets/f5a7fac8/jquery.min.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/modernizr-2.7.1.min.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/plax.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/jquery.cycle2.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/jquery.placeholder.js"></script>
+<script type="text/javascript" src="/themes/clear/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="/themes/clear/js/common.js"></script>
+<script type="text/javascript" src="/js/application.js"></script>
+<title>Кулер для питної води - Заказ води і оренда кулера - Компанія «Чиста Вода»</title>
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="icon" type="image/png" href="/images/favicon.png">
+	<!--[if IE]>
+	<script src="/themes/clearjs/vendor/html5shiv.js"></script>
+	<![endif]-->
+
+	<!--Edited by Serdiukov Ivan-->
+    <script src="/themes/clear/js/mobile-detect.min.js"></script>
+    <script>
+        // возвращает cookie с именем name, если есть, если нет, то undefined
+        function getCookie(name) {
+            var matches = document.cookie.match(new RegExp(
+                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+            ));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
+        var md = new MobileDetect(window.navigator.userAgent);
+        if (md.mobile()) {
+            var desc = getCookie('setdesc');
+
+            if (desc == undefined) {
+                location.replace(location.origin + '/mobile/');
+            }
+        }
+    </script>
+	<link rel="alternate" href="https://www.clearwater.ua/mobile/">
+	<!--End of edition-->
+
+	<!-- ukr
+	<script type="text/javascript">
+		window.vkAsyncInit = function() {
+			VK.init({
+				apiId: 4151778
+			});
+			VK.Widgets.Like("vk_like_footer", {type: "mini", height: 20, pageUrl: 'https://vk.com/clearwaterua'});
+		};
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "http://vk.com/js/api/openapi.js";
+			js.async = true;
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'vk-jssdk'));
+	</script>
+	-->
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '523807974373271',
+				status: true,
+				xfbml: true
+			});
+		};
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script>
+		(function(){
+			var widget_id = 674936;
+			_shcp =[{widget_id : widget_id}];
+			var lang =(navigator.language || navigator.systemLanguage
+				|| navigator.userLanguage ||"en")
+				.substr(0,2).toLowerCase();
+			var url ="widget.siteheart.com/widget/sh/"+ widget_id +"/"+ lang +"/widget.js";
+			var hcc = document.createElement("script");
+			hcc.type ="text/javascript";
+			hcc.async =true;
+			hcc.src =("https:"== document.location.protocol ?"https":"http")
+				+"://"+ url;
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hcc, s.nextSibling);
+		})();
+	</script>
+	<script type="text/javascript">
+/*
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26237277-1']);
+		_gaq.push(['_setDomainName', 'clearwater.ua']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+*/
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-26237277-1', 'auto');
+		  ga('send', 'pageview');
+
+	</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 965991704;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/965991704/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+</head>
+	<body>	<!--[if lt IE 8]>
+		<p class="browseupdate">Вы используете <strong>старую</strong> версию браузера. Пожалуйста, <a href="http://browsehappy.com/">обновите браузер</a>.</p>
+	<![endif]-->
+	<div id="vk_api_transport"></div>
+	<div id="fb-root"></div>
+		<div class="out">
+		﻿<header class="header header_dark header_equipment visibility" role="banner">	<i class="chevron js-scroll"></i>
+	<div class="container">
+		<div class="header__grid layout">
+			<div class="l-left">
+				<div class="header__main">
+					<h1 class="logo"><a href="/ua" title="Чистая вода - ClearWater">ClearWater</a></h1>
+					<ul class="language" id="yw0">
+<li><a href="/equipment">рус</a></li>
+<li class="is-active"><a href="/ua/equipment">укр</a></li>
+<li><a href="/en/equipment">en</a></li>
+</ul>				</div>
+				<div class="header-trigger js-trigger">
+					<span>Розділи меню</span><i class="header-trigger__btn "></i>
+				</div>
+			</div>
+			<div class="header__info l-right">
+				<address class="header__contacts">
+					<span class="header__tel"><a href="tel:+380443913030">044 391 3030</a><br><a href="tel:+380503153030">050 315 3030</a><br><a href="tel:+380935183030">093 518 3030</a><br><a href="tel:+380672433040">067 243 3040</a></span>
+					<button type="button" class="btn btn-block btn-sm btn-white js-popup-callback">Замовити дзвінок</button>
+				</address>
+			</div>
+		</div>
+		<div class="preview narrow">			<h2 class="h h-drop_after">Обладнання</h2>
+			<div class="preview__text">
+				 Компанія "Чиста Вода" надає обладнання і аксесуари для розливу та зберігання води. Ви можете орендувати або купити кулери, помпи, диспенсери, підставки.
+
+			</div>
+			<ul class="equipment-menu">
+	<li><a href="#cooler">Кулери</a></li>
+	<li><a href="#dispenser">Диспенсери</a></li>
+	<li><a href="#pompa">Помпа</a></li>
+	<li><a href="#podstavki">Підставки</a></li>
+</ul>		</div>
+	</div>
+</header>
+<!-- /.header -->
+
+		<div class="main">
+			<span class="sidebar-trigger js-trigger">Меню</span>
+<!-- /.sidebar-trigger -->
+<aside class="sidebar">
+	<div class="sidebar__menu nav">
+		<ul id="yw1">
+<li><a href="/ua">Головна</a></li>
+<li><a href="/ua/water">Наша вода</a></li>
+<li class="is-active"><a href="/ua/equipment">Обладнання</a></li>
+<li><a href="/ua/delivery">Доставка та ціна</a></li>
+<li><a href="/ua/production">Виробництво</a></li>
+<li><a href="/ua/about">Про компанію</a></li>
+<li><a href="/ua/promo">Акції</a></li>
+<li class="sidebar__menu-corp"><a href="/ua/corporate">Корпоративним клієнтам</a></li>
+</ul>	</div>
+	<div class="sidebar__buttons">
+		<button type="button" class="btn btn-block btn-fill js-popup-online-external">Замовити онлайн</button>
+	</div>
+	<ul class="sidebar__social social">
+		<li class="facebook"><a href="https://www.facebook.com/clearwaterua" target="_blank"><span></span>Facebook</a></li>
+		<li class="vk"><a href="http://vk.com/clearwaterua" target="_blank"><span></span>VK</a></li>
+	</ul>
+</aside>
+<!-- /.sidebar -->
+			
+<section id="cooler" class="equipment visibility">
+	<div class="container narrow">
+		<h4 class="h4 h-dash">Кулери</h4>
+		<div class="equipment__sub-title">
+			Кулер - це апарат для нагріву та охолодження бутильованої води. Він робить ваше життя комфортнішим і дозволяє  істотно заощадити час на приготування гарячих напоїв або їжі.		</div>
+		<div class="product-list">
+			<div class="product visibility js-visibility2">
+				<div class="product__img">
+					<img src="/themes/clear/img/product1.png" alt="">
+				</div>
+				<div class="product__content">
+					<h4 class="product__title">Ідеальний</h4>
+					<p class="product__descr">Кулер з функцією газування, окрім гарячої і холодної води дає вам можливість за декілька секунд отримати склянку освіжаючої газованої ClearWater. Є можливість вибору інтенсивності газування (сильно або середньогазована вода).</p>
+					<ul class="functions">
+						<li><img src="/themes/clear/img/cold.png" alt=""></li>
+						<li><img src="/themes/clear/img/hot.png" alt=""></li>
+						<li><img src="/themes/clear/img/gas.png" alt=""></li>
+					</ul>
+					<div class="product__info">
+<ul class="product__col product__col_slim">
+	<li>
+	<div class="product__col-left">Висота:</div>
+
+	<div class="product__col-right">106 см (без бутля)</div>
+	</li>
+	<li>
+	<div class="product__col-left">Основа:</div>
+
+	<div class="product__col-right">36х38 см</div>
+	</li>
+	<li>
+	<div class="product__col-left">Нагрівання:</div>
+
+	<div class="product__col-right">85-92&deg;С</div>
+	</li>
+	<li>
+	<div class="product__col-left">Охолодження:</div>
+
+	<div class="product__col-right">4-10&deg;С</div>
+	</li>
+	<li>
+	<div class="product__col-left">Споживана потужність:</div>
+
+	<div class="product__col-right">до 2 кВт/доб.</div>
+	</li>
+	<li>
+	<div class="product__col-left">Колір:</div>
+
+	<div class="product__col-right">білий, чорний</div>
+	</li>
+</ul>
+
+<ul class="product__col">
+	<li class="product__col-price">
+	<div class="product__col-left">Оренда:</div>
+
+	<div class="product__col-right">
+	<p>з передплатою на 1 міс.&nbsp; &ndash;&nbsp;<strong>300</strong>&nbsp;грн</p>
+
+	<p>з передплатою на 3 міс.&nbsp; &ndash; <strong>255</strong>&nbsp;грн/мес</p>
+	</div>
+	</li>
+	<li class="product__col-text">
+	<div class="product__col-left">Заміна газового балону: <span><strong>150</strong> грн</span></div>
+	</li>
+	<li class="product__col-text">
+	<div class="product__col-left">Продаж: <span> ні </span></div>
+	<br />
+	<div class="product__col-right">Кулер, що надається клієнту в оренду, може відрізнятися від наведеного зображення.</div>
+	</li>
+</ul>
+</div>
+				</div>
+			</div>
+			<div class="product visibility">
+				<div class="product__img">
+					<img src="/themes/clear/img/product2.png" alt="">
+				</div>
+				<div class="product__content">
+					<h4 class="product__title">Оптимальний</h4>
+					<p class="product__descr">Кулер з функціями нагріву та охолодження.</p>
+					<ul class="functions">
+						<li><img src="/themes/clear/img/cold.png" alt=""></li>
+						<li><img src="/themes/clear/img/hot.png" alt=""></li>
+					</ul>
+					<div class="product__info">
+<ul class="product__col product__col_slim">
+	<li>
+	<div class="product__col-left">Висота:</div>
+
+	<div class="product__col-right">98 см (без бутля)</div>
+	</li>
+	<li>
+	<div class="product__col-left">Основа:</div>
+
+	<div class="product__col-right">34х32 см</div>
+	</li>
+	<li>
+	<div class="product__col-left">Нагрівання:</div>
+
+	<div class="product__col-right">85-92&deg;С</div>
+	</li>
+	<li>
+	<div class="product__col-left">Охолодження:</div>
+
+	<div class="product__col-right">4-10&deg;С</div>
+	</li>
+	<li>
+	<div class="product__col-left">Споживана потужність:</div>
+
+	<div class="product__col-right">до 1,8 кВт/доба</div>
+	</li>
+</ul>
+
+<ul class="product__col">
+	<li class="product__col-price">
+	<div class="product__col-left">Оренда:</div>
+
+	<div class="product__col-right">
+	<p>з передплатою на 1 міс.&nbsp; &ndash; <strong>210</strong> грн</p>
+
+	<p>з передплатою на 3 міс.&nbsp;&ndash; <strong>180</strong>&nbsp;грн/міс.</p>
+	</div>
+	</li>
+	<li class="product__col-text">
+	<div class="product__col-left">Продаж: від<span>&nbsp;<strong>3780</strong> грн</span></div>
+
+	<div class="product__col-right">моделі та ціни дізнавайтеся у&nbsp;оператора за телефоном 391-30-30.<br />
+	<br />
+	Кулер, що надається клієнту в оренду, може відрізнятися від наведеного зображення.</div>
+	</li>
+</ul>
+</div>
+				</div>
+			</div>
+			<div class="product visibility">
+				<div class="product__img">
+					<img src="/themes/clear/img/product3.png" alt="">
+				</div>
+				<div class="product__content">
+					<h4 class="product__title">Мінімальний</h4>
+					<p class="product__descr">Настільний кулер з функціями нагріву і охолодження.</p>
+					<ul class="functions">
+						<li><img src="/themes/clear/img/cold.png" alt=""></li>
+						<li><img src="/themes/clear/img/hot.png" alt=""></li>
+					</ul>
+					<div class="product__info">
+<ul class="product__col product__col_slim">
+	<li>
+	<div class="product__col-left">Висота:</div>
+
+	<div class="product__col-right">44 см (без бутля)</div>
+	</li>
+	<li>
+	<div class="product__col-left">Основа:</div>
+
+	<div class="product__col-right">30х30 см</div>
+	</li>
+	<li>
+	<div class="product__col-left">Нагрівання:</div>
+
+	<div class="product__col-right">85-92&deg;С</div>
+	</li>
+	<li>
+	<div class="product__col-left">Охолодження:</div>
+
+	<div class="product__col-right">4-10&deg;С</div>
+	</li>
+	<li>
+	<div class="product__col-left">СПОЖИВАНА ПОТУЖНІСТЬ:</div>
+
+	<div class="product__col-right">до 1,8 кВт/доба</div>
+	</li>
+</ul>
+
+<ul class="product__col">
+	<li class="product__col-price">
+	<div class="product__col-left">Оренда:</div>
+
+	<div class="product__col-right">
+	<p>з передплатою на 1 міс. &ndash; <strong>210</strong>&nbsp;грн</p>
+
+	<p>з передплатою на 3 міс. &ndash; <strong>180</strong> грн/міс.</p>
+	</div>
+	</li>
+	<li class="product__col-text">
+	<div class="product__col-left">Продаж: від<span>&nbsp;<strong>1950</strong> грн</span></div>
+
+	<div class="product__col-right">моделі і ціни дізнавайтесь у оператора за телефоном 391-30-30.<br />
+	<br />
+	Кулер, що надається клієнту в оренду, може відрізнятися від наведеного зображення.</div>
+	</li>
+</ul>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /.equipment -->
+
+<section  id="dispenser" class="equipment visibility">
+	<div class="narrow">
+		<div class="product-list">
+			<div class="product visibility">
+				<div class="product__img">
+					<img src="/uploads/files/product4.png" alt="">
+				</div>
+				<div class="product__content">
+					<h4 class="product__title">Диспенсери</h4>
+					<p class="product__descr">Диспенсер - керамічна ємність з краном. Бутель зі знятою кришкою встановлюють зверху на диспенсер. Використовується вода кімнатної температури.
+Диспенсер можна встановити на підвіконні або спеціальній підставці.
+</p>
+					<div class="product__info">
+<ul class="product__col">
+	<li class="product__col-price">
+	<div class="product__col-left">Висота:</div>
+	<div class="product__col-right">25 см, (без бутля)</div>
+	</li>
+
+	<li class="product__col-price">
+	<div class="product__col-left">Оренда:</div>
+	<div class="product__col-right">
+	<p>з передплатою на 1 міс. &ndash; <strong><b>21</b></strong> грн</p>
+	<p>з передплатою на 3 міс. &ndash; <strong>15</strong>&nbsp;грн/міс</p>
+	</div>
+	</li>
+
+	<li class="product__col-price">
+	<div class="product__col-left">Продаж:</div>
+        <div class="product__col-right"><strong>342</strong> грн</div>
+       	<div class="product__col-right">Диспенсер, що надається клієнту в оренду, може відрізнятися від наведеного зображення.</div>
+	</li>
+</ul>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /.equipment -->
+
+<section id="pompa" class="equipment visibility">
+	<div class="narrow">
+		<div class="product-list">
+			<div class="product visibility">
+				<div class="product__img">
+					<img src="/themes/clear/img/product5.png" alt="">
+				</div>
+				<div class="product__content">
+					<h4 class="product__title">Помпа</h4>
+					<p class="product__descr">Помпа - ручний механічний насос, що закріплюється на горловині бутля після зняття кришки. Використовується вода кімнатної температури. </p>
+					<div class="product__info">
+<ul class="product__col">
+	<li class="product__col-price">
+	<div class="product__col-left">Висота:</div>
+
+	<div class="product__col-right">70 см , (з бутлем)</div>
+	</li>
+	<li class="product__col-price">
+	<div class="product__col-left">Оренда:</div>
+
+	<div class="product__col-right">
+	<p>з передплатою на 1 міс. &ndash; <strong>21</strong> грн</p>
+
+	<p>з передплатою на 3 міс. &ndash; <strong>15</strong>&nbsp;грн/міс</p>
+	</div>
+	</li>
+	<li class="product__col-text">
+	<div class="product__col-left">Продаж: <span><strong>150</strong> грн</span></div>
+	</li>
+</ul>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /.equipment -->
+
+<section id="podstavki" class="equipment equipment_last visibility">
+	<div class="narrow">
+		<h4 class="h4 h-dash">Підставки</h4>
+		<div class="equipment__sub-title">
+			Пропонуємо вам зручні рішення для зберігання бутлів, що зекономлять простір у вашому офісі або квартирі. 		</div>
+		<div class="product-list">
+			<div class="product visibility">
+				<div class="product__img">
+					<img src="/themes/clear/img/product9.png" alt="">
+				</div>
+				<div class="product__content">
+					<h4 class="product__title">Металева підставка</h4>
+					<p class="product__descr">Стильна металева підставка для зберігання 3 бутлів.4-й бутель, бутель з
+краником, встановлюють зверху на підставку. Використовується вода кімнатної
+температури.</p>
+						<div class="product__info"> <ul class="product__col product__col_slim"> <li> <div class="product__col-left">Висота: </div> <div class="product__col-right">126 cм</div> </li> <li> <div class="product__col-left">Основа: </div> <div class="product__col-right">30х35 см</div> </li> <li> <div class="product__col-left">Аренда: </div> <div class="product__col-right"> з предоплатою на 1 міс – <strong>30</strong> грн <br/> з предоплатою на 3 міс – <strong>24</strong> грн/міс </div> </li> <li class="product__col-text"> <div class="product__col-left">Продаж: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><strong>729</strong> грн</span></div> </li> </ul> </div>				</div>
+			</div>
+            <div class="product visibility">
+				<div class="product__img">
+					<img src="/themes/clear/img/product6.png" alt="">
+				</div>
+				<div class="product__content">
+					<h4 class="product__title">Металева підставка
+</h4>
+					<p class="product__descr">Стильна металева підставка для зберігання 4 бутлів. </p>
+					<div class="product__info">
+<ul class="product__col product__col_slim">
+	<li>
+	<div class="product__col-left">Висота:</div>
+
+	<div class="product__col-right">104 cм</div>
+	</li>
+	<li>
+	<div class="product__col-left">Основа:</div>
+
+	<div class="product__col-right">30х35 см</div>
+	</li>
+	<li>
+	<div class="product__col-left">Оренда:</div>
+
+	<div class="product__col-right">
+	<p><strong>15</strong>&nbsp;грн</p>
+	</div>
+	</li>
+	<li class="product__col-text">
+	<div class="product__col-left">Продаж: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span><strong>552</strong> грн</span></div>
+	</li>
+</ul>
+</div>
+				</div>
+			</div>
+						<div class="product visibility">
+				<div class="product__img">
+					<img src="/themes/clear/img/product7.png" alt="">
+				</div>
+				<div class="product__content">
+					<h4 class="product__title">Стеккер</h4>
+					<p class="product__descr">Компактне рішення для економії простору. Дозволяє зберігати два бутлі, розташувавши їх один над одним.
+</p>
+					<div class="product__info">
+<ul class="product__col product__col_slim">
+	<li>
+	<div class="product__col-left">Висота:</div>
+
+	<div class="product__col-right">13,8 см.</div>
+	</li>
+	<li>
+	<div class="product__col-left">Діаметр:</div>
+
+	<div class="product__col-right">28,8 см</div>
+	</li>
+	<li class="product__col-text">
+	<div class="product__col-left"><span>При замовленні від 3 бутлів в доставку, ви можете отримати стеккер в безкоштовне користування на весь період співробітництва.</span></div>
+	</li>
+</ul>
+</div>
+				</div>
+			</div>
+									<div class="product visibility">
+				<div class="product__img">
+					<img src="/themes/clear/img/product8.png" alt="">
+				</div>
+				<div class="product__content">
+					<h4 class="product__title">ПІДСТАВКА ПІД ДИСПЕНСЕР</h4>
+					<p class="product__descr">Компактна підставка дає можливість розмістити диспенсер де ви захочете, а не тільки на краю стола або підвіконня, тому що забезпечує легкий доступ до його крану.</p>
+					<div class="product__info"> <ul class="product__col product__col_slim"> <li> <div class="product__col-left">Висота: </div> <div class="product__col-right">18 см</div> </li> <li> <div class="product__col-left">Основа: </div> <div class="product__col-right">33х33 см</div> </li> <li> <div class="product__col-left">Оренда: </div> <div class="product__col-right"><strong>5</strong> грн/міс.</div> </li> </ul> </div>				</div>
+			</div>
+					</div>
+	</div>
+</section>
+<!-- /.equipment -->
+
+<section class="repair zig zig_fill-grey visibility">
+	<div class="container narrow">
+		<h4 class="h4 h-dash">Компанія "Чиста Вода" пропонує послуги по санітарній обробці і ремонту обладнання.</h4>
+		<p>Всередині будь-якого обладнання, навіть якщо воно знаходиться в чистому приміщенні,  з часом накопичуються пил, дрібні частки повітря і бактерії. Непомітні для людського ока, вони можуть негативно впливати на смак води та її якість. Тому ми рекомендуємо проводити  санітарну обробку обладнання не рідше, ніж раз у 6 місяців. Санітарна обробка проводиться у нашій професійно-обладнаній майстерні або на місці у клієнта. Ми проводимо санітарну обробку будь-якого обладнання, навіть якщо воно було придбане не в нашій компанії, вартість  - 270 грн.</p>
+		<h4 class="h4">Вартість санітарної обробки орендованого обладнання - 195 грн.</h4>
+		<p>Компанія "Чиста Вода" має власну спеціалізовану майстерню для  ремонту обладнання і виїзну службу ремонту. Ми гарантуємо безкоштовний ремонт орендованого обладнання протягом 24 годин з моменту отримання заявки.</p>
+		<p>Якщо ви бажаєте відремонтувати обладнання, придбане у іншого постачальника, до вас приїздить наш спеціаліст, який проведе діагностику. Після встановлення причини  несправності, ми зможемо назвати вартість ремонту і термін виконання. Дізнатись більше про ремонт обладнання можна у операторів за телефоном 391-30-30. </p>
+	</div>
+</section>
+<!-- /.equipment -->
+			﻿<footer class="footer visibility">
+	<div class="footer__info footer__row">
+		<div class="container">
+			<div class="footer__contacts">
+				<p>У Вас з’явилися питання з я кості продукту та сервісу? </p>
+				<p>Зателефонуйте нам: </p>
+				<p class="footer__contacts-tel"><a href="tel:+380443913030">044 391 3030</a><br><a href="tel:+380503153030">050 315 3030</a><br><a href="tel:+380935183030">093 518 3030</a><br><a href="tel:+380672433040">067 243 3040</a></p>
+				<button class="footer__feedback btn js-popup-control">НАПИСАТИ ЗАПИТ відділу контролю якості</button>
+			</div>
+			<!-- /.footer__contacts -->
+			<div class="footer__quality-control">
+				<p>Контроль якості</p>
+				<ul>
+					<li class="iso"><span>International Organization for Standardization</span></li>
+					<li class="we"><span>Watercoolers Europe</span></li>
+					<li class="uabw"><span>Ассоциация Бутылированые Воды Украины</span></li>
+				</ul>
+			</div>
+			<!-- /.footer__quality-control -->
+		</div>
+	</div>
+	<!-- end .footer__info -->
+	<div class="footer__main footer__row">
+		<div class="container">
+			<div class="footer__copyright">
+				<p>© ClearWater Ltd. Всі права захищені.</p>
+				<p>Якщо ви з якоїсь причини не повністю задоволені роботою компанії "Чиста Вода", наш директор хотів би знати про це! </p>
+				<p><a href="mailto:director@cw.com.ua">director@cw.com.ua</a></p>
+			</div>
+			<!-- /.footer__copyright -->
+			<div class="footer__other">
+				<ul class="footer__menu" id="yw2">
+<li><a href="/ua/water">Наша вода</a></li>
+<li class="is-active"><a href="/ua/equipment">Обладнання</a></li>
+<li><a href="/ua/delivery">Доставка та ціна</a></li>
+<li><a href="/ua/production">Виробництво</a></li>
+<li><a href="/ua/about">Про компанію</a></li>
+<li><a href="/ua/promo">Акції</a></li>
+</ul>				<!-- /.footer__menu -->
+				<ul class="footer__social social social_mod">
+					<li class="facebook"><a href="https://www.facebook.com/clearwaterua" target="_blank"><span></span>Facebook</a></li>
+					<li class="vk"><a href="http://vk.com/clearwaterua" target="_blank"><span></span>VK</a></li>
+				</ul>
+				<!-- /.footer__social -->
+				<div class="clr"></div>
+				<ul class="footer__like">
+					<li>
+						<div id="vk_like_footer"></div>
+					</li>
+					<li>
+						<fb:like href="https://www.facebook.com/clearwaterua" layout="button_count" action="like" show_faces="false" share="false"></fb:like>
+					</li>
+				</ul>
+				<!-- /.footer__like -->
+				<div class="vintage">
+					Сайт розроблено студією											<a href="http://vintage.com.ua/" target="_blank" class="vintage__ico"><span></span>Vintage</a>
+									</div>
+				<!-- /.vintage -->
+			</div>
+			<!-- /.footer__other -->
+		</div>
+	</div>
+</footer>
+<!-- /.footer -->
+		</div>
+		<!-- /.main -->
+	</div>
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_callback">
+		<form class="ajax-form" id="call-widget-form" action="/ua/call/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Зворотній дзвінок</div>
+<input class="input input-dark" placeholder="Ваш номер" name="form_models_CallForm[telephone]" id="form_models_CallForm_telephone" type="tel" /><button type="submit" class="btn btn-block btn-fill">Надіслати</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_online">
+		<form class="ajax-form" id="order-widget-form" action="/ua/order-form/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Замовити онлайн</div>
+<div class="popup__title h-sub"><a href="/order">Полная форма заказа</a></div>
+<input class="input input-dark" placeholder="Ім’я " name="form_models_Order[name]" id="form_models_Order_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="Телефон" name="form_models_Order[telephone]" id="form_models_Order_telephone" type="tel" /><input class="input input-dark" placeholder="Кількість бутлів" name="form_models_Order[bottle]" id="form_models_Order_bottle" type="text" /><textarea class="textarea" placeholder="Коментар" name="form_models_Order[comment]" id="form_models_Order_comment"></textarea><div class="form-row">
+	<label class="checkbox"><input id="ytform_models_Order_new" type="hidden" value="0" name="form_models_Order[new]" /><input name="form_models_Order[new]" id="form_models_Order_new" value="1" type="checkbox" /><i></i>Я НОВИЙ КЛІЄНТ</label>
+	</div>
+<button type="submit" class="btn btn-block btn-fill">Надіслати</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_trial">
+		<form class="ajax-form" id="trial-widget-form" action="/ua/trial/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Замовити пробну доставку</div>
+<input class="input input-dark" placeholder="Ім’я " name="form_models_TrialForm[name]" id="form_models_TrialForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="Телефон" name="form_models_TrialForm[telephone]" id="form_models_TrialForm_telephone" type="tel" /><textarea class="textarea" placeholder="Адреса" name="form_models_TrialForm[address]" id="form_models_TrialForm_address"></textarea><button type="submit" class="btn btn-block btn-fill">Надіслати</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_control">
+		<form class="ajax-form" id="control-widget-form" action="/ua/control/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Письмо отделу контроля качества</div>
+<input class="input input-dark" placeholder="Ім’я " name="form_models_ControlForm[name]" id="form_models_ControlForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="E-mail" name="form_models_ControlForm[email]" id="form_models_ControlForm_email" type="text" maxlength="50" /><input class="input input-dark" placeholder="Телефон" name="form_models_ControlForm[telephone]" id="form_models_ControlForm_telephone" type="tel" /><textarea class="textarea" placeholder="Повідомлення" name="form_models_ControlForm[message]" id="form_models_ControlForm_message"></textarea><button type="submit" class="btn btn-block btn-fill">Надіслати</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_price">
+		<form class="ajax-form" id="price-widget-form" action="/ua/price/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Отравить запрос на прайс</div>
+<input class="input input-dark" placeholder="Ім’я " name="form_models_PriceForm[name]" id="form_models_PriceForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="Телефон" name="form_models_PriceForm[telephone]" id="form_models_PriceForm_telephone" type="tel" /><input class="input input-dark" placeholder="E-mail" name="form_models_PriceForm[email]" id="form_models_PriceForm_email" type="text" /><input class="input input-dark" placeholder="Дата події" name="form_models_PriceForm[party_date]" id="form_models_PriceForm_party_date" type="text" /><textarea class="textarea" placeholder="Повідомлення" name="form_models_PriceForm[comment]" id="form_models_PriceForm_comment"></textarea><button type="submit" class="btn btn-block btn-fill">Надіслати</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_feedback">
+		<form class="ajax-form" id="feedback-widget-form" action="/ua/feedback/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Оставьте свой отзыв</div>
+<input class="input input-dark" placeholder="Ім’я " name="form_models_FeedbackForm[name]" id="form_models_FeedbackForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="E-mail" name="form_models_FeedbackForm[email]" id="form_models_FeedbackForm_email" type="text" maxlength="50" /><input class="input input-dark" placeholder="Телефон" name="form_models_FeedbackForm[telephone]" id="form_models_FeedbackForm_telephone" type="tel" /><textarea class="textarea" placeholder="Коментар" name="form_models_FeedbackForm[comment]" id="form_models_FeedbackForm_comment"></textarea><button type="submit" class="btn btn-block btn-fill">Надіслати</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_excursion">
+		<form class="ajax-form" id="excursion-widget-form" action="/ua/excursion/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Заявка на экскурсию</div>
+<input class="input input-dark" placeholder="Ім’я " name="form_models_ExcursionForm[name]" id="form_models_ExcursionForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="Телефон" name="form_models_ExcursionForm[telephone]" id="form_models_ExcursionForm_telephone" type="tel" /><input class="input input-dark" placeholder="Дата" name="form_models_ExcursionForm[excursion_date]" id="form_models_ExcursionForm_excursion_date" type="text" maxlength="20" /><input class="input input-dark" placeholder="На власному авто?" name="form_models_ExcursionForm[on_car]" id="form_models_ExcursionForm_on_car" type="text" maxlength="30" /><button type="submit" class="btn btn-block btn-fill">Надіслати</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_big">
+		<form class="ajax-form" id="big-widget-form" action="/ua/big/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Отправить запрос</div>
+<input class="input input-dark" placeholder="Ім’я " name="form_models_BigOrderForm[name]" id="form_models_BigOrderForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="E-mail" name="form_models_BigOrderForm[email]" id="form_models_BigOrderForm_email" type="text" /><input class="input input-dark" placeholder="Телефон" name="form_models_BigOrderForm[telephone]" id="form_models_BigOrderForm_telephone" type="tel" /><button type="submit" class="btn btn-block btn-fill">Надіслати</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- /.out -->
+	<div class="overlay"></div>
+	<!-- /.overlay -->
+	<div class="loader"></div>
+
+	<!-- BEGIN v-player -->
+	<div id="player" class="v-player">
+		<script></script>
+	</div>
+	<!-- END v-player -->
+</body>
+</html>

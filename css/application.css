@@ -1,0 +1,83 @@
+input.error, textarea.error, .input.input-dark.error, textarea.textarea.error {
+	position: relative;
+	padding-top: 10px;
+	border: 1px red solid;
+	color: red;
+	margin-bottom: 0;
+}
+input.error::-webkit-input-placeholder, textarea.error::-webkit-input-placeholder, .input.input-dark.error::-webkit-input-placeholder, textarea.textarea.error::-webkit-input-placeholder {
+	color: red;
+}
+input.error:-moz-placeholder, textarea.error:-moz-placeholder, .input.input-dark.error:-moz-placeholder, textarea.textarea.error:-moz-placeholder {
+	color: red;
+}
+input.error::-moz-placeholder, textarea.error::-moz-placeholder, .input.input-dark.error::-moz-placeholder, textarea.textarea.error::-moz-placeholder {
+	color: red;
+}
+input.error:-ms-input-placeholder, textarea.error:-ms-input-placeholder, .input.input-dark.error:-ms-input-placeholder, textarea.textarea.error:-ms-input-placeholder {
+	color: red;
+}
+div.errorMessage {
+	color: red;
+	margin-bottom: 10px;
+}
+.footer .footer__quality-control ul li span {
+	display: inline-block;
+	vertical-align: middle;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+}
+.footer .footer__quality-control ul li.iso span {
+	background: url('../themes/clear/img/icons-sca4ad1b730.png') 0 -311px no-repeat;
+	width: 54px;
+	height: 45px;
+}
+.footer .footer__quality-control ul li.we span {
+	background: url('../themes/clear/img/icons-sca4ad1b730.png') 0 -202px no-repeat;
+	width: 68px;
+	height: 37px;
+}
+.footer .footer__quality-control ul li.uabw span {
+	background: url('../themes/clear/img/icons-sca4ad1b730.png') 0 -249px no-repeat;
+	width: 48px;
+	height: 52px;
+}
+.footer .footer__like li {
+	display: inline-block;
+	width: 120px;
+	overflow: hidden;
+	height: 20px;
+}
+.infoBox > img[align=right] {
+	display: none !important;
+}
+.map-block .h-sub {
+	font-family: "pfbeausanspro" !important;
+	font-weight: normal !important;
+	font-style: normal !important;
+	font-size: 12px !important;
+	line-height: 1.8 !important;
+}
+
+.map-block p {
+	text-align: center !important;
+	font-size: 14px !important;
+	font-family: "Vida31Pro" !important;
+	font-weight: normal !important;
+	font-style: normal !important;
+}
+.popup_control textarea.textarea {
+	height: 150px;
+}
+.header_corporative {
+	background-size: cover;
+	background: url(../images/bg-corp.jpg) no-repeat 50% 50%;
+}
+.essentials li {
+	margin-left: 59px;
+}
+
+body > iframe {
+	display: none;
+}

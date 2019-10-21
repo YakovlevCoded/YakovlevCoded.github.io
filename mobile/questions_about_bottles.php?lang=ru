@@ -1,0 +1,292 @@
+﻿ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Лучшая доставка воды в Киеве - Бутилированная питьевая вода - Компания Чистая Вода</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script src="js/plugin/jquery-2.1.4.min.js"></script>
+		<script src="js/plugin/jquery.cookie.js"></script>
+		
+		<script type="text/javascript" src="js/plugin/mousewheel.min.js"></script>
+		<script src="js/plugin/jquery-ui.js"></script>
+		<script src="js/plugin/plugin.js"></script>
+		<script src="js/plugin/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/plugin/owl.carousel.js"></script>
+		
+		<script type="text/javascript" src="js/script/script.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-26237277-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		
+		
+	</head>
+	<body>
+		
+		<!--Хедер с иконками меню-->
+		<div class="phone-header">
+<table id="phone-header1">
+  <tr>
+    <td><div class="menu-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_1.png" alt=""></div></td>
+    <td><div class="call-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_2.png" alt=""></div></td>
+    <td><a href="order"><img src="img/new_ICON_3.png" alt=""></a></td>
+    <td><div class="ask-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_4.png" alt=""></div></td>
+  </tr>
+  </table>
+<table id="phone-header2">
+  <tr>
+    <td>Меню</td>
+    <td>Позвонить</td>
+    <td>Заказать</td>
+    <td>Спросить</td>
+  </tr>
+</table>
+</div> 
+
+<!--Хедер сайта с фиксированным меню portrait-->
+<div class="landscape-header inv">
+  <table class="landscape-nav inv">
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="menu-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_1.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Меню</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="call-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_2.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Позвонить</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div>
+          <a href="order.php"><img src="img/new_ICON_3.png" alt=""></a>
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Заказать</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="ask-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_4.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Спросить</td>
+    </tr>
+  </table>
+</div>
+
+
+		<!--Контент главной страницы-->
+		<div class="ask-content content-block">
+  <div id="title" class="ask">
+    <h1 class="ask">Вопросы о бутылях</h1>
+  </div>
+  <div class="scroll-box">
+  <div id="accordion">
+    <h3>Из какого материала сделаны бутыли?</h3>
+    <div>
+      <p>Наши бутыли изготовлены из поликарбоната - прочного, химически нейтрального пластика. Поликарбонат не взаимодействует с водой, поэтому не влияет на ее химические и вкусовые свойства.</p>    </div>
+    <h3>Как долго могут использоваться бутыли?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>По рекомендациям производителей бутылей, при отсутствии механических повреждений и сохранении соответствующего внешнего вида, одну бутыль можно использовать примерно 60 раз –  около 2 лет. Но это касается только поликарбонатных бутылей. Мы обращаем внимание клиентов на то, что не все поставщики используют такие бутыли. Некоторые разливают воду в более дешевые ПET-бутыли. На первый взгляд, обе бутыли выглядят одинаково. Но в использовании между поликарбонатными бутылями и ПET-бутылями есть одна существенная разница. Если первые хорошо переносят горячую мойку до 60 градусов (что является важным условием качественного производственного процесса), то вторые можно мыть только холодной водой, потому что от горячей воды они плавятся и теряют форму. Кроме того, из-за своей хрупкости, ПЕТ-бутыли служат значительно меньше поликарбонатных. Материал, из которого изготовлена бутыль, всегда указывается на дне бутыли. Компания «Чистая Вода» никогда не использует ПЕТ-бутыли для разлива своей воды.</p>      </div>
+    </div>
+    <h3>Как подготавливаются бутыли перед разливом воды?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Все бутыли, которые возвращаются к нам на завод от клиентов, проходят серьезную обработку, прежде чем снова быть наполненными водой и переданными на доставку. Для начала мы снимаем с них старые крышки, проверяем на наличие заметных внешних повреждений, отбраковываем потертые и старые бутыли, которые потеряли свой товарный вид. После этого бутыли попадают на конвейер, где сначала проходят автоматическую проверку на наличие микротрещин, которые не заметны на глаз. Подобное тестирование нужно для того, чтобы минимизировать вероятность течи бутыли в дальнейшем. Затем каждая бутыль проходит мойку щелочным раствором, дезинфекцию кислотным раствором и ополаскивание продуктом (чистой водой с озоном). Нужно отметить, что весь наш процесс производства, в том числе и процесс мойки бутылей, зафиксирован в системе контроля качества ISO 9001:2000, что гарантирует 100% выполнение всех правил этого процесса для каждой бутыли, выходящей с нашего конвейера.</p>      </div>
+    </div>
+    <h3>Чем отличаются бутыли с ручками от бутылей без ручек?</h3>
+    <div>
+        <p>Для клиента - только наличием или отсутствием ручки. Объем воды, содержащейся в бутыли каждого вида, абсолютно одинаковый (5 галлонов, или 18.9 литров). Мы стараемся, чтобы в нашем обороте преобладали бутыли с ручками, потому что это удобнее для клиентов</p>    </div>
+    <h3>Нам привезли неполную бутыль, почему?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Причины могут быть разными. С конвейера бутыломоечной машины все бутыли выдаются наполненными и проходят еще и визуальный контроль. Течь может происходить во время доставки через микротрещины в бутыли, которые обусловлены ударами о различные предметы, особенно с острыми углами, при переноске. В обычном состоянии это может быть незаметно и проявляется при нажатии на бутыль, тряске, изменении температуры. В некоторых случаях течь может быть через пробку, в которой проявился скрытый дефект, незаметный во время закупоривания. Такую бутыль ни в коем случае нельзя ставить на кулер, так как в перевернутой бутыли должен сохраняться вакуум. Если его нет, то воду ничто не удерживает в бутыли, она начинает переполнять баки кулера и очень быстро все содержимое бутыли выливается на пол.</p>      </div>
+    </div>
+    <h3>Что такое термопленка и зачем она нужна?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Термопленка – это защитная пленка, которая закрывает горлышко бутыли. Она служит гарантией оригинальности продукта и защитой от подделки. Еще одна функция термопленки – дополнительная гигиеническая защита горлышка бутыли (на горлышко бутыли попадает меньше пыли, водитель не касается его руками при доставке). На пленке изображен наш товарный знак (множество логотипов CW). Она надевается на каждую бутыль автоматически в конце производственного процесса. Отсутствие на доставленной бутыли термопленки должно служить для клиента поводом обратиться к нам и потребовать бесплатной замены продукции.</p>      </div>
+    </div>
+    <h3>Почему у крышек разный цвет?</h3>
+    <div>
+        <p>Цвет крышки бутыли – это один из способов быстро различить, вода какого вида налита в эту бутыль:</p><p>Синяя – чистая вода</p><p>Белая - фторированная</p><p>Желтая или голубая – йодированная</p>    </div>
+    <h3>Как правильно снять крышку?</h3>
+    <div>
+        <p>Снять термопленку, разорвав ее сверху, потянув за красную полоску. Потянув за язычок на нижней части пробки надорвать ее по выдавленному контуру до верхней утолщенной части пробки. Взявшись рукой за надорванную часть пробки, потянуть пробку вверх до полного снятия.</p>    </div>
+    <h3>Параметры бутыли (размеры)</h3>
+    <div>
+        <p>Диаметр 27см</p><p>Высота (с горловиной) 49см, после установки на кулере – 40 см</p><p>Вес пустой тары около 800 гр.</p>    </div>
+      
+      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Задайте свой вопрос"  />   
+    
+  </div>
+    
+  </div>
+</div>
+		<!--Всплывающие окна из иконок меню-->
+		
+<div class="modal fade" id="modal-menu"> 
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="row">
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_about_bottles.php?lang=ua">
+              UA
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_about_bottles.php?lang=ru" class="ru active-lang">
+              RU
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_about_bottles.php?lang=en">
+              EN
+            </a>
+          </div>
+          <div class="col-xs-2 language inv">
+            <a href="index?lang=en">
+              EN
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="menu-punkts inv" data-class="menu-punkts">
+          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">Главная</a></div>
+
+          <!--<div class="row"><a href="#"><img src="img/water.png" alt="">О воде</a></div>
+          <div class="row"><a href="#"><img src="img/delivery.png" alt="">Доставка</a></div>
+          <div class="row"><a href="#"><img src="img/price.png" alt="">Цена</a></div>-->
+          <div class="row"><a href="promo"><img src="img/promo.png" alt="">Акции</a></div>
+          <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">Оборудование</a></div>
+          
+          <div class="row"><a href="#"><img src="img/other.png" alt="">Другие товары</a></div>
+          <div class="row"><a href="#"><img src="img/about.png" alt="">О компании</a></div>-->
+          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">Полная версия</a></div>
+          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карточкой</a></div>
+        </div>
+        <div class="modal-numbers inv" data-class="modal-numbers">
+          <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>Заказать звонок</span></a></div>
+          <div class="row"><a href="tel:0443913030"><img src="img/city_phone.png" alt=""><span>044 391 30 30</span></a></div>
+          <div class="row"><a href="tel:0935183030"><img src="img/lifecell.jpg" alt=""><span>093 518 30 30</span></a></div>
+          <div class="row"><a href="tel:0503153030"><img src="img/mts.png" alt=""><span>050 315 30 30</span></a></div>
+          <div class="row"><a href="tel:0672433040"><img src="img/kyivstar.png" alt=""><span>067 243 30 40</span></a></div>
+          <div class="row"><a href="skype:cw3913030?chat"><img src="img/skype.png" alt=""><span>cw3913030</span></a></div>
+          <div class="row"><a href="viber://add?number=0935183030"><img src="img/viber.png" alt=""><span>093 518 30 30</span></a></div>
+        </div>
+        <div class="modal-questions inv" data-class="modal-questions">
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_water"><span>Вопросы о воде</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_bottles"><span>Вопросы о бутылях</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Вопросы по оборудованию</span></a></div>
+          <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Вопросы о документах</span></a></div>-->
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Задайте свой вопрос</span></a></div>
+        </div>  
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Всплывающее окно обратного звонка -->
+
+
+<div class="modal fade" id="modal-recall">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="recall-title">Заказать звонок</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="form" method="post" action="">
+          <div class="row">
+            <input class='recall-number' type="text" name="name" required="required" placeholder="Ваше имя:"/>
+            
+          </div>
+          <div class="row">
+            <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+            
+          </div>
+          <div class="recall-buttons">
+            
+            <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Отмена"/>
+            <input id='recall-button' class='btn recall-submit' type="submit" value="Заказать звонок"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-ask">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="ask-title">Задайте свой вопрос</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="ask-form" method="post" action="">
+          <div class="row">
+            <input class='ask-number' type="text" name="name" required="required" placeholder="Ваше имя:"/>
+          </div>
+          <div class="row">
+            <input id="phone-ask" class='number ask-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+          </div>
+          <div class="row">
+            <textarea id='askedQuestion' class='ask-number' name="question" required="required" placeholder="Ваш вопрос:" rows="3"></textarea>
+          </div>
+          <div class="ask-buttons">
+            <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Отмена"/>
+            <input id='ask-button' class='btn ask-submit' type="submit" value="Задать вопрос"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>		
+
+		
+	</body>
+</html>
+
+
+

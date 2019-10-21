@@ -1,0 +1,1198 @@
+﻿ <!DOCTYPE html>
+<html>
+    <head>
+        <title>Доставка воды Киев: первые две бутыли бесплатно!</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Доставка воды, бесплатная проба, анализ воды, кулеры, помпы, дипенсеры, санитарная обработка, экскурсии на завод, онлайн заказ">
+        <meta name="description" content="Доставка воды домой и в офис. Международные стандарты качества. Самый современный завод в Европе. Скважина в экологически чистом районе. Проводим экскурсии! (044)391-30-30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+        
+        <link rel="canonical" href="https://www.clearwater.ua/" >
+        <link rel="icon" type="image/png" href="/images/favicon.png">
+        <link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/payment.css">
+        
+        
+        
+        <script src="js/plugin/jquery-2.1.4.min.js"></script>
+        <script src="js/plugin/jquery.cookie.js"></script>
+        <script src="js/plugin/jquery-ui.js"></script>
+        <script src="js/plugin/plugin.js"></script>
+        <script src="js/plugin/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/plugin/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/script/script.js"></script>
+        <script type="text/javascript" src="js/script/payment.js"></script>
+
+        
+    </head>
+    <body>
+        
+        
+        <!--Хедер с иконками меню-->
+        <div class="phone-header">
+<table id="phone-header1">
+  <tr>
+    <td><div class="menu-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_1.png" alt=""></div></td>
+    <td><div class="call-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_2.png" alt=""></div></td>
+    <td><a href="order"><img src="img/new_ICON_3.png" alt=""></a></td>
+    <td><div class="ask-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_4.png" alt=""></div></td>
+  </tr>
+  </table>
+<table id="phone-header2">
+  <tr>
+    <td>Меню</td>
+    <td>Позвонить</td>
+    <td>Заказать</td>
+    <td>Спросить</td>
+  </tr>
+</table>
+</div> 
+
+<!--Хедер сайта с фиксированным меню portrait-->
+<div class="landscape-header inv">
+  <table class="landscape-nav inv">
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="menu-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_1.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Меню</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="call-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_2.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Позвонить</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div>
+          <a href="order.php"><img src="img/new_ICON_3.png" alt=""></a>
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Заказать</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="ask-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_4.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Спросить</td>
+    </tr>
+  </table>
+</div>
+
+
+        <!--Контент главной страницы-->
+        
+<div class="row payment-services">
+	<div class="col-xs-12">
+		<img src="img/cards-t.png" alt="">	
+	</div>
+	
+	
+	
+</div>
+
+
+
+
+<div class="payment-box">
+	<form id="UPC-form" action="https://www.clearwater.ua/mobile/payment_reciever.php" method="POST">
+		<h2>
+			Оплата карточкой		</h2>
+		<div class="form-group clearfix">
+			<label for="OrderID" style="float:left;width:47.5%;">
+				Номер оплачиваемого счета			</label>
+			<input class="pay-input calc-challenge form-control"  style="margin-left:5%;width:47.5%;float:right;" name="OrderID" id="usercode" readonly type="text" data-header="Номер оплачиваемого счета"
+				 
+			/>
+            <input type="hidden" name="hidOrderId" id="hidcode" value="">
+		</div>
+
+		<div class="form-group clearfix">
+			<label for="TotalAmount" style="float:left;width:47.5%;">
+				Оплачиваемая сумма счета:			</label>
+			<input class="pay-input calc-challenge form-control" name="TotalAmount" id="usersum" style="margin-left:5%;width:47.5%;float:right;" type="text" readonly data-header="Оплачиваемая сумма счета:"
+							/>	
+		</div>
+		<div class="form-group" style="clear:both;">
+			<input id="UPC-send" type="submit" class="payment-submit green-btn" value="Оплатить" />
+		</div>
+	</form>
+</div>
+
+
+        <!--Всплывающие окна из иконок меню-->
+        
+<div class="modal fade" id="modal-menu"> 
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="row">
+          <div class="col-xs-2 language">
+            <a href="/mobile/payment.php?lang=ua">
+              UA
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/payment.php?lang=ru" class="ru active-lang">
+              RU
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/payment.php?lang=en">
+              EN
+            </a>
+          </div>
+          <div class="col-xs-2 language inv">
+            <a href="index?lang=en">
+              EN
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="menu-punkts inv" data-class="menu-punkts">
+          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">Главная</a></div>
+
+          <!--<div class="row"><a href="#"><img src="img/water.png" alt="">О воде</a></div>
+          <div class="row"><a href="#"><img src="img/delivery.png" alt="">Доставка</a></div>
+          <div class="row"><a href="#"><img src="img/price.png" alt="">Цена</a></div>-->
+          <div class="row"><a href="promo"><img src="img/promo.png" alt="">Акции</a></div>
+          <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">Оборудование</a></div>
+          
+          <div class="row"><a href="#"><img src="img/other.png" alt="">Другие товары</a></div>
+          <div class="row"><a href="#"><img src="img/about.png" alt="">О компании</a></div>-->
+          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">Полная версия</a></div>
+          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карточкой</a></div>
+        </div>
+        <div class="modal-numbers inv" data-class="modal-numbers">
+          <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>Заказать звонок</span></a></div>
+          <div class="row"><a href="tel:0443913030"><img src="img/city_phone.png" alt=""><span>044 391 30 30</span></a></div>
+          <div class="row"><a href="tel:0935183030"><img src="img/lifecell.jpg" alt=""><span>093 518 30 30</span></a></div>
+          <div class="row"><a href="tel:0503153030"><img src="img/mts.png" alt=""><span>050 315 30 30</span></a></div>
+          <div class="row"><a href="tel:0672433040"><img src="img/kyivstar.png" alt=""><span>067 243 30 40</span></a></div>
+          <div class="row"><a href="skype:cw3913030?chat"><img src="img/skype.png" alt=""><span>cw3913030</span></a></div>
+          <div class="row"><a href="viber://add?number=0935183030"><img src="img/viber.png" alt=""><span>093 518 30 30</span></a></div>
+        </div>
+        <div class="modal-questions inv" data-class="modal-questions">
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_water"><span>Вопросы о воде</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_bottles"><span>Вопросы о бутылях</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Вопросы по оборудованию</span></a></div>
+          <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Вопросы о документах</span></a></div>-->
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Задайте свой вопрос</span></a></div>
+        </div>  
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Всплывающее окно обратного звонка -->
+
+
+<div class="modal fade" id="modal-recall">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="recall-title">Заказать звонок</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="form" method="post" action="">
+          <div class="row">
+            <input class='recall-number' type="text" name="name" required="required" placeholder="Ваше имя:"/>
+            
+          </div>
+          <div class="row">
+            <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+            
+          </div>
+          <div class="recall-buttons">
+            
+            <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Отмена"/>
+            <input id='recall-button' class='btn recall-submit' type="submit" value="Заказать звонок"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-ask">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="ask-title">Задайте свой вопрос</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="ask-form" method="post" action="">
+          <div class="row">
+            <input class='ask-number' type="text" name="name" required="required" placeholder="Ваше имя:"/>
+          </div>
+          <div class="row">
+            <input id="phone-ask" class='number ask-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+          </div>
+          <div class="row">
+            <textarea id='askedQuestion' class='ask-number' name="question" required="required" placeholder="Ваш вопрос:" rows="3"></textarea>
+          </div>
+          <div class="ask-buttons">
+            <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Отмена"/>
+            <input id='ask-button' class='btn ask-submit' type="submit" value="Задать вопрос"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="modal fade" id="UPC-modal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content ">
+              <div class="modal-header alert-warning">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title alert-header"></h4>
+              </div>
+              <div class="modal-body alert-warning">
+                <div class="alert-attention"></div>
+              </div>
+              <div class="modal-footer alert-warning alert-buttons">
+                <button id="alert-disagree" type="button" class="btn btn-warning alert-disagree">Да</button>
+                <button id="alert-agree" type="button" class="btn btn-success alert-agree">Нет</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="UPC-aware" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content ">
+              <div class="modal-header alert-warning">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title alert-header"></h4>
+              </div>
+              <div class="modal-body alert-warning">
+                <div class="alert-aware"></div>
+              </div>
+              <div class="modal-footer alert-warning alert-buttons">
+                <button type="button" data-dismiss="modal" class="btn btn-success alert-agree">Нет</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-input">
+          <div class="modal-dialog modal-sm center-block">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="close" data-dismiss="modal">&times;</div>
+                <div class="street-list-header">
+                  
+                </div>
+              </div>
+              <div class="modal-body">
+                <input type="text" class="input-text" id="input-text" autofocus>
+                <input class="btn input-return water-btn" type="Button" value="ok" data-dismiss="modal" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+        <input type="hidden" name="lasterror" id="idlasterror" value="">
+        <div id="dial-send" class="dialclass" title="Обработка данных" run=""></div>
+        <div id="dial-conf" class="dialclass" title="Обработка данных" run=""></div>
+        <div id="dial-wait" class="dialclass" title="Обработка данных" run=""></div>
+        <div class="modal fade" id="time-list-second">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="time-list-header">
+          <h3>Укажите интервал доставки</h3>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="clock">
+          <div class="first-window window">
+            <div class="window-cover"></div>
+            <ul class="list-group" id="time-list-items-second">
+                <li class="list-group-item time-list-item">09:00-18:00</li>
+                <li class="list-group-item time-list-item">07:00-13:00</li>
+                <li class="list-group-item time-list-item">13:00-18:00</li>
+                <li class="list-group-item time-list-item sat-new">06:00-07:00</li>
+                <li class="list-group-item time-list-item sat-new">06:30-07:30</li>
+                <li class="list-group-item time-list-item sat-new">07:00-08:00</li>
+                <li class="list-group-item time-list-item sat-new">07:30-08:30</li>
+                <li class="list-group-item time-list-item sat-new">07:00-09:00</li>
+                <li class="list-group-item time-list-item sat-new">07:30-09:30</li>
+                <li class="list-group-item time-list-item">07:00-10:00</li>
+                <li class="list-group-item time-list-item">07:30-10:30</li>
+              <li class="list-group-item time-list-item">08:00-11:00</li>
+              <li class="list-group-item time-list-item">08:30-11:30</li>
+              <li class="list-group-item time-list-item">09:00-12:00</li>
+              <li class="list-group-item time-list-item">09:30-12:30</li>
+              <li class="list-group-item time-list-item">10:00-13:00</li>
+              <li class="list-group-item time-list-item">10:30-13:30</li>
+              <li class="list-group-item time-list-item">11:00-14:00</li>
+              <li class="list-group-item time-list-item">11:30-14:30</li>
+              <li class="list-group-item time-list-item">12:00-15:00</li>
+              <li class="list-group-item time-list-item">12:30-15:30</li>
+              <li class="list-group-item time-list-item">13:00-16:00</li>
+              <li class="list-group-item time-list-item">13:30-16:30</li>
+              <li class="list-group-item time-list-item">14:00-17:00</li>
+              <li class="list-group-item time-list-item">14:30-17:30</li>
+              <li class="list-group-item time-list-item">15:00-18:00</li>
+              <li class="list-group-item time-list-item sat-order">15:30-18:30</li>
+              <li class="list-group-item time-list-item sat-order">16:00-19:00</li>
+              <li class="list-group-item time-list-item sat-order">16:30-19:30</li>
+              <li class="list-group-item time-list-item sat-order">17:00-20:00</li>
+              <li class="list-group-item time-list-item sat-order">17:30-20:30</li>
+              <li class="list-group-item time-list-item sat-order">18:00-21:00</li>
+              <li class="list-group-item time-list-item">Другой интервал</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="time-list-buttons">
+          <input class="btn btn-success time-cancel" type="button"  data-dismiss="modal" value="Отмена">
+          <input id="time-accept-second" class="btn time-accept" type="button" value="Принять">  
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>  
+<div class="modal fade" id="time-list">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="time-list-header">
+          <h3>Укажите интервал доставки</h3>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="clock">
+          <div class="first-window window">
+            <div class="window-cover"></div>
+            <ul class="list-group" id="fromlist"></ul>
+          </div>
+          <div class="from-to">
+            <p>-:-</p>
+          </div>
+          <div class="second-window window">
+            <div class="window-cover"></div>
+            <ul class="list-group" id="tolist"></ul>
+          </div>  
+        </div>
+        <div class="time-list-buttons">
+          <input class="btn btn-success time-cancel" type="button"  data-dismiss="modal" value="Отмена">
+          <input id="time-accept" class="btn time-accept" type="button" value="Принять">  
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="info-modal">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+      </div>
+      <div class="modal-body">
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--Калькулятор бутылей-->
+
+<div class="modal fade" id="calculator">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header" style="padding:15px;">
+        
+      </div>
+      <div class="modal-body">
+        <form name="calc">
+          <table class="table">
+            <tr>
+              <td colspan="2">
+                <input id="calculator-field" type="text" readonly>
+              </td>
+              <td>
+                <input class="btn calc-clear water-btn"  type="Button" value="C">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="7" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="8" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="9" >
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="4" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="5" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="6" >
+              </td>
+              
+            </tr>
+            <tr>
+             
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="1" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="2" >
+              </td>
+              <td>
+                <input class="btn calc-figure water-btn"  type="Button" value="3" >
+              </td>
+              
+            </tr>
+            <tr>
+              <td>
+                <input class="btn calc-figure water-btn dot-btn"  type="Button" value="." >
+                <input class="btn calc-figure water-btn slash-btn inv"  type="Button" value="/" >
+              </td>
+              <td >
+                <input  class="btn calc-figure water-btn"  type="Button" value="0" >
+              </td>
+              <td >
+                <input class="btn calc-return water-btn ok-button" type="Button" value="ok" data-dismiss="modal" aria-hidden="true">
+              </td>
+            </tr>
+          </table>
+        </form>     
+
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Подсказка с текстами-->
+<div class="modal fade" id="street-list">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="street-list-header">
+          
+        </div>
+      </div>
+      <div class="modal-body">
+          <input type="text" class="input-text" id="input-text" autofocus>
+          <input class="btn input-return water-btn" type="Button" value="ok" data-dismiss="modal" aria-hidden="true">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!--Модальное окно фритрайла-->
+
+<div class="modal fade" id="modal-trial">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="trial-title">Заказать пробную доставку</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="trial-form" method="post" action="">
+          <div class="row">
+            <input id='trialName' class='' type="text" name="name" required="required" placeholder="Имя"/> 
+          </div>
+          <div class="row">
+            <input id='trialNum' class='number' type="tel" name="phone" required="required" placeholder="Телефон"/>
+          </div>
+          <!--<div class="row">
+            <textarea id='trialAdress' class='' type="text" name="address" required="required" placeholder="Адрес"/></textarea>
+          </div>-->
+          <div class="row buttons-row">
+            <input id='trial-button' class='btn btn-success trial-submit' type="submit" value="Отправить"/>
+            <input type="button" class="btn blue-btn trial-cancel" data-dismiss="modal" value="Закрыть">
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Вводим номер телефона-->
+
+
+<div class="modal fade" id="phone-number">
+  <div class="modal-dialog modal-sm center-block">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="modal-title calc-phone-title">Введите Ваш номер телефона</h4>
+      </div>
+      <div class="modal-body">
+        <input id="number-field" type="tel" class='number' >
+        <input class="btn number-return" type="Button" value="ok" data-dismiss="modal" aria-hidden="true">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="prod-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="close" data-dismiss="modal">&times;</div>
+              <h4 id="prod-title" class="prod-title"></h4> 
+            </div>
+            <div class="modal-body">
+                <div class="prod-img">
+                  
+                </div>
+                
+                <div id="prod-id"></div>
+                <div class="prod-count">
+                  <div class="prod-price">
+                    <span>Цена: </span><span id="prod-price"></span><span> грн.</span>
+                  </div>
+                  <div class="prod-plus-minus">
+                    <input id='prod-minus' class='btn ' type="submit" value="-"/>
+                    <input id="prod-quantity" class="calc-challenge" type="text" value="0" readonly>
+                    <input id="prod-plus" type="button" class="btn" value="+">
+                  </div>  
+                </div>
+                <div class="row prod-modal-buttons">
+                  <input id='prod-modal-cancel' class='btn' type="button" value="Отмена"/>
+                  <input id="prod-modal-accept" class="btn" type="button" value="Заказать">
+                </div>    
+            </div>
+          </div>
+        </div>
+      </div>
+<!--Модальные окна-->
+
+      <div class="modal fade" id="prod-list">
+        <div class="modal-dialog modal-sm center-block">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+              <div class="close" data-dismiss="modal">&times;</div>
+              
+            </div>
+            <div class="modal-body">
+
+              <div id ="prod-accordion" class="prod-accordion">
+                      <div class="accordion-box">              </div>
+                          <h3 class="submenu" data-num="1">Чай пакетированный</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1482___" data-pname='Чай Аскольд Клубника со сливками, 50 пак' data-price="67.5" >Чай Аскольд Клубника со сливками, 50 пак [67.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1162___" data-pname='Чай "Ahmad" Английский к завтраку (40 п)' data-price="48" >Чай "Ahmad" Английский к завтраку (40 п) [48грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1163___" data-pname='Чай "Ahmad" Граф Грей (40 п)' data-price="47.1" >Чай "Ahmad" Граф Грей (40 п) [47.1грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______538___" data-pname='Чай "Ahmad" Английский к завтраку (100п)' data-price="126" data-img="../order/_img/price/B_0_0_5725_0_0________538___.jpg" >Чай "Ahmad" Английский к завтраку (100п) [126грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______540___" data-pname='Чай "Ahmad" Английский к завтраку (25п)' data-price="43.5" data-img="../order/_img/price/B_0_0_5725_0_0________540___.jpg" >Чай "Ahmad" Английский к завтраку (25п) [43.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______541___" data-pname='Чай "Ahmad" Граф Грей (100п)' data-price="129" data-img="../order/_img/price/B_0_0_5725_0_0________541___.jpg" >Чай "Ahmad" Граф Грей (100п) [129грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______550___" data-pname='Чай "Ahmad" Граф Грей (25п)' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________550___.jpg" >Чай "Ahmad" Граф Грей (25п) [42грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______936___" data-pname='Чай "Ahmad" Зеленый (25п)' data-price="37.5" data-img="../order/_img/price/B_0_0_5725_0_0________936___.jpg" >Чай "Ahmad" Зеленый (25п) [37.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______547___" data-pname='Чай "Ahmad" Цейлон Оранж Пеко (25п)' data-price="43.5" data-img="../order/_img/price/B_0_0_5725_0_0________547___.jpg" >Чай "Ahmad" Цейлон Оранж Пеко (25п) [43.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1539___" data-pname='Чай "Ahmad" Цейлон Оранж Пеко  25пак.' data-price="43.5" >Чай "Ahmad" Цейлон Оранж Пеко  25пак. [43.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1130___" data-pname='Чай "Curtis" Самер Берис, 20 пак' data-price="39.6" data-img="../order/_img/price/B_0_0_5725_0_0_______1130___.jpg" >Чай "Curtis" Самер Берис, 20 пак [39.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1131___" data-pname='Чай "Curtis" Тропический Манго, 20 пак' data-price="39.6" >Чай "Curtis" Тропический Манго, 20 пак [39.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______852___" data-pname='Чай "Curtis" Трюфель Блек  50гр (25 пак)' data-price="45" >Чай "Curtis" Трюфель Блек  50гр (25 пак) [45грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1132___" data-pname='Чай "Curtis" Французский Трюфель, 20 пак' data-price="39.6" >Чай "Curtis" Французский Трюфель, 20 пак [39.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1129___" data-pname='Чай "Curtis" Фреш Мохито, 20 пак' data-price="39.6" >Чай "Curtis" Фреш Мохито, 20 пак [39.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______552___" data-pname='Чай "Grace" Бирюзовый молочный оолонг (25п)' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________552___.jpg" >Чай "Grace" Бирюзовый молочный оолонг (25п) [51грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______553___" data-pname='Чай "Grace" Брекфаст тайм (25п)' data-price="49.5" data-img="../order/_img/price/B_0_0_5725_0_0________553___.jpg" >Чай "Grace" Брекфаст тайм (25п) [49.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______557___" data-pname='Чай "Grace" Голден Цейлон (25п)' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________557___.jpg" >Чай "Grace" Голден Цейлон (25п) [42грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______558___" data-pname='Чай "Grace" Граф Грей (25п)' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________558___.jpg" >Чай "Grace" Граф Грей (25п) [42грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______556___" data-pname='Чай "Grace" Зеленый с листьями мелиссы (25п)' data-price="49.5" data-img="../order/_img/price/B_0_0_5725_0_0________556___.jpg" >Чай "Grace" Зеленый с листьями мелиссы (25п) [49.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______562___" data-pname='Чай "Grace" Зеленый с маслом бергамота (25п)' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________562___.jpg" >Чай "Grace" Зеленый с маслом бергамота (25п) [48грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______564___" data-pname='Чай "Grace" Чай травяной Альпийские травы (25п)' data-price="39" data-img="../order/_img/price/B_0_0_5725_0_0________564___.jpg" >Чай "Grace" Чай травяной Альпийские травы (25п) [39грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1581___" data-pname='Чай "Greenfiel" Kenyan 25пак  + Classic 25пак  + Spring Melody 25пак + Current and Mint 25 пак' data-price="177" data-img="../order/_img/price/B_0_0_5725_0_0_______1581___.jpg" >Чай "Greenfiel" Kenyan 25пак  + Classic 25пак  + Spring Melody 25пак + Current and Mint 25 пак [177грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1353___" data-pname='Чай "Greenfield"  Currant & Mint 1,8 гр. х 25шт. х 10 п' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0_______1353___.jpg" >Чай "Greenfield"  Currant & Mint 1,8 гр. х 25шт. х 10 п [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1516___" data-pname='Чай "Greenfield"  Spirit Mate 25 (пак)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0_______1516___.jpg" >Чай "Greenfield"  Spirit Mate 25 (пак) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______399___" data-pname='Чай "Greenfield " Barberry Garden" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________399___.jpg" >Чай "Greenfield " Barberry Garden" (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______830___" data-pname='Чай "Greenfield" Christmas Мystеrу (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________830___.jpg" >Чай "Greenfield" Christmas Мystеrу (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______296___" data-pname='Чай "Greenfield" Clas.Breakfast" (25п)' data-price="45.6" data-img="../order/_img/price/B_0_0_5725_0_0________296___.jpg" >Чай "Greenfield" Clas.Breakfast" (25п) [45.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______847___" data-pname='Чай "Greenfield" Earl Grey Fantasy (25шт)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________847___.jpg" >Чай "Greenfield" Earl Grey Fantasy (25шт) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1563___" data-pname='Чай "Greenfield" Earl Grey Fantasy (2г*100шт*9уп)' data-price="177" data-img="../order/_img/price/B_0_0_5725_0_0_______1563___.jpg" >Чай "Greenfield" Earl Grey Fantasy (2г*100шт*9уп) [177грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______398___" data-pname='Чай "Greenfield " Festive Grape" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________398___.jpg" >Чай "Greenfield " Festive Grape" (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1378___" data-pname='Чай "Greenfield" Flying Dragon (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0_______1378___.jpg" >Чай "Greenfield" Flying Dragon (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______397___" data-pname='Чай "Greenfield " Green Melissa" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________397___.jpg" >Чай "Greenfield " Green Melissa" (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______297___" data-pname='Чай "Greenfield " Jasmine Dream" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________297___.jpg" >Чай "Greenfield " Jasmine Dream" (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______596___" data-pname='Чай "Greenfield " Rich Camomile" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________596___.jpg" >Чай "Greenfield " Rich Camomile" (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______828___" data-pname='Чай "Greenfield" Spring Melodys (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________828___.jpg" >Чай "Greenfield" Spring Melodys (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______298___" data-pname='Чай "Greenfield " Summer Bouquet" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________298___.jpg" >Чай "Greenfield " Summer Bouquet" (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______886___" data-pname='Чай "Greenfield" Vanilla Cranberry (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________886___.jpg" >Чай "Greenfield" Vanilla Cranberry (25п) [46.5грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______215___" data-pname='Чай "Hyleys" англ. аристократический (100п)' data-price="144.6" data-img="../order/_img/price/B_0_0_5725_0_0________215___.jpg" >Чай "Hyleys" англ. аристократический (100п) [144.6грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______965___" data-pname='Чай "Hyleys" англ. зеленый (100п)' data-price="117" >Чай "Hyleys" англ. зеленый (100п) [117грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______284___" data-pname='Чай "Hyleys" плод страсти (25п)' data-price="41.7" data-img="../order/_img/price/B_0_0_5725_0_0________284___.jpg" >Чай "Hyleys" плод страсти (25п) [41.7грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______388___" data-pname='Чай "Hyleys" клубника со сливками (25п)' data-price="41.7" data-img="../order/_img/price/B_0_0_5725_0_0________388___.jpg" >Чай "Hyleys" клубника со сливками (25п) [41.7грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______976___" data-pname='Чай "Hyleys"Гармония природы.Семь натур.вкусов Ассорти (25 пак)' data-price="57" data-img="../order/_img/price/B_0_0_5725_0_0________976___.jpg" >Чай "Hyleys"Гармония природы.Семь натур.вкусов Ассорти (25 пак) [57грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______519___" data-pname='Чай чорный "Lipton" (100п)' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________519___.jpg" >Чай чорный "Lipton" (100п) [99грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1010___" data-pname='Чай Аскольд Зеленый Цейлон, 100 пак' data-price="132" data-img="../order/_img/price/B_0_0_5725_0_0_______1010___.jpg" >Чай Аскольд Зеленый Цейлон, 100 пак [132грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1626___" data-pname='Чай Блок 2+1: Golden Ceylon 25 пак+Earl Grey 25пак+Classiс Breakfast 25 пак' data-price="96" >Чай Блок 2+1: Golden Ceylon 25 пак+Earl Grey 25пак+Classiс Breakfast 25 пак [96грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1562___" data-pname='Чай Блок Greenfіeld Gold Ceyl(2*100шт)+Strawbery(1.5*25*8шт)' data-price="177" data-img="../order/_img/price/B_0_0_5725_0_0_______1562___.jpg" >Чай Блок Greenfіeld Gold Ceyl(2*100шт)+Strawbery(1.5*25*8шт) [177грн]</p>
+              
+                        <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______975___" data-pname='Чай Гринфилд Набор "Ассорти"' data-price="168" data-img="../order/_img/price/B_0_0_5725_0_0________975___.jpg" >Чай Гринфилд Набор "Ассорти" [168грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="2">Чай листовой</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1015___" data-pname='Чай  "Ahmad" Китайский Зеленый ( 100г)' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0_______1015___.jpg" >Чай  "Ahmad" Китайский Зеленый ( 100г) [48грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1601___" data-pname='Чай "Ahmad"  ЖАСМИН ДИЛАЙТ зеленый байховый листовой   (75г)' data-price="66" >Чай "Ahmad"  ЖАСМИН ДИЛАЙТ зеленый байховый листовой   (75г) [66грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______539___" data-pname='Чай "Ahmad" Английский к завтраку (100г, листовой)' data-price="60" data-img="../order/_img/price/B_0_0_5725_0_0________539___.jpg" >Чай "Ahmad" Английский к завтраку (100г, листовой) [60грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______537___" data-pname='Чай "Ahmad" Граф Грей (100г, листовой)' data-price="63" data-img="../order/_img/price/B_0_0_5725_0_0________537___.jpg" >Чай "Ahmad" Граф Грей (100г, листовой) [63грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______545___" data-pname='Чай "Ahmad" Королевский  Стандарт (100г, листовой)' data-price="72" data-img="../order/_img/price/B_0_0_5725_0_0________545___.jpg" >Чай "Ahmad" Королевский  Стандарт (100г, листовой) [72грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______548___" data-pname='Чай "Ahmad" Цейлон Оранж Пеко (100г, листовой)' data-price="63" data-img="../order/_img/price/B_0_0_5725_0_0________548___.jpg" >Чай "Ahmad" Цейлон Оранж Пеко (100г, листовой) [63грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______560___" data-pname='Чай "Grace" Голден Цейлон (100г, листовой)' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________560___.jpg" >Чай "Grace" Голден Цейлон (100г, листовой) [48грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______857___" data-pname='Чай "Greenfield "Tropical Мarvel 100гр' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________857___.jpg" >Чай "Greenfield "Tropical Мarvel 100гр [48грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1259___" data-pname='Чай "Хейлис"З Новим Роком" (золотий подарунок) 50' data-price="72" data-img="../order/_img/price/B_0_0_5725_0_0_______1259___.jpg" >Чай "Хейлис"З Новим Роком" (золотий подарунок) 50 [72грн]</p>
+              
+                        <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1260___" data-pname='Чай "Хейлис"З Новорічними святами, 50г' data-price="72" data-img="../order/_img/price/B_0_0_5725_0_0_______1260___.jpg" >Чай "Хейлис"З Новорічними святами, 50г [72грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="3">Чай "Карпатский"</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______765___" data-pname='Чай "Лесные ягоды"  100г' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________765___.jpg" >Чай "Лесные ягоды"  100г [51грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______769___" data-pname='Чай "Малина" 100г' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________769___.jpg" >Чай "Малина" 100г [51грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______767___" data-pname='Чай "Мультифрукт" 100 г' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________767___.jpg" >Чай "Мультифрукт" 100 г [48грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______766___" data-pname='Чай "Чорная смородина" 100г' data-price="50.4" data-img="../order/_img/price/B_0_0_5725_0_0________766___.jpg" >Чай "Чорная смородина" 100г [50.4грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______768___" data-pname='Чай "Черника" 100г' data-price="50.4" data-img="../order/_img/price/B_0_0_5725_0_0________768___.jpg" >Чай "Черника" 100г [50.4грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______770___" data-pname='Чай "Шиповник" 100 г' data-price="50.4" data-img="../order/_img/price/B_0_0_5725_0_0________770___.jpg" >Чай "Шиповник" 100 г [50.4грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______763___" data-pname='Чай "Вишня" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________763___.jpg" >Чай "Вишня" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______755___" data-pname='Чай "Витаминный" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________755___.jpg" >Чай "Витаминный" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______752___" data-pname='Чай "Ехинацея" 20п' data-price="18.9" data-img="../order/_img/price/B_0_0_5725_0_0________752___.jpg" >Чай "Ехинацея" 20п [18.9грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______784___" data-pname='Чай "Клюква" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________784___.jpg" >Чай "Клюква" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______753___" data-pname='Чай "Липа" 20п' data-price="33" data-img="../order/_img/price/B_0_0_5725_0_0________753___.jpg" >Чай "Липа" 20п [33грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______760___" data-pname='Чай "Лесные ягоды" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________760___.jpg" >Чай "Лесные ягоды" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______749___" data-pname='Чай "Мелисса" 20п' data-price="15" data-img="../order/_img/price/B_0_0_5725_0_0________749___.jpg" >Чай "Мелисса" 20п [15грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______759___" data-pname='Чай "Мультифрукт" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________759___.jpg" >Чай "Мультифрукт" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______751___" data-pname='Чай "Мята" 20п' data-price="15" data-img="../order/_img/price/B_0_0_5725_0_0________751___.jpg" >Чай "Мята" 20п [15грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______785___" data-pname='Чай "Ежевика" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________785___.jpg" >Чай "Ежевика" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______764___" data-pname='Чай "Клубника" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________764___.jpg" >Чай "Клубника" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______750___" data-pname='Чай "Ромашка" 25п' data-price="15" data-img="../order/_img/price/B_0_0_5725_0_0________750___.jpg" >Чай "Ромашка" 25п [15грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______762___" data-pname='Чай "Земляника" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________762___.jpg" >Чай "Земляника" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______758___" data-pname='Чай "Чорная смородина" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________758___.jpg" >Чай "Чорная смородина" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______757___" data-pname='Чай "Черника" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________757___.jpg" >Чай "Черника" 20п [25.5грн]</p>
+              
+                        <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______761___" data-pname='Чай "Шиповник" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________761___.jpg" >Чай "Шиповник" 20п [25.5грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="4">Хозтовары</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______983___" data-pname='Крем-мыло с доз. "Olis" Земляника 500мл' data-price="22.5" >Крем-мыло с доз. "Olis" Земляника 500мл [22.5грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______791___" data-pname='Крем-мыло жидкое (без дозатора) "OLIS Земляника" 500мл' data-price="18" data-img="../order/_img/price/B_0_0_5725_0_0________791___.jpg" >Крем-мыло жидкое (без дозатора) "OLIS Земляника" 500мл [18грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______790___" data-pname='Крем-мыло жидкое (без дозатора) "OLIS Алоэ" 500мл' data-price="18" data-img="../order/_img/price/B_0_0_5725_0_0________790___.jpg" >Крем-мыло жидкое (без дозатора) "OLIS Алоэ" 500мл [18грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______931___" data-pname='Мешки Z-BEST чорные 35л 50шт 7мк(рул)' data-price="16.2" >Мешки Z-BEST чорные 35л 50шт 7мк(рул) [16.2грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1497___" data-pname='Мешки Z-BEST чорные 35л 50 шт (рул)' data-price="17.4" >Мешки Z-BEST чорные 35л 50 шт (рул) [17.4грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______794___" data-pname='Бумага туалетн "Снежная панда Классик" 4шт/уп' data-price="33" data-img="../order/_img/price/B_0_0_5725_0_0________794___.jpg" >Бумага туалетн "Снежная панда Классик" 4шт/уп [33грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______795___" data-pname='Полотенца бумажные "Снежная панда" 2 шт/уп' data-price="34.2" data-img="../order/_img/price/B_0_0_5725_0_0________795___.jpg" >Полотенца бумажные "Снежная панда" 2 шт/уп [34.2грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______796___" data-pname='Салфетки "Снежная Панда" 100шт 24*24' data-price="15.6" data-img="../order/_img/price/B_0_0_5725_0_0________796___.jpg" >Салфетки "Снежная Панда" 100шт 24*24 [15.6грн]</p>
+              
+                        <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1544___" data-pname='Салфетки 25*25 белые' data-price="10.5" >Салфетки 25*25 белые [10.5грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="5">Одноразовая посуда</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1615___" data-pname='Стаканы пласт.прозрачн, (100шт)' data-price="27" >Стаканы пласт.прозрачн, (100шт) [27грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______865___" data-pname='Стаканы Кофи Тайм цветной бумажный 175мл  50шт' data-price="24.9" >Стаканы Кофи Тайм цветной бумажный 175мл  50шт [24.9грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______866___" data-pname='Стакан Кофи Тайм бумажный 175мл нейтральный рисунок (50шт)' data-price="24.9" >Стакан Кофи Тайм бумажный 175мл нейтральный рисунок (50шт) [24.9грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______864___" data-pname='Стакан бумажный 175мл без рисунка (50шт)' data-price="24.3" >Стакан бумажный 175мл без рисунка (50шт) [24.3грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1517___" data-pname='Стакан бумажный без рисунка, 340 мл, (50шт)' data-price="42.3" >Стакан бумажный без рисунка, 340 мл, (50шт) [42.3грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1001___" data-pname='Стакан бумажный СМАЙЛ, 340 мл, (50шт)' data-price="42.3" >Стакан бумажный СМАЙЛ, 340 мл, (50шт) [42.3грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1636___" data-pname='Стаканы пласт.прозрачн, (100шт)' data-price="27" >Стаканы пласт.прозрачн, (100шт) [27грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1590___" data-pname='Вилки (100шт)' data-price="27" >Вилки (100шт) [27грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______440___" data-pname='Ложки коф. белые (100шт)' data-price="15.8" data-img="../order/_img/price/B_0_0_5725_0_0________440___.jpg" >Ложки коф. белые (100шт) [15.8грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1614___" data-pname='Ложка столова (100шт)' data-price="39" >Ложка столова (100шт) [39грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1546___" data-pname='Мешалочки пластик (800шт)' data-price="75" >Мешалочки пластик (800шт) [75грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1528___" data-pname='Мешалки для кофе деревянные 800 шт' data-price="60" >Мешалки для кофе деревянные 800 шт [60грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______985___" data-pname='Нож пластиковый (100 шт)' data-price="27" data-img="../order/_img/price/B_0_0_5725_0_0________985___.jpg" >Нож пластиковый (100 шт) [27грн]</p>
+              
+                        <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1540___" data-pname='Тарелка пластиковая  белая, 205мм, 100 шт' data-price="78" >Тарелка пластиковая  белая, 205мм, 100 шт [78грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="6">Кофе растворимый</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#_______503___" data-pname='"Jacobs Monarch" (95г)' data-price="144" data-img="../order/_img/price/B_0_0_5725_0_0________503___.jpg" >"Jacobs Monarch" (95г) [144грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1026___" data-pname='Кофе Нескафе Голд, 200г' data-price="255" data-img="../order/_img/price/B_0_0_5725_0_0_______1026___.jpg" >Кофе Нескафе Голд, 200г [255грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#_______883___" data-pname='Кофе Нескафе Голд Раств 210г' data-price="240" data-img="../order/_img/price/B_0_0_5725_0_0________883___.jpg" >Кофе Нескафе Голд Раств 210г [240грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1585___" data-pname='Кофе Нескафе Голд, 190г' data-price="255" >Кофе Нескафе Голд, 190г [255грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1555___" data-pname='Кофе раств.  Якобз Милликано Американо эконом.. пач (250 г)' data-price="312" >Кофе раств.  Якобз Милликано Американо эконом.. пач (250 г) [312грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1351___" data-pname='Кофе растворимый Якобз Монарх 90г' data-price="106" >Кофе растворимый Якобз Монарх 90г [106грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1249___" data-pname='Кофе растворимый Якобз Монарх екон. пак.170г' data-price="198" >Кофе растворимый Якобз Монарх екон. пак.170г [198грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1250___" data-pname='Кофе растворимый Якобз Монарх екон. пак.250г' data-price="231" >Кофе растворимый Якобз Монарх екон. пак.250г [231грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1547___" data-pname='Кофе растворимый Якобз Монарх екон. пак.400г' data-price="354" >Кофе растворимый Якобз Монарх екон. пак.400г [354грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1339___" data-pname='Кофе растворимый  L^OR 120г' data-price="159" data-img="../order/_img/price/B_0_0_5725_0_0_______1339___.jpg" >Кофе растворимый  L^OR 120г [159грн]</p>
+              
+                        <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1628___" data-pname='Кофе раств.  Якобз Милликано Американо эконом.. пач (250 г)' data-price="201" >Кофе раств.  Якобз Милликано Американо эконом.. пач (250 г) [201грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="7">Кофе молотый</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______979___" data-pname='Кофе JARDIN Americano Crema 250г' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________979___.jpg" >Кофе JARDIN Americano Crema 250г [99грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______980___" data-pname='Кофе JARDIN Espresso di Milano 250 г' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________980___.jpg" >Кофе JARDIN Espresso di Milano 250 г [99грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1118___" data-pname='Кофе JARDIN Guatemala Cloud Forest 250г' data-price="108" data-img="../order/_img/price/B_0_0_5725_0_0_______1118___.jpg" >Кофе JARDIN Guatemala Cloud Forest 250г [108грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1548___" data-pname='Кофе JARDIN Блок Espresso di Milano 250г+Americano Crema 250' data-price="195" data-img="../order/_img/price/B_0_0_5725_0_0_______1548___.jpg" >Кофе JARDIN Блок Espresso di Milano 250г+Americano Crema 250 [195грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1580___" data-pname='Кофе JARDIN Guatemala Cloud Forest 250 гр.' data-price="162" >Кофе JARDIN Guatemala Cloud Forest 250 гр. [162грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1637___" data-pname='Кофе молотый Ambassador Blue Label 230г' data-price="84" >Кофе молотый Ambassador Blue Label 230г [84грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1338___" data-pname='Кофе молотый L^OR Classic (250г)' data-price="111" data-img="../order/_img/price/B_0_0_5725_0_0_______1338___.jpg" >Кофе молотый L^OR Classic (250г) [111грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______837___" data-pname='Lavazza Crema&Gusto (250г)' data-price="117" data-img="../order/_img/price/B_0_0_5725_0_0________837___.jpg" >Lavazza Crema&Gusto (250г) [117грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______838___" data-pname='Lavazza Espresso (250г)' data-price="162" data-img="../order/_img/price/B_0_0_5725_0_0________838___.jpg" >Lavazza Espresso (250г) [162грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______839___" data-pname='Lavazza Qualita Oro (250г)' data-price="168" data-img="../order/_img/price/B_0_0_5725_0_0________839___.jpg" >Lavazza Qualita Oro (250г) [168грн]</p>
+              
+                        <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1495___" data-pname='Кофе молотый Якобз Монарх (225г)' data-price="93" data-img="../order/_img/price/B_0_0_5725_0_0_______1495___.jpg" >Кофе молотый Якобз Монарх (225г) [93грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="8">Кофе в зернах</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1012___" data-pname='Кофе  в зёрнах Ambassador Blue Label, 250г' data-price="101.7" data-img="../order/_img/price/B_0_0_5725_0_0_______1012___.jpg" >Кофе  в зёрнах Ambassador Blue Label, 250г [101.7грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______977___" data-pname='Кофе JARDIN Americano Crema 250 г' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________977___.jpg" >Кофе JARDIN Americano Crema 250 г [99грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______978___" data-pname='Кофе JARDIN Espresso di Milano 250 г' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________978___.jpg" >Кофе JARDIN Espresso di Milano 250 г [99грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1117___" data-pname='Кофе JARDIN Guatemala Cloud Forest 250г' data-price="108" data-img="../order/_img/price/B_0_0_5725_0_0_______1117___.jpg" >Кофе JARDIN Guatemala Cloud Forest 250г [108грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1340___" data-pname='Кофе в зернах L^OR Crema Absolute Classic 500г' data-price="288" data-img="../order/_img/price/B_0_0_5725_0_0_______1340___.jpg" >Кофе в зернах L^OR Crema Absolute Classic 500г [288грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1341___" data-pname='Кофе в зернах L^OR Espresso Forza 500г' data-price="288" data-img="../order/_img/price/B_0_0_5725_0_0_______1341___.jpg" >Кофе в зернах L^OR Espresso Forza 500г [288грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______840___" data-pname='Lavazza Crema Aroma (1кг)' data-price="528" data-img="../order/_img/price/B_0_0_5725_0_0________840___.jpg" >Lavazza Crema Aroma (1кг) [528грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______843___" data-pname='Lavazza Qualita Oro пкт (1кг)' data-price="642" data-img="../order/_img/price/B_0_0_5725_0_0________843___.jpg" >Lavazza Qualita Oro пкт (1кг) [642грн]</p>
+              
+                        <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______819___" data-pname='"Jacobs Monarch" (250г)' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________819___.jpg" >"Jacobs Monarch" (250г) [99грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="9">Вода в бутылках</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______459___" data-pname='Вода М/В Бонаква газированная (0.5л)' data-price="8.7" data-img="../order/_img/price/B_0_0_5725_0_0________459___.jpg" >Вода М/В Бонаква газированная (0.5л) [8.7грн]</p>
+              
+                        <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______458___" data-pname='Вода М/В Бонаква негазированная (0.5л)' data-price="8.7" data-img="../order/_img/price/B_0_0_5725_0_0________458___.jpg" >Вода М/В Бонаква негазированная (0.5л) [8.7грн]</p>
+              
+                        <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______461___" data-pname='Чистая Вода в бутылке ПЕТ (0.5л)' data-price="9.6" >Чистая Вода в бутылке ПЕТ (0.5л) [9.6грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="10">Прочие товары</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______970___" data-pname='Капучино "La Festa" ванильный (10 шт)' data-price="54" data-img="../order/_img/price/B_0_0_5725_0_0________970___.jpg" >Капучино "La Festa" ванильный (10 шт) [54грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______971___" data-pname='Капучино "La Festa" ореховый (10 шт)' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________971___.jpg" >Капучино "La Festa" ореховый (10 шт) [51грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______972___" data-pname='Капучино "La Festa" классический (10 шт)' data-price="59" data-img="../order/_img/price/B_0_0_5725_0_0________972___.jpg" >Капучино "La Festa" классический (10 шт) [59грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#______1527___" data-pname='Сливки "Coffee mate" сухие (200г)' data-price="48" >Сливки "Coffee mate" сухие (200г) [48грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#______1135___" data-pname='Сахар белый кристалический, пакет, 1 кг' data-price="22.5" >Сахар белый кристалический, пакет, 1 кг [22.5грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#______1576___" data-pname='Сахар в стиках, 5г (200шт)' data-price="37.5" >Сахар в стиках, 5г (200шт) [37.5грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______884___" data-pname='Сахар прессованный (1 кг)' data-price="36" >Сахар прессованный (1 кг) [36грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#______1641___" data-pname='Сахар в стиках, 5г (100шт)' data-price="75" >Сахар в стиках, 5г (100шт) [75грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______986___" data-pname='Горячий шоколад в стиках (10шт)' data-price="63" data-img="../order/_img/price/B_0_0_5725_0_0________986___.jpg" >Горячий шоколад в стиках (10шт) [63грн]</p>
+              
+                        <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______987___" data-pname='Горячий шоколад растворимый (150 г)' data-price="39" >Горячий шоколад растворимый (150 г) [39грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="11">Санитарная обработка оборудования</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______117___" data-pname='Санобработка диспенсера' data-price="42" >Санобработка диспенсера [42грн]</p>
+              
+                        <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______320___" data-pname='Санобработка кулера' data-price="195" data-img="../order/_img/price/B_0_0_5725_0_0________320___.jpg" >Санобработка кулера [195грн]</p>
+              
+                        <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______119___" data-pname='Санобработка помпы' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________119___.jpg" >Санобработка помпы [42грн]</p>
+              
+                        </div>
+                          <h3 class="submenu" data-num="12">Оборудование для разлива воды (аренда)</h3>
+                  
+          <div class="accordion-box">              <p class="subitem viewprice sub-12" data-code="B#0#0#5725#0#0#_______253___" data-pname='Кулер СО2' data-price="300" data-img="../order/_img/price/B_0_0_5725_0_0________253___.jpg" >Кулер СО2 [300грн]</p>
+              
+                        <p class="subitem viewprice sub-12" data-code="B#0#0#5725#0#0#_______254___" data-pname='Кулер H&C' data-price="210" data-img="../order/_img/price/B_0_0_5725_0_0________254___.jpg" >Кулер H&C [210грн]</p>
+              
+                        <p class="subitem viewprice sub-12" data-code="B#0#0#5725#0#0#_______255___" data-pname='Кулер мини' data-price="210" data-img="../order/_img/price/B_0_0_5725_0_0________255___.jpg" >Кулер мини [210грн]</p>
+              
+                        <p class="subitem viewprice sub-12" data-code="B#0#0#5725#0#0#_______106___" data-pname='Помпа' data-price="21" data-img="../order/_img/price/B_0_0_5725_0_0________106___.jpg" >Помпа [21грн]</p>
+              
+                        </div>
+                        </div>
+            </div>
+             
+          </div>
+        </div>
+      </div>
+        <script>
+
+            var setError = {
+                "ok":"Успешно", "error":"Ошибка", "notice":"Предупреждение", "wait":"Ожидайте", "e1":"<h2>Не указана дата доставки!</h2><p>Доставки выполняются:</p><ul><li>ПН-ПТ  6:00-18:30<li>СБ     7:00-18:00</ul>", "e2":"<h2>Неверная дата доставки!</h2><p>Доставки выполняются:</p><ul><li>ПН-ПТ  6:00-18:30<li>СБ     7:00-18:00</ul>", "e3":"<h2>Воскресенье - выходной!</h2><p>Доставки выполняются:</p><ul><li>ПН-ПТ  6:00-18:30<li>СБ     7:00-18:00</ul>", "e4":"<h2>Праздничный день - доставка невозможна!</h2><p>Доставки выполняются:</p><ul><li>ПН-ПТ  6:00-18:30<li>СБ     7:00-17:00</ul>", "e5":"<h2>К сожалению, на выбранную Вами дату прием заказов завершен.</h2><p>Вы можете оформить заказ на другой удобный для Вас день. Дополнительная информация по телефону:</p><ul><li><a href=\"tel:+380443913030\">044 391 30 30</a><li><a href=\"tel:+380503153030\">050 315 30 30</a><li><a href=\"tel:+380933183030\">093 518 30 30</a><li><a href=\"tel:+380672433040\">067 243 30 40</a></ul><p>Режим работы колл-центра:</p><ul><li>ПН-ПТ &nbsp;&nbsp; 8:00-21:00<li>СБ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:00-17:00</ul>", "e6":"<h2>К сожалению, прием заказов на завтра завершен.</h2><p>Вы можете оформить заказ на другой удобный для Вас день. Дополнительная информация по телефону:</p><ul><li><a href=\"tel:+380443913030\">044 391 30 30</a><li><a href=\"tel:+380503153030\">050 315 30 30</a><li><a href=\"tel:+380933183030\">093 518 30 30</a><li><a href=\"tel:+380672433040\">067 243 30 40</a></ul><p>Режим работы колл-центра:</p><ul><li>ПН-ПТ &nbsp;&nbsp; 8:00-21:00<li>СБ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:00-17:00</ul>", "e7":"<h2>Не указано время доставки!</h2><p>Доставки выполняются:</p><ul><li>ПН-ПТ  6:00-18:30<li>СБ     7:00-18:00</ul><p>Период доствки не менее 3 часов.</p>", "e8":"<h2>При заказе менее 2 бутылей доставка является платной!</h2><p>Дополнительная стоимость за доставку составляет 50 грн.</p>", "e9":"<h2>Не указано количество бутылей!</h2><p>При заказе 2-х бутылей или более доставка осуществляется бесплатно.</p>", "e10":"<h2>Ошибка связи с сервером!</h2><p>Возможно, отсутствует интернет или другие проблемы со связью.</p><p>Попробуйте отправить форму позже.</p>", "e11":"<h2>Заказ отправлен!</h2><p>Спасибо, что Вы с нами.</p>", "e12":"<h2>Не заполнены важные поля!</h2><p>Поля, отмеченные звездочкой, должны быть заполнены!</p>", "e13":"<h2>Заказ отправлен по резервному каналу!</h2><p>Есть вероятность, что существуют технические проблемы и обработка может занять больше времени.</p><p>Спасибо за то, что Вы с нами.</p>", "e14":"<h2>Идет отправка заказа!</h2><p>Пожалуйста дождитесть окончания процесса!</p><p>Спасибо за то, что Вы с нами.</p>", "e15":"Не удалось заполнить форму как в прошлый раз!<br>Возможно Вы пользовались другим браузером или другим устройством в прошлый раз.", "e16":"Неверно указан номер счета!<br>Правильный номер счета указан на документах, и имеет вид 12345/67", "e17":"Неверно указана сумма оплаты!<br>Сумма оплаты - это число в виде 123 или 123.45", "p1":"<p>Вы уверены что хотите оплатить счет [code] клиента</p> <p><b>[name]</b>? </p>", "p2":"<h2>Продолжить оплату?</h2><p>Вы оформлены в компании \"Чиста Вода\" как юридическое лицо - плательщик НДС.</p><p>В этом случае  налоговая не приветствует оплату услуг банковской картой, и у Вашей бухгалтерии могут возникнуть проблемы с проведением оплаты.</p><p>Продолжить оплату?</p>", "p3":"<h2>Продолжить оплату?</h2><p>Клиент с номером [code] не найден!</p><p>Если Вы делаете заказ впервые - уточните у оператора правильный номер счета для оплаты и повторите оплату.</p><p>Если номер счета указан неправильно Ваш платеж может быть потерян!</p><p>Продолжить оплату?</p>", "p4":"<p>Вы уверены что хотите оплатить счет <b>[code]</b>? </p>"            };
+
+            $("#dial-send").dialog({
+                modal: true,
+                autoOpen: false,
+                buttons: {
+                    "OK": function() {
+                        $( this ).dialog( "close" );
+                        var run = $("#dial-send").attr("run");
+                        if (run != '') {
+                            eval(run);
+                        }
+                    }
+                }
+            });
+            $("#dial-conf").dialog({
+                modal: true,
+                autoOpen: false,
+                buttons: {
+                    "Да": function() {
+                        $( this ).dialog( "close" );
+                        var run = $("#dial-conf").attr("run");
+                        if (run != '') {
+                            eval(run);
+                        }
+                    },
+                    "Нет": function() {
+                        $( this ).dialog( "close" );
+                    }
+                }
+            });
+            $("#dial-wait").dialog({
+                modal: true,
+                autoOpen: false,
+                dialogClass: "no-close",
+            });
+            $(".ui-dialog-buttonset > button").css("padding","6px 30px");
+
+            function showwait(title, mess, run) {
+                if (run === undefined) {
+                    run = '';
+                }
+                $("#idlasterror").val("sw;t=" + title + ";m=" + mess + ";r=" + run);
+                $("#dial-wait").dialog( "option", "title", title);
+                $("#dial-wait").html(mess);
+                $("#dial-wait").attr("run", run);
+                $("#dial-wait").dialog("open");
+            }
+
+            function showmes(title, mess, run) {
+                if (run === undefined) {
+                    run = '';
+                }
+                $("#idlasterror").val("sm;t=" + title + ";m=" + mess + ";r=" + run);
+                $("#dial-send").dialog( "option", "title", title);
+                $("#dial-send").html(mess);
+                $("#dial-send").attr("run", run);
+                $("#dial-send").dialog("open");
+            }
+
+            function showconf(title, mess, run) {
+                if (run === undefined) {
+                    run = '';
+                }
+                $("#idlasterror").val("sc;t=" + title + ";m=" + mess + ";r=" + run);
+                $("#dial-conf").dialog( "option", "title", title);
+                $("#dial-conf").html(mess);
+                $("#dial-conf").attr("run", run);
+                $("#dial-conf").dialog("open");
+            }
+
+            function addzero(str, num) {
+                str = '' + str;
+                while (str.length < num) {
+                    str = '0' + str;
+                }
+                return str;
+            }
+            function sendcodeform() {
+                var sendcode = $("#usercode").val();
+                var newtr = new Date();
+                sendcode += '/' + addzero(newtr.getFullYear(), 4) + addzero(newtr.getMonth() + 1, 2) + addzero(newtr.getDate(), 2) + addzero(newtr.getHours(), 2) + addzero(newtr.getMinutes(), 2) + addzero(newtr.getSeconds(), 2);
+                $("#hidcode").val(sendcode);
+                $("#UPC-form").submit();
+            };
+
+            function notifyform(mess) {
+                showconf(setError['notice'], mess, 'sendcodeform()');
+            }
+
+            $(document).ready(function(){
+
+                $("#UPC-send").click(function(e) {
+                    var totalSum = $("#usersum").val();
+                    totalSum = totalSum.replace(/\,/g, ".");
+                    totalSum = totalSum.replace(/\s|\t|\n|\r/g, "");
+                    $("#usersum").val(totalSum);
+                    var boolSum = isNaN(totalSum);
+                    var fullcode = $("#usercode").val();
+					fullcode = fullcode.replace(/\\/g, "/");
+                    var z = fullcode.indexOf("/");
+                    var usercode = fullcode.split("/");
+                    var boolCode = false;
+                    var i;
+                    for (i = 0; i < usercode.length; i++) {
+                        usercode[i] = $.trim(usercode[i]);
+                        if (isNaN(usercode[i])) {
+                            boolCode = true;
+                        }
+                    }
+                    if((boolSum == true) || (totalSum <= 0) ){
+                        showmes(setError['notice'], setError['e17']);
+                        return false;
+                    } else if ((z == -1) || (boolCode == true)) {
+                        showmes(setError['notice'], setError['e16']);
+                        return false;
+                    }
+
+                    showwait(setError['wait'], setError['e14']);
+
+                    var args = new Object();
+                    args['usercode'] = usercode[0];
+                    args['fullcode'] = fullcode;
+
+                    $.post('https://www.clearwater.ua/order/_system/jsclient.php', args, function(data) {
+                        $("#dial-wait").dialog("close");
+                        var sep = data.indexOf("|");
+                        var rescode = data.split("|");
+                        if ((sep != -1) && (rescode[0] == 'OK')) {
+                            var dialogText = setError['p1'];
+                            dialogText = dialogText.replace("[code]", rescode[1]);
+                            dialogText = dialogText.replace("[name]", rescode[2]);
+
+                            showconf(setError['notice'], dialogText, 'sendcodeform()');
+                        } else if ((sep != -1) && (rescode[0] == 'NOTICE')) {
+                            var dialogText = setError['p1'];
+                            dialogText = dialogText.replace("[code]", rescode[1]);
+                            dialogText = dialogText.replace("[name]", rescode[2]);
+
+                            showconf(setError['notice'], setError['p2'], 'notifyform("' + dialogText + '")');
+                        } else if ((sep != -1) && (rescode[0] == 'NEW')) {
+                            var dialogText = setError['p3'];
+                            dialogText = dialogText.replace("[code]", rescode[1]);
+
+                            var dialogText2 = setError['p4'];
+                            dialogText2 = dialogText2.replace("[code]", rescode[1]);
+
+                            showconf(setError['notice'], dialogText, 'notifyform("' + dialogText2 + '")');
+                        } else if ((sep != -1) && (rescode[0] == 'ERROR')) {
+                            showmes(setError['notice'], setError[rescode[1]]);
+                        } else {
+                            showmes(setError['notice'], setError['e10']);
+                        }
+                    }).fail(function() {
+                        $("#dial-wait").dialog("close");
+                        showmes(setError['notice'], setError['e10']);
+                    });
+                    return false;
+                });
+
+                $(".input-return").click(function() {
+                    var v = $("#input-text").val();
+                    var attribute = $(this).attr("data-input");
+                    $("[data-header='"+attribute+"'] ").val(v);
+                    $("#modal-input").modal();
+                });
+                var id;
+                $(document).on( "click",".calc-challenge", function() {
+                     id = $(this).attr("id");
+                  var title = $(this).attr("data-header");
+                  var header ='<div class="close" data-dismiss="modal">&times;</div>';
+                  header+='<h4 class="modal-title calc-title">';
+                  header+=title;
+                  header+='</h4>';
+                  $("#calculator .modal-header").html(header);
+                  $("#calculator").modal();
+
+
+                });
+                var FlagNewNum = false;
+                $('.calc-figure').click(function(){
+                  var num = $(this).val();
+                  if(FlagNewNum){
+                    $('#calculator-field').val(num);
+                    FlagNewNum = false;
+                  }
+                  else{
+                        var t = $('#calculator-field').val() + num ;
+                        $('#calculator-field').val(t);
+                  }
+                });
+                $(document).on("click",".calc-return",function(){
+
+                  calcvalue = $('#calculator-field').val();
+
+                  var k = $('#calculator-field').val();
+                  $('#'+id).val(calcvalue);
+                  $('#calculator-field').val("");
+                });
+
+                $('.calc-clear').click(function(){
+                  var str = $('#calculator-field').val();
+                  var lastSymbol = str.length-1;
+                  var newStr = str.substring(0,lastSymbol);
+                  $('#calculator-field').val(newStr);
+
+
+                });
+                $('.calc-delete').click(function(event) {
+                    $('#calculator-field').val("");
+                });
+                $('#usercode').click(function() {
+                   $(".dot-btn").addClass('inv');
+                   $(".slash-btn").removeClass('inv');
+
+                });
+                $("#calculator").on("hidden.bs.modal",function(){
+                     $(".dot-btn").removeClass('inv');
+                   $(".slash-btn").addClass('inv');
+                });
+
+
+            });
+        </script>
+    </body>
+</html>

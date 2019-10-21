@@ -1,0 +1,307 @@
+﻿ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Доставка води Київ: перші два бутлі безкоштовно!</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="Доставка води, безкоштовна проба, аналіз води, кулери, помпи, діпенсери, санітарна обробка, екскурсії на завод, онлайн замовлення">
+		<meta name="description" content="Доставка води додому та в офіс. Міжнародні стандарти якості. Найсучасніший завод в Європі. Свердловина в екологічно чистому районі. Проводимо екскурсії! (044)391-30-30">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+		
+		<link rel="canonical" href="https://www.clearwater.ua/" >
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<!--<script type="text/javascript">
+		if (screen.width < 1081) {
+		 var ref = document.referrer;
+		 var urls = new Array("https://www.clearwater.ua/mobile/","https://www.clearwater.ua/mobile/order");
+		 var n = ref.match(urls[0]);
+		 var m = ref.match(urls[1]);
+		 if ((m!==null) || (n!==null)) {
+		 stop;
+		 }
+		 else if (ref=='') {
+		 var r = confirm("Обнаружен маленький экран.\nНажмите \"OK\" для того чтобы перейти на мобильную версию.");
+		 if (r==true) {
+		  window.location = "https://www.clearwater.ua/mobile/order";
+		  }
+		  else {
+		  stop ;
+		 }
+		 }
+		 else
+		 {
+		 window.location = "https://www.clearwater.ua/mobile/order";
+		 } 
+		}
+		</script>-->
+
+		<script src="js/plugin/jquery-2.1.4.min.js"></script>
+		<script src="js/plugin/jquery.cookie.js"></script>
+		<script src="js/plugin/jquery-ui.js"></script>
+		<script src="js/plugin/plugin.js"></script>
+		<script src="js/plugin/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/plugin/owl.carousel.js"></script>
+		<script type="text/javascript" src="js/script/script.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-26237277-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		
+	</head>
+	<body>
+
+		
+		<!--Хедер с иконками меню-->
+		<div class="phone-header">
+<table id="phone-header1">
+  <tr>
+    <td><div class="menu-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_1.png" alt=""></div></td>
+    <td><div class="call-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_2.png" alt=""></div></td>
+    <td><a href="order"><img src="img/new_ICON_3.png" alt=""></a></td>
+    <td><div class="ask-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_4.png" alt=""></div></td>
+  </tr>
+  </table>
+<table id="phone-header2">
+  <tr>
+    <td>Меню</td>
+    <td>Подзвонити</td>
+    <td>Замовити</td>
+    <td>Запитати</td>
+  </tr>
+</table>
+</div> 
+
+<!--Хедер сайта с фиксированным меню portrait-->
+<div class="landscape-header inv">
+  <table class="landscape-nav inv">
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="menu-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_1.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Меню</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="call-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_2.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Подзвонити</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div>
+          <a href="order.php"><img src="img/new_ICON_3.png" alt=""></a>
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Замовити</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="ask-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_4.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">Запитати</td>
+    </tr>
+  </table>
+</div>
+
+
+		<!--Контент главной страницы-->
+		<!--Содержимое главной страницы с бегущей строкой слайдером и иконками соцсетей-->
+<div class="main-page content-block">
+  <div id="title-strings">
+    <div class="title-strings">
+      <h3 id="string-one" class="animated bounceInRight">CLEARWATER</h3>
+      <h4 id="string-two" class="animated bounceInRight">з 1998 в Україні</h4>
+    </div>
+  </div> 
+  <div class="phone-content">
+    <div id="owl-slider" class="owl-carousel slider" >
+        <div id="slide1" >
+          <a href="promo?slide=1"><img class="slider-img" src="img/ua_img/1.jpg" alt="Slider1" /></a>
+        </div>
+        <div id="slide2" >
+          <a href="promo?slide=2"><img class="slider-img"  src="img/ua_img/2.jpg" alt="Slider2" /></a>
+        </div>
+       <div id="slide3" >
+          <a href="promo?slide=3"><img class="slider-img"  src="img/ua_img/3.jpg" alt="Slider3" /></a>
+        </div>
+        <div id="slide4" >
+          <a href="promo?slide=4"><img class="slider-img" src="img/ua_img/4.jpg" alt="Slider4" /></a>
+        </div>
+        <div id="slide5" >
+          <a href="promo?slide=5"><img class="slider-img" src="img/ua_img/5.jpg"  alt="Slider5" /></a>
+        </div>
+        <div id="slide6" >
+          <a href="promo?slide=6"><img class="slider-img" src="img/ua_img/6.jpg"  alt="Slider6" /></a>
+        </div>
+    </div>
+    
+    <div id="mob-slider-description">
+        
+        <div id="mobSocial" class="col-xs-5">
+          <div class="col-xs-4 fb"><a href="https://www.facebook.com/clearwaterua"><img src="img/new_fb.png" alt="fb"></a></div>
+          <div class="col-xs-4 vk"><a href="https://vk.com/clearwaterua"><img src="img/new_vk.png" alt="vk"></a></div>
+        </div>
+    </div>
+
+
+    <div class="logo-title">
+      <div class="col-xs-3 logo-img"><img class="img-responsive" src="img/logo.png" alt="logo"></div>
+      <div class="col-xs-9 title-for">
+        <h2>
+           Найкраща доставка питної води        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+		<!--Всплывающие окна из иконок меню-->
+		
+<div class="modal fade" id="modal-menu"> 
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="row">
+          <div class="col-xs-2 language">
+            <a href="/mobile/index.php?lang=ua" class="ua active-lang">
+              UA
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/index.php?lang=ru">
+              RU
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/index.php?lang=en">
+              EN
+            </a>
+          </div>
+          <div class="col-xs-2 language inv">
+            <a href="index?lang=en">
+              EN
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="menu-punkts inv" data-class="menu-punkts">
+          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">Головна</a></div>
+
+          <!--<div class="row"><a href="#"><img src="img/water.png" alt="">Про воду</a></div>
+          <div class="row"><a href="#"><img src="img/delivery.png" alt="">Доставка</a></div>
+          <div class="row"><a href="#"><img src="img/price.png" alt="">Ціна</a></div>-->
+          <div class="row"><a href="promo"><img src="img/promo.png" alt="">Акції</a></div>
+          <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">Обладнання</a></div>
+          
+          <div class="row"><a href="#"><img src="img/other.png" alt="">Інші товари</a></div>
+          <div class="row"><a href="#"><img src="img/about.png" alt="">Про компанію</a></div>-->
+          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">Повна версія</a></div>
+          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карткою</a></div>
+        </div>
+        <div class="modal-numbers inv" data-class="modal-numbers">
+          <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>Замовити дзвінок</span></a></div>
+          <div class="row"><a href="tel:0443913030"><img src="img/city_phone.png" alt=""><span>044 391 30 30</span></a></div>
+          <div class="row"><a href="tel:0935183030"><img src="img/lifecell.jpg" alt=""><span>093 518 30 30</span></a></div>
+          <div class="row"><a href="tel:0503153030"><img src="img/mts.png" alt=""><span>050 315 30 30</span></a></div>
+          <div class="row"><a href="tel:0672433040"><img src="img/kyivstar.png" alt=""><span>067 243 30 40</span></a></div>
+          <div class="row"><a href="skype:cw3913030?chat"><img src="img/skype.png" alt=""><span>cw3913030</span></a></div>
+          <div class="row"><a href="viber://add?number=0935183030"><img src="img/viber.png" alt=""><span>093 518 30 30</span></a></div>
+        </div>
+        <div class="modal-questions inv" data-class="modal-questions">
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_water"><span>Питання про воду</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_bottles"><span>Питання про бутлі</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Питання по обладнанню</span></a></div>
+          <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Питання про документи</span></a></div>-->
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Задайте своє питання</span></a></div>
+        </div>  
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Всплывающее окно обратного звонка -->
+
+
+<div class="modal fade" id="modal-recall">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="recall-title">Замовити дзвінок</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="form" method="post" action="">
+          <div class="row">
+            <input class='recall-number' type="text" name="name" required="required" placeholder="Ваше ім`я:"/>
+            
+          </div>
+          <div class="row">
+            <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+            
+          </div>
+          <div class="recall-buttons">
+            
+            <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Відмінити"/>
+            <input id='recall-button' class='btn recall-submit' type="submit" value="Замовити дзвінок"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-ask">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="ask-title">Задайте своє питання</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="ask-form" method="post" action="">
+          <div class="row">
+            <input class='ask-number' type="text" name="name" required="required" placeholder="Ваше ім`я:"/>
+          </div>
+          <div class="row">
+            <input id="phone-ask" class='number ask-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
+          </div>
+          <div class="row">
+            <textarea id='askedQuestion' class='ask-number' name="question" required="required" placeholder="Ваш питання:" rows="3"></textarea>
+          </div>
+          <div class="ask-buttons">
+            <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Відмінити"/>
+            <input id='ask-button' class='btn ask-submit' type="submit" value="Задати запитання"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>		<!-- BEGIN JIVOSITE CODE {literal} -->
+		<!-- BEGIN JIVOSITE CODE {literal} -->
+
+	</body>
+</html>

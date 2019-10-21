@@ -1,0 +1,436 @@
+<!doctype html>
+<!--[if lte IE 8]><html xmlns:fb="http://ogp.me/ns/fb#" class="lteie8"><![endif]-->
+<!--[if gt IE 8]><!--><html xmlns:fb="http://ogp.me/ns/fb#"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" http-equiv="description" content="&amp;quot;Clear Water&amp;quot; Company has the largest and most modern factory in Europe, built according to the most up-to-date international standards and have the fully automatic production line. We are proud of our factory, and it will be our pleasure to guide you through it!" />
+<link rel="stylesheet" type="text/css" href="/themes/clear/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+<link rel="stylesheet" type="text/css" href="/themes/clear/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/application.css" media="screen, projection" />
+<script type="text/javascript" src="/assets/f5a7fac8/jquery.min.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/modernizr-2.7.1.min.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/plax.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/jquery.cycle2.js"></script>
+<script type="text/javascript" src="/themes/clear/js/vendor/jquery.placeholder.js"></script>
+<script type="text/javascript" src="/themes/clear/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="/themes/clear/js/common.js"></script>
+<script type="text/javascript" src="/js/application.js"></script>
+<title>&quot;Clear Water&quot; Company has the largest and most modern factory in Europe</title>
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="icon" type="image/png" href="/images/favicon.png">
+	<!--[if IE]>
+	<script src="/themes/clearjs/vendor/html5shiv.js"></script>
+	<![endif]-->
+
+	<!--Edited by Serdiukov Ivan-->
+    <script src="/themes/clear/js/mobile-detect.min.js"></script>
+    <script>
+        // возвращает cookie с именем name, если есть, если нет, то undefined
+        function getCookie(name) {
+            var matches = document.cookie.match(new RegExp(
+                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+            ));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
+        var md = new MobileDetect(window.navigator.userAgent);
+        if (md.mobile()) {
+            var desc = getCookie('setdesc');
+
+            if (desc == undefined) {
+                location.replace(location.origin + '/mobile/');
+            }
+        }
+    </script>
+	<link rel="alternate" href="https://www.clearwater.ua/mobile/">
+	<!--End of edition-->
+
+	<!-- ukr
+	<script type="text/javascript">
+		window.vkAsyncInit = function() {
+			VK.init({
+				apiId: 4151778
+			});
+			VK.Widgets.Like("vk_like_footer", {type: "mini", height: 20, pageUrl: 'https://vk.com/clearwaterua'});
+		};
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "http://vk.com/js/api/openapi.js";
+			js.async = true;
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'vk-jssdk'));
+	</script>
+	-->
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId: '523807974373271',
+				status: true,
+				xfbml: true
+			});
+		};
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script>
+		(function(){
+			var widget_id = 674936;
+			_shcp =[{widget_id : widget_id}];
+			var lang =(navigator.language || navigator.systemLanguage
+				|| navigator.userLanguage ||"en")
+				.substr(0,2).toLowerCase();
+			var url ="widget.siteheart.com/widget/sh/"+ widget_id +"/"+ lang +"/widget.js";
+			var hcc = document.createElement("script");
+			hcc.type ="text/javascript";
+			hcc.async =true;
+			hcc.src =("https:"== document.location.protocol ?"https":"http")
+				+"://"+ url;
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hcc, s.nextSibling);
+		})();
+	</script>
+	<script type="text/javascript">
+/*
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26237277-1']);
+		_gaq.push(['_setDomainName', 'clearwater.ua']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+*/
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-26237277-1', 'auto');
+		  ga('send', 'pageview');
+
+	</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 965991704;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/965991704/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+</head>
+	<body>	<!--[if lt IE 8]>
+		<p class="browseupdate">Вы используете <strong>старую</strong> версию браузера. Пожалуйста, <a href="http://browsehappy.com/">обновите браузер</a>.</p>
+	<![endif]-->
+	<div id="vk_api_transport"></div>
+	<div id="fb-root"></div>
+		<div class="out">
+		﻿<header class="header header_dark header_production visibility" role="banner">	<i class="chevron js-scroll"></i>
+	<div class="container">
+		<div class="header__grid layout">
+			<div class="l-left">
+				<div class="header__main">
+					<h1 class="logo"><a href="/en" title="Чистая вода - ClearWater">ClearWater</a></h1>
+					<ul class="language" id="yw0">
+<li><a href="/production">рус</a></li>
+<li><a href="/ua/production">укр</a></li>
+<li class="is-active"><a href="/en/production">en</a></li>
+</ul>				</div>
+				<div class="header-trigger js-trigger">
+					<span>Sections of the menu</span><i class="header-trigger__btn "></i>
+				</div>
+			</div>
+			<div class="header__info l-right">
+				<address class="header__contacts">
+					<span class="header__tel"><a href="tel:+380443913030">044 391 3030</a><br><a href="tel:+380503153030">050 315 3030</a><br><a href="tel:+380935183030">093 518 3030</a><br><a href="tel:+380672433040">067 243 3040</a></span>
+					<button type="button" class="btn btn-block btn-sm btn-white js-popup-callback">Call Back </button>
+				</address>
+			</div>
+		</div>
+		<div class="preview narrow">			<h2 class="h h-drop_after">Production </h2>
+			<div class="preview__text">
+				ClearWater Ukraine owns the highest capacity in Europe, state of art production facility. 
+We are proud of our factory, and it will be our pleasure to guide you through it!
+			</div>
+			<a id="excurs" href="#excursion" class="btn btn-sm btn-white">Find out more about the factory tour.</a>		</div>
+	</div>
+</header>
+<!-- /.header -->
+
+		<div class="main">
+			<span class="sidebar-trigger js-trigger">Menu</span>
+<!-- /.sidebar-trigger -->
+<aside class="sidebar">
+	<div class="sidebar__menu nav">
+		<ul id="yw1">
+<li><a href="/en">Home</a></li>
+<li><a href="/en/water">Our water</a></li>
+<li><a href="/en/equipment">Equipment</a></li>
+<li><a href="/en/delivery">Delivery and price</a></li>
+<li class="is-active"><a href="/en/production">Production </a></li>
+<li><a href="/en/about">Company</a></li>
+<li><a href="/en/promo">Special offers</a></li>
+<li class="sidebar__menu-corp"><a href="/en/corporate">Office Delivery </a></li>
+</ul>	</div>
+	<div class="sidebar__buttons">
+		<button type="button" class="btn btn-block btn-fill js-popup-online-external">Order on-line</button>
+	</div>
+	<ul class="sidebar__social social">
+		<li class="facebook"><a href="https://www.facebook.com/clearwaterua" target="_blank"><span></span>Facebook</a></li>
+		<li class="vk"><a href="http://vk.com/clearwaterua" target="_blank"><span></span>VK</a></li>
+	</ul>
+</aside>
+<!-- /.sidebar -->
+			<section class="article">
+	<div class="container">
+		<ul class="article-list">
+			<li class="article-list__item visibility js-visibility2">
+				<div class="h-line h-line_left">Compliance with latest international standards</div>
+				<div class="article-list__content">
+					We built in Ukraine the European level production facility. Every process is thought through to the smallest detail to ensure the highest quality. Even our competitors admire our factory. 				</div>
+			</li>
+			<li class="article-list__item visibility js-visibility3">
+				<div class="h-line h-line_left">Fully automatic production line</div>
+				<div class="article-list__content">
+					The process of water purification and bottling is 100% automatic. Bottles are washed in the airtight machine, thus the chances of getting any bacteria or external objects into the water are completely excluded. 				</div>
+			</li>
+			<li class="article-list__item visibility js-visibility4">
+				<div class="h-line h-line_left">We don’t have intermediaries 
+</div>
+				<div class="article-list__content">
+					ClearWater is the a full cycle company. We conduct all the processes in-house to ensure the highest quality to our clients. 				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+<!-- /.show -->
+<div class="video visibility">
+	<div class="watch-about">
+		<div class="watch-about__inner">
+			<span class="watch-about__title">Watch the video </span>
+			<div class="play-btn play-btn_blue js-play"><span></span></div>
+			<span class="watch-about__title">about our production</span>
+		</div>
+	</div>
+</div>
+<!-- /.video -->
+
+<section id="excursion" class="invitation visibility js-visibility6">
+	<div class="container narrow">
+		<h2 class="invitation__title">
+			<i class="cw-logo"></i>
+			Visit ClearWater factory		</h2>
+		<div class="invitation__content">
+			Our guided tours are free. We invite groups as well as individual visitors. We conduct tours on the weekdays and on Saturdays upon special request. To visit ClearWater factory please sign up: 		</div>
+		<button type="button" class="btn btn-sm btn-dark js-popup-excursion">Sign up for factory tour </button>
+	</div>
+</section>
+<!-- /.invitation -->
+
+<div class="testing-alt zig zig_blue visibility js-visibility7">
+	<div class="container narrow narrow_slim">
+		<h2 class="h-sub">Check ClearWater benefits and make a deliberate choice. </h2>
+		<h2 class="h3 h-wave">Order ClearWater free trial, without contracts and obligations. </h2>
+		<p>We’ll show up on time and bring you high quality water and a great mood. Try our European service!</p>
+		<button type="button" class="btn btn-fill btn-fill_light btn-lg js-popup-trial">Order now</button>
+	</div>
+	<a href="/en/corporate" class="testing-alt__corporate-btn btn btn-white btn-sm">Office Delivery </a>
+</div>
+<!-- /.testing -->
+<div class="popup-video">
+	<div class="popup-video__el">
+		<!-- BEGIN v-player -->
+		<div id="player" class="v-player">
+			<script>
+				// 2. This code loads the IFrame Player API code asynchronously.
+				var tag = document.createElement('script');
+				tag.src = "https://www.youtube.com/iframe_api";
+				var firstScriptTag = document.getElementsByTagName('script')[0];
+				firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+				// 3. This function creates an <iframe> (and YouTube player)
+				//    after the API code downloads.
+				var player;
+				function onYouTubeIframeAPIReady() {
+					player = new YT.Player('player', {
+						height: '100%',
+						width: '100%',
+						videoId: 'UfoarBoa3Q4',
+						playerVars: { 'autoplay': 0, 'controls': 1, 'showinfo': 0, 'fs': 1 }
+					});
+				}
+				function stopVideo() {
+					player.pauseVideo();
+				}
+				function playVideo() {
+					player.playVideo()
+				}
+			</script>
+		</div>
+		<!-- END v-player -->
+	</div>
+	<button class="popup-video__close"><i></i></button>
+</div>
+			﻿<footer class="footer visibility">
+	<div class="footer__info footer__row">
+		<div class="container">
+			<div class="footer__contacts">
+				<p>For any questions about our product or service quality, please</p>
+				<p>Call us at:</p>
+				<p class="footer__contacts-tel"><a href="tel:+380443913030">044 391 3030</a><br><a href="tel:+380503153030">050 315 3030</a><br><a href="tel:+380935183030">093 518 3030</a><br><a href="tel:+380672433040">067 243 3040</a></p>
+				<button class="footer__feedback btn js-popup-control">Send inquiry to quality control department</button>
+			</div>
+			<!-- /.footer__contacts -->
+			<div class="footer__quality-control">
+				<p> Quality control</p>
+				<ul>
+					<li class="iso"><span>International Organization for Standardization</span></li>
+					<li class="we"><span>Watercoolers Europe</span></li>
+					<li class="uabw"><span>Bottle Water Association of Ukraine</span></li>
+				</ul>
+			</div>
+			<!-- /.footer__quality-control -->
+		</div>
+	</div>
+	<!-- end .footer__info -->
+	<div class="footer__main footer__row">
+		<div class="container">
+			<div class="footer__copyright">
+				<p>© ClearWater LLC. All rights reserved.</p>
+				<p>If you are not fully satisfied with the ClearWater product or service, our General Manager would like to hear from you! </p>
+				<p><a href="mailto:director@cw.com.ua">director@cw.com.ua</a></p>
+			</div>
+			<!-- /.footer__copyright -->
+			<div class="footer__other">
+				<ul class="footer__menu" id="yw2">
+<li><a href="/en/water">Our water</a></li>
+<li><a href="/en/equipment">Equipment</a></li>
+<li><a href="/en/delivery">Delivery and price</a></li>
+<li class="is-active"><a href="/en/production">Production </a></li>
+<li><a href="/en/about">Company</a></li>
+<li><a href="/en/promo">Special offers</a></li>
+</ul>				<!-- /.footer__menu -->
+				<ul class="footer__social social social_mod">
+					<li class="facebook"><a href="https://www.facebook.com/clearwaterua" target="_blank"><span></span>Facebook</a></li>
+					<li class="vk"><a href="http://vk.com/clearwaterua" target="_blank"><span></span>VK</a></li>
+				</ul>
+				<!-- /.footer__social -->
+				<div class="clr"></div>
+				<ul class="footer__like">
+					<li>
+						<div id="vk_like_footer"></div>
+					</li>
+					<li>
+						<fb:like href="https://www.facebook.com/clearwaterua" layout="button_count" action="like" show_faces="false" share="false"></fb:like>
+					</li>
+				</ul>
+				<!-- /.footer__like -->
+				<div class="vintage">
+					website is developed by											<a href="http://vintage.agency/" target="_blank" class="vintage__ico"><span></span>Vintage</a>
+									</div>
+				<!-- /.vintage -->
+			</div>
+			<!-- /.footer__other -->
+		</div>
+	</div>
+</footer>
+<!-- /.footer -->
+		</div>
+		<!-- /.main -->
+	</div>
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_callback">
+		<form class="ajax-form" id="call-widget-form" action="/en/call/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Call back</div>
+<input class="input input-dark" placeholder="Phone Number" name="form_models_CallForm[telephone]" id="form_models_CallForm_telephone" type="tel" /><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_online">
+		<form class="ajax-form" id="order-widget-form" action="/en/order-form/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Order on-line</div>
+<div class="popup__title h-sub"><a href="/order">Complete form of order</a></div>
+<input class="input input-dark" placeholder="Name" name="form_models_Order[name]" id="form_models_Order_name" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_Order[telephone]" id="form_models_Order_telephone" type="tel" /><input class="input input-dark" placeholder="Number of bottles" name="form_models_Order[bottle]" id="form_models_Order_bottle" type="text" /><textarea class="textarea" placeholder="Comment" name="form_models_Order[comment]" id="form_models_Order_comment"></textarea><div class="form-row">
+	<label class="checkbox"><input id="ytform_models_Order_new" type="hidden" value="0" name="form_models_Order[new]" /><input name="form_models_Order[new]" id="form_models_Order_new" value="1" type="checkbox" /><i></i>I am a new customer</label>
+	</div>
+<button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_trial">
+		<form class="ajax-form" id="trial-widget-form" action="/en/trial/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Order free trial</div>
+<input class="input input-dark" placeholder="Name" name="form_models_TrialForm[name]" id="form_models_TrialForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_TrialForm[telephone]" id="form_models_TrialForm_telephone" type="tel" /><textarea class="textarea" placeholder="Address" name="form_models_TrialForm[address]" id="form_models_TrialForm_address"></textarea><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_control">
+		<form class="ajax-form" id="control-widget-form" action="/en/control/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Letter quality control department</div>
+<input class="input input-dark" placeholder="Name" name="form_models_ControlForm[name]" id="form_models_ControlForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="E-mail" name="form_models_ControlForm[email]" id="form_models_ControlForm_email" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_ControlForm[telephone]" id="form_models_ControlForm_telephone" type="tel" /><textarea class="textarea" placeholder="Message" name="form_models_ControlForm[message]" id="form_models_ControlForm_message"></textarea><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_price">
+		<form class="ajax-form" id="price-widget-form" action="/en/price/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Send the inquiry</div>
+<input class="input input-dark" placeholder="Name" name="form_models_PriceForm[name]" id="form_models_PriceForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_PriceForm[telephone]" id="form_models_PriceForm_telephone" type="tel" /><input class="input input-dark" placeholder="E-mail" name="form_models_PriceForm[email]" id="form_models_PriceForm_email" type="text" /><input class="input input-dark" placeholder="Date of the event" name="form_models_PriceForm[party_date]" id="form_models_PriceForm_party_date" type="text" /><textarea class="textarea" placeholder="Message" name="form_models_PriceForm[comment]" id="form_models_PriceForm_comment"></textarea><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_feedback">
+		<form class="ajax-form" id="feedback-widget-form" action="/en/feedback/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Leave your review</div>
+<input class="input input-dark" placeholder="Name" name="form_models_FeedbackForm[name]" id="form_models_FeedbackForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="E-mail" name="form_models_FeedbackForm[email]" id="form_models_FeedbackForm_email" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_FeedbackForm[telephone]" id="form_models_FeedbackForm_telephone" type="tel" /><textarea class="textarea" placeholder="Comment" name="form_models_FeedbackForm[comment]" id="form_models_FeedbackForm_comment"></textarea><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_excursion">
+		<form class="ajax-form" id="excursion-widget-form" action="/en/excursion/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">Application for tour</div>
+<input class="input input-dark" placeholder="Name" name="form_models_ExcursionForm[name]" id="form_models_ExcursionForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder=" Telephone" name="form_models_ExcursionForm[telephone]" id="form_models_ExcursionForm_telephone" type="tel" /><input class="input input-dark" placeholder="Date" name="form_models_ExcursionForm[excursion_date]" id="form_models_ExcursionForm_excursion_date" type="text" maxlength="20" /><input class="input input-dark" placeholder="Own transport?" name="form_models_ExcursionForm[on_car]" id="form_models_ExcursionForm_on_car" type="text" maxlength="30" /><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- BEGIN popup -->
+	<div class="popup popup_big">
+		<form class="ajax-form" id="big-widget-form" action="/en/big/post" method="post">
+<div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d" name="YII_CSRF_TOKEN" /></div><div class="popup__title h-sub">send request</div>
+<input class="input input-dark" placeholder="Name" name="form_models_BigOrderForm[name]" id="form_models_BigOrderForm_name" type="text" maxlength="50" /><input class="input input-dark" placeholder="E-mail" name="form_models_BigOrderForm[email]" id="form_models_BigOrderForm_email" type="text" /><input class="input input-dark" placeholder=" Telephone" name="form_models_BigOrderForm[telephone]" id="form_models_BigOrderForm_telephone" type="tel" /><button type="submit" class="btn btn-block btn-fill">Send</button>
+</form>	</div>
+	<!-- END popup -->
+
+	<!-- /.out -->
+	<div class="overlay"></div>
+	<!-- /.overlay -->
+	<div class="loader"></div>
+
+	<!-- BEGIN v-player -->
+	<div id="player" class="v-player">
+		<script></script>
+	</div>
+	<!-- END v-player -->
+</body>
+</html>

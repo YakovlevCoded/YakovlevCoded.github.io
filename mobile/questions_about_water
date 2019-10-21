@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>The best water delivery service in Kyiv - Clear Water Company</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		<script src="js/plugin/jquery-2.1.4.min.js"></script>
+		<script src="js/plugin/jquery.cookie.js"></script>
+		
+		<script src="js/plugin/jquery-ui.js"></script>
+		<script src="js/plugin/plugin.js"></script>
+		<script src="js/plugin/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/plugin/owl.carousel.js"></script>
+		<script type="text/javascript" src="js/script/script.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-26237277-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		
+		
+	</head>
+	<body>
+		
+		<!--Хедер с иконками меню-->
+		<div class="phone-header">
+<table id="phone-header1">
+  <tr>
+    <td><div class="menu-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_1.png" alt=""></div></td>
+    <td><div class="call-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_2.png" alt=""></div></td>
+    <td><a href="order"><img src="img/new_ICON_3.png" alt=""></a></td>
+    <td><div class="ask-button" data-toggle="modal" data-target="#modal-menu"><img src="img/new_ICON_4.png" alt=""></div></td>
+  </tr>
+  </table>
+<table id="phone-header2">
+  <tr>
+    <td>menu</td>
+    <td>call</td>
+    <td>order</td>
+    <td>FAQ</td>
+  </tr>
+</table>
+</div> 
+
+<!--Хедер сайта с фиксированным меню portrait-->
+<div class="landscape-header inv">
+  <table class="landscape-nav inv">
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="menu-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_1.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">menu</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="call-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_2.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">call</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div>
+          <a href="order.php"><img src="img/new_ICON_3.png" alt=""></a>
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">order</td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">
+        <div class="ask-button" data-toggle="modal" data-target="#modal-menu">
+          <img src="img/new_ICON_4.png" alt="">
+        </div>
+      </td>
+    </tr>
+    <tr class="landscape-nav-row">
+      <td class="landscape-nav-box">FAQ</td>
+    </tr>
+  </table>
+</div>
+
+
+		<!--Контент главной страницы-->
+		<div class="ask-content content-block">
+  <div id="title" class="ask">
+    <h1 class="ask">Questions about water</h1>
+  </div>
+  <div class="scroll-box">
+  <div id="accordion">
+    <h3>What kind of water do you have?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>«Clear Water» id a high-quality water produced by deep cleaning artesian water with the use of modern membrane technology, highly mineralized salt purification. In this method, water is completely purified from any polluting its substance, which strucks almost all drinking water sources, including artesian. This is a result of the increasing deterioration of the environmental conditions, a large number of wells through which everything penetrates into the deep layers that is on the surface. Mineralization is necessary because with the unuseful substances there is missing also of the part of useful minerals, which are restoring. It’s used to drink raw,fortea, coffee and other drinks and food. At the same time, considering the purity and low salt content, there is a preserving of the taste of tea, coffee, and all the components of food as much as possible. </p>      </div>
+    </div>
+    <h3>Tell us about the water purification system? What kind of filters are used for cleaning?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>Water from the wells initially treated by ultraviolet for it’sdisinfection. Then passes through a series of individual filters, where iron, manganese, hydrogen sulfide, salts giving scumis removed from water. Finally water is fed to a membrane filter where is the final deep cleaning at the molecular level - all kinds of dirt are retained, organic toxins, heavy metals, residues of bacteria and viruses. The result is guaranteed clean water from any contamination.</p>      </div>
+    </div>
+    <h3>What are the distinguishes between the regular, iodine or fluorine water?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+         <p>Regular water contains physiologically necessary macroelements - calcium, magnesium, potassium, sodium, chlorides, bicarbonates in minimal quantities in accordance with the hygienic requirements. The minimum amount are chosen because people are more affected by salt deposits than it’s surplus. Iodine water has the same composition, butthereis added iodine salt. Fluorine water is the same as regular, but there is added fluorine salt.</p>      </div>
+      
+    </div>
+    <h3>Do you have distilled water?</h3>
+    <div>
+      <p>We have distilled water This kind of water is prepared by double filtration through a membrane filter (back osmosis) and corresponds to State Standart 6709-72 for distilled water. </p>      
+    </div>
+
+    <h3>What is useful iodine and fluorine water for?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+      <p>The amount of iodine in the environment depends on the remoteness of the sea area. Ukraine in the Central and Northern part relates to areas with some iodine deficiency in natural sources (food, water). Also, at elevated risk ingestion of radioactive iodine human normal use iodine displaces radioactive iodine replacement for normal iodine. This applies mainly to the thyroid gland. The use of iodinated water is effective for the prevention of iodine deficiency and cleansing from radioactive iodine. Iodine deficiency causes thyroid disease in adults and developmental delays in children. According to medical sources, the biological role of fluoride is mainly related to its involvement in bone formation, the formation of the tooth (dentine) and tooth enamel. Sufficient intake of fluorideis needed to prevent caries. Fluoride is the only mineral that comes into the body in general, 90% with drinking water. In the foodthere is almost no fluoride, except tea, seafood. </p>      </div>
+    </div>
+
+    <h3>What are the contraindications for iodine and fluorine water?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>If you take pills with iodine (in diseases of the thyroid gland) or fluorine (to prevent caries), then in addition to drink iodine and fluorine water is not necessary, because of the risk of overdose. In other cases - there are no contraindications. In other way, iodine water is useful for thyroid gland and fluoridated water - helps to resist caries.</p>      </div>
+    </div>
+
+    <h3>What is your water differs for ...?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+      <p>High purity water doesn’t contain bacteria, harmful chemical and organic elements. We use the most advanced cleaning and disinfection technology. Our water has high taste quality. Our laboratory performs constant quality control at all stages of purification, mineralization and bottling water. The composition of water is stable and doesn’t depend on the season.</p>      </div>
+    </div>
+
+    <h3>Where is your production situated?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+      <p>Production capacity and the well is located at Kiev region, Kiev Svyatoshinsky district,  Milavillage, Komarova street, 23-B. It is located to the West of Kiev. The area is characterizedby the fact that the higher direction of motion of underground waters for hundreds of kilometers there is no soil polluting industries. Therefore, contamination of the waste of human activities are minimal.</p>      </div>
+    </div>
+
+    <h3>How long does the water storage?</h3>
+    <div>
+      <p>Storage life is 3 months. </p>    </div>
+
+    <h3>What is the depth of the well?</h3>
+    <div>
+      <p>Water intake is carried out of a 130 meters depth from the Cenomanian horizon. </p>    </div>
+
+    <h3>What is back osmosis?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+      <p>The filter operating on the principle of back osmosis, has been arranged quite simple: the main element allowing a high degree  purification of  water is the thin film membrane. If to explain very simply, it is a kind of grid cell size that is equal to the size of a water molecule. Cells are obtained by laser processing. Of course, through a  "grid" can go or water molecules, or substances with an even smaller molecule size- dissolved oxygen in the water, hydrogen, etc. As a result of the water areremoved practically all dissolved components, as well as heavy metal salts, organic matters and bacteria. Back osmosis is used in various water technologies of impurities including water desalination and purification of drinking water for various purposes since the early 1970s. </p>      </div>
+    </div>
+
+    <!--<h3></h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+              </div>
+    </div>-->
+
+    <h3>What you do conserve water with?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>We are not conserving water. Long storage of our water is provided by a high degree of purification from bacteria, microorganisms and organic compounds. Also during the filling water in the bottles there is a disinfection, both water and bottles, plugs by ozone. After 6-10 hours depending on the temperature, ozone turns into ordinary oxygen. This leads to an additional saturation of water with oxygen. </p>      </div>
+    </div>
+
+    <h3>What is the composition of water? Mineralization?</h3>
+    <div>
+      <p>Mineralization of our water is about 100 mg / liter (TDS). The ionic composition of water includes calcium, magnesium, sodium, potassium, bicarbonates, chlorides, fluorine, iodine. </p>      
+    </div>
+
+    <h3>Where do you get minerals? In what form?</h3>
+    <div>
+        <p>Minerals are delivering from Europe, mainly from Germany. There are used mineral salts of highest purity, wherein the basic material is from 99.8 to 100%. In appearance it is crystals that resemble ordinary table salt.</p>    </div>
+
+    <h3>Can children, pregnant women, people with certain diseases drink this water?</h3>
+    <div>
+        <p>Thanks to its balanced mineral composition, CLEARWATER can bedrinked without any restrictions, at any age, including pregnant women. People with the disease, doctors usually recommend eating less salts, so our product can be recommended to them, because there there is a low quantity of salts.</p>  
+    </div>
+
+    <h3>Can your driver collect water in a pump room?</h3>
+    <div class="box-with-scroll">
+      <div class="scroll-track"></div>
+      <div class="scroll-button"></div>
+      <div class="text-for-scroll">
+        <p>All bottles are closed with a brand coverapplied the date and time of bottling, which can not be removed without damaging. The date of application is made by a printer that is manually impossible to falsity. Top of the cover is closed proprietary heat-shrinkable film that is also a protection against opening bottles of branded water. For this reason, while maintaining the integrity of the original packing, the presence of inscriptions pouring into a bottle of another water is not possible! In the presence of these degrees of protection you can be assured that this is the original «CLEARWATER». In addition, drivers are strictly forbidden even to approach the well-room - in order to avoid misunderstandings. For this, we control the movement of our drivers using GPS. </p>      </div>
+    </div>
+
+    <!--<h3></h3>
+    <div>
+            </div>-->
+
+    <h3>What organizations check the quality of your water?</h3>
+    <div>
+        <p>Kiev Svyatoshinsky district SES, SES Regional, Institute of Ecology and Toxicology ofL.I.Medvedya, Ukrmetrteststandart, Institute of Colloid Chemistry and Water Chemistry of Dumansky. </p>    </div>
+
+      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Ask your question"  />   
+    
+  </div>
+  </div>
+</div>
+
+		
+
+
+		<!--Всплывающие окна из иконок меню-->
+		
+<div class="modal fade" id="modal-menu"> 
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <div class="row">
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_about_water.php?lang=ua">
+              UA
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_about_water.php?lang=ru">
+              RU
+            </a>
+          </div>
+          <div class="col-xs-2 language">
+            <a href="/mobile/questions_about_water.php?lang=en" class="en active-lang">
+              EN
+            </a>
+          </div>
+          <div class="col-xs-2 language inv">
+            <a href="index?lang=en">
+              EN
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="menu-punkts inv" data-class="menu-punkts">
+          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
+
+          <!--<div class="row"><a href="#"><img src="img/water.png" alt="">about water</a></div>
+          <div class="row"><a href="#"><img src="img/delivery.png" alt="">delivery</a></div>
+          <div class="row"><a href="#"><img src="img/price.png" alt="">price</a></div>-->
+          <div class="row"><a href="promo"><img src="img/promo.png" alt="">special offers</a></div>
+          <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">equipment</a></div>
+          
+          <div class="row"><a href="#"><img src="img/other.png" alt="">other products</a></div>
+          <div class="row"><a href="#"><img src="img/about.png" alt="">about us</a></div>-->
+          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
+          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
+        </div>
+        <div class="modal-numbers inv" data-class="modal-numbers">
+          <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>call back</span></a></div>
+          <div class="row"><a href="tel:0443913030"><img src="img/city_phone.png" alt=""><span>044 391 30 30</span></a></div>
+          <div class="row"><a href="tel:0935183030"><img src="img/lifecell.jpg" alt=""><span>093 518 30 30</span></a></div>
+          <div class="row"><a href="tel:0503153030"><img src="img/mts.png" alt=""><span>050 315 30 30</span></a></div>
+          <div class="row"><a href="tel:0672433040"><img src="img/kyivstar.png" alt=""><span>067 243 30 40</span></a></div>
+          <div class="row"><a href="skype:cw3913030?chat"><img src="img/skype.png" alt=""><span>cw3913030</span></a></div>
+          <div class="row"><a href="viber://add?number=0935183030"><img src="img/viber.png" alt=""><span>093 518 30 30</span></a></div>
+        </div>
+        <div class="modal-questions inv" data-class="modal-questions">
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_water"><span>Questions about water</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_bottles"><span>Questions about bottles</span></a></div>
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Questions on equipment</span></a></div>
+          <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Questions about docs</span></a></div>-->
+          <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Ask your question</span></a></div>
+        </div>  
+      </div>
+       
+    </div>
+  </div>
+</div>
+
+
+<!--Всплывающее окно обратного звонка -->
+
+
+<div class="modal fade" id="modal-recall">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="recall-title">call back</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="form" method="post" action="">
+          <div class="row">
+            <input class='recall-number' type="text" name="name" required="required" placeholder="Your name:"/>
+            
+          </div>
+          <div class="row">
+            <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
+            
+          </div>
+          <div class="recall-buttons">
+            
+            <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Cancel"/>
+            <input id='recall-button' class='btn recall-submit' type="submit" value="Send"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal-ask">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="close" data-dismiss="modal">&times;</div>
+        <h4 class="ask-title">Ask your question</h4> 
+      </div>
+      <div class="modal-body">
+        <form id="ask-form" method="post" action="">
+          <div class="row">
+            <input class='ask-number' type="text" name="name" required="required" placeholder="Your name:"/>
+          </div>
+          <div class="row">
+            <input id="phone-ask" class='number ask-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
+          </div>
+          <div class="row">
+            <textarea id='askedQuestion' class='ask-number' name="question" required="required" placeholder="Your question:" rows="3"></textarea>
+          </div>
+          <div class="ask-buttons">
+            <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Cancel"/>
+            <input id='ask-button' class='btn ask-submit' type="submit" value="Send"/>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>		
+
+		
+	</body>
+</html>
+
+
+
