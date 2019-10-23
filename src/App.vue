@@ -1,44 +1,176 @@
 <template>
   <transition name="fade" appear>
-    <div id="app">
-
-      <navigation />
-      <firstScreen />
-      <about />
-      <gallery />
-      <calculator />
-      <partners />
-      <contacts />
-      <footar />
-      <modal />
+    <div class="" id="app">
+      <div class="canvas">
+            <div class="p1"></div>
+    <div class="p2"></div>
+    <div class="p3"></div>
+    <div class="p4"></div>
+    <div class="p5"></div>
+    <div class="p6"></div>
+    <div class="p7"></div>
+    <div class="p8"></div>
+    <div class="p9"></div>
+    <div class="p10"></div>
+    <div class="p11"></div>
+    <div class="p12"></div>
+    <div class="p13"></div>
+    <div class="p14"></div>
+    <div class="p15"></div>
+    <div class="p16"></div>
+    <div class="p17"></div>
+    <div class="p18"></div>
+    <div class="p19"></div>
+    <div class="p20"></div>
+    <div class="p21"></div>
+    <div class="p22"></div>
+    <div class="p23"></div>
+    <div class="p24"></div>
+    <div class="p25"></div>
+    <div class="p26"></div>
+    <div class="p27"></div>
+    <div class="p28"></div>
+    <div class="p29"></div>
+    <div class="p30"></div>
+    <div class="p31"></div>
+    <div class="p32"></div>
+    <div class="p33"></div>
+    <div class="p34"></div>
+    <div class="p35"></div>
+    <div class="p36"></div>
+    <div class="p37"></div>
+    <div class="p38"></div>
+    <div class="p39"></div>
+    <div class="p40"></div>
+    <div class="p41"></div>
+    <div class="p42"></div>
+    <div class="p43"></div>
+    <div class="p44"></div>
+    <div class="p45"></div>
+    <div class="p46"></div>
+    <div class="p47"></div>
+    <div class="p48"></div>
+    <div class="p49"></div>
+    <div class="p50"></div>
+    <div class="p51"></div>
+    <div class="p52"></div>
+    <div class="p53"></div>
+    <div class="p54"></div>
+    <div class="p55"></div>
+    <div class="p56"></div>
+    <div class="p57"></div>
+    <div class="p58"></div>
+    <div class="p59"></div>
+    <div class="p60"></div>
+    <div class="p61"></div>
+    <div class="p62"></div>
+    <div class="p63"></div>
+    <div class="p64"></div>
+    <div class="p65"></div>
+    <div class="p66"></div>
+    <div class="p67"></div>
+    <div class="p68"></div>
+    <div class="p69"></div>
+    <div class="p70"></div>
+    <div class="p71"></div>
+    <div class="p72"></div>
+    <div class="p73"></div>
+    <div class="p74"></div>
+    <div class="p75"></div>
+    <div class="p76"></div>
+    <div class="p77"></div>
+    <div class="p78"></div>
+    <div class="p79"></div>
+    <div class="p80"></div>
+    <div class="p81"></div>
+    <div class="p82"></div>
+    <div class="p83"></div>
+    <div class="p84"></div>
+    <div class="p85"></div>
+    <div class="p86"></div>
+    <div class="p87"></div>
+    <div class="p88"></div>
+    <div class="p89"></div>
+    <div class="p90"></div>
+    <div class="p91"></div>
+    <div class="p92"></div>
+    <div class="p93"></div>
+    <div class="p94"></div>
+    <div class="p95"></div>
+    <div class="p96"></div>
+    <div class="p97"></div>
+    <div class="p98"></div>
+    <div class="p99"></div>
+    <div class="p100"></div>
+    <div class="p101"></div>
+    <div class="p102"></div>
+    <div class="p103"></div>
+    <div class="p104"></div>
+    <div class="p105"></div>
+    <div class="p106"></div>
+    <div class="p107"></div>
+    <div class="p108"></div>
+    <div class="p109"></div>
+    <div class="p110"></div>
+    <div class="p111"></div>
+    <div class="p112"></div>
+    <div class="p113"></div>
+    <div class="p114"></div>
+    <div class="p115"></div>
+    <div class="p116"></div>
+    <div class="p117"></div>
+    <div class="p118"></div>
+    <div class="p119"></div>
+    <div class="p120"></div>
+    <div class="p121"></div>
+    <div class="p122"></div>
+    <div class="p123"></div>
+    <div class="p124"></div>
+    <div class="p125"></div>
+    <div class="p126"></div>
+    <div class="p127"></div>
+    <div class="p128"></div>
+    <div class="p129"></div>
+    <div class="p130"></div>
+    <div class="p131"></div>
+    <div class="p132"></div>
+    <div class="p133"></div>
+    <div class="p134"></div>
+    <div class="p135"></div>
+    <div class="p136"></div>
+    <div class="p137"></div>
+    <div class="p138"></div>
+    <div class="p139"></div>
+    <div class="p140"></div>
+    <div class="p141"></div>
+    <div class="p142"></div>
+    <div class="p143"></div>
+    <div class="p144"></div>
+    <div class="p145"></div>
+    <div class="p146"></div>
+    <div class="p147"></div>
+    <div class="p148"></div>
+    <div class="p149"></div>
+    <div class="p150"></div>
+      </div>
 
     </div>
   </transition>
 </template>
 
 <script>
-  import navigation from './components/navigation.vue'
-  import firstScreen from './components/firstScreen.vue'
-  import about from './components/about.vue'
-  import gallery from './components/gallery.vue'
-  import calculator from './components/calculator.vue'
-  import partners from './components/partners.vue'
-  import contacts from './components/contacts.vue'
-  import footar from './components/footar.vue'
-  import modal from './components/modal.vue'
+  document.addEventListener('click', function() {
+    document.querySelector('body').classList.toggle('is-css');
+    let array = document.querySelectorAll('polygon');
+    array.forEach(element => {
+      element.removeAttribute('stroke');
+    });
+  });
 
   export default {
     name: 'app',
     components: {
-      firstScreen,
-      navigation,
-      about,
-      gallery,
-      calculator,
-      partners,
-      contacts,
-      footar,
-      modal
+
     },
     methods: {
     }
@@ -47,28 +179,289 @@
 </script>
 
 <style lang='scss'>
-  #app {
-    font-family: Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+$void: polygon(0% 0%, 0% 0%, 0% 0%);
+$css: polygon(2.38% 7.83%, 3.13% 7.67%, 2.38% 6.5% ),
+polygon(1.13% 6.5%, 2.38% 7.83%, 2.38% 6.5% ),
+polygon(2.38% 6.5%, 3.13% 7.67%, 2.88% 6.33% ),
+polygon(1.13% 4.5%, 0% 7.83%, 1.13% 6.5% ),
+polygon(0% 7.83%, 2.38% 7.83%, 1.13% 6.5% ),
+polygon(0% 0.17%, 0% 7.83%, 1.13% 4.5% ),
+polygon(3.25% 5.33%, 4.38% 5.5%, 4.25% 4.33% ),
+polygon(3.13% 7.67%, 3.75% 7.33%, 2.88% 6.33% ),
+polygon(4.13% 6.67%, 4.38% 5.5%, 3.25% 5.33% ),
+polygon(2.38% 3.17%, 3.63% 3.67%, 3% 3% ),
+polygon(3.63% 3.67%, 4% 3.33%, 3% 3% ),
+polygon(3.75% 7.33%, 4.13% 6.67%, 2.88% 6.33% ),
+polygon(4.25% 2.17%, 4% 1%, 3.13% 2.33% ),
+polygon(4% 1%, 2.63% 0.17%, 2.88% 1.67% ),
+polygon(1.13% 3.17%, 0% 0.17%, 1.13% 4.5% ),
+polygon(3% 3%, 4% 3.33%, 3.13% 2.33% ),
+polygon(4% 3.33%, 4.25% 2.17%, 3.13% 2.33% ),
+polygon(3.13% 2.33%, 4% 1%, 2.88% 1.67% ),
+polygon(2.63% 0.17%, 0% 0.17%, 1.13% 1.5% ),
+polygon(2.88% 1.67%, 2.63% 0.17%, 2.25% 1.5% ),
+polygon(1.13% 1.5%, 0% 0.17%, 1.13% 3.17% ),
+polygon(2.25% 1.5%, 2.63% 0.17%, 1.13% 1.5% ),
+polygon(2.88% 6.33%, 4.13% 6.67%, 3.25% 5.33% ),
+polygon(3.25% 5.33%, 4.25% 4.33%, 2.88% 4.5% ),
+polygon(4.25% 4.33%, 3.63% 3.67%, 2.88% 4.5% ),
+polygon(2.88% 4.5%, 3.63% 3.67%, 2.38% 4.5% ),
+polygon(2.38% 4.5%, 3.63% 3.67%, 2.38% 3.17% ),
+polygon(1.13% 3.17%, 1.13% 4.5%, 2.38% 3.17% ),
+polygon(2.38% 3.17%, 1.13% 4.5%, 2.38% 4.5% ),
+polygon(5.25% 7.83%, 6.38% 0.17%, 5.25% 0.17% ),
+polygon(6.38% 7.83%, 6.38% 0.17%, 5.25% 7.83% ),
+polygon(9.88% 6.67%, 10.75% 7.67%, 10.75% 6.17% ),
+polygon(10.75% 6.17%, 11.38% 6.83%, 11.25% 5% ),
+polygon(10.75% 7.67%, 11.38% 6.83%, 10.75% 6.17% ),
+polygon(10% 5%, 11.25% 5%, 10% 3.67% ),
+polygon(7.25% 4%, 7.88% 7%, 8.38% 4% ),
+polygon(11.38% 6.83%, 12.25% 3.67%, 11.25% 5% ),
+polygon(7.88% 7%, 9.63% 8%, 8.75% 6% ),
+polygon(8.38% 4%, 7.88% 7%, 8.75% 6% ),
+polygon(9.63% 8%, 10.75% 7.67%, 9.88% 6.67% ),
+polygon(8.75% 6%, 9.63% 8%, 9.88% 6.67% ),
+polygon(11.25% 5%, 12.25% 3.67%, 10% 3.67% ),
+polygon(12.13% 2.5%, 11.5% 0.67%, 11.13% 2.5% ),
+polygon(11.13% 2.5%, 11.5% 0.67%, 10.5% 1.5% ),
+polygon(8.75% 2%, 7.25% 4%, 8.38% 4% ),
+polygon(11.5% 7.83%, 12.25% 7.83%, 11.38% 6.83% ),
+polygon(11.5% 0.67%, 9.88% 0%, 10.5% 1.5% ),
+polygon(12.25% 7.83%, 12.25% 3.67%, 11.38% 6.83% ),
+polygon(9.88% 1.33%, 7.88% 1.17%, 8.75% 2% ),
+polygon(10.5% 1.5%, 9.88% 0%, 9.88% 1.33% ),
+polygon(7.88% 1.17%, 7.25% 4%, 8.75% 2% ),
+polygon(9.88% 0%, 7.88% 1.17%, 9.88% 1.33% ),
+polygon(15.38% 7.83%, 17.63% 7.83%, 16.38% 6.5% ),
+polygon(17.5% 6.5%, 17.63% 7.83%, 18.63% 5.33% ),
+polygon(16.38% 6.5%, 17.63% 7.83%, 17.5% 6.5% ),
+polygon(17.63% 7.83%, 19.5% 6.33%, 18.63% 5.33% ),
+polygon(18.75% 4%, 19.88% 3.83%, 19.75% 2.5% ),
+polygon(16.38% 1.5%, 15.38% 7.83%, 16.38% 6.5% ),
+polygon(19.5% 6.33%, 19.88% 3.83%, 18.63% 5.33% ),
+polygon(18.63% 5.33%, 19.88% 3.83%, 18.75% 4% ),
+polygon(15.38% 0.17%, 15.38% 7.83%, 16.38% 1.5% ),
+polygon(18.5% 0.33%, 17.63% 0.17%, 17.5% 1.5% ),
+polygon(19.38% 1.33%, 18.5% 0.33%, 17.5% 1.5% ),
+polygon(18.5% 2.17%, 19.38% 1.33%, 17.5% 1.5% ),
+polygon(19.75% 2.5%, 19.38% 1.33%, 18.5% 2.17% ),
+polygon(18.75% 4%, 19.75% 2.5%, 18.5% 2.17% ),
+polygon(17.5% 1.5%, 17.63% 0.17%, 16.38% 1.5% ),
+polygon(17.63% 0.17%, 15.38% 0.17%, 16.38% 1.5% ),
+polygon(21.5% 7.83%, 21.88% 6.17%, 20.37% 7.83% ),
+polygon(20.37% 7.83%, 21.88% 6.17%, 22.25% 0.17% ),
+polygon(24.25% 7.83%, 25.5% 7.83%, 23.88% 6.17% ),
+polygon(23.63% 5%, 23.5% 0.17%, 22.88% 2% ),
+polygon(23.88% 6.17%, 25.5% 7.83%, 23.5% 0.17% ),
+polygon(21.88% 6.17%, 23.88% 6.17%, 23.63% 5% ),
+polygon(22.25% 0.17%, 21.88% 6.17%, 22.25% 5% ),
+polygon(23.63% 5%, 23.88% 6.17%, 23.5% 0.17% ),
+polygon(22.88% 2%, 22.25% 0.17%, 22.25% 5% ),
+polygon(23.5% 0.17%, 22.25% 0.17%, 22.88% 2% ),
+polygon(22.25% 5%, 21.88% 6.17%, 23.63% 5% ),
+polygon(29.5% 0.17%, 27.88% 1.5%, 29.5% 1.5% ),
+polygon(27.88% 7.83%, 27.88% 1.5%, 26.75% 7.83% ),
+polygon(25.12% 1.5%, 26.75% 1.5%, 25.12% 0.17% ),
+polygon(26.75% 7.83%, 27.88% 1.5%, 26.75% 1.5% ),
+polygon(25.12% 0.17%, 26.75% 1.5%, 29.5% 0.17% ),
+polygon(26.75% 1.5%, 27.88% 1.5%, 29.5% 0.17% ),
+polygon(32.75% 6.17%, 33.13% 7.83%, 34.25% 7.83% ),
+polygon(29.25% 7.83%, 30.75% 6.17%, 31.13% 0.17% ),
+polygon(32.38% 5%, 32.75% 6.17%, 34.25% 7.83% ),
+polygon(32.38% 5%, 32.38% 0.17%, 31.75% 2% ),
+polygon(31.75% 2%, 31.13% 0.17%, 31% 5% ),
+polygon(31% 5%, 30.75% 6.17%, 32.38% 5% ),
+polygon(32.38% 0.17%, 31.13% 0.17%, 31.75% 2% ),
+polygon(30.38% 7.83%, 30.75% 6.17%, 29.25% 7.83% ),
+polygon(34.25% 7.83%, 32.38% 0.17%, 32.38% 5% ),
+polygon(30.75% 6.17%, 32.75% 6.17%, 32.38% 5% ),
+polygon(31.13% 0.17%, 30.75% 6.17%, 31% 5% );
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
+$js: polygon(4.88% 7.17%, 6.8% 10.2%, 4.04% 0.03% ),
+polygon(1.89% 7.17%, 4.88% 7.17%, 4.59% 6.03% ),
+polygon(2.19% 6.03%, 1.89% 7.17%, 4.59% 6.03% ),
+polygon(3.41% 1.55%, 2.88% 0.03%, 2.19% 6.03% ),
+polygon(1.06% 10.2%, 1.89% 7.17%, 0% 10.2% ),
+polygon(4.59% 6.03%, 4.88% 7.17%, 4.04% 0.03% ),
+polygon(0% 10.2%, 1.89% 7.17%, 2.88% 0.03% ),
+polygon(2.88% 0.03%, 1.89% 7.17%, 2.19% 6.03% ),
+polygon(4.59% 6.03%, 4.04% 0.03%, 3.41% 1.55% ),
+polygon(5.68% 10.2%, 6.8% 10.2%, 4.88% 7.17% ),
+polygon(4.04% 0.03%, 2.88% 0.03%, 3.41% 1.55% ),
+polygon(10.85% 10.2%, 11.88% 10.2%, 11.38% 8.63% ),
+polygon(8.66% 1.63%, 10.85% 10.2%, 11.38% 8.63% ),
+polygon(11.38% 8.63%, 11.88% 10.2%, 13.55% 0.03% ),
+polygon(11.88% 10.2%, 14.05% 1.63%, 13.55% 0.03% ),
+polygon(14.05% 1.63%, 15.03% 0.03%, 13.55% 0.03% ),
+polygon(8.69% 10.2%, 8.69% 4.2%, 7.7% 10.2% ),
+polygon(15.03% 10.2%, 15.03% 0.03%, 14.04% 4.2% ),
+polygon(14.05% 3.17%, 15.03% 0.03%, 14.05% 1.63% ),
+polygon(14.04% 4.2%, 15.03% 0.03%, 14.05% 3.17% ),
+polygon(14.04% 10.2%, 15.03% 10.2%, 14.04% 4.2% ),
+polygon(7.71% 0.03%, 8.66% 1.63%, 9.19% 0.03% ),
+polygon(7.7% 10.2%, 8.69% 4.2%, 7.71% 0.03% ),
+polygon(8.66% 1.93%, 8.66% 1.63%, 7.71% 0.03% ),
+polygon(9.19% 0.03%, 8.66% 1.63%, 11.38% 8.63% ),
+polygon(8.68% 3.08%, 8.66% 1.93%, 7.71% 0.03% ),
+polygon(8.69% 4.2%, 8.68% 3.08%, 7.71% 0.03% ),
+polygon(16.56% 0.03%, 16.56% 10.2%, 17.56% 5.45% ),
+polygon(19.85% 0.03%, 16.56% 0.03%, 17.56% 1.18% ),
+polygon(17.56% 4.33%, 16.56% 0.03%, 17.56% 5.45% ),
+polygon(17.56% 1.18%, 16.56% 0.03%, 17.56% 4.33% ),
+polygon(19.43% 1.18%, 19.85% 0.03%, 17.56% 1.18% ),
+polygon(21.76% 1.1%, 19.85% 0.03%, 19.43% 1.18% ),
+polygon(17.56% 5.45%, 16.56% 10.2%, 17.56% 9.02% ),
+polygon(19.8% 10.2%, 22% 9%, 19.81% 9.02% ),
+polygon(19.81% 9.02%, 22% 9%, 21.19% 8.28% ),
+polygon(22% 9%, 22.48% 7.22%, 21.19% 8.28% ),
+polygon(17.56% 9.02%, 19.8% 10.2%, 19.81% 9.02% ),
+polygon(20.46% 1.38%, 21.76% 1.1%, 19.43% 1.18% ),
+polygon(16.56% 10.2%, 19.8% 10.2%, 17.56% 9.02% ),
+polygon(19.64% 5.45%, 20.5% 4.08%, 19.46% 4.33% ),
+polygon(21.44% 7.17%, 21.95% 5.38%, 20.69% 5.67% ),
+polygon(19.46% 4.33%, 17.56% 5.45%, 19.64% 5.45% ),
+polygon(22.1% 2.55%, 21.76% 1.1%, 20.46% 1.38% ),
+polygon(17.56% 4.33%, 17.56% 5.45%, 19.46% 4.33% ),
+polygon(21.19% 8.28%, 22.48% 7.22%, 21.44% 7.17% ),
+polygon(20.69% 5.67%, 21.08% 4.72%, 19.64% 5.45% ),
+polygon(21.95% 5.38%, 21.08% 4.72%, 20.69% 5.67% ),
+polygon(21.69% 4.13%, 22.1% 2.55%, 21.08% 2.72% ),
+polygon(19.64% 5.45%, 21.08% 4.72%, 20.5% 4.08% ),
+polygon(21.08% 2.72%, 22.1% 2.55%, 20.46% 1.38% ),
+polygon(21.08% 4.72%, 21.69% 4.13%, 20.5% 4.08% ),
+polygon(20.5% 4.08%, 21.69% 4.13%, 21.08% 2.72% ),
+polygon(21.44% 7.17%, 22.48% 7.22%, 21.95% 5.38% ),
+polygon(28.96% 4.37%, 24.78% 4.37%, 24.78% 5.55% ),
+polygon(24.78% 4.37%, 23.78% 10.2%, 24.78% 5.55% ),
+polygon(28.96% 5.55%, 28.96% 4.37%, 24.78% 5.55% ),
+polygon(23.78% 0.03%, 23.78% 10.2%, 24.78% 4.37% ),
+polygon(23.78% 10.2%, 29.38% 8.98%, 24.78% 8.98% ),
+polygon(24.78% 5.55%, 23.78% 10.2%, 24.78% 8.98% ),
+polygon(29.3% 1.28%, 29.3% 0.03%, 24.78% 1.28% ),
+polygon(29.38% 10.2%, 29.38% 8.98%, 23.78% 10.2% ),
+polygon(29.3% 0.03%, 23.78% 0.03%, 24.78% 1.28% ),
+polygon(24.78% 1.28%, 23.78% 0.03%, 24.78% 4.37% ),
+polygon(31.91% 1.22%, 30.88% 0.03%, 31.91% 4.68% ),
+polygon(34.36% 1.22%, 34.35% 0.03%, 31.91% 1.22% ),
+polygon(35.1% 6.03%, 35.64% 7.37%, 36.41% 5.83% ),
+polygon(35.7% 9.05%, 35.75% 9.85%, 36.7% 8.47% ),
+polygon(36.7% 8.47%, 35.75% 9.85%, 36.76% 9.33% ),
+polygon(36.66% 7.12%, 35.7% 9.05%, 36.7% 8.47% ),
+polygon(35.64% 7.37%, 35.7% 9.05%, 36.66% 7.12% ),
+polygon(35.75% 9.85%, 35.84% 10.18%, 36.76% 9.33% ),
+polygon(35.84% 10.18%, 37.1% 9.97%, 36.76% 9.33% ),
+polygon(34.24% 4.68%, 35.1% 6.03%, 35.74% 5.2% ),
+polygon(31.91% 5.83%, 34.2% 5.83%, 31.91% 4.68% ),
+polygon(36.41% 5.83%, 35.64% 7.37%, 36.66% 7.12% ),
+polygon(34.35% 0.03%, 30.88% 0.03%, 31.91% 1.22% ),
+polygon(35.74% 5.2%, 35.1% 6.03%, 36.41% 5.83% ),
+polygon(30.88% 0.03%, 31.91% 5.83%, 31.91% 4.68% ),
+polygon(35.76% 2.9%, 36.81% 2.77%, 35.19% 1.42% ),
+polygon(35.75% 0.37%, 35.69% 0.35%, 35.19% 1.42% ),
+polygon(35.74% 5.2%, 36.81% 2.77%, 35.76% 2.9% ),
+polygon(35.35% 4.3%, 35.74% 5.2%, 35.76% 2.9% ),
+polygon(35.67% 0.35%, 34.35% 0.03%, 34.36% 1.22% ),
+polygon(36.81% 2.77%, 35.75% 0.37%, 35.19% 1.42% ),
+polygon(31.91% 10.2%, 31.91% 5.83%, 30.88% 10.2% ),
+polygon(34.24% 4.68%, 35.74% 5.2%, 35.35% 4.3% ),
+polygon(37.1% 10.18%, 37.1% 9.97%, 35.84% 10.18% ),
+polygon(30.88% 10.2%, 31.91% 5.83%, 30.88% 0.03% ),
+polygon(42.91% 0.22%, 41.73% 0%, 41.46% 1.77% ),
+polygon(41.73% 0%, 38.43% 0%, 39.98% 1.77% ),
+polygon(41.46% 1.77%, 41.73% 0%, 39.98% 1.77% ),
+polygon(38.43% 0%, 38.43% 10.2%, 39.98% 1.77% ),
+polygon(43.04% 6.93%, 44.91% 4.85%, 43.29% 5% ),
+polygon(39.98% 8.43%, 41.74% 10.2%, 41.45% 8.43% ),
+polygon(43.29% 5%, 44.91% 4.85%, 44.76% 3.17% ),
+polygon(39.98% 1.77%, 38.43% 10.2%, 39.98% 8.43% ),
+polygon(38.43% 10.2%, 41.74% 10.2%, 39.98% 8.43% ),
+polygon(44.3% 8.3%, 44.91% 4.85%, 43.04% 6.93% ),
+polygon(42.93% 2.6%, 42.91% 0.22%, 41.46% 1.77% ),
+polygon(41.45% 8.43%, 41.74% 10.2%, 43.04% 6.93% ),
+polygon(41.74% 10.2%, 44.3% 8.3%, 43.04% 6.93% ),
+polygon(44.76% 3.17%, 44.21% 1.52%, 42.93% 2.6% ),
+polygon(43.29% 5%, 44.76% 3.17%, 42.93% 2.6% ),
+polygon(44.21% 1.52%, 42.91% 0.22%, 42.93% 2.6% ),
+polygon(48.18% 6.35%, 47.75% 8.1%, 50.14% 6.35% ),
+polygon(48.29% 0%, 47.75% 8.1%, 48.18% 6.35% ),
+polygon(47.75% 8.1%, 50.58% 8.1%, 50.14% 6.35% ),
+polygon(49.18% 2.33%, 48.29% 0%, 48.18% 6.35% ),
+polygon(50.14% 6.35%, 50.58% 8.1%, 50.09% 0% ),
+polygon(50.58% 8.1%, 52.8% 10.2%, 50.09% 0% ),
+polygon(47.23% 10.2%, 47.75% 8.1%, 45.56% 10.2% ),
+polygon(51.08% 10.2%, 52.8% 10.2%, 50.58% 8.1% ),
+polygon(50.09% 0%, 48.29% 0%, 49.18% 2.33% ),
+polygon(45.56% 10.2%, 47.75% 8.1%, 48.29% 0% ),
+polygon(50.14% 6.35%, 50.09% 0%, 49.18% 2.33% ),
+polygon(53.14% 1.8%, 55.44% 1.8%, 53.14% 0% ),
+polygon(57.05% 1.8%, 59.34% 0%, 55.44% 1.8% ),
+polygon(55.44% 1.8%, 59.34% 0%, 53.14% 0% ),
+polygon(57.05% 10.2%, 57.05% 1.8%, 55.44% 10.2% ),
+polygon(59.34% 1.8%, 59.34% 0%, 57.05% 1.8% ),
+polygon(55.44% 10.2%, 57.05% 1.8%, 55.44% 1.8% ),
+polygon(62.35% 6.35%, 61.91% 8.1%, 64.3% 6.35% ),
+polygon(64.3% 6.35%, 64.74% 8.1%, 64.26% 0% ),
+polygon(61.91% 8.1%, 64.74% 8.1%, 64.3% 6.35% ),
+polygon(64.74% 8.1%, 65.24% 10.2%, 66.96% 10.2% ),
+polygon(64.26% 0%, 64.74% 8.1%, 66.96% 10.2% ),
+polygon(62.45% 0%, 61.91% 8.1%, 62.35% 6.35% ),
+polygon(61.39% 10.2%, 61.91% 8.1%, 59.73% 10.2% ),
+polygon(59.73% 10.2%, 61.91% 8.1%, 62.45% 0% ),
+polygon(64.3% 6.35%, 64.26% 0%, 63.34% 2.33% ),
+polygon(63.34% 2.33%, 62.45% 0%, 62.35% 6.35% ),
+polygon(64.26% 0%, 62.45% 0%, 63.34% 2.33% );
 
-  .fade-enter-active,
-  .fade-leave-active {
-    transition: opacity 1.5s;
-  }
+@mixin render($obj) {
+    @for $i from 1 through 150 {
+        .p#{$i} {
+            transition-delay: random(500) + ms !important;
+            background: lighten(#e47d00, $i/8);
 
-  .fade-enter,
-  .fade-leave-to
+            @if length($obj)>=$i {
+                clip-path: nth($obj, $i);
+            }
 
-  /* .fade-leave-active до версии 2.1.8 */
-    {
-    opacity: 0;
-  }
+            @else {
+                clip-path: $void;
+            }
+        }
+    }
+}
+
+@include render($js);
+
+.is-css {
+    @include render($css);
+    .canvas {
+      &>* {
+        left: 35%;
+      }
+    }
+}
+
+.canvas {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &>* {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        // background: red;
+        left: 17%;
+        top: 37%;
+        transition: all 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+}
+
+canvas {
+
+}
 
 </style>
