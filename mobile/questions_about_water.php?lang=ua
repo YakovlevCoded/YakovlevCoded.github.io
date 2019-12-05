@@ -8,10 +8,10 @@
 		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
+
 		<script src="js/plugin/jquery-2.1.4.min.js"></script>
 		<script src="js/plugin/jquery.cookie.js"></script>
-		
+
 		<script src="js/plugin/jquery-ui.js"></script>
 		<script src="js/plugin/plugin.js"></script>
 		<script src="js/plugin/bootstrap.min.js"></script>
@@ -27,11 +27,11 @@
 		  ga('send', 'pageview');
 
 		</script>
-		
-		
+
+
 	</head>
 	<body>
-		
+
 		<!--Хедер с иконками меню-->
 		<div class="phone-header">
 <table id="phone-header1">
@@ -50,7 +50,7 @@
     <td>Запитати</td>
   </tr>
 </table>
-</div> 
+</div>
 
 <!--Хедер сайта с фиксированным меню portrait-->
 <div class="landscape-header inv">
@@ -126,11 +126,11 @@
       <div class="scroll-button"></div>
       <div class="text-for-scroll">
          <p>Звичайна вода містить фізіологічно необхідні макроелементи - кальцій, магній, калій, натрій, хлориди, бікарбонати в мінімальних кількостях відповідно до санітарно-гігієнічних вимог. Мінімальні кількості додаються тому, що люди більше страждають від відкладення солей, ніж від їх надлишку. Йодована вода має той самий склад, тільки додана сіль йоду. Фторована вода така ж, як і класична, тільки додана сіль фтору.</p>      </div>
-      
+
     </div>
     <h3>Чи є у вас дистильована вода?</h3>
     <div>
-      <p>Дистильована вода у нас є. Дистильована вода отримана шляхом подвійної фільтрації через мембранний фільтр (зворотний осмос) і відповідає ДСТУ 6709-72 на дистильовану воду.</p>      
+      <p>Дистильована вода у нас є. Дистильована вода отримана шляхом подвійної фільтрації через мембранний фільтр (зворотний осмос) і відповідає ДСТУ 6709-72 на дистильовану воду.</p>
     </div>
 
     <h3>Для чого корисна йодована і фторовна вода?</h3>
@@ -199,7 +199,7 @@
 
     <h3>Який склад води? Мінералізація?</h3>
     <div>
-      <p>Мінералізація нашої води близько 100 мг / літр (загальний солевміст). У іонний склад води входять кальцій, магній, натрій, калій, бікарбонати, хлориди, фтор та йод.</p>      
+      <p>Мінералізація нашої води близько 100 мг / літр (загальний солевміст). У іонний склад води входять кальцій, магній, натрій, калій, бікарбонати, хлориди, фтор та йод.</p>
     </div>
 
     <h3>Де ви берете мінерали? У якому вигляді?</h3>
@@ -208,7 +208,7 @@
 
     <h3>Чи можна пити воду: дітям, вагітним жінкам, людям з ярізними захворюваннями?</h3>
     <div>
-        <p>Завдяки збалансованому мінеральному складу, CLEARWATER можна пити без обмежень, у будь-якому віці, у тому числі й вагітним жінкам. Людям із захворюваннями лікарі, зазвичай, рекомендують вживати менше солей, тому наш продукт може бути рекомендований їм, так як в ньому мало солей.</p>  
+        <p>Завдяки збалансованому мінеральному складу, Чистовъ можна пити без обмежень, у будь-якому віці, у тому числі й вагітним жінкам. Людям із захворюваннями лікарі, зазвичай, рекомендують вживати менше солей, тому наш продукт може бути рекомендований їм, так як в ньому мало солей.</p>
     </div>
 
     <h3>Чи може ваш водій набрати воду у бюветі?</h3>
@@ -216,7 +216,7 @@
       <div class="scroll-track"></div>
       <div class="scroll-button"></div>
       <div class="text-for-scroll">
-        <p>Всі бутлі закриті фірмовою пробкою з нанесеною датою і часом розливу, яку не можна зняти, не пошкодивши. Нанесення дати проводиться принтером, підробити який вручну неможливо. Зверху пробка закрита фірмовою термоусадочною плівкою, що так само є захистом від розкриття бутлі з фірмовою водою. З цієї причини, при збереженні цілісності заводської упаковки, наявності написів, налити в бутель НЕ фірмову воду неможливо! При наявності зазначених ступенів захисту можна бути впевненими, що це оригінальна «CLEARWATER». Крім того, водіям суворо заборонено навіть наближатися до бюветів - щоб уникнути непорозумінь. Для цього ми контролюємо пересування наших водіїв за допомогою GPS.</p>      </div>
+        <p>Всі бутлі закриті фірмовою пробкою з нанесеною датою і часом розливу, яку не можна зняти, не пошкодивши. Нанесення дати проводиться принтером, підробити який вручну неможливо. Зверху пробка закрита фірмовою термоусадочною плівкою, що так само є захистом від розкриття бутлі з фірмовою водою. З цієї причини, при збереженні цілісності заводської упаковки, наявності написів, налити в бутель НЕ фірмову воду неможливо! При наявності зазначених ступенів захисту можна бути впевненими, що це оригінальна «Чистовъ». Крім того, водіям суворо заборонено навіть наближатися до бюветів - щоб уникнути непорозумінь. Для цього ми контролюємо пересування наших водіїв за допомогою GPS.</p>      </div>
     </div>
 
     <!--<h3></h3>
@@ -227,18 +227,18 @@
     <div>
         <p>Києво-Святошинська районна СЕС, обласна СЕС, інститут екології та токсикології імені Л.І.Медведя, Укрметртестстандарт, інститут колоїдної хімії та хімії води ім. Думанського</p>    </div>
 
-      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Задайте своє питання"  />   
-    
+      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Задайте своє питання"  />
+
   </div>
   </div>
 </div>
 
-		
+
 
 
 		<!--Всплывающие окна из иконок меню-->
-		
-<div class="modal fade" id="modal-menu"> 
+
+<div class="modal fade" id="modal-menu">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -268,18 +268,18 @@
       </div>
       <div class="modal-body">
         <div class="menu-punkts inv" data-class="menu-punkts">
-          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">Головна</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile"><img src="img/home.png" alt="">Головна</a></div>
 
           <!--<div class="row"><a href="#"><img src="img/water.png" alt="">Про воду</a></div>
           <div class="row"><a href="#"><img src="img/delivery.png" alt="">Доставка</a></div>
           <div class="row"><a href="#"><img src="img/price.png" alt="">Ціна</a></div>-->
           <div class="row"><a href="promo"><img src="img/promo.png" alt="">Акції</a></div>
           <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">Обладнання</a></div>
-          
+
           <div class="row"><a href="#"><img src="img/other.png" alt="">Інші товари</a></div>
           <div class="row"><a href="#"><img src="img/about.png" alt="">Про компанію</a></div>-->
-          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">Повна версія</a></div>
-          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карткою</a></div>
+          <div class="row"><a href="javascript:setDesctop('https://www.Чистовъ.ua/')"><img src="img/desktop3.png" alt="">Повна версія</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карткою</a></div>
         </div>
         <div class="modal-numbers inv" data-class="modal-numbers">
           <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>Замовити дзвінок</span></a></div>
@@ -296,9 +296,9 @@
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Питання по обладнанню</span></a></div>
           <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Питання про документи</span></a></div>-->
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Задайте своє питання</span></a></div>
-        </div>  
+        </div>
       </div>
-       
+
     </div>
   </div>
 </div>
@@ -312,23 +312,23 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="recall-title">Замовити дзвінок</h4> 
+        <h4 class="recall-title">Замовити дзвінок</h4>
       </div>
       <div class="modal-body">
         <form id="form" method="post" action="">
           <div class="row">
             <input class='recall-number' type="text" name="name" required="required" placeholder="Ваше ім`я:"/>
-            
+
           </div>
           <div class="row">
             <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
-            
+
           </div>
           <div class="recall-buttons">
-            
+
             <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Відмінити"/>
             <input id='recall-button' class='btn recall-submit' type="submit" value="Замовити дзвінок"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -339,7 +339,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="ask-title">Задайте своє питання</h4> 
+        <h4 class="ask-title">Задайте своє питання</h4>
       </div>
       <div class="modal-body">
         <form id="ask-form" method="post" action="">
@@ -355,14 +355,14 @@
           <div class="ask-buttons">
             <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Відмінити"/>
             <input id='ask-button' class='btn ask-submit' type="submit" value="Задати запитання"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
   </div>
-</div>		
+</div>
 
-		
+
 	</body>
 </html>
 

@@ -6,16 +6,16 @@
         <meta name="keywords" content="Доставка води, безкоштовна проба, аналіз води, кулери, помпи, діпенсери, санітарна обробка, екскурсії на завод, онлайн замовлення">
         <meta name="description" content="Доставка води додому та в офіс. Міжнародні стандарти якості. Найсучасніший завод в Європі. Свердловина в екологічно чистому районі. Проводимо екскурсії! (044)391-30-30">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
-        
-        <link rel="canonical" href="https://www.clearwater.ua/" >
+
+        <link rel="canonical" href="https://www.Чистовъ.ua/" >
         <link rel="icon" type="image/png" href="/images/favicon.png">
         <link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/payment.css">
-        
-        
-        
+
+
+
         <script src="js/plugin/jquery-2.1.4.min.js"></script>
         <script src="js/plugin/jquery.cookie.js"></script>
         <script src="js/plugin/jquery-ui.js"></script>
@@ -25,11 +25,11 @@
         <script type="text/javascript" src="js/script/script.js"></script>
         <script type="text/javascript" src="js/script/payment.js"></script>
 
-        
+
     </head>
     <body>
-        
-        
+
+
         <!--Хедер с иконками меню-->
         <div class="phone-header">
 <table id="phone-header1">
@@ -48,7 +48,7 @@
     <td>Запитати</td>
   </tr>
 </table>
-</div> 
+</div>
 
 <!--Хедер сайта с фиксированным меню portrait-->
 <div class="landscape-header inv">
@@ -98,28 +98,28 @@
 
 
         <!--Контент главной страницы-->
-        
+
 <div class="row payment-services">
 	<div class="col-xs-12">
-		<img src="img/cards-t.png" alt="">	
+		<img src="img/cards-t.png" alt="">
 	</div>
-	
-	
-	
+
+
+
 </div>
 
 
 
 
 <div class="payment-box">
-	<form id="UPC-form" action="https://www.clearwater.ua/mobile/payment_reciever.php" method="POST">
+	<form id="UPC-form" action="https://www.Чистовъ.ua/mobile/payment_reciever.php" method="POST">
 		<h2>
 			Оплата карткою		</h2>
 		<div class="form-group clearfix">
 			<label for="OrderID" style="float:left;width:47.5%;">
 				Номер рахунку до сплати			</label>
 			<input class="pay-input calc-challenge form-control"  style="margin-left:5%;width:47.5%;float:right;" name="OrderID" id="usercode" readonly type="text" data-header="Номер рахунку до сплати"
-				 
+
 			/>
             <input type="hidden" name="hidOrderId" id="hidcode" value="">
 		</div>
@@ -128,7 +128,7 @@
 			<label for="TotalAmount" style="float:left;width:47.5%;">
 				Сума до сплати			</label>
 			<input class="pay-input calc-challenge form-control" name="TotalAmount" id="usersum" style="margin-left:5%;width:47.5%;float:right;" type="text" readonly data-header="Сума до сплати"
-							/>	
+							/>
 		</div>
 		<div class="form-group" style="clear:both;">
 			<input id="UPC-send" type="submit" class="payment-submit green-btn" value="сплатити" />
@@ -138,8 +138,8 @@
 
 
         <!--Всплывающие окна из иконок меню-->
-        
-<div class="modal fade" id="modal-menu"> 
+
+<div class="modal fade" id="modal-menu">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -169,18 +169,18 @@
       </div>
       <div class="modal-body">
         <div class="menu-punkts inv" data-class="menu-punkts">
-          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">Головна</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile"><img src="img/home.png" alt="">Головна</a></div>
 
           <!--<div class="row"><a href="#"><img src="img/water.png" alt="">Про воду</a></div>
           <div class="row"><a href="#"><img src="img/delivery.png" alt="">Доставка</a></div>
           <div class="row"><a href="#"><img src="img/price.png" alt="">Ціна</a></div>-->
           <div class="row"><a href="promo"><img src="img/promo.png" alt="">Акції</a></div>
           <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">Обладнання</a></div>
-          
+
           <div class="row"><a href="#"><img src="img/other.png" alt="">Інші товари</a></div>
           <div class="row"><a href="#"><img src="img/about.png" alt="">Про компанію</a></div>-->
-          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">Повна версія</a></div>
-          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карткою</a></div>
+          <div class="row"><a href="javascript:setDesctop('https://www.Чистовъ.ua/')"><img src="img/desktop3.png" alt="">Повна версія</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карткою</a></div>
         </div>
         <div class="modal-numbers inv" data-class="modal-numbers">
           <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>Замовити дзвінок</span></a></div>
@@ -197,9 +197,9 @@
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Питання по обладнанню</span></a></div>
           <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Питання про документи</span></a></div>-->
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Задайте своє питання</span></a></div>
-        </div>  
+        </div>
       </div>
-       
+
     </div>
   </div>
 </div>
@@ -213,23 +213,23 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="recall-title">Замовити дзвінок</h4> 
+        <h4 class="recall-title">Замовити дзвінок</h4>
       </div>
       <div class="modal-body">
         <form id="form" method="post" action="">
           <div class="row">
             <input class='recall-number' type="text" name="name" required="required" placeholder="Ваше ім`я:"/>
-            
+
           </div>
           <div class="row">
             <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
-            
+
           </div>
           <div class="recall-buttons">
-            
+
             <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Відмінити"/>
             <input id='recall-button' class='btn recall-submit' type="submit" value="Замовити дзвінок"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -240,7 +240,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="ask-title">Задайте своє питання</h4> 
+        <h4 class="ask-title">Задайте своє питання</h4>
       </div>
       <div class="modal-body">
         <form id="ask-form" method="post" action="">
@@ -256,7 +256,7 @@
           <div class="ask-buttons">
             <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Відмінити"/>
             <input id='ask-button' class='btn ask-submit' type="submit" value="Задати запитання"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -301,7 +301,7 @@
               <div class="modal-header">
                 <div class="close" data-dismiss="modal">&times;</div>
                 <div class="street-list-header">
-                  
+
                 </div>
               </div>
               <div class="modal-body">
@@ -365,16 +365,16 @@
             </ul>
           </div>
         </div>
-        
+
         <div class="time-list-buttons">
           <input class="btn btn-success time-cancel" type="button"  data-dismiss="modal" value="Відмінити">
-          <input id="time-accept-second" class="btn time-accept" type="button" value="Прийняти">  
+          <input id="time-accept-second" class="btn time-accept" type="button" value="Прийняти">
         </div>
-        
+
       </div>
     </div>
   </div>
-</div>  
+</div>
 <div class="modal fade" id="time-list">
   <div class="modal-dialog modal-sm center-block">
     <div class="modal-content">
@@ -396,13 +396,13 @@
           <div class="second-window window">
             <div class="window-cover"></div>
             <ul class="list-group" id="tolist"></ul>
-          </div>  
+          </div>
         </div>
         <div class="time-list-buttons">
           <input class="btn btn-success time-cancel" type="button"  data-dismiss="modal" value="Відмінити">
-          <input id="time-accept" class="btn time-accept" type="button" value="Прийняти">  
+          <input id="time-accept" class="btn time-accept" type="button" value="Прийняти">
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -413,10 +413,10 @@
   <div class="modal-dialog modal-sm center-block">
     <div class="modal-content">
       <div class="modal-header">
-        
+
       </div>
       <div class="modal-body">
-        
+
       </div>
     </div>
   </div>
@@ -427,7 +427,7 @@
   <div class="modal-dialog modal-sm center-block">
     <div class="modal-content">
       <div class="modal-header" style="padding:15px;">
-        
+
       </div>
       <div class="modal-body">
         <form name="calc">
@@ -461,10 +461,10 @@
               <td>
                 <input class="btn calc-figure water-btn"  type="Button" value="6" >
               </td>
-              
+
             </tr>
             <tr>
-             
+
               <td>
                 <input class="btn calc-figure water-btn"  type="Button" value="1" >
               </td>
@@ -474,7 +474,7 @@
               <td>
                 <input class="btn calc-figure water-btn"  type="Button" value="3" >
               </td>
-              
+
             </tr>
             <tr>
               <td>
@@ -489,10 +489,10 @@
               </td>
             </tr>
           </table>
-        </form>     
+        </form>
 
       </div>
-       
+
     </div>
   </div>
 </div>
@@ -505,7 +505,7 @@
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
         <div class="street-list-header">
-          
+
         </div>
       </div>
       <div class="modal-body">
@@ -530,12 +530,12 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="trial-title">Замовити пробну доставку</h4> 
+        <h4 class="trial-title">Замовити пробну доставку</h4>
       </div>
       <div class="modal-body">
         <form id="trial-form" method="post" action="">
           <div class="row">
-            <input id='trialName' class='' type="text" name="name" required="required" placeholder="Ім`я"/> 
+            <input id='trialName' class='' type="text" name="name" required="required" placeholder="Ім`я"/>
           </div>
           <div class="row">
             <input id='trialNum' class='number' type="tel" name="phone" required="required" placeholder="Телефон"/>
@@ -546,7 +546,7 @@
           <div class="row buttons-row">
             <input id='trial-button' class='btn btn-success trial-submit' type="submit" value="Відправити"/>
             <input type="button" class="btn blue-btn trial-cancel" data-dismiss="modal" value="Закрити">
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -577,13 +577,13 @@
           <div class="modal-content">
             <div class="modal-header">
               <div class="close" data-dismiss="modal">&times;</div>
-              <h4 id="prod-title" class="prod-title"></h4> 
+              <h4 id="prod-title" class="prod-title"></h4>
             </div>
             <div class="modal-body">
                 <div class="prod-img">
-                  
+
                 </div>
-                
+
                 <div id="prod-id"></div>
                 <div class="prod-count">
                   <div class="prod-price">
@@ -593,12 +593,12 @@
                     <input id='prod-minus' class='btn ' type="submit" value="-"/>
                     <input id="prod-quantity" class="calc-challenge" type="text" value="0" readonly>
                     <input id="prod-plus" type="button" class="btn" value="+">
-                  </div>  
+                  </div>
                 </div>
                 <div class="row prod-modal-buttons">
                   <input id='prod-modal-cancel' class='btn' type="button" value="Відмінити"/>
                   <input id="prod-modal-accept" class="btn" type="button" value="Замовити">
-                </div>    
+                </div>
             </div>
           </div>
         </div>
@@ -609,361 +609,361 @@
         <div class="modal-dialog modal-sm center-block">
           <div class="modal-content">
             <div class="modal-header">
-              
+
               <div class="close" data-dismiss="modal">&times;</div>
-              
+
             </div>
             <div class="modal-body">
 
               <div id ="prod-accordion" class="prod-accordion">
                       <div class="accordion-box">              </div>
                           <h3 class="submenu" data-num="1">Чай пакетований</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1482___" data-pname='Чай Аскольд Полуниця з вершками, 50 пак' data-price="67.5" >Чай Аскольд Полуниця з вершками, 50 пак [67.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1162___" data-pname='Чай "Ahmad" англ. до сніданку (40 п)' data-price="48" >Чай "Ahmad" англ. до сніданку (40 п) [48грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1163___" data-pname='Чай "Ahmad" Граф Грей (40 п)' data-price="47.1" >Чай "Ahmad" Граф Грей (40 п) [47.1грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______538___" data-pname='Чай "Ahmad" англ. до сніданку (100п)' data-price="126" data-img="../order/_img/price/B_0_0_5725_0_0________538___.jpg" >Чай "Ahmad" англ. до сніданку (100п) [126грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______540___" data-pname='Чай "Ahmad" англ. до сніданку (25п)' data-price="43.5" data-img="../order/_img/price/B_0_0_5725_0_0________540___.jpg" >Чай "Ahmad" англ. до сніданку (25п) [43.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______541___" data-pname='Чай "Ahmad" Граф Грей (100п)' data-price="129" data-img="../order/_img/price/B_0_0_5725_0_0________541___.jpg" >Чай "Ahmad" Граф Грей (100п) [129грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______550___" data-pname='Чай "Ahmad" Граф Грей, (25п)' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________550___.jpg" >Чай "Ahmad" Граф Грей, (25п) [42грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______936___" data-pname='Чай "Ahmad" зелений (25п)' data-price="37.5" data-img="../order/_img/price/B_0_0_5725_0_0________936___.jpg" >Чай "Ahmad" зелений (25п) [37.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______547___" data-pname='Чай "Ahmad" Цейлон Оранж Пеко (25п)' data-price="43.5" data-img="../order/_img/price/B_0_0_5725_0_0________547___.jpg" >Чай "Ahmad" Цейлон Оранж Пеко (25п) [43.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1539___" data-pname='Чай "Ahmad" Цейлон Оранж Пеко  25пак.' data-price="43.5" >Чай "Ahmad" Цейлон Оранж Пеко  25пак. [43.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1130___" data-pname='Чай "Curtis" Самер Беріс, 20 пак' data-price="39.6" data-img="../order/_img/price/B_0_0_5725_0_0_______1130___.jpg" >Чай "Curtis" Самер Беріс, 20 пак [39.6грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1131___" data-pname='Чай "Curtis" Тропічний Манго, 20 пак' data-price="39.6" >Чай "Curtis" Тропічний Манго, 20 пак [39.6грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______852___" data-pname='Чай "Curtis" Трюфель Блек  50гр (25 пак)' data-price="45" >Чай "Curtis" Трюфель Блек  50гр (25 пак) [45грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1132___" data-pname='Чай "Curtis" Французький Трюффель, 20 пак' data-price="39.6" >Чай "Curtis" Французький Трюффель, 20 пак [39.6грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1129___" data-pname='Чай "Curtis" Фреш Мохіто, 20 пак' data-price="39.6" >Чай "Curtis" Фреш Мохіто, 20 пак [39.6грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______552___" data-pname='Чай "Grace" Бірюзовий молочний оолонг (25п)' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________552___.jpg" >Чай "Grace" Бірюзовий молочний оолонг (25п) [51грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______553___" data-pname='Чай "Grace" Брекфаст тайм (25п)' data-price="49.5" data-img="../order/_img/price/B_0_0_5725_0_0________553___.jpg" >Чай "Grace" Брекфаст тайм (25п) [49.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______557___" data-pname='Чай "Grace" Голден Цейлон (25п)' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________557___.jpg" >Чай "Grace" Голден Цейлон (25п) [42грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______558___" data-pname='Чай "Grace" Граф Грей (25п)' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________558___.jpg" >Чай "Grace" Граф Грей (25п) [42грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______556___" data-pname='Чай "Grace" зел. з листям меліси (25п)' data-price="49.5" data-img="../order/_img/price/B_0_0_5725_0_0________556___.jpg" >Чай "Grace" зел. з листям меліси (25п) [49.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______562___" data-pname='Чай "Grace" зел. з маслом бергамоту (25п)' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________562___.jpg" >Чай "Grace" зел. з маслом бергамоту (25п) [48грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______564___" data-pname='Чай "Grace" Суміш трав`яна з зел.чаєм альпійські трави (25п)' data-price="39" data-img="../order/_img/price/B_0_0_5725_0_0________564___.jpg" >Чай "Grace" Суміш трав`яна з зел.чаєм альпійські трави (25п) [39грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1581___" data-pname='Чай "Greenfiel" Kenyan 25пак  + Classic 25пак  + Spring Melody 25пак + Current and Mint 25 пак' data-price="177" data-img="../order/_img/price/B_0_0_5725_0_0_______1581___.jpg" >Чай "Greenfiel" Kenyan 25пак  + Classic 25пак  + Spring Melody 25пак + Current and Mint 25 пак [177грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1353___" data-pname='Чай "Greenfield"  Currant & Mint 1,8 гр. х 25шт. х 10 п' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0_______1353___.jpg" >Чай "Greenfield"  Currant & Mint 1,8 гр. х 25шт. х 10 п [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1516___" data-pname='Чай "Greenfield"  Spirit Mate 25 (пак)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0_______1516___.jpg" >Чай "Greenfield"  Spirit Mate 25 (пак) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______399___" data-pname='Чай "Greenfield " Barberry Garden" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________399___.jpg" >Чай "Greenfield " Barberry Garden" (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______830___" data-pname='Чай "Greenfield" Christmas Мystеrу (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________830___.jpg" >Чай "Greenfield" Christmas Мystеrу (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______296___" data-pname='Чай "Greenfield" Clas.Breakfast" (25п)' data-price="45.6" data-img="../order/_img/price/B_0_0_5725_0_0________296___.jpg" >Чай "Greenfield" Clas.Breakfast" (25п) [45.6грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______847___" data-pname='Чай "Greenfield" Earl Grey Fantasy (25шт)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________847___.jpg" >Чай "Greenfield" Earl Grey Fantasy (25шт) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1563___" data-pname='Чай "Greenfield" Earl Grey Fantasy (2г*100шт*9уп)' data-price="177" data-img="../order/_img/price/B_0_0_5725_0_0_______1563___.jpg" >Чай "Greenfield" Earl Grey Fantasy (2г*100шт*9уп) [177грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______398___" data-pname='Чай "Greenfield " Festive Grape" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________398___.jpg" >Чай "Greenfield " Festive Grape" (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1378___" data-pname='Чай "Greenfield" Flying Dragon (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0_______1378___.jpg" >Чай "Greenfield" Flying Dragon (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______397___" data-pname='Чай "Greenfield " Green Melissa" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________397___.jpg" >Чай "Greenfield " Green Melissa" (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______297___" data-pname='Чай "Greenfield " Jasmine Dream" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________297___.jpg" >Чай "Greenfield " Jasmine Dream" (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______596___" data-pname='Чай "Greenfield " Rich Camomile" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________596___.jpg" >Чай "Greenfield " Rich Camomile" (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______828___" data-pname='Чай "Greenfield" Spring Melodys (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________828___.jpg" >Чай "Greenfield" Spring Melodys (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______298___" data-pname='Чай "Greenfield " Summer Bouquet" (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________298___.jpg" >Чай "Greenfield " Summer Bouquet" (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______886___" data-pname='Чай "Greenfield" Vanilla Cranberry (25п)' data-price="46.5" data-img="../order/_img/price/B_0_0_5725_0_0________886___.jpg" >Чай "Greenfield" Vanilla Cranberry (25п) [46.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______215___" data-pname='Чай "Hyleys" англ.арист. (100п)' data-price="144.6" data-img="../order/_img/price/B_0_0_5725_0_0________215___.jpg" >Чай "Hyleys" англ.арист. (100п) [144.6грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______965___" data-pname='Чай "Hyleys" англ.зел. (100 п)' data-price="117" >Чай "Hyleys" англ.зел. (100 п) [117грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______284___" data-pname='Чай "Hyleys" плід пристрасті (25п)' data-price="41.7" data-img="../order/_img/price/B_0_0_5725_0_0________284___.jpg" >Чай "Hyleys" плід пристрасті (25п) [41.7грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______388___" data-pname='Чай "Hyleys" полуниця з вершк. (25п)' data-price="41.7" data-img="../order/_img/price/B_0_0_5725_0_0________388___.jpg" >Чай "Hyleys" полуниця з вершк. (25п) [41.7грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______976___" data-pname='Чай "Hyleys"Гармонія природи.Сім натур.смаків Асорті (25 пак)' data-price="57" data-img="../order/_img/price/B_0_0_5725_0_0________976___.jpg" >Чай "Hyleys"Гармонія природи.Сім натур.смаків Асорті (25 пак) [57грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______519___" data-pname='Чай чорний "Lipton" (100п)' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________519___.jpg" >Чай чорний "Lipton" (100п) [99грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1010___" data-pname='Чай Аскольд Зелений Цейлон, 100 пак' data-price="132" data-img="../order/_img/price/B_0_0_5725_0_0_______1010___.jpg" >Чай Аскольд Зелений Цейлон, 100 пак [132грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1626___" data-pname='Чай Блок 2+1: Golden Ceylon 25 пак+Earl Grey 25пак+Classiс Breakfast 25 пак' data-price="96" >Чай Блок 2+1: Golden Ceylon 25 пак+Earl Grey 25пак+Classiс Breakfast 25 пак [96грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#______1562___" data-pname='Чай Блок Greenfіeld Gold Ceyl(2*100шт)+Strawbery(1.5*25*8шт)' data-price="177" data-img="../order/_img/price/B_0_0_5725_0_0_______1562___.jpg" >Чай Блок Greenfіeld Gold Ceyl(2*100шт)+Strawbery(1.5*25*8шт) [177грн]</p>
-              
+
                         <p class="subitem viewprice sub-1" data-code="B#0#0#5725#0#0#_______975___" data-pname='Чай Гринфілд Набор "Асорті"' data-price="168" data-img="../order/_img/price/B_0_0_5725_0_0________975___.jpg" >Чай Гринфілд Набор "Асорті" [168грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="2">Чай листовий</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1015___" data-pname='Чай  "Ahmad" Китайський Зелений ( 100г)' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0_______1015___.jpg" >Чай  "Ahmad" Китайський Зелений ( 100г) [48грн]</p>
-              
+
                         <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1601___" data-pname='Чай "Ahmad"  ЖАСМИН ДІЛАЙТ зелений байховий листовий  (75г)' data-price="66" >Чай "Ahmad"  ЖАСМИН ДІЛАЙТ зелений байховий листовий  (75г) [66грн]</p>
-              
+
                         <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______539___" data-pname='Чай "Ahmad" англ. до сніданку  (100г)' data-price="60" data-img="../order/_img/price/B_0_0_5725_0_0________539___.jpg" >Чай "Ahmad" англ. до сніданку  (100г) [60грн]</p>
-              
+
                         <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______537___" data-pname='Чай "Ahmad" Граф Грей (100г)' data-price="63" data-img="../order/_img/price/B_0_0_5725_0_0________537___.jpg" >Чай "Ahmad" Граф Грей (100г) [63грн]</p>
-              
+
                         <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______545___" data-pname='Чай "Ahmad" Королівський Стандарт (100г)' data-price="72" data-img="../order/_img/price/B_0_0_5725_0_0________545___.jpg" >Чай "Ahmad" Королівський Стандарт (100г) [72грн]</p>
-              
+
                         <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______548___" data-pname='Чай "Ahmad" Цейлон Оранж Пеко (100г)' data-price="63" data-img="../order/_img/price/B_0_0_5725_0_0________548___.jpg" >Чай "Ahmad" Цейлон Оранж Пеко (100г) [63грн]</p>
-              
+
                         <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______560___" data-pname='Чай "Grace" Голден Цейлон (100г)' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________560___.jpg" >Чай "Grace" Голден Цейлон (100г) [48грн]</p>
-              
+
                         <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#_______857___" data-pname='Чай "Greenfield "Tropical Мarvel 100гр' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________857___.jpg" >Чай "Greenfield "Tropical Мarvel 100гр [48грн]</p>
-              
+
                         <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1259___" data-pname='Чай "Хейліс"З Новим Роком" (золотий подарунок) 50г' data-price="72" data-img="../order/_img/price/B_0_0_5725_0_0_______1259___.jpg" >Чай "Хейліс"З Новим Роком" (золотий подарунок) 50г [72грн]</p>
-              
+
                         <p class="subitem viewprice sub-2" data-code="B#0#0#5725#0#0#______1260___" data-pname='Чай "Хейліс"З Новорічними святами, 50г' data-price="72" data-img="../order/_img/price/B_0_0_5725_0_0_______1260___.jpg" >Чай "Хейліс"З Новорічними святами, 50г [72грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="3">Чай "Карпатський"</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______765___" data-pname='Чай "Лісові ягоди"  100г' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________765___.jpg" >Чай "Лісові ягоди"  100г [51грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______769___" data-pname='Чай "Малина" 100г' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________769___.jpg" >Чай "Малина" 100г [51грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______767___" data-pname='Чай "Мультифрукт" 100 г' data-price="48" data-img="../order/_img/price/B_0_0_5725_0_0________767___.jpg" >Чай "Мультифрукт" 100 г [48грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______766___" data-pname='Чай "Чорна смородина" 100г' data-price="50.4" data-img="../order/_img/price/B_0_0_5725_0_0________766___.jpg" >Чай "Чорна смородина" 100г [50.4грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______768___" data-pname='Чай "Чорниця" 100г' data-price="50.4" data-img="../order/_img/price/B_0_0_5725_0_0________768___.jpg" >Чай "Чорниця" 100г [50.4грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______770___" data-pname='Чай "Шипшина" 100 г' data-price="50.4" data-img="../order/_img/price/B_0_0_5725_0_0________770___.jpg" >Чай "Шипшина" 100 г [50.4грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______763___" data-pname='Чай "Вишня" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________763___.jpg" >Чай "Вишня" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______755___" data-pname='Чай "Вітамінний" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________755___.jpg" >Чай "Вітамінний" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______752___" data-pname='Чай "Ехінацея" 20п' data-price="18.9" data-img="../order/_img/price/B_0_0_5725_0_0________752___.jpg" >Чай "Ехінацея" 20п [18.9грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______784___" data-pname='Чай "Журавлина" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________784___.jpg" >Чай "Журавлина" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______753___" data-pname='Чай "Липа" 20п' data-price="33" data-img="../order/_img/price/B_0_0_5725_0_0________753___.jpg" >Чай "Липа" 20п [33грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______760___" data-pname='Чай "Лісові ягоди" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________760___.jpg" >Чай "Лісові ягоди" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______749___" data-pname='Чай "Меліса" 20п' data-price="15" data-img="../order/_img/price/B_0_0_5725_0_0________749___.jpg" >Чай "Меліса" 20п [15грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______759___" data-pname='Чай "Мультифрукт" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________759___.jpg" >Чай "Мультифрукт" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______751___" data-pname='Чай "М`ята" 20п' data-price="15" data-img="../order/_img/price/B_0_0_5725_0_0________751___.jpg" >Чай "М`ята" 20п [15грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______785___" data-pname='Чай "Ожина" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________785___.jpg" >Чай "Ожина" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______764___" data-pname='Чай "Полуниця" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________764___.jpg" >Чай "Полуниця" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______750___" data-pname='Чай "Ромашка" 25п' data-price="15" data-img="../order/_img/price/B_0_0_5725_0_0________750___.jpg" >Чай "Ромашка" 25п [15грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______762___" data-pname='Чай "Суниця" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________762___.jpg" >Чай "Суниця" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______758___" data-pname='Чай "Чорна смородина" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________758___.jpg" >Чай "Чорна смородина" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______757___" data-pname='Чай "Чорниця" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________757___.jpg" >Чай "Чорниця" 20п [25.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-3" data-code="B#0#0#5725#0#0#_______761___" data-pname='Чай "Шипшина" 20п' data-price="25.5" data-img="../order/_img/price/B_0_0_5725_0_0________761___.jpg" >Чай "Шипшина" 20п [25.5грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="4">Госп.товари</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______983___" data-pname='Крем-мило з доз. "Olis" Суниця 500 мл.' data-price="22.5" >Крем-мило з доз. "Olis" Суниця 500 мл. [22.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______791___" data-pname='Крем-мило рідке (без дозатора) "OLIS Суниця" 500мл' data-price="18" data-img="../order/_img/price/B_0_0_5725_0_0________791___.jpg" >Крем-мило рідке (без дозатора) "OLIS Суниця" 500мл [18грн]</p>
-              
+
                         <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______790___" data-pname='Крем-мило рідке (без дозатора) "OLIS Адое" 500мл' data-price="18" data-img="../order/_img/price/B_0_0_5725_0_0________790___.jpg" >Крем-мило рідке (без дозатора) "OLIS Адое" 500мл [18грн]</p>
-              
+
                         <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______931___" data-pname='Мішки Z-BEST чорні 35л 50шт 7мк(рул)' data-price="16.2" >Мішки Z-BEST чорні 35л 50шт 7мк(рул) [16.2грн]</p>
-              
+
                         <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1497___" data-pname='Мішки ЗІНЕКО чорні 35л 50шт (рул)' data-price="17.4" >Мішки ЗІНЕКО чорні 35л 50шт (рул) [17.4грн]</p>
-              
+
                         <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______794___" data-pname='Папір туалетн. "Сніжна панда Класік" 4 шт/уп.' data-price="33" data-img="../order/_img/price/B_0_0_5725_0_0________794___.jpg" >Папір туалетн. "Сніжна панда Класік" 4 шт/уп. [33грн]</p>
-              
+
                         <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______795___" data-pname='Рушники паперові "Сніжна панда" 2 шт/уп' data-price="34.2" data-img="../order/_img/price/B_0_0_5725_0_0________795___.jpg" >Рушники паперові "Сніжна панда" 2 шт/уп [34.2грн]</p>
-              
+
                         <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#_______796___" data-pname='Серветки "Сніжна панда" 100шт 24*24' data-price="15.6" data-img="../order/_img/price/B_0_0_5725_0_0________796___.jpg" >Серветки "Сніжна панда" 100шт 24*24 [15.6грн]</p>
-              
+
                         <p class="subitem viewprice sub-4" data-code="B#0#0#5725#0#0#______1544___" data-pname='Серветки 25*25 білі' data-price="10.5" >Серветки 25*25 білі [10.5грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="5">Одноразовий посуд</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1615___" data-pname='Склянки пласт.прозорі, (100шт)' data-price="27" >Склянки пласт.прозорі, (100шт) [27грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______865___" data-pname='Стакан Кофі Тайм кольоровий паперовий 175мл  50шт' data-price="24.9" >Стакан Кофі Тайм кольоровий паперовий 175мл  50шт [24.9грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______866___" data-pname='Стакан Кофі Тайм паперовий 175мл нейтральний малюнок (50шт)' data-price="24.9" >Стакан Кофі Тайм паперовий 175мл нейтральний малюнок (50шт) [24.9грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______864___" data-pname='Стакан паперовий 175мл без малюнка (50шт)' data-price="24.3" >Стакан паперовий 175мл без малюнка (50шт) [24.3грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1517___" data-pname='Стакан паперовий без малюнка 340 мл, (50шт)' data-price="42.3" >Стакан паперовий без малюнка 340 мл, (50шт) [42.3грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1001___" data-pname='Стакан паперовий СМАЙЛ 340 мл, (50шт)' data-price="42.3" >Стакан паперовий СМАЙЛ 340 мл, (50шт) [42.3грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1636___" data-pname='Склянки пласт.прозорі, (100шт)' data-price="27" >Склянки пласт.прозорі, (100шт) [27грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1590___" data-pname='Виделки (100шт)' data-price="27" >Виделки (100шт) [27грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______440___" data-pname='Ложка д/кави біла (100шт)' data-price="15.8" data-img="../order/_img/price/B_0_0_5725_0_0________440___.jpg" >Ложка д/кави біла (100шт) [15.8грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1614___" data-pname='Ложка столова (100шт)' data-price="39" >Ложка столова (100шт) [39грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1546___" data-pname='Мішалки пластикові  (800шт)' data-price="75" >Мішалки пластикові  (800шт) [75грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1528___" data-pname='Мішалки до кави дерев`яна (800шт) ДРВ' data-price="60" >Мішалки до кави дерев`яна (800шт) ДРВ [60грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#_______985___" data-pname='Ніж пластиковий (100 шт)' data-price="27" data-img="../order/_img/price/B_0_0_5725_0_0________985___.jpg" >Ніж пластиковий (100 шт) [27грн]</p>
-              
+
                         <p class="subitem viewprice sub-5" data-code="B#0#0#5725#0#0#______1540___" data-pname='Тарілка пастикова біла  205мм, 100 шт' data-price="78" >Тарілка пастикова біла  205мм, 100 шт [78грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="6">Кава розчинна</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#_______503___" data-pname='"Jacobs Monarch" (95г)' data-price="144" data-img="../order/_img/price/B_0_0_5725_0_0________503___.jpg" >"Jacobs Monarch" (95г) [144грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1026___" data-pname='Кава Нескафе Голд, 200г' data-price="255" data-img="../order/_img/price/B_0_0_5725_0_0_______1026___.jpg" >Кава Нескафе Голд, 200г [255грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#_______883___" data-pname='Кава Нескафе Голд Розч 210г' data-price="240" data-img="../order/_img/price/B_0_0_5725_0_0________883___.jpg" >Кава Нескафе Голд Розч 210г [240грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1585___" data-pname='Кава Нескафе Голд, 190г' data-price="255" >Кава Нескафе Голд, 190г [255грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1555___" data-pname='Кава розч Якобз Міллікано Амерікано екон. пак (250 г)' data-price="312" >Кава розч Якобз Міллікано Амерікано екон. пак (250 г) [312грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1351___" data-pname='Кава розч Якобз Монарх 90г' data-price="106" >Кава розч Якобз Монарх 90г [106грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1249___" data-pname='Кава розч Якобз Монарх екон. пак.170 г' data-price="198" >Кава розч Якобз Монарх екон. пак.170 г [198грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1250___" data-pname='Кава розч Якобз Монарх екон. пак.250г' data-price="231" >Кава розч Якобз Монарх екон. пак.250г [231грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1547___" data-pname='Кава розч Якобз Монарх екон. пак.400г' data-price="354" >Кава розч Якобз Монарх екон. пак.400г [354грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1339___" data-pname='Кава розч. L^OR 120г' data-price="159" data-img="../order/_img/price/B_0_0_5725_0_0_______1339___.jpg" >Кава розч. L^OR 120г [159грн]</p>
-              
+
                         <p class="subitem viewprice sub-6" data-code="B#0#0#5725#0#0#______1628___" data-pname='Кава розч Якобз Міллікано Амерікано екон. пак (250 г)' data-price="201" >Кава розч Якобз Міллікано Амерікано екон. пак (250 г) [201грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="7">Кава мелена</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______979___" data-pname='Кава JARDIN Americano Crema 250 г' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________979___.jpg" >Кава JARDIN Americano Crema 250 г [99грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______980___" data-pname='Кава JARDIN Espresso di Milano 250г' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________980___.jpg" >Кава JARDIN Espresso di Milano 250г [99грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1118___" data-pname='Кава JARDIN Guatemala Cloud Forest 250г' data-price="108" data-img="../order/_img/price/B_0_0_5725_0_0_______1118___.jpg" >Кава JARDIN Guatemala Cloud Forest 250г [108грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1548___" data-pname='Кава JARDIN Блок Espresso di Milano 250г+Americano Crema 250' data-price="195" data-img="../order/_img/price/B_0_0_5725_0_0_______1548___.jpg" >Кава JARDIN Блок Espresso di Milano 250г+Americano Crema 250 [195грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1580___" data-pname='Кава JARDIN Guatemala Cloud Forest 250 гр.' data-price="162" >Кава JARDIN Guatemala Cloud Forest 250 гр. [162грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1637___" data-pname='Кава мелена Ambassador Blue Label 230г' data-price="84" >Кава мелена Ambassador Blue Label 230г [84грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1338___" data-pname='Кава мелена L^OR Classic (250г)' data-price="111" data-img="../order/_img/price/B_0_0_5725_0_0_______1338___.jpg" >Кава мелена L^OR Classic (250г) [111грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______837___" data-pname='Lavazza Crema&Gusto (250г)' data-price="117" data-img="../order/_img/price/B_0_0_5725_0_0________837___.jpg" >Lavazza Crema&Gusto (250г) [117грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______838___" data-pname='Lavazza Espresso (250г)' data-price="162" data-img="../order/_img/price/B_0_0_5725_0_0________838___.jpg" >Lavazza Espresso (250г) [162грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#_______839___" data-pname='Lavazza Qualita Oro (250г)' data-price="168" data-img="../order/_img/price/B_0_0_5725_0_0________839___.jpg" >Lavazza Qualita Oro (250г) [168грн]</p>
-              
+
                         <p class="subitem viewprice sub-7" data-code="B#0#0#5725#0#0#______1495___" data-pname='Кава мелена Якобз Монарх (225г)' data-price="93" data-img="../order/_img/price/B_0_0_5725_0_0_______1495___.jpg" >Кава мелена Якобз Монарх (225г) [93грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="8">Кава в зернах</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1012___" data-pname='Кава  в зернах Ambassador Blue Label, 250г' data-price="101.7" data-img="../order/_img/price/B_0_0_5725_0_0_______1012___.jpg" >Кава  в зернах Ambassador Blue Label, 250г [101.7грн]</p>
-              
+
                         <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______977___" data-pname='Кава JARDIN Americano Crema 250г' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________977___.jpg" >Кава JARDIN Americano Crema 250г [99грн]</p>
-              
+
                         <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______978___" data-pname='Кава JARDIN Espresso di Milano 250 г' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________978___.jpg" >Кава JARDIN Espresso di Milano 250 г [99грн]</p>
-              
+
                         <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1117___" data-pname='Кава JARDIN Guatemala Cloud Forest 250г' data-price="108" data-img="../order/_img/price/B_0_0_5725_0_0_______1117___.jpg" >Кава JARDIN Guatemala Cloud Forest 250г [108грн]</p>
-              
+
                         <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1340___" data-pname='Кава в зернах L^OR Crema Absolute Classic 500г' data-price="288" data-img="../order/_img/price/B_0_0_5725_0_0_______1340___.jpg" >Кава в зернах L^OR Crema Absolute Classic 500г [288грн]</p>
-              
+
                         <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#______1341___" data-pname='Кава в зернах L^OR Espresso Forza 500г' data-price="288" data-img="../order/_img/price/B_0_0_5725_0_0_______1341___.jpg" >Кава в зернах L^OR Espresso Forza 500г [288грн]</p>
-              
+
                         <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______840___" data-pname='Lavazza Crema Aroma (1кг)' data-price="528" data-img="../order/_img/price/B_0_0_5725_0_0________840___.jpg" >Lavazza Crema Aroma (1кг) [528грн]</p>
-              
+
                         <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______843___" data-pname='Lavazza Qualita Oro пкт (1кг)' data-price="642" data-img="../order/_img/price/B_0_0_5725_0_0________843___.jpg" >Lavazza Qualita Oro пкт (1кг) [642грн]</p>
-              
+
                         <p class="subitem viewprice sub-8" data-code="B#0#0#5725#0#0#_______819___" data-pname='"Jacobs Monarch" (250г)' data-price="99" data-img="../order/_img/price/B_0_0_5725_0_0________819___.jpg" >"Jacobs Monarch" (250г) [99грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="9">Вода у пляшках</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______459___" data-pname='Вода М/В Бонаква газована (0.5л)' data-price="8.7" data-img="../order/_img/price/B_0_0_5725_0_0________459___.jpg" >Вода М/В Бонаква газована (0.5л) [8.7грн]</p>
-              
+
                         <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______458___" data-pname='Вода М/В Бонаква негазована (0.5л)' data-price="8.7" data-img="../order/_img/price/B_0_0_5725_0_0________458___.jpg" >Вода М/В Бонаква негазована (0.5л) [8.7грн]</p>
-              
+
                         <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______461___" data-pname='Чиста Вода в пляшці ПЕТ (0.5л)' data-price="9.6" >Чиста Вода в пляшці ПЕТ (0.5л) [9.6грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="10">Інші товари</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______970___" data-pname='Капучино "La Festa" ванільний (10 шт)' data-price="54" data-img="../order/_img/price/B_0_0_5725_0_0________970___.jpg" >Капучино "La Festa" ванільний (10 шт) [54грн]</p>
-              
+
                         <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______971___" data-pname='Капучино "La Festa" горіховий (10 шт)' data-price="51" data-img="../order/_img/price/B_0_0_5725_0_0________971___.jpg" >Капучино "La Festa" горіховий (10 шт) [51грн]</p>
-              
+
                         <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______972___" data-pname='Капучино "La Festa" класичний (10 шт)' data-price="59" data-img="../order/_img/price/B_0_0_5725_0_0________972___.jpg" >Капучино "La Festa" класичний (10 шт) [59грн]</p>
-              
+
                         <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#______1527___" data-pname='Вершки "Coffee mate" сухі (200г)' data-price="48" >Вершки "Coffee mate" сухі (200г) [48грн]</p>
-              
+
                         <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#______1135___" data-pname='Цукор білий кристалічний, пакет,1 кг' data-price="22.5" >Цукор білий кристалічний, пакет,1 кг [22.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#______1576___" data-pname='Цукор в стіках, 5г (200шт)' data-price="37.5" >Цукор в стіках, 5г (200шт) [37.5грн]</p>
-              
+
                         <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______884___" data-pname='Цукор пресований  (1 кг)' data-price="36" >Цукор пресований  (1 кг) [36грн]</p>
-              
+
                         <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#______1641___" data-pname='Цукор в стіках, 5г (100шт)' data-price="75" >Цукор в стіках, 5г (100шт) [75грн]</p>
-              
+
                         <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______986___" data-pname='Гарячий шоколад в стиках (10шт)' data-price="63" data-img="../order/_img/price/B_0_0_5725_0_0________986___.jpg" >Гарячий шоколад в стиках (10шт) [63грн]</p>
-              
+
                         <p class="subitem viewprice sub-10" data-code="B#0#0#5725#0#0#_______987___" data-pname='Гарячий шоколад розчинний (150г)' data-price="39" >Гарячий шоколад розчинний (150г) [39грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="11">Санітарна обробка обладнання</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______117___" data-pname='Санобробка диспенсера' data-price="42" >Санобробка диспенсера [42грн]</p>
-              
+
                         <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______320___" data-pname='Санобробка кулера' data-price="195" data-img="../order/_img/price/B_0_0_5725_0_0________320___.jpg" >Санобробка кулера [195грн]</p>
-              
+
                         <p class="subitem viewprice sub-11" data-code="B#0#0#5725#0#0#_______119___" data-pname='Санобробка помпи' data-price="42" data-img="../order/_img/price/B_0_0_5725_0_0________119___.jpg" >Санобробка помпи [42грн]</p>
-              
+
                         </div>
                           <h3 class="submenu" data-num="12">Обладнання для розливу води (оренда)</h3>
-                  
+
           <div class="accordion-box">              <p class="subitem viewprice sub-12" data-code="B#0#0#5725#0#0#_______253___" data-pname='Кулер СО2' data-price="300" data-img="../order/_img/price/B_0_0_5725_0_0________253___.jpg" >Кулер СО2 [300грн]</p>
-              
+
                         <p class="subitem viewprice sub-12" data-code="B#0#0#5725#0#0#_______254___" data-pname='Кулер H&C' data-price="210" data-img="../order/_img/price/B_0_0_5725_0_0________254___.jpg" >Кулер H&C [210грн]</p>
-              
+
                         <p class="subitem viewprice sub-12" data-code="B#0#0#5725#0#0#_______255___" data-pname='Кулер міні' data-price="210" data-img="../order/_img/price/B_0_0_5725_0_0________255___.jpg" >Кулер міні [210грн]</p>
-              
+
                         <p class="subitem viewprice sub-12" data-code="B#0#0#5725#0#0#_______106___" data-pname='Помпа' data-price="21" data-img="../order/_img/price/B_0_0_5725_0_0________106___.jpg" >Помпа [21грн]</p>
-              
+
                         </div>
                         </div>
             </div>
-             
+
           </div>
         </div>
       </div>
@@ -1094,7 +1094,7 @@
                     args['usercode'] = usercode[0];
                     args['fullcode'] = fullcode;
 
-                    $.post('https://www.clearwater.ua/order/_system/jsclient.php', args, function(data) {
+                    $.post('https://www.Чистовъ.ua/order/_system/jsclient.php', args, function(data) {
                         $("#dial-wait").dialog("close");
                         var sep = data.indexOf("|");
                         var rescode = data.split("|");

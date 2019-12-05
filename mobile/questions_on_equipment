@@ -8,10 +8,10 @@
 		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
+
 		<script src="js/plugin/jquery-2.1.4.min.js"></script>
 		<script src="js/plugin/jquery.cookie.js"></script>
-		
+
 		<script src="js/plugin/jquery-ui.js"></script>
 		<script src="js/plugin/plugin.js"></script>
 		<script src="js/plugin/bootstrap.min.js"></script>
@@ -27,10 +27,10 @@
 		  ga('send', 'pageview');
 
 		</script>
-		
+
 	</head>
 	<body>
-		
+
 		<!--Хедер с иконками меню-->
 		<div class="phone-header">
 <table id="phone-header1">
@@ -49,7 +49,7 @@
     <td>FAQ</td>
   </tr>
 </table>
-</div> 
+</div>
 
 <!--Хедер сайта с фиксированным меню portrait-->
 <div class="landscape-header inv">
@@ -197,7 +197,7 @@
       <div class="text-for-scroll">
         <p>On cooler CO2 cylinder is set  3 kg gas-cylinder.</p><p>The content of carbon dioxide is approximately 2 g. From one cylinder of carbon dioxide is obtained from 1000 to 1500 portions.</p><p>With one gas-cylinder it can be obtained more than 200 (two hundred) liters of carbonated water, it’s about 10 bottles of soda water. It can be calculated.</p><p>For example, there are 5 people in the office. Suppose, that for everybody drink 2 cups of soda per day. It is about 0.4 liters.</p><p>Total 0.4l by 5 people is 2 liters per day.</p><p>200 liters of cooler possibilities divide by 2 liters consumption per day, we get 100 days.</p><p>With 22 working days per month (100 days divided by 22 days) we get at least 4.5 months. </p>      </div>
   </div>
-  
+
   <h3>How many people can drink tea, coffee at the same time?</h3>
   <div>
     <p>Initial data:</p><p>Tea- portion 200g.</p><p>Coffee-portion 100 g.</p><p>Floor cooler. Tea 3-5 people. Coffee 6-8 people.</p><p>Mini cooler. Tea for 2 people. Coffee 3-4 people. </p>  </div>
@@ -213,18 +213,18 @@
   <h3>How to know that carbon dioxide is out?</h3>
   <div>
     <p>If during the portions of soda in a glass the bubbles are absent and CO2  indicator is constantly displayed on the front panel display.</p>  </div>
-  
-      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Ask your question"  />   
-    
+
+      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Ask your question"  />
+
 
 </div>
 </div>
-</div>		
+</div>
 
 
 		<!--Всплывающие окна из иконок меню-->
-		
-<div class="modal fade" id="modal-menu"> 
+
+<div class="modal fade" id="modal-menu">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -254,18 +254,18 @@
       </div>
       <div class="modal-body">
         <div class="menu-punkts inv" data-class="menu-punkts">
-          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
 
           <!--<div class="row"><a href="#"><img src="img/water.png" alt="">about water</a></div>
           <div class="row"><a href="#"><img src="img/delivery.png" alt="">delivery</a></div>
           <div class="row"><a href="#"><img src="img/price.png" alt="">price</a></div>-->
           <div class="row"><a href="promo"><img src="img/promo.png" alt="">special offers</a></div>
           <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">equipment</a></div>
-          
+
           <div class="row"><a href="#"><img src="img/other.png" alt="">other products</a></div>
           <div class="row"><a href="#"><img src="img/about.png" alt="">about us</a></div>-->
-          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
-          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
+          <div class="row"><a href="javascript:setDesctop('https://www.Чистовъ.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
         </div>
         <div class="modal-numbers inv" data-class="modal-numbers">
           <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>call back</span></a></div>
@@ -282,9 +282,9 @@
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Questions on equipment</span></a></div>
           <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Questions about docs</span></a></div>-->
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Ask your question</span></a></div>
-        </div>  
+        </div>
       </div>
-       
+
     </div>
   </div>
 </div>
@@ -298,23 +298,23 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="recall-title">call back</h4> 
+        <h4 class="recall-title">call back</h4>
       </div>
       <div class="modal-body">
         <form id="form" method="post" action="">
           <div class="row">
             <input class='recall-number' type="text" name="name" required="required" placeholder="Your name:"/>
-            
+
           </div>
           <div class="row">
             <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
-            
+
           </div>
           <div class="recall-buttons">
-            
+
             <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Cancel"/>
             <input id='recall-button' class='btn recall-submit' type="submit" value="Send"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -325,7 +325,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="ask-title">Ask your question</h4> 
+        <h4 class="ask-title">Ask your question</h4>
       </div>
       <div class="modal-body">
         <form id="ask-form" method="post" action="">
@@ -341,14 +341,14 @@
           <div class="ask-buttons">
             <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Cancel"/>
             <input id='ask-button' class='btn ask-submit' type="submit" value="Send"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
   </div>
-</div>		
+</div>
 
-		
+
 	</body>
 </html>
 

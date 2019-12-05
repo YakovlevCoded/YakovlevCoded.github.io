@@ -8,10 +8,10 @@
 		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
+
 		<script src="js/plugin/jquery-2.1.4.min.js"></script>
 		<script src="js/plugin/jquery.cookie.js"></script>
-		
+
 		<script src="js/plugin/jquery-ui.js"></script>
 		<script src="js/plugin/plugin.js"></script>
 		<script src="js/plugin/bootstrap.min.js"></script>
@@ -27,11 +27,11 @@
 		  ga('send', 'pageview');
 
 		</script>
-		
-		
+
+
 	</head>
 	<body>
-		
+
 		<!--Хедер с иконками меню-->
 		<div class="phone-header">
 <table id="phone-header1">
@@ -50,7 +50,7 @@
     <td>FAQ</td>
   </tr>
 </table>
-</div> 
+</div>
 
 <!--Хедер сайта с фиксированным меню portrait-->
 <div class="landscape-header inv">
@@ -126,11 +126,11 @@
       <div class="scroll-button"></div>
       <div class="text-for-scroll">
          <p>Regular water contains physiologically necessary macroelements - calcium, magnesium, potassium, sodium, chlorides, bicarbonates in minimal quantities in accordance with the hygienic requirements. The minimum amount are chosen because people are more affected by salt deposits than it’s surplus. Iodine water has the same composition, butthereis added iodine salt. Fluorine water is the same as regular, but there is added fluorine salt.</p>      </div>
-      
+
     </div>
     <h3>Do you have distilled water?</h3>
     <div>
-      <p>We have distilled water This kind of water is prepared by double filtration through a membrane filter (back osmosis) and corresponds to State Standart 6709-72 for distilled water. </p>      
+      <p>We have distilled water This kind of water is prepared by double filtration through a membrane filter (back osmosis) and corresponds to State Standart 6709-72 for distilled water. </p>
     </div>
 
     <h3>What is useful iodine and fluorine water for?</h3>
@@ -199,7 +199,7 @@
 
     <h3>What is the composition of water? Mineralization?</h3>
     <div>
-      <p>Mineralization of our water is about 100 mg / liter (TDS). The ionic composition of water includes calcium, magnesium, sodium, potassium, bicarbonates, chlorides, fluorine, iodine. </p>      
+      <p>Mineralization of our water is about 100 mg / liter (TDS). The ionic composition of water includes calcium, magnesium, sodium, potassium, bicarbonates, chlorides, fluorine, iodine. </p>
     </div>
 
     <h3>Where do you get minerals? In what form?</h3>
@@ -208,7 +208,7 @@
 
     <h3>Can children, pregnant women, people with certain diseases drink this water?</h3>
     <div>
-        <p>Thanks to its balanced mineral composition, CLEARWATER can bedrinked without any restrictions, at any age, including pregnant women. People with the disease, doctors usually recommend eating less salts, so our product can be recommended to them, because there there is a low quantity of salts.</p>  
+        <p>Thanks to its balanced mineral composition, Чистовъ can bedrinked without any restrictions, at any age, including pregnant women. People with the disease, doctors usually recommend eating less salts, so our product can be recommended to them, because there there is a low quantity of salts.</p>
     </div>
 
     <h3>Can your driver collect water in a pump room?</h3>
@@ -216,7 +216,7 @@
       <div class="scroll-track"></div>
       <div class="scroll-button"></div>
       <div class="text-for-scroll">
-        <p>All bottles are closed with a brand coverapplied the date and time of bottling, which can not be removed without damaging. The date of application is made by a printer that is manually impossible to falsity. Top of the cover is closed proprietary heat-shrinkable film that is also a protection against opening bottles of branded water. For this reason, while maintaining the integrity of the original packing, the presence of inscriptions pouring into a bottle of another water is not possible! In the presence of these degrees of protection you can be assured that this is the original «CLEARWATER». In addition, drivers are strictly forbidden even to approach the well-room - in order to avoid misunderstandings. For this, we control the movement of our drivers using GPS. </p>      </div>
+        <p>All bottles are closed with a brand coverapplied the date and time of bottling, which can not be removed without damaging. The date of application is made by a printer that is manually impossible to falsity. Top of the cover is closed proprietary heat-shrinkable film that is also a protection against opening bottles of branded water. For this reason, while maintaining the integrity of the original packing, the presence of inscriptions pouring into a bottle of another water is not possible! In the presence of these degrees of protection you can be assured that this is the original «Чистовъ». In addition, drivers are strictly forbidden even to approach the well-room - in order to avoid misunderstandings. For this, we control the movement of our drivers using GPS. </p>      </div>
     </div>
 
     <!--<h3></h3>
@@ -227,18 +227,18 @@
     <div>
         <p>Kiev Svyatoshinsky district SES, SES Regional, Institute of Ecology and Toxicology ofL.I.Medvedya, Ukrmetrteststandart, Institute of Colloid Chemistry and Water Chemistry of Dumansky. </p>    </div>
 
-      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Ask your question"  />   
-    
+      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Ask your question"  />
+
   </div>
   </div>
 </div>
 
-		
+
 
 
 		<!--Всплывающие окна из иконок меню-->
-		
-<div class="modal fade" id="modal-menu"> 
+
+<div class="modal fade" id="modal-menu">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -268,18 +268,18 @@
       </div>
       <div class="modal-body">
         <div class="menu-punkts inv" data-class="menu-punkts">
-          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
 
           <!--<div class="row"><a href="#"><img src="img/water.png" alt="">about water</a></div>
           <div class="row"><a href="#"><img src="img/delivery.png" alt="">delivery</a></div>
           <div class="row"><a href="#"><img src="img/price.png" alt="">price</a></div>-->
           <div class="row"><a href="promo"><img src="img/promo.png" alt="">special offers</a></div>
           <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">equipment</a></div>
-          
+
           <div class="row"><a href="#"><img src="img/other.png" alt="">other products</a></div>
           <div class="row"><a href="#"><img src="img/about.png" alt="">about us</a></div>-->
-          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
-          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
+          <div class="row"><a href="javascript:setDesctop('https://www.Чистовъ.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
         </div>
         <div class="modal-numbers inv" data-class="modal-numbers">
           <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>call back</span></a></div>
@@ -296,9 +296,9 @@
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Questions on equipment</span></a></div>
           <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Questions about docs</span></a></div>-->
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Ask your question</span></a></div>
-        </div>  
+        </div>
       </div>
-       
+
     </div>
   </div>
 </div>
@@ -312,23 +312,23 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="recall-title">call back</h4> 
+        <h4 class="recall-title">call back</h4>
       </div>
       <div class="modal-body">
         <form id="form" method="post" action="">
           <div class="row">
             <input class='recall-number' type="text" name="name" required="required" placeholder="Your name:"/>
-            
+
           </div>
           <div class="row">
             <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
-            
+
           </div>
           <div class="recall-buttons">
-            
+
             <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Cancel"/>
             <input id='recall-button' class='btn recall-submit' type="submit" value="Send"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -339,7 +339,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="ask-title">Ask your question</h4> 
+        <h4 class="ask-title">Ask your question</h4>
       </div>
       <div class="modal-body">
         <form id="ask-form" method="post" action="">
@@ -355,14 +355,14 @@
           <div class="ask-buttons">
             <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Cancel"/>
             <input id='ask-button' class='btn ask-submit' type="submit" value="Send"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
   </div>
-</div>		
+</div>
 
-		
+
 	</body>
 </html>
 

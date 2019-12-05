@@ -5,17 +5,17 @@
 		<meta charset="UTF-8">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
-		
-		<link rel="canonical" href="https://www.clearwater.ua/promo" >
+
+		<link rel="canonical" href="https://www.Чистовъ.ua/promo" >
 		<link rel="icon" type="image/png" href="/images/favicon.png">
 		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
-		
+
+
 		<script src="js/plugin/jquery-2.1.4.min.js"></script>
 		<script src="js/plugin/jquery.cookie.js"></script>
-		
+
 		<script src="js/plugin/jquery-ui.js"></script>
 		<script src="js/plugin/bootstrap.min.js"></script>
 		<script src="js/plugin/plugin.js"></script>
@@ -31,10 +31,10 @@
 		  ga('send', 'pageview');
 
 		</script>
-		
+
 	</head>
 	<body>
-		
+
 		<!--Хедер с иконками меню-->
 		<div class="phone-header">
 <table id="phone-header1">
@@ -53,7 +53,7 @@
     <td>FAQ</td>
   </tr>
 </table>
-</div> 
+</div>
 
 <!--Хедер сайта с фиксированным меню portrait-->
 <div class="landscape-header inv">
@@ -104,8 +104,8 @@
 
 		<!--Контент главной страницы-->
 		<!--Содержимое главной страницы с бегущей строкой слайдером и иконками соцсетей-->
-<div class="promo-content content-block"> 
-  <div class="phone-content last-element"> 
+<div class="promo-content content-block">
+  <div class="phone-content last-element">
     <div id="title" class="promo-header">
       <h1 class="promo">Promo</h1>
     </div>
@@ -117,9 +117,9 @@
             <img class="slider-img" src="img/en_img/1.jpg" alt="Slider1" />
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
-              Only till October, 31st you can order 3 bottles of CLEARWATER and get the pump with a 34% discount! Pay only 198 UAH* for 3 bottles of water and the pump. Special offer is valid only for new customers.<br> <small>*Additional payment of deposit for each bottle - 150 UAH. which is returned to you at the end of cooperation.</small>               
+              Only till October, 31st you can order 3 bottles of Чистовъ and get the pump with a 34% discount! Pay only 198 UAH* for 3 bottles of water and the pump. Special offer is valid only for new customers.<br> <small>*Additional payment of deposit for each bottle - 150 UAH. which is returned to you at the end of cooperation.</small>
             </p>
-            
+
           </div>
         </div>
         <div id="slide2" class="slide">
@@ -127,9 +127,9 @@
             <img class="slider-img" src="img/en_img/2.jpg" alt="Slider2" />
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
-              If you like CLEARWATER and our service, just recommend us to your friends that don’t order CLEARWATER yet. After your friend makes the first order and mentions your name, you will receive 2 bottles of CLEARWATER as a gift!              <!--?php echo $lang["promo_details_two"] ?-->
+              If you like Чистовъ and our service, just recommend us to your friends that don’t order Чистовъ yet. After your friend makes the first order and mentions your name, you will receive 2 bottles of Чистовъ as a gift!              <!--?php echo $lang["promo_details_two"] ?-->
             </p>
-            
+
           </div>
         </div>
         <div id="slide3" class="slide">
@@ -137,8 +137,8 @@
             <img class="slider-img"  src="img/en_img/3.jpg" alt="Slider3" />
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
-              From 1st till 31st of October, take the <a href="http://www.clearwater.ua/en/equipment"> cooler</a> Optimal or Minimal in rent for 3 months and get 43% discount for the rent This special proposition is valid for new and existing customers.                          </p>
-            
+              From 1st till 31st of October, take the <a href="http://www.Чистовъ.ua/en/equipment"> cooler</a> Optimal or Minimal in rent for 3 months and get 43% discount for the rent This special proposition is valid for new and existing customers.                          </p>
+
           </div>
         </div>
         <div id="slide4" class="slide">
@@ -146,8 +146,8 @@
             <img class="slider-img" src="img/en_img/4.jpg" alt="Slider4" />
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
-              From 1st till 31st October make the <a href="http://www.clearwater.ua/order/en">ONLINE order</a> on our website www.clearwater.ua, write down your e-mail and take part in lottery.<br> The winner gets for choice:<br> 1st place - cooler for 2 months or 4 bottles of CLEARWATER;<br> 2nd place – water pump for free or 2 bottles of CLEARWATER;<br> 3rd place – cleaning of water equipment for free or 1 bottles of CLEARWATER.<br> The winner will be defined on the 08th of November with the help of random.org. The results of lottery will be announced on our profile in <a href="https://www.facebook.com/clearwaterua">Facebook</a>.<br> We wish you a good luck!                          </p>
-            
+              From 1st till 31st October make the <a href="http://www.Чистовъ.ua/order/en">ONLINE order</a> on our website www.Чистовъ.ua, write down your e-mail and take part in lottery.<br> The winner gets for choice:<br> 1st place - cooler for 2 months or 4 bottles of Чистовъ;<br> 2nd place – water pump for free or 2 bottles of Чистовъ;<br> 3rd place – cleaning of water equipment for free or 1 bottles of Чистовъ.<br> The winner will be defined on the 08th of November with the help of random.org. The results of lottery will be announced on our profile in <a href="https://www.facebook.com/Чистовъua">Facebook</a>.<br> We wish you a good luck!                          </p>
+
           </div>
         </div>
         <div id="slide5" class="slide">
@@ -156,7 +156,7 @@
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
               Make your first order till 31st October, and get guaranteed 2 bottles for free. The promotion is valid only for new customers. <br> <small> The proposal does not stack with the action "pump at a discount - 34%" </small>                          </p>
-            
+
           </div>
         </div>
         <div id="slide6" class="slide">
@@ -165,16 +165,16 @@
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
               Only till October 15st, buy ground coffee L'OR Classic (250 g) at a special price of 111 UAH.                          </p>
-            
+
           </div>
-        </div> 
+        </div>
     </div>
   </div>
-</div>		
+</div>
 
 		<!--Всплывающие окна из иконок меню-->
-		
-<div class="modal fade" id="modal-menu"> 
+
+<div class="modal fade" id="modal-menu">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -204,18 +204,18 @@
       </div>
       <div class="modal-body">
         <div class="menu-punkts inv" data-class="menu-punkts">
-          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
 
           <!--<div class="row"><a href="#"><img src="img/water.png" alt="">about water</a></div>
           <div class="row"><a href="#"><img src="img/delivery.png" alt="">delivery</a></div>
           <div class="row"><a href="#"><img src="img/price.png" alt="">price</a></div>-->
           <div class="row"><a href="promo"><img src="img/promo.png" alt="">special offers</a></div>
           <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">equipment</a></div>
-          
+
           <div class="row"><a href="#"><img src="img/other.png" alt="">other products</a></div>
           <div class="row"><a href="#"><img src="img/about.png" alt="">about us</a></div>-->
-          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
-          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
+          <div class="row"><a href="javascript:setDesctop('https://www.Чистовъ.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
         </div>
         <div class="modal-numbers inv" data-class="modal-numbers">
           <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>call back</span></a></div>
@@ -232,9 +232,9 @@
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Questions on equipment</span></a></div>
           <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Questions about docs</span></a></div>-->
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Ask your question</span></a></div>
-        </div>  
+        </div>
       </div>
-       
+
     </div>
   </div>
 </div>
@@ -248,23 +248,23 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="recall-title">call back</h4> 
+        <h4 class="recall-title">call back</h4>
       </div>
       <div class="modal-body">
         <form id="form" method="post" action="">
           <div class="row">
             <input class='recall-number' type="text" name="name" required="required" placeholder="Your name:"/>
-            
+
           </div>
           <div class="row">
             <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
-            
+
           </div>
           <div class="recall-buttons">
-            
+
             <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Cancel"/>
             <input id='recall-button' class='btn recall-submit' type="submit" value="Send"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -275,7 +275,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="ask-title">Ask your question</h4> 
+        <h4 class="ask-title">Ask your question</h4>
       </div>
       <div class="modal-body">
         <form id="ask-form" method="post" action="">
@@ -291,23 +291,23 @@
           <div class="ask-buttons">
             <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Cancel"/>
             <input id='ask-button' class='btn ask-submit' type="submit" value="Send"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
   </div>
-</div>		
+</div>
 		<script>
 			var slideNum ="";			$(document).ready(function(){
 
 				slideNum = parseInt(slideNum);
-				if (slideNum > 0) { 
+				if (slideNum > 0) {
 					slideNum = slideNum - 1;
 					$("#promo-slider").trigger("to.owl.carousel", [slideNum, 1, true]);
 				};
-				
+
 			});
 		</script>
-		
+
 	</body>
 </html>

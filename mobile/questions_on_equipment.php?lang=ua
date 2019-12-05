@@ -8,10 +8,10 @@
 		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
+
 		<script src="js/plugin/jquery-2.1.4.min.js"></script>
 		<script src="js/plugin/jquery.cookie.js"></script>
-		
+
 		<script src="js/plugin/jquery-ui.js"></script>
 		<script src="js/plugin/plugin.js"></script>
 		<script src="js/plugin/bootstrap.min.js"></script>
@@ -27,10 +27,10 @@
 		  ga('send', 'pageview');
 
 		</script>
-		
+
 	</head>
 	<body>
-		
+
 		<!--Хедер с иконками меню-->
 		<div class="phone-header">
 <table id="phone-header1">
@@ -49,7 +49,7 @@
     <td>Запитати</td>
   </tr>
 </table>
-</div> 
+</div>
 
 <!--Хедер сайта с фиксированным меню portrait-->
 <div class="landscape-header inv">
@@ -197,7 +197,7 @@
       <div class="text-for-scroll">
         <p>На кулер СО2 встановлюється балон з 3 кг вуглекислоти.</p><p>Вміст вуглекислоти в порції приблизно 2 м З одного балона вуглекислоти виходить від 1000 до 1500 порцій.</p><p>З одного балона вуглекислоти можна отримати більше 200 (двісті) літрів газованої води, тобто близько 10 бутлів тільки газованої води. Звідси можна розрахувати.</p><p>Наприклад в офісі 5 осіб. Припустимо, за день кожен вип'є 2 склянки газованої води. Це приблизно 0,4 літра.</p><p>Разом 0,4 помножити на 5 осіб дорівнює 2 літри в день.</p><p>200 літрів можливості кулера ділимо на 2 літри споживання в день, отримуємо 100 днів.</p><p>При 22 робочих днях на місяць вийде (100 днів розділити на 22 дня) мінімум 4,5 місяці.</p>      </div>
   </div>
-  
+
   <h3>Скільки людей одночасно можуть пити чай-каву?</h3>
   <div>
     <p>Початкові дані:</p><p>Чай-порція 200 гр.</p><p>Кава-порція 100 гр.</p><p>Великий (що ставиться на підлогу) кулер. Чай 3-5 чоловік. Кава 6-8 чоловік.</p><p>Міні кулер. Чай 2 людини. Кава 3-4 людини.</p>  </div>
@@ -213,18 +213,18 @@
   <h3>Як визначити, що закінчився газ?</h3>
   <div>
     <p>Якщо при видачі порції газованої води у склянці відсутні бульбашки та постійно висвічується індикація СО2 на передній панелі.</p>  </div>
-  
-      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Задайте своє питання"  />   
-    
+
+      <input type="button" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal" class="blue-btn ask-end" value="Задайте своє питання"  />
+
 
 </div>
 </div>
-</div>		
+</div>
 
 
 		<!--Всплывающие окна из иконок меню-->
-		
-<div class="modal fade" id="modal-menu"> 
+
+<div class="modal fade" id="modal-menu">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -254,18 +254,18 @@
       </div>
       <div class="modal-body">
         <div class="menu-punkts inv" data-class="menu-punkts">
-          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">Головна</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile"><img src="img/home.png" alt="">Головна</a></div>
 
           <!--<div class="row"><a href="#"><img src="img/water.png" alt="">Про воду</a></div>
           <div class="row"><a href="#"><img src="img/delivery.png" alt="">Доставка</a></div>
           <div class="row"><a href="#"><img src="img/price.png" alt="">Ціна</a></div>-->
           <div class="row"><a href="promo"><img src="img/promo.png" alt="">Акції</a></div>
           <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">Обладнання</a></div>
-          
+
           <div class="row"><a href="#"><img src="img/other.png" alt="">Інші товари</a></div>
           <div class="row"><a href="#"><img src="img/about.png" alt="">Про компанію</a></div>-->
-          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">Повна версія</a></div>
-          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карткою</a></div>
+          <div class="row"><a href="javascript:setDesctop('https://www.Чистовъ.ua/')"><img src="img/desktop3.png" alt="">Повна версія</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карткою</a></div>
         </div>
         <div class="modal-numbers inv" data-class="modal-numbers">
           <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>Замовити дзвінок</span></a></div>
@@ -282,9 +282,9 @@
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Питання по обладнанню</span></a></div>
           <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Питання про документи</span></a></div>-->
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Задайте своє питання</span></a></div>
-        </div>  
+        </div>
       </div>
-       
+
     </div>
   </div>
 </div>
@@ -298,23 +298,23 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="recall-title">Замовити дзвінок</h4> 
+        <h4 class="recall-title">Замовити дзвінок</h4>
       </div>
       <div class="modal-body">
         <form id="form" method="post" action="">
           <div class="row">
             <input class='recall-number' type="text" name="name" required="required" placeholder="Ваше ім`я:"/>
-            
+
           </div>
           <div class="row">
             <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
-            
+
           </div>
           <div class="recall-buttons">
-            
+
             <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Відмінити"/>
             <input id='recall-button' class='btn recall-submit' type="submit" value="Замовити дзвінок"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -325,7 +325,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="ask-title">Задайте своє питання</h4> 
+        <h4 class="ask-title">Задайте своє питання</h4>
       </div>
       <div class="modal-body">
         <form id="ask-form" method="post" action="">
@@ -341,14 +341,14 @@
           <div class="ask-buttons">
             <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Відмінити"/>
             <input id='ask-button' class='btn ask-submit' type="submit" value="Задати запитання"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
   </div>
-</div>		
+</div>
 
-		
+
 	</body>
 </html>
 

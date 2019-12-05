@@ -6,17 +6,17 @@
 		<meta name="keywords" content="">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
-		
-		<link rel="canonical" href="https://www.clearwater.ua/" >
+
+		<link rel="canonical" href="https://www.Чистовъ.ua/" >
 		<link rel="icon" type="image/png" href="/images/favicon.png">
 		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
+
 		<!--<script type="text/javascript">
 		if (screen.width < 1081) {
 		 var ref = document.referrer;
-		 var urls = new Array("https://www.clearwater.ua/mobile/","https://www.clearwater.ua/mobile/order");
+		 var urls = new Array("https://www.Чистовъ.ua/mobile/","https://www.Чистовъ.ua/mobile/order");
 		 var n = ref.match(urls[0]);
 		 var m = ref.match(urls[1]);
 		 if ((m!==null) || (n!==null)) {
@@ -25,7 +25,7 @@
 		 else if (ref=='') {
 		 var r = confirm("Обнаружен маленький экран.\nНажмите \"OK\" для того чтобы перейти на мобильную версию.");
 		 if (r==true) {
-		  window.location = "https://www.clearwater.ua/mobile/order";
+		  window.location = "https://www.Чистовъ.ua/mobile/order";
 		  }
 		  else {
 		  stop ;
@@ -33,8 +33,8 @@
 		 }
 		 else
 		 {
-		 window.location = "https://www.clearwater.ua/mobile/order";
-		 } 
+		 window.location = "https://www.Чистовъ.ua/mobile/order";
+		 }
 		}
 		</script>-->
 
@@ -55,11 +55,11 @@
 		  ga('send', 'pageview');
 
 		</script>
-		
+
 	</head>
 	<body>
 
-		
+
 		<!--Хедер с иконками меню-->
 		<div class="phone-header">
 <table id="phone-header1">
@@ -78,7 +78,7 @@
     <td>FAQ</td>
   </tr>
 </table>
-</div> 
+</div>
 
 <!--Хедер сайта с фиксированным меню portrait-->
 <div class="landscape-header inv">
@@ -132,10 +132,10 @@
 <div class="main-page content-block">
   <div id="title-strings">
     <div class="title-strings">
-      <h3 id="string-one" class="animated bounceInRight">CLEARWATER</h3>
+      <h3 id="string-one" class="animated bounceInRight">Чистовъ</h3>
       <h4 id="string-two" class="animated bounceInRight">since 1998 in Ukraine</h4>
     </div>
-  </div> 
+  </div>
   <div class="phone-content">
     <div id="owl-slider" class="owl-carousel slider" >
         <div id="slide1" >
@@ -157,12 +157,12 @@
           <a href="promo?slide=6"><img class="slider-img" src="img/en_img/6.jpg"  alt="Slider6" /></a>
         </div>
     </div>
-    
+
     <div id="mob-slider-description">
-        
+
         <div id="mobSocial" class="col-xs-5">
-          <div class="col-xs-4 fb"><a href="https://www.facebook.com/clearwaterua"><img src="img/new_fb.png" alt="fb"></a></div>
-          <div class="col-xs-4 vk"><a href="https://vk.com/clearwaterua"><img src="img/new_vk.png" alt="vk"></a></div>
+          <div class="col-xs-4 fb"><a href="https://www.facebook.com/Чистовъua"><img src="img/new_fb.png" alt="fb"></a></div>
+          <div class="col-xs-4 vk"><a href="https://vk.com/Чистовъua"><img src="img/new_vk.png" alt="vk"></a></div>
         </div>
     </div>
 
@@ -177,8 +177,8 @@
   </div>
 </div>
 		<!--Всплывающие окна из иконок меню-->
-		
-<div class="modal fade" id="modal-menu"> 
+
+<div class="modal fade" id="modal-menu">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -208,18 +208,18 @@
       </div>
       <div class="modal-body">
         <div class="menu-punkts inv" data-class="menu-punkts">
-          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile"><img src="img/home.png" alt="">main page</a></div>
 
           <!--<div class="row"><a href="#"><img src="img/water.png" alt="">about water</a></div>
           <div class="row"><a href="#"><img src="img/delivery.png" alt="">delivery</a></div>
           <div class="row"><a href="#"><img src="img/price.png" alt="">price</a></div>-->
           <div class="row"><a href="promo"><img src="img/promo.png" alt="">special offers</a></div>
           <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">equipment</a></div>
-          
+
           <div class="row"><a href="#"><img src="img/other.png" alt="">other products</a></div>
           <div class="row"><a href="#"><img src="img/about.png" alt="">about us</a></div>-->
-          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
-          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
+          <div class="row"><a href="javascript:setDesctop('https://www.Чистовъ.ua/')"><img src="img/desktop3.png" alt="">desktop version</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">card payment</a></div>
         </div>
         <div class="modal-numbers inv" data-class="modal-numbers">
           <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>call back</span></a></div>
@@ -236,9 +236,9 @@
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Questions on equipment</span></a></div>
           <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Questions about docs</span></a></div>-->
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Ask your question</span></a></div>
-        </div>  
+        </div>
       </div>
-       
+
     </div>
   </div>
 </div>
@@ -252,23 +252,23 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="recall-title">call back</h4> 
+        <h4 class="recall-title">call back</h4>
       </div>
       <div class="modal-body">
         <form id="form" method="post" action="">
           <div class="row">
             <input class='recall-number' type="text" name="name" required="required" placeholder="Your name:"/>
-            
+
           </div>
           <div class="row">
             <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Your tel.(050)111-22-33:"/>
-            
+
           </div>
           <div class="recall-buttons">
-            
+
             <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Cancel"/>
             <input id='recall-button' class='btn recall-submit' type="submit" value="Send"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -279,7 +279,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="ask-title">Ask your question</h4> 
+        <h4 class="ask-title">Ask your question</h4>
       </div>
       <div class="modal-body">
         <form id="ask-form" method="post" action="">
@@ -295,7 +295,7 @@
           <div class="ask-buttons">
             <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Cancel"/>
             <input id='ask-button' class='btn ask-submit' type="submit" value="Send"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>

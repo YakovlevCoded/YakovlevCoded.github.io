@@ -3,19 +3,19 @@
 	<head>
 		<title>Акції</title>
 		<meta charset="UTF-8">
-		<meta name="description" content="Якщо ви хочете скласти власну думку про якість нашої води і рівні нашого сервісу, замовте пробну доставку CLEARWATER безкоштовно. Разом з водою ми доставимо вам будь-яке обладнання на ваш вибір (кулер, помпу, диспенсер). Через два тижні або раніше, якщо вам не потрібна буде більше вода, ми заберемо обладнання і порожню тару.">
+		<meta name="description" content="Якщо ви хочете скласти власну думку про якість нашої води і рівні нашого сервісу, замовте пробну доставку Чистовъ безкоштовно. Разом з водою ми доставимо вам будь-яке обладнання на ваш вибір (кулер, помпу, диспенсер). Через два тижні або раніше, якщо вам не потрібна буде більше вода, ми заберемо обладнання і порожню тару.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
-		
-		<link rel="canonical" href="https://www.clearwater.ua/promo" >
+
+		<link rel="canonical" href="https://www.Чистовъ.ua/promo" >
 		<link rel="icon" type="image/png" href="/images/favicon.png">
 		<link href="css/bootstrap/styles/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
-		
+
+
 		<script src="js/plugin/jquery-2.1.4.min.js"></script>
 		<script src="js/plugin/jquery.cookie.js"></script>
-		
+
 		<script src="js/plugin/jquery-ui.js"></script>
 		<script src="js/plugin/bootstrap.min.js"></script>
 		<script src="js/plugin/plugin.js"></script>
@@ -31,10 +31,10 @@
 		  ga('send', 'pageview');
 
 		</script>
-		
+
 	</head>
 	<body>
-		
+
 		<!--Хедер с иконками меню-->
 		<div class="phone-header">
 <table id="phone-header1">
@@ -53,7 +53,7 @@
     <td>Запитати</td>
   </tr>
 </table>
-</div> 
+</div>
 
 <!--Хедер сайта с фиксированным меню portrait-->
 <div class="landscape-header inv">
@@ -104,8 +104,8 @@
 
 		<!--Контент главной страницы-->
 		<!--Содержимое главной страницы с бегущей строкой слайдером и иконками соцсетей-->
-<div class="promo-content content-block"> 
-  <div class="phone-content last-element"> 
+<div class="promo-content content-block">
+  <div class="phone-content last-element">
     <div id="title" class="promo-header">
       <h1 class="promo">Акції</h1>
     </div>
@@ -117,9 +117,9 @@
             <img class="slider-img" src="img/ua_img/1.jpg" alt="Slider1" />
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
-              Тільки до 31 жовтня замовте 3 бутлі води CLEARWATER та отримайте помпу зі знижкою - 34%! Всього 198 грн* = 3 бутлі води CLEARWATER на вибір + помпа. <br>Акція діє тільки для нових клієнтів.<br> <small>* Додатково сплачується застава за кожний бутель - 150 грн., яка повертається Вам по завершенню співпраці.<br> Акція не сумується з "водою на пробу" та "2 бутлі в подарунок".</small>               
+              Тільки до 31 жовтня замовте 3 бутлі води Чистовъ та отримайте помпу зі знижкою - 34%! Всього 198 грн* = 3 бутлі води Чистовъ на вибір + помпа. <br>Акція діє тільки для нових клієнтів.<br> <small>* Додатково сплачується застава за кожний бутель - 150 грн., яка повертається Вам по завершенню співпраці.<br> Акція не сумується з "водою на пробу" та "2 бутлі в подарунок".</small>
             </p>
-            
+
           </div>
         </div>
         <div id="slide2" class="slide">
@@ -127,9 +127,9 @@
             <img class="slider-img" src="img/ua_img/2.jpg" alt="Slider2" />
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
-              Якщо вам подобається CLEARWATER і наш сервіс, порекомендуйте нас своїм друзям, які ще не замовляють CLEARWATER. Після того, як ваш друг зробить перше платне замовлення, назвавши ваше ім’я, ви отримаєте 2 бутлі CLEARWATER у подарунок!              <!--?php echo $lang["promo_details_two"] ?-->
+              Якщо вам подобається Чистовъ і наш сервіс, порекомендуйте нас своїм друзям, які ще не замовляють Чистовъ. Після того, як ваш друг зробить перше платне замовлення, назвавши ваше ім’я, ви отримаєте 2 бутлі Чистовъ у подарунок!              <!--?php echo $lang["promo_details_two"] ?-->
             </p>
-            
+
           </div>
         </div>
         <div id="slide3" class="slide">
@@ -137,8 +137,8 @@
             <img class="slider-img"  src="img/ua_img/3.jpg" alt="Slider3" />
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
-              До 31 жовтня візьміть в оренду <a href="https://clearwater.ua/ua/equipment">кулер</a> Оптимальний або Мінімальний на 3 місяці зі знижкою 43%. Акція діє для існуючих та нових клієнтів.                          </p>
-            
+              До 31 жовтня візьміть в оренду <a href="https://Чистовъ.ua/ua/equipment">кулер</a> Оптимальний або Мінімальний на 3 місяці зі знижкою 43%. Акція діє для існуючих та нових клієнтів.                          </p>
+
           </div>
         </div>
         <div id="slide4" class="slide">
@@ -146,8 +146,8 @@
             <img class="slider-img" src="img/ua_img/4.jpg" alt="Slider4" />
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
-              З 01 по 31 жовтня замовте воду CLEARWATER <a href="http://www.clearwater.ua/order/ua">online</a> та візьміть участь у розіграші. <br> Переможці отримають:<br> 1 місце - оренду кулера на 2 місяці або 4 бутлі води;<br> 2 місце - помпа в подарунок або 2 бутлі води;<br> 3 місце - безкоштовна санітарна обробка або 1 бутель води;<br> Переможці будуть визначені до 08 листопада за допомогою random.org. Результати опублікуємо на нашій сторінці у <a href="https://www.facebook.com/clearwaterua">Facebook</a>. <br> Нехай пощастить саме Вам!                          </p>
-            
+              З 01 по 31 жовтня замовте воду Чистовъ <a href="http://www.Чистовъ.ua/order/ua">online</a> та візьміть участь у розіграші. <br> Переможці отримають:<br> 1 місце - оренду кулера на 2 місяці або 4 бутлі води;<br> 2 місце - помпа в подарунок або 2 бутлі води;<br> 3 місце - безкоштовна санітарна обробка або 1 бутель води;<br> Переможці будуть визначені до 08 листопада за допомогою random.org. Результати опублікуємо на нашій сторінці у <a href="https://www.facebook.com/Чистовъua">Facebook</a>. <br> Нехай пощастить саме Вам!                          </p>
+
           </div>
         </div>
         <div id="slide5" class="slide">
@@ -156,7 +156,7 @@
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
               Зробіть своє перше замовлення до 31 жовтня та гарантовано отримайте 2 бутлі води в подарунок. Акція діє тільки для нових клієнтів. <br> <small> Пропозиція не сумується з акцією «Помпа зі знижкою - 34%», "Вода на пробу". </small>                          </p>
-            
+
           </div>
         </div>
         <div id="slide6" class="slide">
@@ -165,16 +165,16 @@
             <h3 class="promo-slide-title"></h3>
             <p class="promo">
               Тільки до 15 жовтня придбайте мелену каву L'OR Classic (250 г) за спеціальною ціною 111 грн. і заощаджуйте понад 20%!                          </p>
-            
+
           </div>
-        </div> 
+        </div>
     </div>
   </div>
-</div>		
+</div>
 
 		<!--Всплывающие окна из иконок меню-->
-		
-<div class="modal fade" id="modal-menu"> 
+
+<div class="modal fade" id="modal-menu">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -204,18 +204,18 @@
       </div>
       <div class="modal-body">
         <div class="menu-punkts inv" data-class="menu-punkts">
-          <div class="row"><a href="https://www.clearwater.ua/mobile"><img src="img/home.png" alt="">Головна</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile"><img src="img/home.png" alt="">Головна</a></div>
 
           <!--<div class="row"><a href="#"><img src="img/water.png" alt="">Про воду</a></div>
           <div class="row"><a href="#"><img src="img/delivery.png" alt="">Доставка</a></div>
           <div class="row"><a href="#"><img src="img/price.png" alt="">Ціна</a></div>-->
           <div class="row"><a href="promo"><img src="img/promo.png" alt="">Акції</a></div>
           <!--<div class="row"><a href="#"><img src="img/equipment.png" alt="">Обладнання</a></div>
-          
+
           <div class="row"><a href="#"><img src="img/other.png" alt="">Інші товари</a></div>
           <div class="row"><a href="#"><img src="img/about.png" alt="">Про компанію</a></div>-->
-          <div class="row"><a href="javascript:setDesctop('https://www.clearwater.ua/')"><img src="img/desktop3.png" alt="">Повна версія</a></div>
-          <div class="row"><a href="https://www.clearwater.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карткою</a></div>
+          <div class="row"><a href="javascript:setDesctop('https://www.Чистовъ.ua/')"><img src="img/desktop3.png" alt="">Повна версія</a></div>
+          <div class="row"><a href="https://www.Чистовъ.ua/mobile/payment"><img style="width:20px;height:auto;" src="img/visa.png" alt="">Оплата карткою</a></div>
         </div>
         <div class="modal-numbers inv" data-class="modal-numbers">
           <div class="row"><a href="#" data-toggle="modal" data-target="#modal-recall" data-dismiss="modal"><img src="img/recall.png" alt=""><span>Замовити дзвінок</span></a></div>
@@ -232,9 +232,9 @@
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_on_equipment"><span>Питання по обладнанню</span></a></div>
           <!--<div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="questions_about_documents"><span>Питання про документи</span></a></div>-->
           <div class="row"><img src="img/ask-icon.png" alt="ask-sign" class="question-sign"><a href="#" data-toggle="modal" data-target="#modal-ask" data-dismiss="modal"><span>Задайте своє питання</span></a></div>
-        </div>  
+        </div>
       </div>
-       
+
     </div>
   </div>
 </div>
@@ -248,23 +248,23 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="recall-title">Замовити дзвінок</h4> 
+        <h4 class="recall-title">Замовити дзвінок</h4>
       </div>
       <div class="modal-body">
         <form id="form" method="post" action="">
           <div class="row">
             <input class='recall-number' type="text" name="name" required="required" placeholder="Ваше ім`я:"/>
-            
+
           </div>
           <div class="row">
             <input id="phone-form" class='number recall-number' type="tel" name="phone" required="required" placeholder="Ваш тел.(050)111-22-33:"/>
-            
+
           </div>
           <div class="recall-buttons">
-            
+
             <input type="button" class="btn recall-cancel" data-dismiss="modal" value="Відмінити"/>
             <input id='recall-button' class='btn recall-submit' type="submit" value="Замовити дзвінок"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
@@ -275,7 +275,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <div class="close" data-dismiss="modal">&times;</div>
-        <h4 class="ask-title">Задайте своє питання</h4> 
+        <h4 class="ask-title">Задайте своє питання</h4>
       </div>
       <div class="modal-body">
         <form id="ask-form" method="post" action="">
@@ -291,23 +291,23 @@
           <div class="ask-buttons">
             <input type="button" class="btn ask-cancel" data-dismiss="modal" value="Відмінити"/>
             <input id='ask-button' class='btn ask-submit' type="submit" value="Задати запитання"/>
-          </div>    
+          </div>
         </form>
       </div>
     </div>
   </div>
-</div>		
+</div>
 		<script>
 			var slideNum ="";			$(document).ready(function(){
 
 				slideNum = parseInt(slideNum);
-				if (slideNum > 0) { 
+				if (slideNum > 0) {
 					slideNum = slideNum - 1;
 					$("#promo-slider").trigger("to.owl.carousel", [slideNum, 1, true]);
 				};
-				
+
 			});
 		</script>
-		
+
 	</body>
 </html>
