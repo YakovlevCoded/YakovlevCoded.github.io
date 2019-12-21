@@ -7,152 +7,32 @@
     <meta charset="utf-8">
     <meta name="description" http-equiv="description"
           content="Предлагаем  вам оборудование и аксессуары для разлива, нагрева  и охлаждения воды. Вы можете, как арендовать, так и купить кулеры, помпы, диспенсеры и подставки.  Мы предложим вам наиболее оптимальное решение интересующего вас оборудования."/>
-    <link rel="stylesheet" type="text/css" href="/themes/clear/fancybox/jquery.fancybox.css?v=2.1.5" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="/themes/clear/css/screen.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="/css/application.css" media="screen, projection"/>
-    <script type="text/javascript" src="/assets/f5a7fac8/jquery.min.js"></script>
-    <script type="text/javascript" src="/themes/clear/js/vendor/modernizr-2.7.1.min.js"></script>
-    <script type="text/javascript" src="/themes/clear/js/vendor/plax.js"></script>
-    <script type="text/javascript" src="/themes/clear/js/vendor/jquery.cycle2.js"></script>
-    <script type="text/javascript" src="/themes/clear/js/vendor/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="/themes/clear/fancybox/jquery.fancybox.js?v=2.1.5"></script>
-    <script type="text/javascript" src="/themes/clear/js/common.js"></script>
-    <script type="text/javascript" src="/js/application.js"></script>
-    <title>Кулер для питьевой воды - Заказ воды и аренда кулера - Компания «Чистая Вода»</title>
+    <link rel="stylesheet" type="text/css" href="./themes/clear/fancybox/jquery.fancybox.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="./themes/clear/css/screen.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="./css/application.css" media="screen, projection"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./assets/f5a7fac8/jquery.min.js"></script>
+    <script type="text/javascript" src="./themes/clear/js/vendor/modernizr-2.7.1.min.js"></script>
+    <script type="text/javascript" src="./themes/clear/js/vendor/plax.js"></script>
+    <script type="text/javascript" src="./themes/clear/js/vendor/jquery.cycle2.js"></script>
+    <script type="text/javascript" src="./themes/clear/js/vendor/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="./themes/clear/fancybox/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="./themes/clear/js/common.js"></script>
+    <script type="text/javascript" src="./js/application.js"></script>
+    <title>Кулер для питьевой воды - Заказ воды и аренда кулера - Компания «Чистовъ»</title>
     <meta name="viewport" content="initial-scale=1">
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="icon" type="image/png" src="./images/favicon.png">
     <!--[if IE]>
-    <script src="/themes/clearjs/vendor/html5shiv.js"></script>
+    <script src="./themes/clearjs/vendor/html5shiv.js"></script>
     <![endif]-->
 
-    <!--Edited by Serdiukov Ivan-->
-    <script src="/themes/clear/js/mobile-detect.min.js"></script>
-    <script>
-        // возвращает cookie с именем name, если есть, если нет, то undefined
-        function getCookie(name) {
-            var matches = document.cookie.match(new RegExp(
-                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-            ));
-            return matches ? decodeURIComponent(matches[1]) : undefined;
-        }
-
-        var md = new MobileDetect(window.navigator.userAgent);
-        if (md.mobile()) {
-            var desc = getCookie('setdesc');
-
-            if (desc == undefined) {
-                location.replace(location.origin + '/mobile/');
-            }
-        }
-    </script>
-    <link rel="alternate" href="https://www.Чистовъ.ua/mobile/">
+    <script src="./themes/clear/js/mobile-detect.min.js"></script>
     <!--End of edition-->
-
-    <!-- ukr
-    <script type="text/javascript">
-        window.vkAsyncInit = function() {
-            VK.init({
-                apiId: 4151778
-            });
-            VK.Widgets.Like("vk_like_footer", {type: "mini", height: 20, pageUrl: 'https://vk.com/Чистовъua'});
-        };
-
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {return;}
-            js = d.createElement(s); js.id = id;
-            js.src = "http://vk.com/js/api/openapi.js";
-            js.async = true;
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'vk-jssdk'));
-    </script>
-    -->
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                appId: '523807974373271',
-                status: true,
-                xfbml: true
-            });
-        };
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/all.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <script>
-        (function () {
-            var widget_id = 674936;
-            _shcp = [{widget_id: widget_id}];
-            var lang = (navigator.language || navigator.systemLanguage
-                || navigator.userLanguage || "en")
-                .substr(0, 2).toLowerCase();
-            var url = "widget.siteheart.com/widget/sh/" + widget_id + "/" + lang + "/widget.js";
-            var hcc = document.createElement("script");
-            hcc.type = "text/javascript";
-            hcc.async = true;
-            hcc.src = ("https:" == document.location.protocol ? "https" : "http")
-                + "://" + url;
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hcc, s.nextSibling);
-        })();
-    </script>
-    <script type="text/javascript">
-        /*
-                var _gaq = _gaq || [];
-                _gaq.push(['_setAccount', 'UA-26237277-1']);
-                _gaq.push(['_setDomainName', 'Чистовъ.ua']);
-                _gaq.push(['_trackPageview']);
-
-                (function() {
-                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-                })();
-        */
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-26237277-1', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-
-    <script type="text/javascript">
-        /* <![CDATA[ */
-        var google_conversion_id = 965991704;
-        var google_custom_params = window.google_tag_params;
-        var google_remarketing_only = true;
-        /* ]]> */
-    </script>
-    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-    </script>
-    <noscript>
-        <div style="display:inline;">
-            <img height="1" width="1" style="border-style:none;" alt=""
-                 src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/965991704/?value=0&amp;guid=ON&amp;script=0"/>
-        </div>
-    </noscript>
 
 </head>
 <body>    <!--[if lt IE 8]>
 <p class="browseupdate">Вы используете <strong>старую</strong> версию браузера. Пожалуйста, <a
-        href="http://browsehappy.com/">обновите браузер</a>.</p>
+        src=".http://browsehappy.com/">обновите браузер</a>.</p>
 <![endif]-->
 <div id="vk_api_transport"></div>
 <div id="fb-root"></div>
@@ -163,31 +43,30 @@
             <div class="header__grid layout">
                 <div class="l-left">
                     <div class="header__main">
-                        <h1 class="logo"><a href="/" title="Чистая вода - Чистовъ">Чистовъ</a></h1>
-                        <ul class="language" id="yw0">
-                            <li class="is-active"><a href="/equipment">рус</a></li>
-                            <li><a href="/ua/equipment">укр</a></li>
-                            <li><a href="/en/equipment">en</a></li>
-                        </ul>
+                        <!--<h1 class="logo"><a href="/" title="Чистовъ - Чистовъ">Чистовъ</a></h1>-->
                     </div>
-                    <div class="header-trigger js-trigger">
-                        <span>Разделы Меню</span><i class="header-trigger__btn "></i>
-                    </div>
+                    <!--<div class="header-trigger js-trigger">-->
+                        <!--<span>Разделы Меню</span><i class="header-trigger__btn "></i>-->
+                    <!--</div>-->
                 </div>
                 <div class="header__info l-right">
-                    <address class="header__contacts">
-                        <span class="header__tel"><a href="tel:+380443913030">044 391 3030</a><br><a
-                                href="tel:+380503153030">050 315 3030</a><br><a
-                                href="tel:+380935183030">093 518 3030</a><br><a
-                                href="tel:+380672433040">067 243 3040</a></span>
-                        <button type="button" class="btn btn-block btn-sm btn-white js-popup-callback">Заказать звонок
-                        </button>
+                    <address class="header__contacts visibility js-visibility4">
+                            <span class="header__tel" style="margin-bottom: 10px">
+                                <a href="tel:540204">54-02-04</a>
+                            </span>
+                        <ul style="color: white" class="header__active-days">
+                            <li>рабочие дни <span>08:00 - 21:00</span></li>
+                            <li>суббота <span>09:00 - 17:00</span></li>
+                        </ul>
+                        <!--<button type="button" class="btn btn-block btn-sm btn-dark js-popup-callback">Заказать-->
+                        <!--звонок-->
+                        <!--</button>-->
                     </address>
                 </div>
             </div>
             <div class="preview narrow"><h2 class="h h-drop_after">Оборудование</h2>
                 <div class="preview__text">
-                    Компания «Чистая Вода» предоставляет оборудование и аксессуары для розлива и хранения воды. Вы
+                    Компания «Чистовъ» предоставляет оборудование и аксессуары для розлива и хранения воды. Вы
                     можете арендовать или купить кулеры, помпы, диспенсеры, подставки
                 </div>
                 <ul class="equipment-menu">
@@ -207,11 +86,11 @@
         <aside class="sidebar">
             <div class="sidebar__menu nav">
                 <ul id="yw1">
-                    <li><a href="/">Главная</a></li>
-                    <li><a href="/water">Наша вода</a></li>
-                    <li class="is-active"><a href="/equipment">Оборудование</a></li>
-                    <li><a href="/about">О компании</a></li>
-                    <li><a href="/promo">Акции</a></li>
+                    <li><a src="./">Главная</a></li>
+                    <li><a src="./water">Наша вода</a></li>
+                    <li class="is-active"><a src="./equipment">Оборудование</a></li>
+                    <li><a src="./about">О компании</a></li>
+                    <li><a src="./promo">Акции</a></li>
                 </ul>
             </div>
             <div class="sidebar__buttons">
@@ -235,18 +114,18 @@
                 <div class="product-list">
                     <div class="product visibility js-visibility2">
                         <div class="product__img">
-                            <img src="/themes/clear/img/product1.png" alt="">
+                            <img src="./themes/clear/img/product1.png" alt="">
                         </div>
                         <div class="product__content">
                             <h4 class="product__title">Идеальный</h4>
-                            <p class="product__descr">Эксклюзивный кулер компании «Чистая Вода» с функцией газирования.
+                            <p class="product__descr">Эксклюзивный кулер компании «Чистовъ» с функцией газирования.
                                 Помимо горячей и холодной воды дает вам возможность за несколько секунд получить стакан
                                 освежающей газированной Чистовъ. Есть возможность выбора интенсивности газирования
                                 (сильно- или среднегазированная вода).</p>
                             <ul class="functions">
-                                <li><img src="/themes/clear/img/cold.png" alt=""></li>
-                                <li><img src="/themes/clear/img/hot.png" alt=""></li>
-                                <li><img src="/themes/clear/img/gas.png" alt=""></li>
+                                <li><img src="./themes/clear/img/cold.png" alt=""></li>
+                                <li><img src="./themes/clear/img/hot.png" alt=""></li>
+                                <li><img src="./themes/clear/img/gas.png" alt=""></li>
                             </ul>
                             <div class="product__info">
                                 <ul class="product__col product__col_slim">
@@ -311,14 +190,14 @@
                     </div>
                     <div class="product visibility">
                         <div class="product__img">
-                            <img src="/themes/clear/img/product2.png" alt="">
+                            <img src="./themes/clear/img/product2.png" alt="">
                         </div>
                         <div class="product__content">
                             <h4 class="product__title">Оптимальный</h4>
                             <p class="product__descr">Кулер с функциями нагрева и охлаждения.</p>
                             <ul class="functions">
-                                <li><img src="/themes/clear/img/cold.png" alt=""></li>
-                                <li><img src="/themes/clear/img/hot.png" alt=""></li>
+                                <li><img src="./themes/clear/img/cold.png" alt=""></li>
+                                <li><img src="./themes/clear/img/hot.png" alt=""></li>
                             </ul>
                             <div class="product__info">
                                 <ul class="product__col product__col_slim">
@@ -377,14 +256,14 @@
                     </div>
                     <div class="product visibility">
                         <div class="product__img">
-                            <img src="/themes/clear/img/product3.png" alt="">
+                            <img src="./themes/clear/img/product3.png" alt="">
                         </div>
                         <div class="product__content">
                             <h4 class="product__title">Минимальный</h4>
                             <p class="product__descr">Настольный кулер с функциями нагрева и охлаждения.</p>
                             <ul class="functions">
-                                <li><img src="/themes/clear/img/cold.png" alt=""></li>
-                                <li><img src="/themes/clear/img/hot.png" alt=""></li>
+                                <li><img src="./themes/clear/img/cold.png" alt=""></li>
+                                <li><img src="./themes/clear/img/hot.png" alt=""></li>
                             </ul>
                             <div class="product__info">
                                 <ul class="product__col product__col_slim">
@@ -449,7 +328,7 @@
                 <div class="product-list">
                     <div class="product visibility">
                         <div class="product__img">
-                            <img src="/uploads/files/product4.png" alt="">
+                            <img src="./uploads/files/product4.png" alt="">
                         </div>
                         <div class="product__content">
                             <h4 class="product__title">Диспенсер</h4>
@@ -495,7 +374,7 @@
                 <div class="product-list">
                     <div class="product visibility">
                         <div class="product__img">
-                            <img src="/themes/clear/img/product5.png" alt="">
+                            <img src="./themes/clear/img/product5.png" alt="">
                         </div>
                         <div class="product__content">
                             <h4 class="product__title">Помпа</h4>
@@ -540,7 +419,7 @@
                 <div class="product-list">
                     <div class="product visibility">
                         <div class="product__img">
-                            <img src="/themes/clear/img/product9.png" alt="">
+                            <img src="./themes/clear/img/product9.png" alt="">
                         </div>
                         <div class="product__content">
                             <h4 class="product__title">Подставка под бутыль с краником</h4>
@@ -573,7 +452,7 @@
                     </div>
                     <div class="product visibility">
                         <div class="product__img">
-                            <img src="/themes/clear/img/product6.png" alt="">
+                            <img src="./themes/clear/img/product6.png" alt="">
                         </div>
                         <div class="product__content">
                             <h4 class="product__title">Металлическая подставка</h4>
@@ -604,7 +483,7 @@
                     </div>
                     <div class="product visibility">
                         <div class="product__img">
-                            <img src="/themes/clear/img/product7.png" alt="">
+                            <img src="./themes/clear/img/product7.png" alt="">
                         </div>
                         <div class="product__content">
                             <h4 class="product__title">Стеккер</h4>
@@ -632,7 +511,7 @@
                     </div>
                     <div class="product visibility">
                         <div class="product__img">
-                            <img src="/themes/clear/img/product8.png" alt="">
+                            <img src="./themes/clear/img/product8.png" alt="">
                         </div>
                         <div class="product__content">
                             <h4 class="product__title">Подставка под диспенсер</h4>
@@ -662,59 +541,47 @@
         </section>
         <!-- /.equipment -->
 
-        <section class="repair zig zig_fill-grey visibility">
+        <section style="margin-bottom: 0" class="repair zig zig_fill-grey visibility">
             <div class="container narrow">
-                <h4 class="h4 h-dash">Компания «Чистая Вода» предлагает услуги по<br> санитарной обработке и ремонту
+                <h4 class="h4 h-dash">Компания «Чистовъ» предлагает услуги по<br> санитарной обработке и ремонту
                     оборудования</h4>
-                <p>Внутри любого оборудования, даже если оно стоит в чистом помещении, со временем собираются пыль,
-                    мелкие частицы из воздуха и бактерии. Незаметные для человеческого глаза, они могут негативно влиять
-                    на вкус воды и ее качество. Поэтому мы рекомендуем проводить санитарную обработку оборудования не
-                    реже, чем раз в 6 месяцев. Санитарная обработка проводится в нашей специально оборудованной
-                    мастерской или на месте у клиента. Мы делаем санитарную обработку любого оборудования, даже если оно
-                    было приобретено не в нашей компании, стоимость - 270 грн.</p>
-                <h4 class="h4">Стоимость санитарной обработки арендованного оборудования – 195 грн</h4>
-                <p>Компания «Чистая Вода» имеет собственную специализированную мастерскую для ремонта оборудования и
-                    выездную службу ремонта. Мы гарантируем бесплатный ремонт арендованного оборудования в течение 24
-                    часов с момента поступления заявки.</p>
-                <p>Если вы хотите отремонтировать оборудование, приобретенное у другого поставщика, к вам выедет наш
-                    специалист, который проведет диагностику. Установив причину поломки, мы сможем назвать стоимость
-                    ремонта и сроки. Узнать больше о ремонте оборудования можно у оператора по телефону 391-30-30.</p>
+                <p style="margin-bottom: 0">- Санитраная обработка настольных кулеров - 600руб</p>
+                <p>- Санитраная обработка напольных кулеров - 800руб</p>
+                <p>Если вы хотите отремонтировать оборудование, приобретенное у другого поставщика, к вам выедет наш специалист, который проведет диагностику. Узнав причину поломки, мы сможем назвать стоимость ремонта и сроки.</p>
             </div>
         </section>
         <!-- /.equipment -->
-        ﻿
         <footer class="footer visibility">
-            <div class="footer__info footer__row">
-                <div class="container">
-                    <div class="footer__contacts">
-                        <p>У вас возникли вопросы по качеству продукта или сервиса?</p>
-                        <p>Позвоните нам:</p>
-                        <p class="footer__contacts-tel"><a href="tel:+380443913030">044 391 3030</a><br><a
-                                href="tel:+380503153030">050 315 3030</a><br><a href="tel:+380935183030">093 518
-                            3030</a><br><a href="tel:+380672433040">067 243 3040</a></p>
-                        <button class="footer__feedback btn js-popup-control">Написать запрос отделу контроля качества
-                        </button>
-                    </div>
-                    <!-- /.footer__contacts -->
-                    <div class="footer__quality-control">
-                        <p>Контроль качества</p>
-                        <ul>
-                            <li class="iso"><span>International Organization for Standardization</span></li>
-                            <li class="we"><span>Watercoolers Europe</span></li>
-                            <li class="uabw"><span>Ассоциация Бутылированые Воды Украины</span></li>
-                        </ul>
-                    </div>
-                    <!-- /.footer__quality-control -->
-                </div>
-            </div>
+            <!--<div class="footer__info footer__row">-->
+                <!--<div class="container">-->
+                    <!--<div class="footer__contacts">-->
+                        <!--&lt;!&ndash;<p>У вас возникли вопросы по качеству продукта или сервиса?</p>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<p>Позвоните нам:</p>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<p class="footer__contacts-tel"><a href="tel:+380443913030">044 391 3030</a><br><a&ndash;&gt;-->
+                                <!--&lt;!&ndash;href="tel:+380503153030">050 315 3030</a><br><a href="tel:+380935183030">093 518&ndash;&gt;-->
+                            <!--&lt;!&ndash;3030</a><br><a href="tel:+380672433040">067 243 3040</a></p>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<button class="footer__feedback btn js-popup-control">Написать запрос отделу контроля качества&ndash;&gt;-->
+                        <!--&lt;!&ndash;</button>&ndash;&gt;-->
+                    <!--</div>-->
+                    <!--&lt;!&ndash; /.footer__contacts &ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="footer__quality-control">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<p>Контроль качества</p>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<ul>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li class="iso"><span>International Organization for Standardization</span></li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li class="we"><span>Watercoolers Europe</span></li>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<li class="uabw"><span>Ассоциация Бутылированые Воды Украины</span></li>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash; /.footer__quality-control &ndash;&gt;-->
+                <!--</div>-->
+            <!--</div>-->
             <!-- end .footer__info -->
             <div class="footer__main footer__row">
                 <div class="container">
                     <div class="footer__copyright">
-                        <p>© Чистовъ Ltd. Все права защищены.</p>
-                        <p>Если вы по какой-либо причине не полностью удовлетворены работой компании "Чистая Вода", наш
-                            директор хотел бы знать об этом!</p>
-                        <p><a href="mailto:director@cw.com.ua">director@cw.com.ua</a></p>
+                        <p>© Чистовъ  </p>
+                        <p>    </p>
+                        <p><a href="mailto:  ">  </a></p>
                     </div>
                     <!-- /.footer__copyright -->
                     <div class="footer__other">
@@ -741,10 +608,7 @@
                             </li>
                         </ul>
                         <!-- /.footer__like -->
-                        <div class="vintage">
-                            Сайт разработан студией <a href="http://vintage.com.ua/" target="_blank"
-                                                       class="vintage__ico"><span></span>Vintage</a>
-                        </div>
+
                         <!-- /.vintage -->
                     </div>
                     <!-- /.footer__other -->

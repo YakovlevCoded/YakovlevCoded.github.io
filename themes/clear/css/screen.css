@@ -216,7 +216,7 @@ table {
 
 .zig_fill-grey:before, .zig_fill-grey:after {
     height: 12px;
-    background-image: url(../img/zig-lblue.png);
+    background-image: none;
 }
 
 .h, .h2, .h3, .h4, .h5, .h6, .h-sub {
@@ -3186,6 +3186,7 @@ body {
 
 .sidebar .sidebar__menu ul {
     float: none;
+    flex-direction: column;
     width: auto;
 }
 
@@ -4338,7 +4339,7 @@ body {
     left: 0;
     right: 0;
     height: 11px;
-    background: url(../img/zig-lblue.png) repeat-x 0 100%;
+    background: none;
 }
 
 .equipment_last {

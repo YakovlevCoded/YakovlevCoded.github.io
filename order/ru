@@ -4,7 +4,7 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>Лучшая доставка воды в Киеве - Бутилированная питьевая вода - Компания Чистая Вода</title>
+	<title>Лучшая доставка воды в Киеве - Бутилированная питьевая вода - Компания Чистовъ</title>
 	<meta name="description" http-equiv="description" content="Скважина в экологически чистом районе. Уникальная технология очистки. Три вида воды. Международные стандарты качества." />
 	<meta name="viewport" content="initial-scale=1">
 
@@ -120,7 +120,7 @@
         		<div class="header__grid layout">
         			<div class="l-left">
         				<div class="header__main">
-        					<h1 class="logo"><a href="/" title="Чистая вода - Чистовъ">Чистовъ</a></h1>
+        					<h1 class="logo"><a href="/" title="Чистовъ - Чистовъ">Чистовъ</a></h1>
 
         						<ul class="language" id="yw0">
         						<li class="is-active"><a href="/order/ru">рус</a></li>
@@ -301,15 +301,15 @@
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="ordertxt" align="right" nowrap>Чистая Вода (бут.):&nbsp;&nbsp;<input type="text" size="5" class="orderin" name="orcw" id="idcw"></td>
+				<td class="ordertxt" align="right" nowrap>Чистовъ (бут.):&nbsp;&nbsp;<input type="text" size="5" class="orderin" name="orcw" id="idcw"></td>
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="ordertxt" align="right" nowrap>Чистая Вода фторированная (бут.):&nbsp;&nbsp;<input type="text" size="5" class="orderin" name="orcwf" id="idcwf"></td>
+				<td class="ordertxt" align="right" nowrap>Чистовъ фторированная (бут.):&nbsp;&nbsp;<input type="text" size="5" class="orderin" name="orcwf" id="idcwf"></td>
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
-				<td class="ordertxt" align="right" nowrap>Чистая Вода йодированная (бут.):&nbsp;&nbsp;<input type="text" size="5" class="orderin" name="orcwi" id="idcwi"></td>
+				<td class="ordertxt" align="right" nowrap>Чистовъ йодированная (бут.):&nbsp;&nbsp;<input type="text" size="5" class="orderin" name="orcwi" id="idcwi"></td>
 				<td>&nbsp;</td>
 			</tr>
 			<tr>
@@ -475,7 +475,7 @@
 									<li class="submenu" num="9"><a href="javascript:" code="sub" class="sub"><span class="ui-menu-icon ui-icon ui-icon-carat-2-n-s"></span>Вода в бутылках</a></li>
 									<li class="subitem sub-9"><a href="javascript:" code="B#0#0#5725#0#0#_______459___" pname='Вода М/В Бонаква газированная (0.5л)' price="8.7" img="https://www.Чистовъ.ua/order/_img/price/B_0_0_5725_0_0________459___.jpg" class="viewprice">Вода М/В Бонаква газированная (0.5л) [8.7грн]</a></li>
 									<li class="subitem sub-9"><a href="javascript:" code="B#0#0#5725#0#0#_______458___" pname='Вода М/В Бонаква негазированная (0.5л)' price="8.7" img="https://www.Чистовъ.ua/order/_img/price/B_0_0_5725_0_0________458___.jpg" class="viewprice">Вода М/В Бонаква негазированная (0.5л) [8.7грн]</a></li>
-									<li class="subitem sub-9"><a href="javascript:" code="B#0#0#5725#0#0#_______461___" pname='Чистая Вода в бутылке ПЕТ (0.5л)' price="9.6">Чистая Вода в бутылке ПЕТ (0.5л) [9.6грн]</a></li>
+									<li class="subitem sub-9"><a href="javascript:" code="B#0#0#5725#0#0#_______461___" pname='Чистовъ в бутылке ПЕТ (0.5л)' price="9.6">Чистовъ в бутылке ПЕТ (0.5л) [9.6грн]</a></li>
 									<li class="submenu" num="10"><a href="javascript:" code="sub" class="sub"><span class="ui-menu-icon ui-icon ui-icon-carat-2-n-s"></span>Прочие товары</a></li>
 									<li class="subitem sub-10"><a href="javascript:" code="B#0#0#5725#0#0#_______970___" pname='Капучино "La Festa" ванильный (10 шт)' price="54" img="https://www.Чистовъ.ua/order/_img/price/B_0_0_5725_0_0________970___.jpg" class="viewprice">Капучино "La Festa" ванильный (10 шт) [54грн]</a></li>
 									<li class="subitem sub-10"><a href="javascript:" code="B#0#0#5725#0#0#_______971___" pname='Капучино "La Festa" ореховый (10 шт)' price="51" img="https://www.Чистовъ.ua/order/_img/price/B_0_0_5725_0_0________971___.jpg" class="viewprice">Капучино "La Festa" ореховый (10 шт) [51грн]</a></li>
@@ -1441,9 +1441,9 @@
 	<div class="footer__main footer__row">
 		<div class="container">
 			<div class="footer__copyright">
-				<p>© Чистовъ Ltd. Все права защищены.</p>
-				<p>Если вы по какой-либо причине не полностью удовлетворены работой компании "Чистая Вода", наш директор хотел бы знать об этом!</p>
-				<p><a href="mailto:director@cw.com.ua">director@cw.com.ua</a></p>
+				<p>© Чистовъ  </p>
+				<p>   </p>
+				<p><a href="mailto:  ">  </a></p>
 			</div>
 			<!-- /.footer__copyright -->
 			<div class="footer__other">

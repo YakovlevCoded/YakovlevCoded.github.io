@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="description" content="Скважина в экологически чистом районе. Уникальная технология очистки. Три вида воды. Международные стандарты качества.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<title>Лучшая доставка воды в Киеве - Бутилированная питьевая вода - Компания Чистая Вода</title>
+		<title>Лучшая доставка воды в Киеве - Бутилированная питьевая вода - Компания Чистовъ</title>
 
 		<link rel="canonical" href="https://www.Чистовъ.ua/order/" >
 		<link rel="icon" type="image/png" href="/images/favicon.png">
@@ -1196,7 +1196,7 @@
 
                         <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______458___" data-pname='Вода М/В Бонаква негазированная (0.5л)' data-price="8.7" data-img="../order/_img/price/B_0_0_5725_0_0________458___.jpg" >Вода М/В Бонаква негазированная (0.5л) [8.7грн]</p>
 
-                        <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______461___" data-pname='Чистая Вода в бутылке ПЕТ (0.5л)' data-price="9.6" >Чистая Вода в бутылке ПЕТ (0.5л) [9.6грн]</p>
+                        <p class="subitem viewprice sub-9" data-code="B#0#0#5725#0#0#_______461___" data-pname='Чистовъ в бутылке ПЕТ (0.5л)' data-price="9.6" >Чистовъ в бутылке ПЕТ (0.5л) [9.6грн]</p>
 
                         </div>
                           <h3 class="submenu" data-num="10">Прочие товары</h3>
