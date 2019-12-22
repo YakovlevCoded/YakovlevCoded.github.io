@@ -10,14 +10,14 @@
     height: 20px;
     min-width: 16px;
     padding: 2px 2px 0px 0px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
     line-height: 20px;
     text-align: center;
     text-shadow: 0 1px 0 #ffffff;
     background-color: #eeeeee;
     margin-left: -2px;
-    
+
 }
 .form-control{
 	display: inline-block;

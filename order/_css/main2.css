@@ -10,7 +10,7 @@
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	margin-top: -20px;
-	font-size: 14px;
+	font-size: 15px;
 }
 .stock h2.h6 {
 	padding-top: 0px;
@@ -26,17 +26,17 @@
 	border-bottom: 2px solid #3c5a7e;
 	margin-top: -55px;
 }
-.adapt .bg { 
-	position: absolute; 
-	bottom: 0; 
-	left: 50%; 
+.adapt .bg {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
 	margin-left: -200px;
 	margin-bottom: -1px;
 	overflow: hidden;
 	height: 790px;
 	border: 1px solid #003671;
 }
-.adapt .bg img { 
+.adapt .bg img {
 	height: 100%;
 	border: none;
 }
@@ -50,7 +50,7 @@
 	margin-bottom: -60px;
 }
 .or-tab-m td {
-	FONT-SIZE: 14px;
+	font-size: 15px;
 	FONT-FAMILY: Vida31Pro;
 }
 .or-tab-r {
@@ -148,7 +148,7 @@
 	padding-right: 25px;
 }
 .orderbig {
-	FONT-SIZE: 14px;
+	font-size: 15px;
 	COLOR: #878787;
 	border: 1px solid #99B3D5;
 	cursor: pointer;
@@ -171,7 +171,7 @@ td.prcomtxt {
 	height: 57px;
 }
 .help {
-	FONT-SIZE: 14px;
+	font-size: 15px;
 	FONT-FAMILY: Vida31Pro;
 }
 .help p {
@@ -184,7 +184,7 @@ td.prcomtxt {
 	padding-right: 20px;
 	list-style-type: circle;
 }
-#menutimemax { 
+#menutimemax {
 	position: absolute;
 	display: none;
 	margin-left: -105px;
@@ -196,13 +196,13 @@ td.prcomtxt {
 	margin-left: -105px;
 	margin-top: -220px;
 }
-#menutimemin { 
+#menutimemin {
 	position: absolute;
 	display: none;
 	margin-left: -105px;
 	margin-top: -220px;
 }
-#menuprod { 
+#menuprod {
 	position: absolute;
 	display: none;
 	margin-left: 0px;
@@ -240,7 +240,7 @@ li.subitem a {
 	padding-right: 3px;
 }
 .prodbodylast {
-	FONT-SIZE: 14px;
+	font-size: 15px;
 	COLOR: #8b4513;
 	font-weight: bold;
 	height: 18px;
@@ -274,7 +274,7 @@ li.subitem a {
 	display: block;
 	white-space: nowrap;
 	width: 220px;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: normal;
 	color: #424242;
 }

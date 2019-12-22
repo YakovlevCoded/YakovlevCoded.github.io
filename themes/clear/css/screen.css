@@ -199,7 +199,7 @@ table {
 
 .zig_grey:before, .zig_grey:after {
     height: 12px;
-    background-image: url(../img/zig-grey.png);
+    background-image: none;
 }
 
 .zig_fill-grey {
@@ -250,7 +250,7 @@ table {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .h-sub {
@@ -318,7 +318,7 @@ table {
     margin: 20px auto;
     width: 270px;
     height: 6px;
-    background: url(../img/zig-w.png) repeat-x;
+    background: none;
     content: "";
 }
 
@@ -945,6 +945,7 @@ body {
     color: #003671;
     text-decoration: none;
     display: block;
+    /*font-weight: 600;*/
 }
 
 .clr {
@@ -1262,7 +1263,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 1em;
 }
 
@@ -1272,7 +1273,7 @@ body {
 
 .show {
     padding-bottom: 140px;
-    background: white url("../img/zig-grey.png") repeat-x 0 100%;
+    background: none;
 }
 
 .justify {
@@ -1297,7 +1298,7 @@ body {
     display: inline-block;
     line-height: normal;
     vertical-align: top;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .chevron {
@@ -1533,14 +1534,14 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.6;
 }
 
 .awards {
     padding-top: 40px;
     padding-bottom: 50px;
-    background: url("../img/zig-grey.png") repeat-x 0 100%;
+    background: none;
 }
 
 .awards .title {
@@ -1555,7 +1556,7 @@ body {
 .awards .awards__list li {
     display: inline-block;
     vertical-align: top;
-    font-size: 14px;
+    font-size: 15px;
     margin: 0 25px;
 }
 
@@ -1594,7 +1595,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .price p {
@@ -1642,7 +1643,7 @@ body {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size: 14px;
+    font-size: 15px;
     min-height: 350px;
 }
 
@@ -1690,7 +1691,7 @@ body {
 .composition {
     padding-top: 65px;
     padding-bottom: 90px;
-    background: url("../img/zig-grey.png") repeat-x 0 100%;
+    background: none;
     text-align: center;
 }
 
@@ -1880,7 +1881,7 @@ body {
 }
 
 .composition .composition__symbol small {
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -1901,7 +1902,7 @@ body {
 
 .composition .composition__description {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -2067,7 +2068,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .offers__text p {
@@ -2102,7 +2103,7 @@ body {
     font-family: "Vida31Pro";
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .service-activities p {
@@ -2753,6 +2754,7 @@ body {
 
 .header .header__active-days {
     margin-bottom: 5px;
+    font-size: 13px;
 }
 
 .header .header__active-days span {
@@ -2828,7 +2830,7 @@ body {
     z-index: 2001;
     padding: 20px 20px 35px 20px;
     color: #07386f;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .sorry .sorry__close {
@@ -3354,7 +3356,7 @@ body {
 }
 
 .circles .circles__info p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.5;
     font-family: "Vida31Pro";
     font-weight: normal;
@@ -3494,7 +3496,7 @@ body {
     font-family: "Vida31Pro";
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .header_production {
@@ -3644,7 +3646,7 @@ body {
     vertical-align: top;
     width: 28.66%;
     margin-left: 4.333%;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .article-list_4col .article-list__item {
@@ -3683,7 +3685,7 @@ body {
 }
 
 .article-list__content {
-    font-size: 14px;
+    font-size: 15px;
     color: #003671;
     font-family: "Vida31Pro";
     font-weight: normal;
@@ -3975,7 +3977,7 @@ body {
     box-sizing: border-box;
     padding: 36px 46px;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Vida31Pro";
     font-weight: normal;
     font-style: normal;
@@ -4013,7 +4015,7 @@ body {
 .deliver {
     padding-bottom: 60px;
     margin-bottom: 50px;
-    background: white url(../img/zig-grey.png) repeat-x 0 100%;
+    background: none;
 }
 
 .deliver .h-slim {
@@ -4096,7 +4098,7 @@ body {
     font-family: "Vida31Pro";
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.6;
 }
 
@@ -4122,7 +4124,7 @@ body {
 }
 
 .cost__col p {
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Vida31Pro";
     font-weight: normal;
     font-style: normal;
@@ -4196,7 +4198,7 @@ body {
     position: relative;
     padding-left: 30px;
     margin-bottom: 27px;
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Vida31Pro";
     font-weight: normal;
     font-style: normal;
@@ -4214,7 +4216,7 @@ body {
 }
 
 .cost__bot {
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Vida31Pro";
     font-weight: normal;
     font-style: normal;
@@ -4260,7 +4262,7 @@ body {
     font-weight: normal;
     font-style: normal;
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
@@ -4299,7 +4301,7 @@ body {
     font-weight: normal;
     font-style: normal;
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 75px;
 }
 
@@ -4389,7 +4391,7 @@ body {
 }
 
 .equipment__sub-title {
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Vida31Pro";
     font-weight: normal;
     font-style: normal;
@@ -4439,7 +4441,7 @@ body {
     font-family: "Vida31Pro";
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 40px;
 }
 
@@ -4544,7 +4546,7 @@ body {
     font-weight: normal;
     font-style: normal;
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .repair .h4 {
@@ -4640,7 +4642,7 @@ body {
     display: inline-block;
     margin: 0 17px;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .error__title p:first-child {

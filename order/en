@@ -1308,14 +1308,14 @@
 				<div class="row">
 					<div style="margin-right:5%;width:65%;float:left;text-align:right">
 						<div class="form-group" style="margin-bottom:15px;">
-							<label class="ordertxt" style="FONT-SIZE: 14px;FONT-FAMILY: Vida31Pro;" for="OrderId">Number of paid accounts (eg: 12345/67)</label>
+							<label class="ordertxt" style="font-size: 15px;FONT-FAMILY: Vida31Pro;" for="OrderId">Number of paid accounts (eg: 12345/67)</label>
 							<input class="pay-input orderin" type="text" name="OrderID" id="usercode"
 
 							/>
                             <input type="hidden" name="hidOrderId" id="hidcode" value="">
 						</div>
 						<div class="form-group" style="margin-bottom:15px;">
-							<label class="ordertxt" style="FONT-SIZE: 14px;FONT-FAMILY: Vida31Pro;" for="TotalAmount">Payment amount</label>
+							<label class="ordertxt" style="font-size: 15px;FONT-FAMILY: Vida31Pro;" for="TotalAmount">Payment amount</label>
 							<input class="pay-input orderin" id="usersum" name="TotalAmount" type="text"
 															/>
 						</div>
