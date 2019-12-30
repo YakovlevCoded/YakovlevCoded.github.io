@@ -32,7 +32,7 @@ $mail->addAddress('oformlenievoda21@bk.ru');     // Кому будет уход
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с тестового сайта';
-$mail->Body    = 'Пользователь'  .$name  . 'оставил телефон: ' . $phone . 'Адресс:' . $address;
+$mail->Body    = 'Пользователь: '  .$name  . ' Оставил телефон: ' . $phone . ' И Адресс: ' . $address;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
