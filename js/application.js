@@ -32,18 +32,19 @@ function jsFunctionsAssign()
 }
 $(function(){
 	$(document).on('submit', '.ajax-form', function (event) {
-		event.preventDefault();
-		var that = this;
-		jQuery.ajax({'cache': false, 'type': 'POST', 'dataType': 'json', 'data':$(that).serialize(), 'success': function (response) {
-			parseResponse(response);
-		}, 'error': function (response) {
-			alert(response.responseText);
-		}, 'beforeSend': function() {
-
-		}, 'complete': function() {
-
-		}, 'url': this.action});
-		return false;
+		console.log(event);
+		// event.preventDefault();
+		// var that = this;
+		// jQuery.ajax({'cache': false, 'type': 'POST', 'dataType': 'json', 'data':$(that).serialize(), 'success': function (response) {
+		// 	parseResponse(response);
+		// }, 'error': function (response) {
+		// 	alert(response.responseText);
+		// }, 'beforeSend': function() {
+		//
+		// }, 'complete': function() {
+		//
+		// }, 'url': this.action});
+		// return false;
 	});
 	$(document).on('submit', '.ajax-form-order', function (event) {
 		event.preventDefault();
