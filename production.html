@@ -205,9 +205,9 @@
                     <!--<li><a href="/promo">Акции</a></li>-->
                 </ul>
             </div>
-            <div class="sidebar__buttons">
-                <button type="button" class="btn btn-block btn-fill js-popup-online-external">Заказать онлайн</button>
-            </div>
+            <!--<div class="sidebar__buttons">-->
+                <!--<button type="button" class="btn btn-block btn-fill js-popup-online-external">Заказать онлайн</button>-->
+            <!--</div>-->
             <ul class="sidebar__social social">
                 <li class="facebook"><a href="https://www.facebook.com/Чистовъua" target="_blank"><span></span>Facebook</a>
                 </li>
@@ -387,11 +387,11 @@
 
 <!-- BEGIN popup -->
 <div class="popup popup_callback">
-    <form class="ajax-form" id="call-widget-form" action="/call/post" method="post">
-        <div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d"
-                                         name="YII_CSRF_TOKEN"/></div>
+    <form id="call-widget-form" action="./mail.php" method="post">
+        <!-- <div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d"
+                                         name="YII_CSRF_TOKEN"/></div> -->
         <div class="popup__title h-sub">Обратный звонок</div>
-        <input class="input input-dark" placeholder="Ваш номер" name="form_models_CallForm[telephone]"
+        <input class="input input-dark" placeholder="Ваш номер" name="user_phone"
                id="form_models_CallForm_telephone" type="tel"/>
         <button type="submit" class="btn btn-block btn-fill">Отправить</button>
     </form>
@@ -429,19 +429,19 @@
 
 <!-- BEGIN popup -->
 <div class="popup popup_trial">
-    <form class="ajax-form" id="trial-widget-form" action="/trial/post" method="post">
-        <div style="display:none"><input type="hidden" value="9f2f95a182be4062ef37301dec1b75ba09cb919d"
-                                         name="YII_CSRF_TOKEN"/></div>
+    <form class="ajax-form" id="trial-widget-form" action="./delivery.php" method="post">
         <div class="popup__title h-sub">Заказать пробную доставку</div>
-        <input class="input input-dark" placeholder="Имя" name="form_models_TrialForm[name]"
-               id="form_models_TrialForm_name" type="text" maxlength="50"/><input class="input input-dark"
-                                                                                  placeholder="Телефон"
-                                                                                  name="form_models_TrialForm[telephone]"
-                                                                                  id="form_models_TrialForm_telephone"
-                                                                                  type="tel"/><textarea class="textarea"
-                                                                                                        placeholder="Адрес"
-                                                                                                        name="form_models_TrialForm[address]"
-                                                                                                        id="form_models_TrialForm_address"></textarea>
+        <input class="input input-dark" placeholder="Имя" name="user_name"
+               id="form_models_TrialForm_name" type="text" maxlength="50"/>
+        <input class="input input-dark"
+               placeholder="Телефон"
+               name="user_phone"
+               id="form_models_TrialForm_telephone"
+               type="tel"/>
+        <textarea class="textarea"
+                  placeholder="Адрес"
+                  name="user_address"
+                  id="form_models_TrialForm_address"></textarea>
         <button type="submit" class="btn btn-block btn-fill">Отправить</button>
     </form>
 </div>

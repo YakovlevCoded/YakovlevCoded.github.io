@@ -6,7 +6,9 @@ $mail->CharSet = 'utf-8';
 
 //$name = $_POST['user_name'];
 //$subname = $_POST['user_subName'];
+$name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
+$address = $_POST['user_address'];
 //$email = $_POST['user_mail'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
@@ -30,7 +32,7 @@ $mail->addAddress('oformlenievoda21@bk.ru');     // Кому будет уход
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с тестового сайта';
-$mail->Body    = 'Пользователь оставил телефон: ' . $phone;
+$mail->Body    = 'Пользователь'  .$name  . 'оставил телефон: ' . $phone . 'Адресс:' . $address;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
