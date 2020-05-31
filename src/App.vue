@@ -160,11 +160,7 @@
 
 <script>
   document.addEventListener('click', function() {
-    document.querySelector('body').classList.toggle('is-css');
-    let array = document.querySelectorAll('polygon');
-    array.forEach(element => {
-      element.removeAttribute('stroke');
-    });
+    document.querySelector('body').classList.toggle('is-big-data');
   });
 
   export default {
@@ -180,7 +176,7 @@
 
 <style lang='scss'>
 $void: polygon(0% 0%, 0% 0%, 0% 0%);
-$css: polygon(2.38% 7.83%, 3.13% 7.67%, 2.38% 6.5% ),
+$bigData: polygon(2.38% 7.83%, 3.13% 7.67%, 2.38% 6.5% ),
 polygon(1.13% 6.5%, 2.38% 7.83%, 2.38% 6.5% ),
 polygon(2.38% 6.5%, 3.13% 7.67%, 2.88% 6.33% ),
 polygon(1.13% 4.5%, 0% 7.83%, 1.13% 6.5% ),
@@ -277,7 +273,7 @@ polygon(34.25% 7.83%, 32.38% 0.17%, 32.38% 5% ),
 polygon(30.75% 6.17%, 32.75% 6.17%, 32.38% 5% ),
 polygon(31.13% 0.17%, 30.75% 6.17%, 31% 5% );
 
-$js: polygon(4.88% 7.17%, 6.8% 10.2%, 4.04% 0.03% ),
+$amberData: polygon(4.88% 7.17%, 6.8% 10.2%, 4.04% 0.03% ),
 polygon(1.89% 7.17%, 4.88% 7.17%, 4.59% 6.03% ),
 polygon(2.19% 6.03%, 1.89% 7.17%, 4.59% 6.03% ),
 polygon(3.41% 1.55%, 2.88% 0.03%, 2.19% 6.03% ),
@@ -428,10 +424,10 @@ polygon(64.26% 0%, 62.45% 0%, 63.34% 2.33% );
     }
 }
 
-@include render($js);
+@include render($amberData);
 
-.is-css {
-    @include render($css);
+.is-big-data {
+    @include render($bigData);
     .canvas {
       &>* {
         left: 35%;
