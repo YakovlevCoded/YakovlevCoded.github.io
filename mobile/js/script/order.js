@@ -1,6 +1,6 @@
-$(document).ready(function(){ 
-	  
-	  
+$(document).ready(function(){
+
+
 if (!Date.now) {
   Date.now = function now() {
     return new Date().getTime();
@@ -33,7 +33,7 @@ var errormsgArrUa = [
 ];
 var advicemsgArrUa = [
   "При замовленні менше 2 бутелів<br>доставка оплачується окремо!<br>Додаткова вартість за доставку<br>становить 50 грн.</br>",
-  "Ви впевнені, що старі примітки актуальні? <br>  Текст приміток: " + $("#orcomment").val()  
+  "Ви впевнені, що старі примітки актуальні? <br>  Текст приміток: " + $("#orcomment").val()
 ];
 var headerArrRu = ["Ошибка!","Предупреждение!"];
 var errormsgArrRu = [
@@ -82,7 +82,7 @@ var errormsgArr = [];
 var advicemsgArr = [];
 var dopmsg;
   //список времени ОТ
-  var usualFromList = ["07:00","07:30","08:00","08:30","09:00","09:30","10:00","10:30","11:00","11:30","12:00","12:30","13:00","13:30","14:00","14:30","15:00","15:30","16:00","16:30","17:00","17:30","18:00","18:30","19:00"];  
+  var usualFromList = ["07:00","07:30","08:00","08:30","09:00","09:30","10:00","10:30","11:00","11:30","12:00","12:30","13:00","13:30","14:00","14:30","15:00","15:30","16:00","16:30","17:00","17:30","18:00","18:30","19:00"];
   var usualFromListNew = ["06:00","06:30","07:00","07:30","08:00","08:30","09:00","09:30","10:00","10:30","11:00","11:30","12:00","12:30","13:00","13:30","14:00","14:30","15:00","15:30","16:00","16:30","17:00","17:30","18:00"];
   //дежурный сптсок времени ОТ
   var dutyFromList = ["07:00","07:30","08:00","08:30","09:00","09:30","10:00","10:30","11:00","11:30","12:00","12:30","13:00","13:30","14:00","14:30","15:00","15:30","16:00"];
@@ -107,9 +107,9 @@ var dopmsg;
   var dutydate = [];//список дежурных дней, в которые компания работает по субботнему графику (загружается с сервера)
   for(var i = 0; i < dutyday.length; i++ ){
     dutydate[i] = Date.parse(dutyday[i]);
-  }  
+  }
 
-  
+
 /*-------------------FIRST ORDER PAGE------------------------*/
 
 $(".window-cover").scroll(function(){
@@ -126,20 +126,20 @@ $(".window").scroll(function(event) {
 
 /*--------------------Date input-----------------------------*/
 $.datepicker.regional['en'] ={
-  closeText: 'Close', 
-      prevText: '', 
-      nextText: '', 
-      currentText: 'Today', 
-      monthNames: ['January','February','March','April','May','June','July','August','September','October','November ','December'], 
-      monthNamesShort: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'], 
-      dayNames: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'], 
-      dayNamesShort: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'], 
-      dayNamesMin: ['SU','MO','TU','WE','TH','FR','SA'], 
-      dateFormat: 'dd.mm.yy', 
+  closeText: 'Close',
+      prevText: '',
+      nextText: '',
+      currentText: 'Today',
+      monthNames: ['January','February','March','April','May','June','July','August','September','October','November ','December'],
+      monthNamesShort: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+      dayNames: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+      dayNamesShort: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],
+      dayNamesMin: ['SU','MO','TU','WE','TH','FR','SA'],
+      dateFormat: 'dd.mm.yy',
       minDate: now,
       showOtherMonths: true,
       selectOtherMonths: true,
-      firstDay: 1, 
+      firstDay: 1,
       isRTL: false,
       onChangeMonthYear: function() {
         verifyDate();
@@ -147,41 +147,41 @@ $.datepicker.regional['en'] ={
 }
 /*----------Локализация на украинский язык---------------*/
   $.datepicker.regional['ua'] ={
-    closeText: 'Закрити', 
-    prevText: '&#x3c;Попер', 
-    nextText: 'Наст&#x3e;', 
-    currentText: 'Сьогодні', 
-    monthNames: ['Січень','Лютий','Березень','Квітень','Травень','Червень','Липень','Серпень','Вересень','Жовтень','Листопад','Лютий'], 
-    monthNamesShort: ['Січ','Лют','Бер','Кві','Тра','Чер','Лип','Сер','Вер','Жов','Лис','Гру'], 
-    dayNames: ['неділя','понеділок','вівторок','середа','четвер','п`ятниця','субота'], 
-    dayNamesShort: ['нед','пнд','втр','срд','чтв','пт','сбт'], 
-    dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'], 
+    closeText: 'Закрити',
+    prevText: '&#x3c;Попер',
+    nextText: 'Наст&#x3e;',
+    currentText: 'Сьогодні',
+    monthNames: ['Січень','Лютий','Березень','Квітень','Травень','Червень','Липень','Серпень','Вересень','Жовтень','Листопад','Лютий'],
+    monthNamesShort: ['Січ','Лют','Бер','Кві','Тра','Чер','Лип','Сер','Вер','Жов','Лис','Гру'],
+    dayNames: ['неділя','понеділок','вівторок','середа','четвер','п`ятниця','субота'],
+    dayNamesShort: ['нед','пнд','втр','срд','чтв','пт','сбт'],
+    dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
     dateFormat: 'dd.mm.yy',
     minDate: now,
     showOtherMonths: true,
       selectOtherMonths: true,
-    firstDay: 1, 
+    firstDay: 1,
     isRTL: false,
     onChangeMonthYear: function() {
       verifyDate();
     }
   }
 /*----------Локализация на русский язык---------------*/
-  $.datepicker.regional['ru'] = { 
-    closeText: 'Закрыть', 
-    prevText: '&#x3c;Пред', 
-    nextText: 'След&#x3e;', 
-    currentText: 'Сегодня', 
-    monthNames: ['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'], 
-    monthNamesShort: ['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'], 
-    dayNames: ['воскресенье','понедельник','вторник','среда','четверг','пятница','суббота'], 
-    dayNamesShort: ['вск','пнд','втр','срд','чтв','птн','сбт'], 
-    dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'], 
+  $.datepicker.regional['ru'] = {
+    closeText: 'Закрыть',
+    prevText: '&#x3c;Пред',
+    nextText: 'След&#x3e;',
+    currentText: 'Сегодня',
+    monthNames: ['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+    monthNamesShort: ['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'],
+    dayNames: ['воскресенье','понедельник','вторник','среда','четверг','пятница','суббота'],
+    dayNamesShort: ['вск','пнд','втр','срд','чтв','птн','сбт'],
+    dayNamesMin: ['Вс','Пн','Вт','Ср','Чт','Пт','Сб'],
     dateFormat: 'dd.mm.yy',
     minDate: now,
 showOtherMonths: true,
       selectOtherMonths: true,
-    firstDay: 1, 
+    firstDay: 1,
     isRTL: false,
     onChangeMonthYear: function() {
       verifyDate();
@@ -200,7 +200,7 @@ showOtherMonths: true,
     headerArr = headerArrRu;
     errormsgArr = errormsgArrRu;
     advicemsgArr = advicemsgArrRu;
-    Kyiv = "Киев"; 
+    Kyiv = "Чебоксары";
   }
   else if($(".en").hasClass('active-lang')){
     $.datepicker.setDefaults($.datepicker.regional['en']);
@@ -209,11 +209,11 @@ showOtherMonths: true,
     advicemsgArr = advicemsgArrEn;
     Kyiv = "Kyiv";
 
-  } 
-  //$.datepicker.setDefaults($.datepicker.regional['ru']); 
+  }
+  //$.datepicker.setDefaults($.datepicker.regional['ru']);
 /*-----------Отключаем воскресенья и выходные дни------------*/
   var disableSpecificDaysAndSundays = function(date){
-    var day = date.getDay();        
+    var day = date.getDay();
     var string = jQuery.datepicker.formatDate('yy-mm-dd', date);
     return [ holiday.indexOf(string) == -1]
   }
@@ -223,7 +223,7 @@ showOtherMonths: true,
     onClose:function() {
     var dateForCookie = $("#iddeldate").val();
     $.cookie('dateFromCookie', dateForCookie, {expires: 100});
-    }  
+    }
   });
 /*-----------Переход между месяцами в календаре-------------*/
   function verifyDate() {
@@ -237,9 +237,9 @@ showOtherMonths: true,
 
 
 
-/*Функция для создания списка времени внутри окошек барабанов, есть два 
+/*Функция для создания списка времени внутри окошек барабанов, есть два
  id : fromlist, tolist
- arr : usualFromList, dutyFromList, usualToList, dutyToList*/  
+ arr : usualFromList, dutyFromList, usualToList, dutyToList*/
   function createTimeList(id,arr){
     $("#"+id).html("");
     for( i = 0; i< arr.length; i++){
@@ -258,7 +258,7 @@ showOtherMonths: true,
        var lastElement = $("#time-list-second ul li:last-child()").text();
        if(y == lastElement){
         $("#time-list-second").modal("hide");
-        $("#time-list").modal("show"); 
+        $("#time-list").modal("show");
        }
        else{
         $("#time-list-second").modal("hide");
@@ -266,9 +266,9 @@ showOtherMonths: true,
       var timeCookie = $("#iddeltime").val();
       $.cookie('ortime', timeCookie, {
         expires: 3650
-      }); 
+      });
        }
-        
+
     });
     $("#time-list-second ul li").click(function(event) {
       var liCheck = $(this).text();
@@ -283,7 +283,7 @@ showOtherMonths: true,
       }
       else{
         $("#time-list-second").modal("hide");
-        $("#time-list").modal("show"); 
+        $("#time-list").modal("show");
       }
     });
  });
@@ -319,7 +319,7 @@ $("#time-list").on("shown.bs.modal",function(){
     }
 
 
-  });  
+  });
 });
 
 /*-------------------------------------------------------------------------------*/
@@ -371,7 +371,7 @@ function attentionMessage(header,advicemsg){
 /*-------------------------------------------------------------------------------*/
 
 function firstPageCheck(idInput){
-	
+
 
 
 
@@ -422,7 +422,7 @@ function firstPageCheck(idInput){
   var nineteenThirtyFive = new Date();
   nineteenThirtyFive.setHours(19,45,0,0);//19.45 прекращаем прием
   var fivteenFourtyFive = new Date();
-  fivteenFourtyFive.setHours(15,45,0,0);//15.45 прекращаем прием 
+  fivteenFourtyFive.setHours(15,45,0,0);//15.45 прекращаем прием
 
   var nowTime = now.getTime();
   var checkEvening = nineteenThirtyFive.getTime();
@@ -435,7 +435,7 @@ function firstPageCheck(idInput){
   var x = 0;//Проверка Выходной день
 
   var xx = 0;//Проверка Закрытый день
-  
+
   var y = 0;//Проверка дежурный день
 
   var z = 0;
@@ -487,8 +487,8 @@ function firstPageCheck(idInput){
 
   }
   /*-------------Проверка поля даты-------------------------------------------*/
-  
-  /*	
+
+  /*
     header = "Ошибка";
     errormsg = "Уважаемый клиент, сегодня вирусная атака парализовала работу нашей компании. На данный момент приём онлайн заказов приостановлен. Просим прощения за временные неудобства.";
     errorMessage(header,errormsg);
@@ -510,7 +510,7 @@ function firstPageCheck(idInput){
     errormsg = errormsgArr[7];
     errorMessage(header,errormsg);
   }
-  else if(orday == 0 && ordateValue != specialOrdate){ 
+  else if(orday == 0 && ordateValue != specialOrdate){
     header = headerArr[0];
     errormsg = errormsgArr[4];
     errorMessage(header,errormsg);
@@ -557,7 +557,7 @@ function firstPageCheck(idInput){
   }
   /*else if(sumOfBottles==0){
     header = headerArr[0];
-    errormsg = errormsgArr[10]; 
+    errormsg = errormsgArr[10];
     errorMessage(header,errormsg);
   }*/
   else if(sumOfBottles>0&&sumOfBottles<min&&idInput == "to-second-page"){
@@ -581,19 +581,19 @@ function firstPageCheck(idInput){
   else if(idInput == "to-second-page"){
     leafThrough(1,2);
   }
-  
+
   /*------------Функция реагируем на предпреждение---------------*/
-  
-  
-  
+
+
+
 }
 
 /*-----------------------------------------------------*/
 
 $("#to-second-page").click(function() {
-	
+
 	ga('send', 'event', 'mobile', 'click', 'order1');
-	
+
   firstPageCheck("to-second-page");
 });
 
@@ -611,35 +611,35 @@ function secondToThird(){
   else{
     leafThrough(2,3)
     if($(".prodrow").length>0){
-        
+
         fakeTable();
-  
-    }  
+
+    }
   }
 }
 
 $(".first-arrow").click(function() {
   if($(".active-page").hasClass('page2')){
-    leafThrough(2,1,"back");  
+    leafThrough(2,1,"back");
   }
   else if($(".active-page").hasClass('page3')){
     leafThrough(3,2,"back");
     setTimeout (function(){leafThrough(2,1,"back");}, 300);
-    
+
   }
   else if($(".active-page").hasClass('page4')){
     leafThrough(4,3,"back");
     setTimeout (function(){leafThrough(3,2,"back");}, 300);
     setTimeout (function(){leafThrough(2,1,"back");}, 300);
-    
-    
+
+
   }
-  
+
 });
 
 $(".second-arrow").click(function() {
   if($(".active-page").hasClass('page1')){
-    firstPageCheck("to-second-page");  
+    firstPageCheck("to-second-page");
   }
   else if($(".active-page").hasClass('page3')){
     leafThrough(3,2,"back");
@@ -647,9 +647,9 @@ $(".second-arrow").click(function() {
   else if($(".active-page").hasClass('page4')){
     leafThrough(4,3,"back");
     setTimeout (function(){leafThrough(3,2,"back");}, 300);
-     
+
   }
-  
+
 });
 
 $(".third-arrow").click(function() {
@@ -657,16 +657,16 @@ $(".third-arrow").click(function() {
     firstPageCheck("to-second-page");
       if($(".active-page").hasClass('page2')){
         setTimeout (function(){secondToThird();}, 300);
-    }  
+    }
   }
   else if($(".active-page").hasClass('page2')){
     secondToThird();
   }
   else if($(".active-page").hasClass('page4')){
     leafThrough(4,3,"back");
-    
+
   }
-  
+
 });
 
 $(".fourth-arrow").click(function() {
@@ -677,7 +677,7 @@ $(".fourth-arrow").click(function() {
       if($(".active-page").hasClass('page3')){
         setTimeout (function(){leafThrough(3,4);}, 300);
       }
-    }  
+    }
   }
   else if($(".active-page").hasClass('page2')){
     secondToThird();
@@ -686,9 +686,9 @@ $(".fourth-arrow").click(function() {
       }
   }
   else if($(".active-page").hasClass('page3')){
-    leafThrough(3,4); 
+    leafThrough(3,4);
   }
-  
+
 });
 
 
@@ -706,7 +706,7 @@ $("#alert").on("shown.bs.modal",function(){
     $("#alert").modal("hide");
     leafThrough(1,2);
   });
-  
+
 });
 
 $(function() {
@@ -756,7 +756,7 @@ $("#trial-form").submit(function(e){ //устанавливаем событие
     }
 });
 
- 
+
 $("#online-order").submit(function(e){ //устанавливаем событие отправки для формы с id=form
 
 	ga('send', 'event', 'mobile', 'click', 'submit');
@@ -765,12 +765,12 @@ $("#online-order").submit(function(e){ //устанавливаем событи
     var res = $("#phonetInput").val();
     res = res.substr(1, 1);
     if (res == '0') {
-		
+
       header = headerArr[1];
       errormsg = errormsgArr[12];
       errorMessage(header,errormsg);
       $("#alert").modal();
-	  
+
         var orcomment = $("#orcomment").val();
           $.cookie('orcomment', orcomment, {
             expires: 3650
@@ -782,15 +782,15 @@ $("#online-order").submit(function(e){ //устанавливаем событи
           data: form_data,
           success: function(){
             // alert(errormsgArr[11]);
-		
+
 			  header = headerArr[1];
 			  errormsg = errormsgArr[11];
 			  errorMessage(header,errormsg);
-			  $("#alert").modal();			  
-			 
+			  $("#alert").modal();
+
 			setTimeout (function(){ location.reload();}, 1000);
-			  
-           
+
+
           }
         });
     } else {
@@ -868,13 +868,13 @@ $(".subitem").click(function() {
   var imgSrc = $(this).attr("data-img");
 
   var prodName = $(this).attr("data-pname");
-  
+
   var prodPrice = $(this).attr("data-price");
-  
+
   var x = $(this).attr("data-code");
-  
+
   console.log("x = "+x);
-  
+
   $("#prod-id").removeClass().addClass(x);
   $("#prod-title").html(prodName);
   $("#prod-quantity").attr('data-header', prodName);
@@ -900,13 +900,13 @@ $(document).on("click","#prod-modal-accept",function(){
   var prodName = $("#prod-title").text();
   var prodPrice = $("#prod-price").text();
   var prodClass = $("#prod-id").attr("class");
-    
+
   var prodQuantity = $("#prod-quantity").val();
-  
+
     var sum = parseInt(parseInt(prodQuantity) * parseFloat(prodPrice) * 100) / 100;
     var prodClassR = prodClass.replace(/#/gi,'');
-    
-    
+
+
     if ($("tr").is('#'+prodClassR)) {
         // Да, такой элемент существует.
       if(prodQuantity>0){
@@ -928,7 +928,7 @@ $(document).on("click","#prod-modal-accept",function(){
             strArr.splice(x, 1, newPriceStr);
             var newStr = strArr.join('|');
             $("#price-st").val(newStr);
-          
+
         }
         $('#input'+prodClassR).val(prodQuantity).attr("data-pr-check",newPriceStr);
       }
@@ -941,7 +941,7 @@ $(document).on("click","#prod-modal-accept",function(){
           $("#tblprod #"+prodClassR).remove();
           $("#span"+prodClassR).remove();
 
-            
+
             if(x!==-1){
               strArr.splice(x, 1);
               var newStr = strArr.join('|');
@@ -953,12 +953,12 @@ $(document).on("click","#prod-modal-accept",function(){
             });
             if($("tr.prodrow").length==0){
               $("#tblprod").addClass('inv');
-              $(".banner").removeClass('inv');  
+              $(".banner").removeClass('inv');
             }
-            
+
       }
 
-    } 
+    }
     else {
         // Нет, такого элемента у нас нет.
         priceStCheck = prodClass+"="+prodName+"::"+prodPrice+"::"+prodQuantity;
@@ -979,18 +979,18 @@ $(document).on("click","#prod-modal-accept",function(){
       }else{
         $("#price-st").val(prodClass+"="+prodName+"::"+prodPrice+"::"+prodQuantity);
       }
-    
+
       $("#prod-modal").modal("hide");
       $("#prod-list").modal("show");
       $("#tblprod").removeClass('inv');
       fakeTable();
       $(".banner").addClass('inv');
-      $("#prod-quantity").val("0");  
+      $("#prod-quantity").val("0");
   }
-  
+
     $("#prod-modal").modal("hide");
     $("#prod-list").modal("show");
-  
+
   var priceStCookie = $("#price-st").val();
   $.cookie('price-st', priceStCookie, {
     expires: 3650
@@ -1010,9 +1010,9 @@ $(document).on( "click",".calc-challenge", function() {
     $('#calculator-field').val('');
   }
   else{
-   $('#calculator-field').val('(___)___-__-__'); 
+   $('#calculator-field').val('(___)___-__-__');
   }
-  
+
 });
 
 
@@ -1124,7 +1124,7 @@ $('#phoneCheck').click(function(){
   }
 
 });
- 
+
 /*------------------------------------------------------------------*/
 
 
@@ -1141,14 +1141,14 @@ $(".window").on("scrollstop", $.debounce( 500, function(){
     $(this).animate({
       scrollTop:destinationTop
     },100);
-    
-    return; 
+
+    return;
   }
   else if(difference>=halfheight){
     $(this).animate({
       scrollTop:destinationBottom
     },100);
-    
+
     return;
   }
 }));
@@ -1160,14 +1160,14 @@ $(".window").on("scrollstop", $.debounce( 500, function(){
 
 
 
-    
+
 
 $('#street-list').on('shown.bs.modal', function () {
   $('#input-text').focus();
 });
 
 $('#phone-number').on('shown.bs.modal', function () {
-  
+
   //$('#number-field').focus();
   setTimeout(function() {
     $('#number-field').focus();
@@ -1175,7 +1175,7 @@ $('#phone-number').on('shown.bs.modal', function () {
 });
 
 
- 
+
 
 //----------------------------------------------------------
 
@@ -1203,7 +1203,7 @@ $('.calc-figure').click(function(){
       var newStr =  mask.replace("_",num);
       $('#calculator-field').val(newStr);
     }
-      
+
   }
 });
 var calcvalue;
@@ -1213,7 +1213,7 @@ $(document).on("click",".calc-return",function(){
   calcvalue = $('#calculator-field').val();
   console.log("Now id = " + id+" calculator value = " + calcvalue);
   var k = $('#calculator-field').val();
-  $('#'+id).val(calcvalue); 
+  $('#'+id).val(calcvalue);
   var cwCookie = $("#idcw").val();
   $.cookie('orcw', cwCookie, {
         expires: 3650
@@ -1247,28 +1247,28 @@ $(document).on("click",".calc-return",function(){
   $('#calculator-field').val("");
   if (id == 'prod-quantity'){
     $("#calculator").modal("hide");
-    $("#prod-modal").modal("show");  
-  }  
+    $("#prod-modal").modal("show");
+  }
 });
 
 $('.calc-clear').click(function(){
   var str = $('#calculator-field').val();
- 
-  
+
+
   if(id!=="phonetInput"&&id!=="smsInput"&&id!=="phoneInput2"){
     var lastSymbol = str.length-1;
     var newStr = str.substring(0,lastSymbol);
-    $('#calculator-field').val(newStr); 
+    $('#calculator-field').val(newStr);
     //FlagNewNum = true;
   }
   else{
     var newStr =str.replace(/\d(?!\d|\-\d|\)\d)/,"_");
-    $('#calculator-field').val(newStr); 
+    $('#calculator-field').val(newStr);
   }
-  
+
 });
 $('.calc-delete').click(function(event) {
-  
+
 });
 
 $('.input-return').click(function(){
@@ -1295,13 +1295,13 @@ $('.input-return').click(function(){
   $.cookie('orname', orname, {
         expires: 3650
       });
-  
+
   var orconfmail = $("#emailInput").val();
   $.cookie('orconfemail', orconfmail, {
         expires: 3650
       });
-  
-  
+
+
 
 
 
@@ -1340,7 +1340,7 @@ $('.number-return').click(function(){
   $.cookie('orconfsms', orconfsms, {
         expires: 3650
       });
-  
+
 
   $('#number-field').val("");
 });
@@ -1359,7 +1359,7 @@ $("#calculator").on("hidden.bs.modal",function(){
     $("#tblprod #"+idStr).remove();
     $("#"+idSpan).remove();
 
-      
+
       if(x!==-1){
         strArr.splice(x, 1);
         var newStr = strArr.join('|');
@@ -1378,7 +1378,7 @@ $("#calculator").on("hidden.bs.modal",function(){
     $("tr#"+idStr+" .sum").text(sum);
     var orderedQuantity = calcvalue+" шт.";
     $("span#"+idSpan).text(orderedQuantity);
-    
+
     if(priceStCheck!==undefined){
 
       var newPriceStMassiv = priceStCheck.split("::");
@@ -1390,11 +1390,11 @@ $("#calculator").on("hidden.bs.modal",function(){
           strArr.splice(x, 1, newPriceStr);
           var newStr = strArr.join('|');
           $("#price-st").val(newStr);
-          
+
         }
-    
+
     }
-    
+
   }
   var rowsInTable = $(".prodrow").length;
   console.log("rowsInTable = "+ rowsInTable);
@@ -1403,7 +1403,7 @@ $("#calculator").on("hidden.bs.modal",function(){
     $(".banner").removeClass('inv');
     $("#price-st").val("");
   }
-  
+
 });
 
 function leafCentering(){
@@ -1417,17 +1417,17 @@ function leafCentering(){
 
     var rightPositionV = (w - contentWidth)/2;
     $(".active-page").css({"right":rightPositionV,"width":contentWidth});
-    console.log("Height of the page is "+h+" width of the page is " + w+" content width is " +contentWidth+" so right must be "+rightPositionV);       
+    console.log("Height of the page is "+h+" width of the page is " + w+" content width is " +contentWidth+" so right must be "+rightPositionV);
   }
   else if(h/w<1){
     var rightPositionH = (w - contentWidth)/2 - leftMenuWidth/2;//(w - contentWidth  - leftMenuWidth + rightPaddingCB + leftPaddingCB )/2;
     $(".active-page").css({"right":rightPositionH,"width":contentWidth});
-    console.log("Height of the page is "+h+" width of the page is " + w+"Left menu width is "+ leftMenuWidth+" content width is " +contentWidth+" so right must be "+rightPositionH+"----"+ rightPaddingCB);        
+    console.log("Height of the page is "+h+" width of the page is " + w+"Left menu width is "+ leftMenuWidth+" content width is " +contentWidth+" so right must be "+rightPositionH+"----"+ rightPaddingCB);
   }
   $(".order-title").width(contentWidth);
   $("#progress-string").width(x);
-    
-  
+
+
 }
 
 /*------------------Переход со страницы на страницу в форме------------*/
@@ -1438,8 +1438,8 @@ function leafThrough(pageFrom,pageTo,direction){
   var contentWidth = $(".content-block").width();
   var leftMenuWidth = $(".landscape-nav").width();
   if(h/w>1){leftMenuWidth = 0};
-  var rightPosition = (w - contentWidth)/2 - leftMenuWidth/2 ;  
-  
+  var rightPosition = (w - contentWidth)/2 - leftMenuWidth/2 ;
+
   if(direction=='back'){x="-";}
   else{x="";}
   $(".page"+pageFrom).animate({"right": x+"200%"},300).hide(300).removeClass('active-page');
@@ -1452,16 +1452,16 @@ function leafThrough(pageFrom,pageTo,direction){
 
 //$(".forward1").click(function(){leafThrough(1,2)});
 $(".forward2").click(function(){
-	
+
 	ga('send', 'event', 'mobile', 'click', 'order2');
-	
+
   secondToThird();
-  
+
 });
 $(".forward3").click(function(){
-	
+
 	ga('send', 'event', 'mobile', 'click', 'order3');
-	
+
 	leafThrough(3,4);
 });
 
@@ -1491,15 +1491,15 @@ $('.input-challenge').click(function(){
       minLength: 2
     });
     popupWidth();
-    
+
   }
   else if(id2 == 'streetInput'){
     $('#input-text').removeClass('city-input').addClass('street-input').autocomplete({disabled: false});
-    $( ".street-input" ).autocomplete({  
+    $( ".street-input" ).autocomplete({
       source: street,
       minLength: 2
     });
-    
+
      popupWidth();
   }
   else{
@@ -1540,7 +1540,7 @@ function prodTableLoad(){
         $("[data-pname='"+prodName+"'] ").prepend(orderedQuantity);
         var priceSt = $("#price-st").val();
         $("#tblprod").removeClass('inv');
-        $(".banner").addClass('inv');        
+        $(".banner").addClass('inv');
       }
     }
   }
@@ -1555,13 +1555,13 @@ function cookieLoad(){
       if(orderedDate!==undefined){
        var orderedDateUT = new Date(orderedDate.replace(/(\d+).(\d+).(\d+)/, '$3/$2/$1'));
         var orderedDateString = Date.parse(orderedDateUT);
-      
+
         if(orderedDateString>=todayValue){
           $("#iddeldate").val($.cookie('dateFromCookie'));
         }
         else if(orderedDateString<todayValue){
-          $("#iddeldate").val(""); 
-        } 
+          $("#iddeldate").val("");
+        }
       }
       console.log($.cookie('ortime'));
     if($.cookie('ortime')!= undefined){
@@ -1577,18 +1577,18 @@ function cookieLoad(){
         else if(difference<3){
           $("#iddeltime").val("");
         }
-    }  
-    
-      
+    }
+
+
       $("#idcw").val($.cookie('orcw'));
       $("#idcwf").val($.cookie('orcwf'));
       $("#idcwi").val($.cookie('orcwi'));
       $("#codeInput").val($.cookie('orcode'));
-      
+
       if($.cookie('orcity')==undefined||$.cookie('orcity')==null||$.cookie('orcity')==""){
         $("#cityInput").val(Kyiv);
       }else{
-        $("#cityInput").val($.cookie('orcity'));  
+        $("#cityInput").val($.cookie('orcity'));
       }
       $("#streetInput").val($.cookie('orstreet'));
       $("#houseInput").val($.cookie('orhouse'));
@@ -1603,19 +1603,19 @@ function checkBoxLoad(){
   if($.cookie('smsCheck')=="1"){
     $("#smsCheck").attr('checked',true);
     $("#smsInput").show();
-    $("#smsInput").val($.cookie('orconfsms'));  
+    $("#smsInput").val($.cookie('orconfsms'));
   }
   if($.cookie('mailCheck')=="1"){
     $("#mailCheck").attr('checked',true);
-    $("#emailInput").show(); 
+    $("#emailInput").show();
     $("#emailInput").val($.cookie('orconfemail'));
-  }    
+  }
   if($.cookie('phoneCheck')=="1"){
     $("#phoneCheck").attr('checked',true);
     $("#phoneInput2").show();
-    $("#phoneInput2").val($.cookie('orconftel')); 
+    $("#phoneInput2").val($.cookie('orconftel'));
   }
- 
+
 }
 
 
@@ -1628,17 +1628,17 @@ $(window).load(function() {
       prodTableLoad();
       checkBoxLoad();
       if($(".prodrow").length>0){
-        
+
         fakeTable();
-  
-      }  
+
+      }
   });
 $(window).resize(function() {
       if($(".in").length==0){
         prodTableHeight();
           leafCentering();
       }
-      
+
   });
 $('.modal').on('hidden.bs.modal', function () {
   leafCentering();
