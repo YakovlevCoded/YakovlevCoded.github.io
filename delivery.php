@@ -38,7 +38,7 @@ $mail->addAddress('voda21rus@bk.ru');     // Кому будет уходить 
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с сайта на доставку';
-$mail->Body    = 'Пользователь: '  .$name  . 'Телефон: ' . $phone . 'Адресс: ' . $address . 'Вода: ' . $water_name . 'Количество: ' . $water_count . 'Дата: ' . $water_date . 'Время: ' . $water_time . 'Комментарий: ' . $user_comment;
+$mail->Body    = 'Пользователь: '  .$name  . ' Телефон: ' . $phone . ' Адресс: ' . $address . ' Вода: ' . $water_name . ' Количество: ' . $water_count . ' Дата: ' . $water_date . ' Время: ' . $water_time . ' Комментарий: ' . $user_comment;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
