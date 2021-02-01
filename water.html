@@ -430,20 +430,56 @@
 <!-- END popup -->
 
 <!-- BEGIN popup -->
-<div class="popup popup_trial">
+<div class="popup popup_trial popup_big">
     <form id="trial-widget-form" action="./delivery.php" method="post">
         <div class="popup__title h-sub">Заказать пробную доставку</div>
-        <input class="input input-dark" placeholder="Имя" name="user_name"
-               id="form_models_TrialForm_name" type="text" maxlength="50"/>
-        <input class="input input-dark"
-               placeholder="Телефон"
-               name="user_phone"
-               id="form_models_TrialForm_telephone"
-               type="tel"/>
-        <textarea class="textarea"
-                  placeholder="Адрес"
-                  name="user_address"
-                  id="form_models_TrialForm_address"></textarea>
+        <div class="row">
+            <input class="input input-dark w-50" placeholder="Имя" name="user_name"
+                   id="form_models_TrialForm_name" type="text" maxlength="50"/>
+            <input class="input input-dark w-50"
+                   placeholder="Телефон"
+                   name="user_phone"
+                   id="user_phone"
+                   type="tel"/>
+        </div>
+        <div class="row">
+            <input class="input input-dark"
+                   placeholder="Адресс доставки"
+                   name="user_address"
+                   id="user_address"
+                   type="text"/>
+        </div>
+        <div class="row">
+            <select class="input input-dark"
+                    name="water_name"
+                    id="water_name">
+                <option value="Вода питьевая (19л.)">Вода питьевая (19л.)</option>
+                <option value="Вода Чистовъ Премиум (19 л.)">Вода Чистовъ Премиум (19 л.)</option>
+            </select>
+            <input type="number"
+                   class="input input-dark"
+                   placeholder="Количество (шт.)"
+                   name="water_count"
+                   id="water_count"/>
+        </div>
+        <div class="row">
+            <input class="input input-dark"
+                   type="date"
+                   placeholder="Количество (шт.)"
+            />
+            <select class="input input-dark"
+                    name="water_time"
+                    id="water_time">
+                <option value="09:00 - 13:00">09:00 - 13:00</option>
+                <option value="13:00 - 17:00">13:00 - 17:00</option>
+            </select>
+        </div>
+        <div class="row">
+       <textarea class="textarea"
+                 placeholder="Комментарий к заказу"
+                 name="user_comment"
+                 id="user_comment"></textarea>
+        </div>
         <button type="submit" class="btn btn-block btn-fill">Отправить</button>
     </form>
 </div>

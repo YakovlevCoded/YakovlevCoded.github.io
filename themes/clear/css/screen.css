@@ -4849,3 +4849,16 @@ body {
     margin-right: 10px;
     height: 40px;
 }
+
+.w-50 {
+    width: 50%
+}
+.row {
+    display: flex;
+    gap: 12px;
+}
+.popup.popup_big {
+    width: 600px;
+    transform: translateX(-50%);
+    margin: 0 auto;
+}

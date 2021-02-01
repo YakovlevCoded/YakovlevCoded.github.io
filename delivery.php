@@ -9,6 +9,12 @@ $mail->CharSet = 'utf-8';
 $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
 $address = $_POST['user_address'];
+$water_name = $_POST['water_name'];
+$water_count = $_POST['water_count'];
+$water_date = $_POST['water_date'];
+$water_time = $_POST['water_time'];
+$user_comment = $_POST['user_comment'];
+
 //$email = $_POST['user_mail'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
@@ -31,8 +37,8 @@ $mail->addAddress('voda21rus@bk.ru');     // Кому будет уходить 
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Заявка с тестового сайта';
-$mail->Body    = 'Пользователь: '  .$name  . ' оставил телефон: ' . $phone . ' и адресс: ' . $address;
+$mail->Subject = 'Заявка с сайта на доставку';
+$mail->Body    = 'Пользователь: '  .$name  . 'Телефон: ' . $phone . 'Адресс: ' . $address . 'Вода: ' . $water_name . 'Количество: ' . $water_count . 'Дата: ' . $water_date . 'Время: ' . $water_time . 'Комментарий: ' . $user_comment;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
